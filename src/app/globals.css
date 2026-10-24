@@ -58,6 +58,8 @@
 html {
   font-size: 16px;
   scroll-behavior: smooth;
+  overflow-x: hidden;
+  width: 100%;
 }
 
 body {
@@ -65,6 +67,8 @@ body {
   background-color: var(--bg-app);
   color: var(--text-main);
   min-height: 100vh;
+  width: 100%;
+  overflow-x: hidden;
   line-height: 1.5;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -914,6 +918,19 @@ button, input, select, textarea {
     font-size: 0.8rem;
   }
 
+  /* Admin Date and Action Bar on Mobile */
+  .admin-date-actions {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+    flex-wrap: wrap;
+  }
+
+  .admin-filter-bar {
+    padding: 1rem 1.25rem !important;
+    gap: 0.75rem !important;
+  }
+
   /* Modal Slide Up on Mobile (Bottom Sheet Style) */
   .modal-overlay {
     padding: 0;
@@ -925,13 +942,52 @@ button, input, select, textarea {
     max-height: 90vh;
     border-radius: 20px 20px 0 0;
     padding: 1.5rem 1.25rem;
-    padding-bottom: max(1.5rem, calc(env(safe-area-inset-bottom, 0px) + 1rem));
+    padding-bottom: max(1.5rem, calc(env(safe-area-inset-bottom, 0px) + 1.25rem));
     animation: slideUp 0.3s cubic-bezier(0.16, 1, 0.3, 1) forwards;
   }
 
   @keyframes slideUp {
     from { transform: translateY(100%); }
     to { transform: translateY(0); }
+  }
+}
+
+/* ==========================================================================
+   MEDIUM PHONES (Below 640px)
+   ========================================================================== */
+@media (max-width: 640px) {
+  .admin-date-actions {
+    width: 100% !important;
+    flex-direction: column !important;
+    align-items: stretch !important;
+    gap: 0.5rem !important;
+  }
+
+  .admin-date-actions > div,
+  .admin-date-actions > button {
+    width: 100% !important;
+    justify-content: center !important;
+    text-align: center;
+  }
+
+  .admin-date-actions input[type="date"] {
+    width: 100% !important;
+    text-align: center;
+  }
+
+  .admin-filter-bar {
+    flex-direction: column !important;
+    align-items: stretch !important;
+  }
+
+  .admin-filter-bar > div {
+    width: 100% !important;
+    min-width: 100% !important;
+  }
+
+  .admin-filter-bar select {
+    width: 100% !important;
+    padding: 0.65rem 0.75rem !important;
   }
 }
 
@@ -951,16 +1007,30 @@ button, input, select, textarea {
     font-size: 1.2rem;
   }
 
-  .status-btn span {
-    font-size: 0.75rem;
+  .task-actions {
+    gap: 0.25rem;
   }
 
   .status-btn {
-    padding: 0.65rem 0.2rem;
+    padding: 0.6rem 0.15rem;
+    font-size: 0.72rem;
+    gap: 0.15rem;
+    min-height: 42px;
+  }
+
+  .status-btn svg {
+    width: 13px;
+    height: 13px;
+    flex-shrink: 0;
   }
 
   .admin-navbar {
     padding: 0.75rem;
+  }
+
+  .kiosk-container {
+    padding: 1rem 0.75rem;
+    padding-bottom: calc(5.5rem + env(safe-area-inset-bottom, 0px));
   }
 }
 

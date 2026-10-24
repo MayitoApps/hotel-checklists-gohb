@@ -284,7 +284,7 @@ export default function AdminPage() {
         background: 'var(--bg-app)',
         padding: '1.5rem'
       }}>
-        <div className="login-kiosk-box animate-fade-in" style={{ maxWidth: '440px', width: '100%', padding: '3rem 2rem' }}>
+        <div className="login-kiosk-box animate-fade-in" style={{ maxWidth: '440px', width: '100%', padding: 'clamp(2rem, 5vw, 3rem) clamp(1.25rem, 4vw, 2rem)' }}>
           <div style={{ display: 'flex', justifyContent: 'center', marginBottom: '1.5rem' }}>
             <Image
               src="/logos/gohb-negro.png"
@@ -488,7 +488,7 @@ export default function AdminPage() {
                 </p>
               </div>
 
-              <div style={{ display: 'flex', alignItems: 'center', gap: '0.75rem' }}>
+              <div className="admin-date-actions">
                 <div style={{ display: 'inline-flex', alignItems: 'center', gap: '0.5rem', background: '#ffffff', border: '1px solid var(--border-light)', borderRadius: 'var(--radius-sm)', padding: '0.4rem 0.75rem' }}>
                   <Calendar size={16} color="var(--text-subtle)" />
                   <input
@@ -560,7 +560,7 @@ export default function AdminPage() {
             </div>
 
             {/* Filter Bar */}
-            <div className="card" style={{ padding: '1rem 1.5rem', marginBottom: '1.5rem', display: 'flex', gap: '1rem', flexWrap: 'wrap', alignItems: 'center' }}>
+            <div className="card admin-filter-bar" style={{ padding: '1rem 1.5rem', marginBottom: '1.5rem', display: 'flex', gap: '1rem', flexWrap: 'wrap', alignItems: 'center' }}>
               <div style={{ display: 'flex', alignItems: 'center', gap: '0.5rem', flex: 1, minWidth: '220px' }}>
                 <Search size={18} color="var(--text-subtle)" />
                 <input

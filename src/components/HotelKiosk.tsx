@@ -540,7 +540,7 @@ export default function HotelKiosk({ hotel }: HotelKioskProps) {
       {/* STEP 3: SUCCESS SCREEN */}
       {step === 'success' && activeEmployee && (
         <main className="animate-fade-in" style={{ flex: 1, display: 'flex', flexDirection: 'column', justifyContent: 'center' }}>
-          <div className="login-kiosk-box" style={{ maxWidth: '520px', padding: '3.5rem 2rem' }}>
+          <div className="login-kiosk-box" style={{ maxWidth: '520px', padding: 'clamp(2rem, 5vw, 3.5rem) clamp(1.25rem, 4vw, 2rem)' }}>
             <div style={{
               width: '80px',
               height: '80px',
