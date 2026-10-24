@@ -1,0 +1,2963 @@
+{
+  "Orgánico Hotel Boutique Ajusco": {
+    "Gerente": [
+      {
+        "row": 4,
+        "seccion_banner": "Gerente",
+        "puesto": "Gerencia General",
+        "categoria": "Supervisión Operativa",
+        "tarea": "Revisar diariamente las condiciones del inmueble (salones, jardines, baños, exposiciones y áreas históricas)."
+      },
+      {
+        "row": 5,
+        "seccion_banner": "Gerente",
+        "puesto": "Gerencia General",
+        "categoria": "Supervisión Operativa",
+        "tarea": "Supervisar todas las áreas operativas (recepción, A&B, limpieza, áreas comunes, jardines, mantenimiento y administración)."
+      },
+      {
+        "row": 6,
+        "seccion_banner": "Gerente",
+        "puesto": "Gerencia General",
+        "categoria": "Gestión y Control",
+        "tarea": "Monitorear inventarios, insumos, consumos y reporte de gastos."
+      },
+      {
+        "row": 7,
+        "seccion_banner": "Gerente",
+        "puesto": "Gerencia General",
+        "categoria": "Gestión y Control",
+        "tarea": "Aprobar compras menores y validar necesidades del inmueble."
+      },
+      {
+        "row": 8,
+        "seccion_banner": "Gerente",
+        "puesto": "Gerencia General",
+        "categoria": "Gestión y Control",
+        "tarea": "Revisar bitácoras operativas, de mantenimiento y de eventos."
+      },
+      {
+        "row": 9,
+        "seccion_banner": "Gerente",
+        "puesto": "Gerencia General",
+        "categoria": "Personal y Comunicación",
+        "tarea": "Supervisar puntualidad, presentación, actitud y desempeño del personal."
+      },
+      {
+        "row": 10,
+        "seccion_banner": "Gerente",
+        "puesto": "Gerencia General",
+        "categoria": "Personal y Comunicación",
+        "tarea": "Realizar juntas operativas semanales y asegurar el cumplimiento de acuerdos."
+      },
+      {
+        "row": 11,
+        "seccion_banner": "Gerente",
+        "puesto": "Gerencia General",
+        "categoria": "Personal y Comunicación",
+        "tarea": "Validar que los montajes, tiempos y servicios de eventos cumplan con lo cotizado."
+      },
+      {
+        "row": 12,
+        "seccion_banner": "Gerente",
+        "puesto": "Gerencia General",
+        "categoria": "Experiencia del Visitante",
+        "tarea": "Asegurar una experiencia cálida, ordenada y alineada a la esencia cultural."
+      },
+      {
+        "row": 13,
+        "seccion_banner": "Gerente",
+        "puesto": "Gerencia General",
+        "categoria": "Experiencia del Visitante",
+        "tarea": "Supervisar la atención a eventos, recorridos, producciones y visitantes generales."
+      },
+      {
+        "row": 14,
+        "seccion_banner": "Gerente",
+        "puesto": "Gerencia General",
+        "categoria": "Administración y Control",
+        "tarea": "Supervisar bitácoras operativas, de mantenimiento y de eventos"
+      }
+    ],
+    "Administración": [
+      {
+        "row": 4,
+        "seccion_banner": "Recepcionista",
+        "puesto": "Recepcionista A",
+        "categoria": "Atención a Huéspedes",
+        "tarea": "Dar seguimiento a  reservas que arriban durante el día"
+      },
+      {
+        "row": 5,
+        "seccion_banner": "Recepcionista",
+        "puesto": "Recepcionista A",
+        "categoria": "Atención a Huéspedes",
+        "tarea": "Verificar las reservas recibidas asegurando que la información este correcta y actualisada"
+      },
+      {
+        "row": 6,
+        "seccion_banner": "Recepcionista",
+        "puesto": "Recepcionista A",
+        "categoria": "Atención a Huéspedes",
+        "tarea": "Seguimiento diario de las reservaciones con status de no show"
+      },
+      {
+        "row": 7,
+        "seccion_banner": "Recepcionista",
+        "puesto": "Recepcionista A",
+        "categoria": "Atención a Huéspedes",
+        "tarea": "Recibir, registrar y asignar habitaciones a los huéspedes."
+      },
+      {
+        "row": 8,
+        "seccion_banner": "Recepcionista",
+        "puesto": "Recepcionista A",
+        "categoria": "Atención a Huéspedes",
+        "tarea": "Proporcionar información sobre los servicios, facilidades, precios y disponibilidad del hotel."
+      },
+      {
+        "row": 9,
+        "seccion_banner": "Recepcionista",
+        "puesto": "Recepcionista A",
+        "categoria": "Atención a Huéspedes",
+        "tarea": "Realizar el proceso de check-out y procesar pagos."
+      },
+      {
+        "row": 11,
+        "seccion_banner": "Recepcionista",
+        "puesto": "Recepcionista A",
+        "categoria": "Gestión Administrativa",
+        "tarea": "Gestionar, confirmar y actualizar las reservas de habitaciones (cambios y cancelaciones)."
+      },
+      {
+        "row": 12,
+        "seccion_banner": "Recepcionista",
+        "puesto": "Recepcionista A",
+        "categoria": "Gestión Administrativa",
+        "tarea": "Procesar pagos, gestionar facturas y mantener registros organizados."
+      },
+      {
+        "row": 13,
+        "seccion_banner": "Recepcionista",
+        "puesto": "Recepcionista A",
+        "categoria": "Gestión Administrativa",
+        "tarea": "Generar venta de experiencias"
+      }
+    ],
+    "A&B": [
+      {
+        "row": 4,
+        "seccion_banner": "Mesero A",
+        "puesto": "Mesero A",
+        "categoria": "Atención y Servicio",
+        "tarea": "Atender a los clientes con amabilidad, tomar pedidos y ofrecer información sobre menús y especialidades."
+      },
+      {
+        "row": 5,
+        "seccion_banner": "Mesero A",
+        "puesto": "Mesero A",
+        "categoria": "Atención y Servicio",
+        "tarea": "Servir alimentos y bebidas de manera eficiente y segura."
+      },
+      {
+        "row": 6,
+        "seccion_banner": "Mesero A",
+        "puesto": "Mesero A",
+        "categoria": "Atención y Servicio",
+        "tarea": "Retirar platos, limpiar mesas de forma constante y mantener limpias las áreas de trabajo."
+      },
+      {
+        "row": 7,
+        "seccion_banner": "Mesero A",
+        "puesto": "Mesero A",
+        "categoria": "Atención y Servicio",
+        "tarea": "Apoyar en el montaje y desmontaje según las indicaciones del gerente."
+      },
+      {
+        "row": 8,
+        "seccion_banner": "Mesero A",
+        "puesto": "Mesero A",
+        "categoria": "Atención y Servicio",
+        "tarea": "Generar venta a traves de recomendaciones de alimentos y bebidas."
+      },
+      {
+        "row": 12,
+        "seccion_banner": "Mesero B",
+        "puesto": "Mesero B",
+        "categoria": "Atención y Servicio",
+        "tarea": "Atender a los clientes con amabilidad, tomar pedidos y ofrecer información sobre menús y especialidades."
+      },
+      {
+        "row": 13,
+        "seccion_banner": "Mesero B",
+        "puesto": "Mesero B",
+        "categoria": "Atención y Servicio",
+        "tarea": "Servir alimentos y bebidas de manera eficiente y segura."
+      },
+      {
+        "row": 14,
+        "seccion_banner": "Mesero B",
+        "puesto": "Mesero B",
+        "categoria": "Atención y Servicio",
+        "tarea": "Retirar platos, limpiar mesas de forma constante y mantener limpias las áreas de trabajo."
+      },
+      {
+        "row": 15,
+        "seccion_banner": "Mesero B",
+        "puesto": "Mesero B",
+        "categoria": "Atención y Servicio",
+        "tarea": "Apoyar en el montaje y desmontaje según las indicaciones del gerente."
+      },
+      {
+        "row": 16,
+        "seccion_banner": "Mesero B",
+        "puesto": "Mesero B",
+        "categoria": "Atención y Servicio",
+        "tarea": "Generar venta a traves de recomendaciones de alimentos y bebidas."
+      }
+    ],
+    "Cocina": [
+      {
+        "row": 4,
+        "seccion_banner": "Chef",
+        "puesto": "Chef",
+        "categoria": "Producción y Calidad",
+        "tarea": "Preparar y cocinar los alimentos siguiendo estrictamente las recetas y estándares de calidad e higiene."
+      },
+      {
+        "row": 5,
+        "seccion_banner": "Chef",
+        "puesto": "Chef",
+        "categoria": "Producción y Calidad",
+        "tarea": "Mantener al día el control administrativo de pedidos, inventarios y planificación de menús."
+      },
+      {
+        "row": 6,
+        "seccion_banner": "Chef",
+        "puesto": "Chef",
+        "categoria": "Producción y Calidad",
+        "tarea": "Asegurar la organización, limpieza y desinfección constante de la cocina."
+      },
+      {
+        "row": 7,
+        "seccion_banner": "Chef",
+        "puesto": "Chef",
+        "categoria": "Producción y Calidad",
+        "tarea": "Supervisar y dirigir al personal de cocina"
+      },
+      {
+        "row": 14,
+        "seccion_banner": "Ayudantes de cocina",
+        "puesto": "Ayudantes",
+        "categoria": "Producción y Calidad",
+        "tarea": "Ayudar en la preparación y cocción de alimentos."
+      },
+      {
+        "row": 15,
+        "seccion_banner": "Ayudantes de cocina",
+        "puesto": "Ayudantes",
+        "categoria": "Producción y Calidad",
+        "tarea": "Asegurar la preparación y el servicio seguro e higiénico de los alimentos."
+      },
+      {
+        "row": 16,
+        "seccion_banner": "Ayudantes de cocina",
+        "puesto": "Ayudantes",
+        "categoria": "Producción y Calidad",
+        "tarea": "Limpieza y organización de estaciones"
+      }
+    ],
+    "Bar": [
+      {
+        "row": 4,
+        "seccion_banner": "Encargado de bar",
+        "puesto": "Encargado de bar",
+        "categoria": "Producción y Calidad",
+        "tarea": "Preparar y cocinar los alimentos siguiendo estrictamente las recetas y estándares de calidad e higiene."
+      },
+      {
+        "row": 5,
+        "seccion_banner": "Encargado de bar",
+        "puesto": "Encargado de bar",
+        "categoria": "Producción y Calidad",
+        "tarea": "Mantener al día el control administrativo de pedidos, inventarios y planificación de menús."
+      },
+      {
+        "row": 6,
+        "seccion_banner": "Encargado de bar",
+        "puesto": "Encargado de bar",
+        "categoria": "Producción y Calidad",
+        "tarea": "Asegurar la organización, limpieza y desinfección constante de la cocina."
+      },
+      {
+        "row": 7,
+        "seccion_banner": "Encargado de bar",
+        "puesto": "Encargado de bar",
+        "categoria": "Atención y Servicio",
+        "tarea": "Atender a los clientes con amabilidad, tomar pedidos y ofrecer información sobre menús y especialidades."
+      },
+      {
+        "row": 8,
+        "seccion_banner": "Encargado de bar",
+        "puesto": "Encargado de bar",
+        "categoria": "Atención y Servicio",
+        "tarea": "Servir alimentos y bebidas de manera eficiente y segura."
+      },
+      {
+        "row": 9,
+        "seccion_banner": "Encargado de bar",
+        "puesto": "Encargado de bar",
+        "categoria": "Atención y Servicio",
+        "tarea": "Retirar platos, limpiar mesas de forma constante y mantener limpias las áreas de trabajo."
+      },
+      {
+        "row": 10,
+        "seccion_banner": "Encargado de bar",
+        "puesto": "Encargado de bar",
+        "categoria": "Atención y Servicio",
+        "tarea": "Apoyar en el montaje y desmontaje según las indicaciones del gerente."
+      },
+      {
+        "row": 11,
+        "seccion_banner": "Encargado de bar",
+        "puesto": "Encargado de bar",
+        "categoria": "Atención y Servicio",
+        "tarea": "Generar venta a traves de recomendaciones de alimentos y bebidas."
+      }
+    ],
+    "AMA DE LLAVESLIMPIEZA": [
+      {
+        "row": 4,
+        "seccion_banner": "Mucama",
+        "puesto": "Ama de Llaves / Mucamas",
+        "categoria": "Limpieza de Habitaciones",
+        "tarea": "Limpiar y organizar las habitaciones de acuerdo con los estándares de calidad del establecimiento."
+      },
+      {
+        "row": 5,
+        "seccion_banner": "Mucama",
+        "puesto": "Ama de Llaves / Mucamas",
+        "categoria": "Limpieza de Habitaciones",
+        "tarea": "Cambiar la ropa de cama y las toallas"
+      },
+      {
+        "row": 6,
+        "seccion_banner": "Mucama",
+        "puesto": "Ama de Llaves / Mucamas",
+        "categoria": "Limpieza de Habitaciones",
+        "tarea": "Aseo profundo de baños y abastecimiento de productos de higiene."
+      },
+      {
+        "row": 7,
+        "seccion_banner": "Mucama",
+        "puesto": "Ama de Llaves / Mucamas",
+        "categoria": "Limpieza de Habitaciones",
+        "tarea": "Retirar residuos, vaciar papeleras y dejar las habitaciones listas para la llegada de nuevos huéspedes."
+      },
+      {
+        "row": 8,
+        "seccion_banner": "Mucama",
+        "puesto": "Ama de Llaves / Mucamas",
+        "categoria": "Limpieza de Habitaciones",
+        "tarea": "Limpieza de áreas comunes como recepción, pasillos, casa club, área de spa y área de alberca"
+      }
+    ],
+    "MANTENIMIENTO": [
+      {
+        "row": 5,
+        "seccion_banner": "Jefe de mantenimiento",
+        "puesto": "Mantenimiento",
+        "categoria": "Inspección y Reparación",
+        "tarea": "Inventario de  activos y equipos"
+      },
+      {
+        "row": 6,
+        "seccion_banner": "Jefe de mantenimiento",
+        "puesto": "Mantenimiento",
+        "categoria": "Inspección y Reparación",
+        "tarea": "Realizar inspecciones y evaluaciones de los activos y equipos para identificar necesidades de mantenimiento"
+      },
+      {
+        "row": 7,
+        "seccion_banner": "Jefe de mantenimiento",
+        "puesto": "Mantenimiento",
+        "categoria": "Inspección y Reparación",
+        "tarea": "Cumplir rigurosamente con las normativas y regulaciones de seguridad."
+      },
+      {
+        "row": 8,
+        "seccion_banner": "Jefe de mantenimiento",
+        "puesto": "Mantenimiento",
+        "categoria": "Inspección y Reparación",
+        "tarea": "Coordinar con otros departamentos la disponibilidad de equipos y espacios."
+      },
+      {
+        "row": 13,
+        "seccion_banner": "Mantenimiento",
+        "puesto": "Mantenimiento",
+        "categoria": "Inspección y Reparación",
+        "tarea": "Realizar inspecciones periódicas a los equipos e instalaciones para identificar necesidades de mantenimiento preventivo y correctivo."
+      },
+      {
+        "row": 14,
+        "seccion_banner": "Mantenimiento",
+        "puesto": "Mantenimiento",
+        "categoria": "Inspección y Reparación",
+        "tarea": "Asegurar el buen funcionamiento, seguridad y eficiencia de los activos del hotel."
+      },
+      {
+        "row": 15,
+        "seccion_banner": "Mantenimiento",
+        "puesto": "Mantenimiento",
+        "categoria": "Inspección y Reparación",
+        "tarea": "Coordinar con otros departamentos la disponibilidad de equipos y espacios."
+      },
+      {
+        "row": 16,
+        "seccion_banner": "Mantenimiento",
+        "puesto": "Mantenimiento",
+        "categoria": "Inspección y Reparación",
+        "tarea": "Cumplir rigurosamente con las normativas y regulaciones de seguridad."
+      },
+      {
+        "row": 20,
+        "seccion_banner": "Mantenimiento",
+        "puesto": "Mantenimiento",
+        "categoria": "Inspección y Reparación",
+        "tarea": "Realizar inspecciones periódicas a los equipos e instalaciones para identificar necesidades de mantenimiento preventivo y correctivo."
+      },
+      {
+        "row": 21,
+        "seccion_banner": "Mantenimiento",
+        "puesto": "Mantenimiento",
+        "categoria": "Inspección y Reparación",
+        "tarea": "Asegurar el buen funcionamiento, seguridad y eficiencia de los activos del hotel."
+      },
+      {
+        "row": 22,
+        "seccion_banner": "Mantenimiento",
+        "puesto": "Mantenimiento",
+        "categoria": "Inspección y Reparación",
+        "tarea": "Coordinar con otros departamentos la disponibilidad de equipos y espacios."
+      },
+      {
+        "row": 23,
+        "seccion_banner": "Mantenimiento",
+        "puesto": "Mantenimiento",
+        "categoria": "Inspección y Reparación",
+        "tarea": "Cumplir rigurosamente con las normativas y regulaciones de seguridad."
+      },
+      {
+        "row": 27,
+        "seccion_banner": "Mantenimiento",
+        "puesto": "Mantenimiento",
+        "categoria": "Inspección y Reparación",
+        "tarea": "Realizar inspecciones periódicas a los equipos e instalaciones para identificar necesidades de mantenimiento preventivo y correctivo."
+      },
+      {
+        "row": 28,
+        "seccion_banner": "Mantenimiento",
+        "puesto": "Mantenimiento",
+        "categoria": "Inspección y Reparación",
+        "tarea": "Asegurar el buen funcionamiento, seguridad y eficiencia de los activos del hotel."
+      },
+      {
+        "row": 29,
+        "seccion_banner": "Mantenimiento",
+        "puesto": "Mantenimiento",
+        "categoria": "Inspección y Reparación",
+        "tarea": "Coordinar con otros departamentos la disponibilidad de equipos y espacios."
+      },
+      {
+        "row": 30,
+        "seccion_banner": "Mantenimiento",
+        "puesto": "Mantenimiento",
+        "categoria": "Inspección y Reparación",
+        "tarea": "Cumplir rigurosamente con las normativas y regulaciones de seguridad."
+      },
+      {
+        "row": 35,
+        "seccion_banner": "Jefe de Jardineria",
+        "puesto": "Jardinero",
+        "categoria": "Cuidado de Áreas Verdes",
+        "tarea": "Realizar tareas de jardinería esenciales: podar, regar, fertilizar y controlar plagas en plantas y flores."
+      },
+      {
+        "row": 36,
+        "seccion_banner": "Jefe de Jardineria",
+        "puesto": "Jardinero",
+        "categoria": "Cuidado de Áreas Verdes",
+        "tarea": "Mantener la limpieza, el orden y la seguridad en los caminos y espacios verdes para el libre tránsito de los visitantes."
+      },
+      {
+        "row": 41,
+        "seccion_banner": "Jardinero",
+        "puesto": "Jardinero",
+        "categoria": "Cuidado de Áreas Verdes",
+        "tarea": "Realizar tareas de jardinería esenciales: podar, regar, fertilizar y controlar plagas en plantas y flores."
+      },
+      {
+        "row": 42,
+        "seccion_banner": "Jardinero",
+        "puesto": "Jardinero",
+        "categoria": "Cuidado de Áreas Verdes",
+        "tarea": "Mantener la limpieza, el orden y la seguridad en los caminos y espacios verdes para el libre tránsito de los visitantes."
+      }
+    ],
+    "Origen Centro Holistico": [
+      {
+        "row": 4,
+        "seccion_banner": "Encargado de spa",
+        "puesto": "Encargado de spa",
+        "categoria": "Seguridad e higiene",
+        "tarea": "Supervisar el cumplimiento estricto de los protocolos de higiene, normativas de salud, seguridad y protección civil."
+      },
+      {
+        "row": 5,
+        "seccion_banner": "Encargado de spa",
+        "puesto": "Encargado de spa",
+        "categoria": "Administración y control",
+        "tarea": "Revisar los reportes de ingresos diarios generados por hospedaje, tratamientos y experiencias holísticas."
+      },
+      {
+        "row": 6,
+        "seccion_banner": "Encargado de spa",
+        "puesto": "Encargado de spa",
+        "categoria": "Administración y control",
+        "tarea": "Dirigir y coordinar al equipo de terapeutas, facilitadores y guías de ceremonias asignados al turno."
+      },
+      {
+        "row": 7,
+        "seccion_banner": "Encargado de spa",
+        "puesto": "Encargado de spa",
+        "categoria": "Control de agenda",
+        "tarea": ": Revisar la agenda diaria de recepción, check-ins, check-outs y reservas de terapia"
+      },
+      {
+        "row": 8,
+        "seccion_banner": "Encargado de spa",
+        "puesto": "Encargado de spa",
+        "categoria": "Supervisión de instalaciones",
+        "tarea": "Verificar que las cabinas, áreas de spa y zonas comunes se encuentren en condiciones óptimas, limpias y armonizadas."
+      },
+      {
+        "row": 9,
+        "seccion_banner": "Encargado de spa",
+        "puesto": "Encargado de spa",
+        "categoria": "Venta",
+        "tarea": "Coordinar promociones, paquetes especiales (retiros, días de spa) y apoyar al área comercial en la detección, prospección y  atención de nuevos clientes."
+      },
+      {
+        "row": 13,
+        "seccion_banner": "TERAPEUTAS INTERNAS",
+        "puesto": "Encargado de spa",
+        "categoria": "Seguridad e higiene",
+        "tarea": "Mantener una higiene personal impecable y desinfectar camillas, utensilios y materiales de inmediato tras cada servicio."
+      },
+      {
+        "row": 14,
+        "seccion_banner": "TERAPEUTAS INTERNAS",
+        "puesto": "Encargado de spa",
+        "categoria": "Administración y control",
+        "tarea": "Revisar los reportes de ingresos diarios generados por hospedaje, tratamientos y experiencias holísticas."
+      },
+      {
+        "row": 15,
+        "seccion_banner": "TERAPEUTAS INTERNAS",
+        "puesto": "Encargado de spa",
+        "categoria": "Atención al cliente y operación",
+        "tarea": "Realizar los tratamientos y masajes conforme a los protocolos establecidos del centro."
+      },
+      {
+        "row": 16,
+        "seccion_banner": "TERAPEUTAS INTERNAS",
+        "puesto": "Encargado de spa",
+        "categoria": "Control de insumos",
+        "tarea": "Verificar la disponibilidad constante de suministros esenciales en cabina (aceites, velas, toallas, instrumentos)."
+      },
+      {
+        "row": 17,
+        "seccion_banner": "TERAPEUTAS INTERNAS",
+        "puesto": "Encargado de spa",
+        "categoria": "Registro de bitacora",
+        "tarea": "Registrar puntualmente cada servicio en la bitácora oficial y reportar incidencias o necesidades de material a la gerencia."
+      },
+      {
+        "row": 18,
+        "seccion_banner": "TERAPEUTAS INTERNAS",
+        "puesto": "Encargado de spa",
+        "categoria": "Venta",
+        "tarea": "Apoyar al área comercial en la detección, prospección y  atención de nuevos clientes."
+      },
+      {
+        "row": 19,
+        "seccion_banner": "TERAPEUTAS INTERNAS",
+        "puesto": "Encargado de spa",
+        "categoria": "Venta",
+        "tarea": "Ofrecer recomendaciones personalizadas posteriores al tratamiento (ejercicios de respiración, infusiones) y orientar sobre otras experiencias del centro"
+      }
+    ]
+  },
+  "Orgánico Hotel Boutique Valle de Bravo": {
+    "Gerente": [
+      {
+        "row": 4,
+        "seccion_banner": "Gerente",
+        "puesto": "Gerencia General",
+        "categoria": "Supervisión Operativa",
+        "tarea": "Revisar diariamente las condiciones del inmueble (salones, jardines, baños, exposiciones y áreas históricas)."
+      },
+      {
+        "row": 5,
+        "seccion_banner": "Gerente",
+        "puesto": "Gerencia General",
+        "categoria": "Supervisión Operativa",
+        "tarea": "Supervisar todas las áreas operativas (recepción, A&B, limpieza, áreas comunes, jardines, mantenimiento y administración)."
+      },
+      {
+        "row": 6,
+        "seccion_banner": "Gerente",
+        "puesto": "Gerencia General",
+        "categoria": "Gestión y Control",
+        "tarea": "Monitorear inventarios, insumos, consumos y reporte de gastos."
+      },
+      {
+        "row": 7,
+        "seccion_banner": "Gerente",
+        "puesto": "Gerencia General",
+        "categoria": "Gestión y Control",
+        "tarea": "Aprobar compras menores y validar necesidades del inmueble."
+      },
+      {
+        "row": 8,
+        "seccion_banner": "Gerente",
+        "puesto": "Gerencia General",
+        "categoria": "Gestión y Control",
+        "tarea": "Revisar bitácoras operativas, de mantenimiento y de eventos."
+      },
+      {
+        "row": 9,
+        "seccion_banner": "Gerente",
+        "puesto": "Gerencia General",
+        "categoria": "Personal y Comunicación",
+        "tarea": "Supervisar puntualidad, presentación, actitud y desempeño del personal."
+      },
+      {
+        "row": 10,
+        "seccion_banner": "Gerente",
+        "puesto": "Gerencia General",
+        "categoria": "Personal y Comunicación",
+        "tarea": "Realizar juntas operativas semanales y asegurar el cumplimiento de acuerdos."
+      },
+      {
+        "row": 11,
+        "seccion_banner": "Gerente",
+        "puesto": "Gerencia General",
+        "categoria": "Personal y Comunicación",
+        "tarea": "Validar que los montajes, tiempos y servicios de eventos cumplan con lo cotizado."
+      },
+      {
+        "row": 12,
+        "seccion_banner": "Gerente",
+        "puesto": "Gerencia General",
+        "categoria": "Experiencia del Visitante",
+        "tarea": "Asegurar una experiencia cálida, ordenada y alineada a la esencia cultural."
+      },
+      {
+        "row": 13,
+        "seccion_banner": "Gerente",
+        "puesto": "Gerencia General",
+        "categoria": "Experiencia del Visitante",
+        "tarea": "Supervisar la atención a eventos, recorridos, producciones y visitantes generales."
+      },
+      {
+        "row": 14,
+        "seccion_banner": "Gerente",
+        "puesto": "Gerencia General",
+        "categoria": "Administración y Control",
+        "tarea": "Supervisar bitácoras operativas, de mantenimiento y de eventos"
+      }
+    ],
+    "Administración": [
+      {
+        "row": 4,
+        "seccion_banner": "Recepcionista",
+        "puesto": "Recepcionista A",
+        "categoria": "Atención a Huéspedes",
+        "tarea": "Dar seguimiento a  reservas que arriban durante el día"
+      },
+      {
+        "row": 5,
+        "seccion_banner": "Recepcionista",
+        "puesto": "Recepcionista A",
+        "categoria": "Atención a Huéspedes",
+        "tarea": "Verificar las reservas recibidas asegurando que la información este correcta y actualisada"
+      },
+      {
+        "row": 6,
+        "seccion_banner": "Recepcionista",
+        "puesto": "Recepcionista A",
+        "categoria": "Atención a Huéspedes",
+        "tarea": "Seguimiento diario de las reservaciones con status de no show"
+      },
+      {
+        "row": 7,
+        "seccion_banner": "Recepcionista",
+        "puesto": "Recepcionista A",
+        "categoria": "Atención a Huéspedes",
+        "tarea": "Recibir, registrar y asignar habitaciones a los huéspedes."
+      },
+      {
+        "row": 8,
+        "seccion_banner": "Recepcionista",
+        "puesto": "Recepcionista A",
+        "categoria": "Atención a Huéspedes",
+        "tarea": "Proporcionar información sobre los servicios, facilidades, precios y disponibilidad del hotel."
+      },
+      {
+        "row": 9,
+        "seccion_banner": "Recepcionista",
+        "puesto": "Recepcionista A",
+        "categoria": "Atención a Huéspedes",
+        "tarea": "Realizar el proceso de check-out y procesar pagos."
+      },
+      {
+        "row": 11,
+        "seccion_banner": "Recepcionista",
+        "puesto": "Recepcionista A",
+        "categoria": "Gestión Administrativa",
+        "tarea": "Gestionar, confirmar y actualizar las reservas de habitaciones (cambios y cancelaciones)."
+      },
+      {
+        "row": 12,
+        "seccion_banner": "Recepcionista",
+        "puesto": "Recepcionista A",
+        "categoria": "Gestión Administrativa",
+        "tarea": "Procesar pagos, gestionar facturas y mantener registros organizados."
+      },
+      {
+        "row": 13,
+        "seccion_banner": "Recepcionista",
+        "puesto": "Recepcionista A",
+        "categoria": "Gestión Administrativa",
+        "tarea": "Generar venta de experiencias"
+      }
+    ],
+    "A&B": [
+      {
+        "row": 4,
+        "seccion_banner": "Mesero A",
+        "puesto": "Mesero A",
+        "categoria": "Atención y Servicio",
+        "tarea": "Atender a los clientes con amabilidad, tomar pedidos y ofrecer información sobre menús y especialidades."
+      },
+      {
+        "row": 5,
+        "seccion_banner": "Mesero A",
+        "puesto": "Mesero A",
+        "categoria": "Atención y Servicio",
+        "tarea": "Servir alimentos y bebidas de manera eficiente y segura."
+      },
+      {
+        "row": 6,
+        "seccion_banner": "Mesero A",
+        "puesto": "Mesero A",
+        "categoria": "Atención y Servicio",
+        "tarea": "Retirar platos, limpiar mesas de forma constante y mantener limpias las áreas de trabajo."
+      },
+      {
+        "row": 7,
+        "seccion_banner": "Mesero A",
+        "puesto": "Mesero A",
+        "categoria": "Atención y Servicio",
+        "tarea": "Apoyar en el montaje y desmontaje según las indicaciones del gerente."
+      },
+      {
+        "row": 8,
+        "seccion_banner": "Mesero A",
+        "puesto": "Mesero A",
+        "categoria": "Atención y Servicio",
+        "tarea": "Generar venta a traves de recomendaciones de alimentos y bebidas."
+      },
+      {
+        "row": 12,
+        "seccion_banner": "Mesero A",
+        "puesto": "Mesero B",
+        "categoria": "Atención y Servicio",
+        "tarea": "Atender a los clientes con amabilidad, tomar pedidos y ofrecer información sobre menús y especialidades."
+      },
+      {
+        "row": 13,
+        "seccion_banner": "Mesero A",
+        "puesto": "Mesero B",
+        "categoria": "Atención y Servicio",
+        "tarea": "Servir alimentos y bebidas de manera eficiente y segura."
+      },
+      {
+        "row": 14,
+        "seccion_banner": "Mesero A",
+        "puesto": "Mesero B",
+        "categoria": "Atención y Servicio",
+        "tarea": "Retirar platos, limpiar mesas de forma constante y mantener limpias las áreas de trabajo."
+      },
+      {
+        "row": 15,
+        "seccion_banner": "Mesero A",
+        "puesto": "Mesero B",
+        "categoria": "Atención y Servicio",
+        "tarea": "Apoyar en el montaje y desmontaje según las indicaciones del gerente."
+      },
+      {
+        "row": 16,
+        "seccion_banner": "Mesero A",
+        "puesto": "Mesero B",
+        "categoria": "Atención y Servicio",
+        "tarea": "Generar venta a traves de recomendaciones de alimentos y bebidas."
+      },
+      {
+        "row": 20,
+        "seccion_banner": "Mesero C",
+        "puesto": "Mesero C",
+        "categoria": "Atención y Servicio",
+        "tarea": "Atender a los clientes con amabilidad, tomar pedidos y ofrecer información sobre menús y especialidades."
+      },
+      {
+        "row": 21,
+        "seccion_banner": "Mesero C",
+        "puesto": "Mesero C",
+        "categoria": "Atención y Servicio",
+        "tarea": "Servir alimentos y bebidas de manera eficiente y segura."
+      },
+      {
+        "row": 22,
+        "seccion_banner": "Mesero C",
+        "puesto": "Mesero C",
+        "categoria": "Atención y Servicio",
+        "tarea": "Retirar platos, limpiar mesas de forma constante y mantener limpias las áreas de trabajo."
+      },
+      {
+        "row": 23,
+        "seccion_banner": "Mesero C",
+        "puesto": "Mesero C",
+        "categoria": "Atención y Servicio",
+        "tarea": "Apoyar en el montaje y desmontaje según las indicaciones del gerente."
+      },
+      {
+        "row": 24,
+        "seccion_banner": "Mesero C",
+        "puesto": "Mesero C",
+        "categoria": "Atención y Servicio",
+        "tarea": "Generar venta a traves de recomendaciones de alimentos y bebidas."
+      }
+    ],
+    "Cocina": [
+      {
+        "row": 4,
+        "seccion_banner": "Chef",
+        "puesto": "Chef",
+        "categoria": "Producción y Calidad",
+        "tarea": "Preparar y cocinar los alimentos siguiendo estrictamente las recetas y estándares de calidad e higiene."
+      },
+      {
+        "row": 5,
+        "seccion_banner": "Chef",
+        "puesto": "Chef",
+        "categoria": "Producción y Calidad",
+        "tarea": "Mantener al día el control administrativo de pedidos, inventarios y planificación de menús."
+      },
+      {
+        "row": 6,
+        "seccion_banner": "Chef",
+        "puesto": "Chef",
+        "categoria": "Producción y Calidad",
+        "tarea": "Asegurar la organización, limpieza y desinfección constante de la cocina."
+      },
+      {
+        "row": 7,
+        "seccion_banner": "Chef",
+        "puesto": "Chef",
+        "categoria": "Producción y Calidad",
+        "tarea": "Supervisar y dirigir al personal de cocina"
+      },
+      {
+        "row": 14,
+        "seccion_banner": "Segunda de Cocina",
+        "puesto": "Segunda de Cocina",
+        "categoria": "Producción y Calidad",
+        "tarea": "Ayudar en la preparación y cocción de alimentos."
+      },
+      {
+        "row": 15,
+        "seccion_banner": "Segunda de Cocina",
+        "puesto": "Segunda de Cocina",
+        "categoria": "Producción y Calidad",
+        "tarea": "Asegurar la preparación y el servicio seguro e higiénico de los alimentos."
+      },
+      {
+        "row": 16,
+        "seccion_banner": "Segunda de Cocina",
+        "puesto": "Segunda de Cocina",
+        "categoria": "Producción y Calidad",
+        "tarea": "Limpieza y organización de estaciones"
+      },
+      {
+        "row": 21,
+        "seccion_banner": "Ayudantes",
+        "puesto": "Ayudantes",
+        "categoria": "Producción y Calidad",
+        "tarea": "Ayudar en la preparación y cocción de alimentos."
+      },
+      {
+        "row": 22,
+        "seccion_banner": "Ayudantes",
+        "puesto": "Ayudantes",
+        "categoria": "Producción y Calidad",
+        "tarea": "Asegurar la preparación y el servicio seguro e higiénico de los alimentos."
+      },
+      {
+        "row": 23,
+        "seccion_banner": "Ayudantes",
+        "puesto": "Ayudantes",
+        "categoria": "Producción y Calidad",
+        "tarea": "Limpieza y organización de estaciones"
+      },
+      {
+        "row": 24,
+        "seccion_banner": "Ayudantes",
+        "puesto": "Ayudantes",
+        "categoria": "Producción y Calidad",
+        "tarea": "Limpieza y organización de loza"
+      }
+    ],
+    "AMA DE LLAVESLIMPIEZA": [
+      {
+        "row": 4,
+        "seccion_banner": "Mucama",
+        "puesto": "Ama de Llaves / Mucamas",
+        "categoria": "Limpieza de Habitaciones",
+        "tarea": "Limpiar y organizar las habitaciones de acuerdo con los estándares de calidad del establecimiento."
+      },
+      {
+        "row": 5,
+        "seccion_banner": "Mucama",
+        "puesto": "Ama de Llaves / Mucamas",
+        "categoria": "Limpieza de Habitaciones",
+        "tarea": "Cambiar la ropa de cama y las toallas"
+      },
+      {
+        "row": 6,
+        "seccion_banner": "Mucama",
+        "puesto": "Ama de Llaves / Mucamas",
+        "categoria": "Limpieza de Habitaciones",
+        "tarea": "Aseo profundo de baños y abastecimiento de productos de higiene."
+      },
+      {
+        "row": 7,
+        "seccion_banner": "Mucama",
+        "puesto": "Ama de Llaves / Mucamas",
+        "categoria": "Limpieza de Habitaciones",
+        "tarea": "Retirar residuos, vaciar papeleras y dejar las habitaciones listas para la llegada de nuevos huéspedes."
+      },
+      {
+        "row": 8,
+        "seccion_banner": "Mucama",
+        "puesto": "Ama de Llaves / Mucamas",
+        "categoria": "Limpieza de Habitaciones",
+        "tarea": "Limpieza de áreas comunes como recepción, pasillos, casa club, área de spa y área de alberca"
+      }
+    ],
+    "MANTENIMIENTO": [
+      {
+        "row": 5,
+        "seccion_banner": "Jefe de mantenimiento",
+        "puesto": "Mantenimiento",
+        "categoria": "Inspección y Reparación",
+        "tarea": "Inventario de  activos y equipos"
+      },
+      {
+        "row": 6,
+        "seccion_banner": "Jefe de mantenimiento",
+        "puesto": "Mantenimiento",
+        "categoria": "Inspección y Reparación",
+        "tarea": "Realizar inspecciones y evaluaciones de los activos y equipos para identificar necesidades de mantenimiento"
+      },
+      {
+        "row": 7,
+        "seccion_banner": "Jefe de mantenimiento",
+        "puesto": "Mantenimiento",
+        "categoria": "Inspección y Reparación",
+        "tarea": "Cumplir rigurosamente con las normativas y regulaciones de seguridad."
+      },
+      {
+        "row": 8,
+        "seccion_banner": "Jefe de mantenimiento",
+        "puesto": "Mantenimiento",
+        "categoria": "Inspección y Reparación",
+        "tarea": "Coordinar con otros departamentos la disponibilidad de equipos y espacios."
+      },
+      {
+        "row": 13,
+        "seccion_banner": "Mantenimiento",
+        "puesto": "Mantenimiento",
+        "categoria": "Inspección y Reparación",
+        "tarea": "Realizar inspecciones periódicas a los equipos e instalaciones para identificar necesidades de mantenimiento preventivo y correctivo."
+      },
+      {
+        "row": 14,
+        "seccion_banner": "Mantenimiento",
+        "puesto": "Mantenimiento",
+        "categoria": "Inspección y Reparación",
+        "tarea": "Asegurar el buen funcionamiento, seguridad y eficiencia de los activos del hotel."
+      },
+      {
+        "row": 15,
+        "seccion_banner": "Mantenimiento",
+        "puesto": "Mantenimiento",
+        "categoria": "Inspección y Reparación",
+        "tarea": "Coordinar con otros departamentos la disponibilidad de equipos y espacios."
+      },
+      {
+        "row": 16,
+        "seccion_banner": "Mantenimiento",
+        "puesto": "Mantenimiento",
+        "categoria": "Inspección y Reparación",
+        "tarea": "Cumplir rigurosamente con las normativas y regulaciones de seguridad."
+      },
+      {
+        "row": 23,
+        "seccion_banner": "Jardinero",
+        "puesto": "Jardinero",
+        "categoria": "Cuidado de Áreas Verdes",
+        "tarea": "Realizar tareas de jardinería esenciales: podar, regar, fertilizar y controlar plagas en plantas y flores."
+      },
+      {
+        "row": 24,
+        "seccion_banner": "Jardinero",
+        "puesto": "Jardinero",
+        "categoria": "Cuidado de Áreas Verdes",
+        "tarea": "Mantener la limpieza, el orden y la seguridad en los caminos y espacios verdes para el libre tránsito de los visitantes."
+      }
+    ]
+  },
+  "Orgánico Hotel Boutique Tepoztlán": {
+    "Gerente": [
+      {
+        "row": 4,
+        "seccion_banner": "Gerente",
+        "puesto": "Gerencia General",
+        "categoria": "Supervisión Operativa",
+        "tarea": "Revisar diariamente las condiciones del inmueble (salones, jardines, baños, exposiciones y áreas históricas)."
+      },
+      {
+        "row": 5,
+        "seccion_banner": "Gerente",
+        "puesto": "Gerencia General",
+        "categoria": "Supervisión Operativa",
+        "tarea": "Supervisar todas las áreas operativas (recepción, A&B, limpieza, áreas comunes, jardines, mantenimiento y administración)."
+      },
+      {
+        "row": 6,
+        "seccion_banner": "Gerente",
+        "puesto": "Gerencia General",
+        "categoria": "Gestión y Control",
+        "tarea": "Monitorear inventarios, insumos, consumos y reporte de gastos."
+      },
+      {
+        "row": 7,
+        "seccion_banner": "Gerente",
+        "puesto": "Gerencia General",
+        "categoria": "Gestión y Control",
+        "tarea": "Aprobar compras menores y validar necesidades del inmueble."
+      },
+      {
+        "row": 8,
+        "seccion_banner": "Gerente",
+        "puesto": "Gerencia General",
+        "categoria": "Gestión y Control",
+        "tarea": "Revisar bitácoras operativas, de mantenimiento y de eventos."
+      },
+      {
+        "row": 9,
+        "seccion_banner": "Gerente",
+        "puesto": "Gerencia General",
+        "categoria": "Personal y Comunicación",
+        "tarea": "Supervisar puntualidad, presentación, actitud y desempeño del personal."
+      },
+      {
+        "row": 10,
+        "seccion_banner": "Gerente",
+        "puesto": "Gerencia General",
+        "categoria": "Personal y Comunicación",
+        "tarea": "Realizar juntas operativas semanales y asegurar el cumplimiento de acuerdos."
+      },
+      {
+        "row": 11,
+        "seccion_banner": "Gerente",
+        "puesto": "Gerencia General",
+        "categoria": "Personal y Comunicación",
+        "tarea": "Validar que los montajes, tiempos y servicios de eventos cumplan con lo cotizado."
+      },
+      {
+        "row": 12,
+        "seccion_banner": "Gerente",
+        "puesto": "Gerencia General",
+        "categoria": "Experiencia del Visitante",
+        "tarea": "Asegurar una experiencia cálida, ordenada y alineada a la esencia cultural."
+      },
+      {
+        "row": 13,
+        "seccion_banner": "Gerente",
+        "puesto": "Gerencia General",
+        "categoria": "Experiencia del Visitante",
+        "tarea": "Supervisar la atención a eventos, recorridos, producciones y visitantes generales."
+      },
+      {
+        "row": 14,
+        "seccion_banner": "Gerente",
+        "puesto": "Gerencia General",
+        "categoria": "Administración y Control",
+        "tarea": "Supervisar bitácoras operativas, de mantenimiento y de eventos"
+      },
+      {
+        "row": 15,
+        "seccion_banner": "Gerente",
+        "puesto": "Gerencia General",
+        "categoria": "Administración y Control",
+        "tarea": "Realizar cortes diarios, conciliaciones, comprobación de gastos y gestión de pagos, facturación y presupuestos."
+      },
+      {
+        "row": 16,
+        "seccion_banner": "Gerente",
+        "puesto": "Gerencia General",
+        "categoria": "Administración y Control",
+        "tarea": "Supervisar y registrar los inventarios de A&B, limpieza y mantenimiento, manteniendo actualizada la carpeta de mermas y coordinando reposiciones con gerencia para evitar desabastos"
+      },
+      {
+        "row": 17,
+        "seccion_banner": "Gerente",
+        "puesto": "Gerencia General",
+        "categoria": "Administración y Control",
+        "tarea": "Gestionar la documentación fiscal, notas de venta, solicitudes de compra y la relación con proveedores, contratos y acuerdos institucionales."
+      }
+    ],
+    "Subgerente": [
+      {
+        "row": 4,
+        "seccion_banner": "Subgerente",
+        "puesto": "Subgerencia",
+        "categoria": "Monitoreo de Instalaciones",
+        "tarea": "Verificar la limpieza, el orden y la presentación visual de salones, jardines, cafetería, baños y pasillos antes, durante y después de la apertura."
+      },
+      {
+        "row": 5,
+        "seccion_banner": "Subgerente",
+        "puesto": "Subgerencia",
+        "categoria": "Operación y Atención",
+        "tarea": "Apoyar a recepción en la atención a grupos, artistas, proveedores y visitantes."
+      },
+      {
+        "row": 6,
+        "seccion_banner": "Subgerente",
+        "puesto": "Subgerencia",
+        "categoria": "Operación y Atención",
+        "tarea": "Asegurar que el personal cumpla con los protocolos de apertura, operación y cierre."
+      },
+      {
+        "row": 7,
+        "seccion_banner": "Subgerente",
+        "puesto": "Subgerencia",
+        "categoria": "Operación y Atención",
+        "tarea": "Mantener actualizada la bitácora de incidencias y prioridades del día."
+      },
+      {
+        "row": 8,
+        "seccion_banner": "Subgerente",
+        "puesto": "Subgerencia",
+        "categoria": "Operación y Atención",
+        "tarea": "Supervisar puntualidad, presentación, actitud y desempeño."
+      }
+    ],
+    "A&B": [
+      {
+        "row": 4,
+        "seccion_banner": "Capitán 1",
+        "puesto": "Capitán (A&B)",
+        "categoria": "Supervisión del Servicio",
+        "tarea": "Dirigir al equipo de meseros y ayudantes durante turnos y eventos."
+      },
+      {
+        "row": 5,
+        "seccion_banner": "Capitán 1",
+        "puesto": "Capitán (A&B)",
+        "categoria": "Supervisión del Servicio",
+        "tarea": "Validar el montaje previo de mesas, cristalería, loza, cubiertos y estaciones (coffee break, cocteles, etc.)."
+      },
+      {
+        "row": 6,
+        "seccion_banner": "Capitán 1",
+        "puesto": "Capitán (A&B)",
+        "categoria": "Supervisión del Servicio",
+        "tarea": "Verificar que la presentación de platillos y bebidas cumpla con los estándares antes de salir a servicio."
+      },
+      {
+        "row": 7,
+        "seccion_banner": "Capitán 1",
+        "puesto": "Capitán (A&B)",
+        "categoria": "Control y Cierre",
+        "tarea": "Revisar existencias de insumos básicos (bebidas, cristalería, consumibles) y reportar faltantes."
+      },
+      {
+        "row": 8,
+        "seccion_banner": "Capitán 1",
+        "puesto": "Capitán (A&B)",
+        "categoria": "Control y Cierre",
+        "tarea": "Supervisar el desmontaje, la limpieza general y la correcta ubicación del mobiliario al finalizar."
+      },
+      {
+        "row": 9,
+        "seccion_banner": "Capitán 1",
+        "puesto": "Capitán (A&B)",
+        "categoria": "Control y Cierre",
+        "tarea": "Entregar reportes de consumos, incidencias y observaciones del turno."
+      },
+      {
+        "row": 13,
+        "seccion_banner": "Mesero A",
+        "puesto": "Mesero A",
+        "categoria": "Atención y Servicio",
+        "tarea": "Atender a los clientes con amabilidad, tomar pedidos y ofrecer información sobre menús y especialidades."
+      },
+      {
+        "row": 14,
+        "seccion_banner": "Mesero A",
+        "puesto": "Mesero A",
+        "categoria": "Atención y Servicio",
+        "tarea": "Servir alimentos y bebidas de manera eficiente y segura."
+      },
+      {
+        "row": 15,
+        "seccion_banner": "Mesero A",
+        "puesto": "Mesero A",
+        "categoria": "Atención y Servicio",
+        "tarea": "Retirar platos, limpiar mesas de forma constante y mantener limpias las áreas de trabajo."
+      },
+      {
+        "row": 16,
+        "seccion_banner": "Mesero A",
+        "puesto": "Mesero A",
+        "categoria": "Atención y Servicio",
+        "tarea": "Apoyar en el montaje y desmontaje según las indicaciones del Capitán."
+      },
+      {
+        "row": 17,
+        "seccion_banner": "Mesero A",
+        "puesto": "Mesero A",
+        "categoria": "Atención y Servicio",
+        "tarea": "Generar venta a traves de recomendaciones de alimentos y bebidas."
+      },
+      {
+        "row": 21,
+        "seccion_banner": "Mesero B",
+        "puesto": "Mesero B",
+        "categoria": "Atención y Servicio",
+        "tarea": "Atender a los clientes con amabilidad, tomar pedidos y ofrecer información sobre menús y especialidades."
+      },
+      {
+        "row": 22,
+        "seccion_banner": "Mesero B",
+        "puesto": "Mesero B",
+        "categoria": "Atención y Servicio",
+        "tarea": "Servir alimentos y bebidas de manera eficiente y segura."
+      },
+      {
+        "row": 23,
+        "seccion_banner": "Mesero B",
+        "puesto": "Mesero B",
+        "categoria": "Atención y Servicio",
+        "tarea": "Retirar platos, limpiar mesas de forma constante y mantener limpias las áreas de trabajo."
+      },
+      {
+        "row": 24,
+        "seccion_banner": "Mesero B",
+        "puesto": "Mesero B",
+        "categoria": "Atención y Servicio",
+        "tarea": "Apoyar en el montaje y desmontaje según las indicaciones del Capitán."
+      },
+      {
+        "row": 25,
+        "seccion_banner": "Mesero B",
+        "puesto": "Mesero B",
+        "categoria": "Atención y Servicio",
+        "tarea": "Generar venta a traves de recomendaciones de alimentos y bebidas."
+      }
+    ],
+    "Cocina": [
+      {
+        "row": 5,
+        "seccion_banner": "Chef",
+        "puesto": "Chef",
+        "categoria": "Producción y Calidad",
+        "tarea": "Preparar y cocinar los alimentos siguiendo estrictamente las recetas y estándares de calidad e higiene."
+      },
+      {
+        "row": 6,
+        "seccion_banner": "Chef",
+        "puesto": "Chef",
+        "categoria": "Producción y Calidad",
+        "tarea": "Mantener al día el control administrativo de pedidos, inventarios y planificación de menús."
+      },
+      {
+        "row": 7,
+        "seccion_banner": "Chef",
+        "puesto": "Chef",
+        "categoria": "Producción y Calidad",
+        "tarea": "Asegurar la organización, limpieza y desinfección constante de la cocina."
+      },
+      {
+        "row": 8,
+        "seccion_banner": "Chef",
+        "puesto": "Chef",
+        "categoria": "Producción y Calidad",
+        "tarea": "Supervisar y dirigir al personal de cocina"
+      },
+      {
+        "row": 13,
+        "seccion_banner": "Ayudantes de cocina",
+        "puesto": "Ayudantes",
+        "categoria": "Producción y Calidad",
+        "tarea": "Ayudar en la preparación y cocción de alimentos."
+      },
+      {
+        "row": 14,
+        "seccion_banner": "Ayudantes de cocina",
+        "puesto": "Ayudantes",
+        "categoria": "Producción y Calidad",
+        "tarea": "Asegurar la preparación y el servicio seguro e higiénico de los alimentos."
+      },
+      {
+        "row": 15,
+        "seccion_banner": "Ayudantes de cocina",
+        "puesto": "Ayudantes",
+        "categoria": "Producción y Calidad",
+        "tarea": "Limpieza y organización de estaciones"
+      }
+    ],
+    "AMA DE LLAVESLIMPIEZA": [
+      {
+        "row": 4,
+        "seccion_banner": "Mucama",
+        "puesto": "Ama de Llaves / Mucamas",
+        "categoria": "Limpieza de Habitaciones",
+        "tarea": "Limpiar y organizar las habitaciones de acuerdo con los estándares de calidad del establecimiento."
+      },
+      {
+        "row": 5,
+        "seccion_banner": "Mucama",
+        "puesto": "Ama de Llaves / Mucamas",
+        "categoria": "Limpieza de Habitaciones",
+        "tarea": "Cambiar la ropa de cama y las toallas"
+      },
+      {
+        "row": 6,
+        "seccion_banner": "Mucama",
+        "puesto": "Ama de Llaves / Mucamas",
+        "categoria": "Limpieza de Habitaciones",
+        "tarea": "Aseo profundo de baños y abastecimiento de productos de higiene."
+      },
+      {
+        "row": 7,
+        "seccion_banner": "Mucama",
+        "puesto": "Ama de Llaves / Mucamas",
+        "categoria": "Limpieza de Habitaciones",
+        "tarea": "Retirar residuos, vaciar papeleras y dejar las habitaciones listas para la llegada de nuevos huéspedes."
+      },
+      {
+        "row": 8,
+        "seccion_banner": "Mucama",
+        "puesto": "Ama de Llaves / Mucamas",
+        "categoria": "Limpieza de Habitaciones",
+        "tarea": "Limpieza de áreas comunes como recepción, pasillos, casa club, área de spa y área de alberca"
+      }
+    ],
+    "MANTENIMIENTO": [
+      {
+        "row": 5,
+        "seccion_banner": "Jefe de Mantenimiento",
+        "puesto": "Mantenimiento",
+        "categoria": "Inspección y Reparación",
+        "tarea": "Inventario de  activos y equipos"
+      },
+      {
+        "row": 6,
+        "seccion_banner": "Jefe de Mantenimiento",
+        "puesto": "Mantenimiento",
+        "categoria": "Inspección y Reparación",
+        "tarea": "Realizar inspecciones y evaluaciones de los activos y equipos para identificar necesidades de mantenimiento"
+      },
+      {
+        "row": 7,
+        "seccion_banner": "Jefe de Mantenimiento",
+        "puesto": "Mantenimiento",
+        "categoria": "Inspección y Reparación",
+        "tarea": "Cumplir rigurosamente con las normativas y regulaciones de seguridad."
+      },
+      {
+        "row": 8,
+        "seccion_banner": "Jefe de Mantenimiento",
+        "puesto": "Jefe de Mantenimiento",
+        "categoria": "General",
+        "tarea": "Coordinar con otros departamentos la disponibilidad de equipos y espacios."
+      },
+      {
+        "row": 11,
+        "seccion_banner": "Jardinero",
+        "puesto": "Jardinero",
+        "categoria": "Cuidado de Áreas Verdes",
+        "tarea": "Realizar tareas de jardinería esenciales: podar, regar, fertilizar y controlar plagas en plantas y flores."
+      },
+      {
+        "row": 12,
+        "seccion_banner": "Jardinero",
+        "puesto": "Jardinero",
+        "categoria": "Cuidado de Áreas Verdes",
+        "tarea": "Mantener la limpieza, el orden y la seguridad en los caminos y espacios verdes para el libre tránsito de los visitantes."
+      }
+    ],
+    "SEGURIDAD": [
+      {
+        "row": 4,
+        "seccion_banner": "VELADOR A",
+        "puesto": "VELADOR A",
+        "categoria": "Revisión inicial y de equipos",
+        "tarea": "Inspeccionar los accesos perimetrales, cerraduras y el estado de los sistemas de seguridad (radios, linternas y cámaras de vigilancia) al iniciar el turno."
+      },
+      {
+        "row": 5,
+        "seccion_banner": "VELADOR A",
+        "puesto": "VELADOR A",
+        "categoria": "Control de accesos",
+        "tarea": "Registrar debidamente la entrada y salida de proveedores, contratistas y visitas externas, solicitando su identificación oficial."
+      },
+      {
+        "row": 6,
+        "seccion_banner": "VELADOR A",
+        "puesto": "VELADOR A",
+        "categoria": "Rondas de vigilancia periódicas",
+        "tarea": "Realizar recorridos constantes por los jardines, pasillos, estacionamientos y áreas comunes para prevenir riesgos y detectar cualquier anomalía."
+      },
+      {
+        "row": 7,
+        "seccion_banner": "VELADOR A",
+        "puesto": "VELADOR A",
+        "categoria": "Supervisión de salidas y resguardo",
+        "tarea": "Verificar que el movimiento o salida de cualquier mobiliario, herramienta o mercancía cuente con la autorización firmada por la administración."
+      },
+      {
+        "row": 8,
+        "seccion_banner": "VELADOR A",
+        "puesto": "VELADOR A",
+        "categoria": "Cierre y reporte en bitácora",
+        "tarea": "Asegurar el cierre correcto de puertas y portones principales al finalizar la jornada, documentando todas las incidencias y novedades en la bitácora."
+      },
+      {
+        "row": 13,
+        "seccion_banner": "VELADOR B",
+        "puesto": "VELADOR B",
+        "categoria": "Revisión inicial y de equipos",
+        "tarea": "Inspeccionar los accesos perimetrales, cerraduras y el estado de los sistemas de seguridad (radios, linternas y cámaras de vigilancia) al iniciar el turno."
+      },
+      {
+        "row": 14,
+        "seccion_banner": "VELADOR B",
+        "puesto": "VELADOR B",
+        "categoria": "Control de accesos",
+        "tarea": "Registrar debidamente la entrada y salida de proveedores, contratistas y visitas externas, solicitando su identificación oficial."
+      },
+      {
+        "row": 15,
+        "seccion_banner": "VELADOR B",
+        "puesto": "VELADOR B",
+        "categoria": "Rondas de vigilancia periódicas",
+        "tarea": "Realizar recorridos constantes por los jardines, pasillos, estacionamientos y áreas comunes para prevenir riesgos y detectar cualquier anomalía."
+      },
+      {
+        "row": 16,
+        "seccion_banner": "VELADOR B",
+        "puesto": "VELADOR B",
+        "categoria": "Supervisión de salidas y resguardo",
+        "tarea": "Verificar que el movimiento o salida de cualquier mobiliario, herramienta o mercancía cuente con la autorización firmada por la administración."
+      },
+      {
+        "row": 17,
+        "seccion_banner": "VELADOR B",
+        "puesto": "VELADOR B",
+        "categoria": "Cierre y reporte en bitácora",
+        "tarea": "Asegurar el cierre correcto de puertas y portones principales al finalizar la jornada, documentando todas las incidencias y novedades en la bitácora."
+      }
+    ]
+  },
+  "Centro Cultural Quinta Soledad": {
+    "Gerente": [
+      {
+        "row": 4,
+        "seccion_banner": "Gerente",
+        "puesto": "Gerencia General",
+        "categoria": "Supervisión Operativa",
+        "tarea": "Revisar diariamente las condiciones del inmueble (salones, jardines, baños, exposiciones y áreas históricas)."
+      },
+      {
+        "row": 5,
+        "seccion_banner": "Gerente",
+        "puesto": "Gerencia General",
+        "categoria": "Supervisión Operativa",
+        "tarea": "Supervisar todas las áreas operativas (recepción, A&B, limpieza, áreas comunes, jardines, mantenimiento y administración)."
+      },
+      {
+        "row": 6,
+        "seccion_banner": "Gerente",
+        "puesto": "Gerencia General",
+        "categoria": "Gestión y Control",
+        "tarea": "Monitorear inventarios, insumos, consumos y reporte de gastos."
+      },
+      {
+        "row": 7,
+        "seccion_banner": "Gerente",
+        "puesto": "Gerencia General",
+        "categoria": "Gestión y Control",
+        "tarea": "Aprobar compras menores y validar necesidades del inmueble."
+      },
+      {
+        "row": 8,
+        "seccion_banner": "Gerente",
+        "puesto": "Gerencia General",
+        "categoria": "Gestión y Control",
+        "tarea": "Revisar bitácoras operativas, de mantenimiento y de eventos."
+      },
+      {
+        "row": 9,
+        "seccion_banner": "Gerente",
+        "puesto": "Gerencia General",
+        "categoria": "Personal y Comunicación",
+        "tarea": "Supervisar puntualidad, presentación, actitud y desempeño del personal."
+      },
+      {
+        "row": 10,
+        "seccion_banner": "Gerente",
+        "puesto": "Gerencia General",
+        "categoria": "Personal y Comunicación",
+        "tarea": "Realizar juntas operativas semanales y asegurar el cumplimiento de acuerdos."
+      },
+      {
+        "row": 11,
+        "seccion_banner": "Gerente",
+        "puesto": "Gerencia General",
+        "categoria": "Personal y Comunicación",
+        "tarea": "Validar que los montajes, tiempos y servicios de eventos cumplan con lo cotizado."
+      },
+      {
+        "row": 12,
+        "seccion_banner": "Gerente",
+        "puesto": "Gerencia General",
+        "categoria": "Experiencia del Visitante",
+        "tarea": "Asegurar una experiencia cálida, ordenada y alineada a la esencia cultural."
+      },
+      {
+        "row": 13,
+        "seccion_banner": "Gerente",
+        "puesto": "Gerencia General",
+        "categoria": "Experiencia del Visitante",
+        "tarea": "Supervisar la atención a eventos, recorridos, producciones y visitantes generales."
+      },
+      {
+        "row": 14,
+        "seccion_banner": "Gerente",
+        "puesto": "Gerencia General",
+        "categoria": "Administración y Control",
+        "tarea": "Supervisar bitácoras operativas, de mantenimiento y de eventos"
+      }
+    ],
+    "Subgerente": [
+      {
+        "row": 4,
+        "seccion_banner": "Subgerente",
+        "puesto": "Subgerencia",
+        "categoria": "Monitoreo de Instalaciones",
+        "tarea": "Verificar la limpieza, el orden y la presentación visual de salones, jardines, cafetería, baños y pasillos antes, durante y después de la apertura."
+      },
+      {
+        "row": 5,
+        "seccion_banner": "Subgerente",
+        "puesto": "Subgerencia",
+        "categoria": "Operación y Atención",
+        "tarea": "Apoyar a recepción en la atención a grupos, artistas, proveedores y visitantes."
+      },
+      {
+        "row": 6,
+        "seccion_banner": "Subgerente",
+        "puesto": "Subgerencia",
+        "categoria": "Operación y Atención",
+        "tarea": "Asegurar que el personal cumpla con los protocolos de apertura, operación y cierre."
+      },
+      {
+        "row": 7,
+        "seccion_banner": "Subgerente",
+        "puesto": "Subgerencia",
+        "categoria": "Operación y Atención",
+        "tarea": "Mantener actualizada la bitácora de incidencias y prioridades del día."
+      },
+      {
+        "row": 8,
+        "seccion_banner": "Subgerente",
+        "puesto": "Subgerencia",
+        "categoria": "Operación y Atención",
+        "tarea": "Supervisar puntualidad, presentación, actitud y desempeño."
+      }
+    ],
+    "Administración": [
+      {
+        "row": 4,
+        "seccion_banner": "Recepcionista A",
+        "puesto": "Recepcionista A",
+        "categoria": "Atención a Huéspedes",
+        "tarea": "Dar seguimiento a  reservas que arriban durante el día"
+      },
+      {
+        "row": 5,
+        "seccion_banner": "Recepcionista A",
+        "puesto": "Recepcionista A",
+        "categoria": "Atención a Huéspedes",
+        "tarea": "Verificar las reservas recibidas asegurando que la información este correcta y actualisada"
+      },
+      {
+        "row": 6,
+        "seccion_banner": "Recepcionista A",
+        "puesto": "Recepcionista A",
+        "categoria": "Atención a Huéspedes",
+        "tarea": "Seguimiento diario de las reservaciones con status de no show"
+      },
+      {
+        "row": 7,
+        "seccion_banner": "Recepcionista A",
+        "puesto": "Recepcionista A",
+        "categoria": "Atención a Huéspedes",
+        "tarea": "Recibir, registrar y asignar habitaciones a los huéspedes."
+      },
+      {
+        "row": 8,
+        "seccion_banner": "Recepcionista A",
+        "puesto": "Recepcionista A",
+        "categoria": "Atención a Huéspedes",
+        "tarea": "Proporcionar información sobre los servicios, facilidades, precios y disponibilidad del hotel."
+      },
+      {
+        "row": 9,
+        "seccion_banner": "Recepcionista A",
+        "puesto": "Recepcionista A",
+        "categoria": "Atención a Huéspedes",
+        "tarea": "Realizar el proceso de check-out y procesar pagos."
+      },
+      {
+        "row": 11,
+        "seccion_banner": "Recepcionista A",
+        "puesto": "Recepcionista A",
+        "categoria": "Gestión Administrativa",
+        "tarea": "Gestionar, confirmar y actualizar las reservas de habitaciones (cambios y cancelaciones)."
+      },
+      {
+        "row": 12,
+        "seccion_banner": "Recepcionista A",
+        "puesto": "Recepcionista A",
+        "categoria": "Gestión Administrativa",
+        "tarea": "Procesar pagos, gestionar facturas y mantener registros organizados."
+      },
+      {
+        "row": 13,
+        "seccion_banner": "Recepcionista A",
+        "puesto": "Recepcionista A",
+        "categoria": "Gestión Administrativa",
+        "tarea": "Generar venta de experiencias"
+      },
+      {
+        "row": 17,
+        "seccion_banner": "Recepcionista B",
+        "puesto": "Recepcionista B",
+        "categoria": "Atención a Huéspedes",
+        "tarea": "Dar seguimiento a  reservas que arriban durante el día"
+      },
+      {
+        "row": 18,
+        "seccion_banner": "Recepcionista B",
+        "puesto": "Recepcionista B",
+        "categoria": "Atención a Huéspedes",
+        "tarea": "Verificar las reservas recibidas asegurando que la información este correcta y actualisada"
+      },
+      {
+        "row": 19,
+        "seccion_banner": "Recepcionista B",
+        "puesto": "Recepcionista B",
+        "categoria": "Atención a Huéspedes",
+        "tarea": "Seguimiento diario de las reservaciones con status de no show"
+      },
+      {
+        "row": 20,
+        "seccion_banner": "Recepcionista B",
+        "puesto": "Recepcionista B",
+        "categoria": "Atención a Huéspedes",
+        "tarea": "Recibir, registrar y asignar habitaciones a los huéspedes."
+      },
+      {
+        "row": 21,
+        "seccion_banner": "Recepcionista B",
+        "puesto": "Recepcionista B",
+        "categoria": "Atención a Huéspedes",
+        "tarea": "Proporcionar información sobre los servicios, facilidades, precios y disponibilidad del hotel."
+      },
+      {
+        "row": 22,
+        "seccion_banner": "Recepcionista B",
+        "puesto": "Recepcionista B",
+        "categoria": "Atención a Huéspedes",
+        "tarea": "Realizar el proceso de check-out y procesar pagos."
+      },
+      {
+        "row": 24,
+        "seccion_banner": "Recepcionista B",
+        "puesto": "Recepcionista B",
+        "categoria": "Gestión Administrativa",
+        "tarea": "Gestionar, confirmar y actualizar las reservas de habitaciones (cambios y cancelaciones)."
+      },
+      {
+        "row": 25,
+        "seccion_banner": "Recepcionista B",
+        "puesto": "Recepcionista B",
+        "categoria": "Gestión Administrativa",
+        "tarea": "Procesar pagos, gestionar facturas y mantener registros organizados."
+      },
+      {
+        "row": 26,
+        "seccion_banner": "Recepcionista B",
+        "puesto": "Recepcionista B",
+        "categoria": "Gestión Administrativa",
+        "tarea": "Generar venta de experiencias"
+      }
+    ],
+    "A&B Capitular": [
+      {
+        "row": 4,
+        "seccion_banner": "Capitán 1",
+        "puesto": "Capitán (A&B)",
+        "categoria": "Supervisión del Servicio",
+        "tarea": "Dirigir al equipo de meseros y ayudantes durante turnos y eventos."
+      },
+      {
+        "row": 5,
+        "seccion_banner": "Capitán 1",
+        "puesto": "Capitán (A&B)",
+        "categoria": "Supervisión del Servicio",
+        "tarea": "Validar el montaje previo de mesas, cristalería, loza, cubiertos y estaciones (coffee break, cocteles, etc.)."
+      },
+      {
+        "row": 6,
+        "seccion_banner": "Capitán 1",
+        "puesto": "Capitán (A&B)",
+        "categoria": "Supervisión del Servicio",
+        "tarea": "Verificar que la presentación de platillos y bebidas cumpla con los estándares antes de salir a servicio."
+      },
+      {
+        "row": 7,
+        "seccion_banner": "Capitán 1",
+        "puesto": "Capitán (A&B)",
+        "categoria": "Control y Cierre",
+        "tarea": "Revisar existencias de insumos básicos (bebidas, cristalería, consumibles) y reportar faltantes."
+      },
+      {
+        "row": 8,
+        "seccion_banner": "Capitán 1",
+        "puesto": "Capitán (A&B)",
+        "categoria": "Control y Cierre",
+        "tarea": "Supervisar el desmontaje, la limpieza general y la correcta ubicación del mobiliario al finalizar."
+      },
+      {
+        "row": 9,
+        "seccion_banner": "Capitán 1",
+        "puesto": "Capitán (A&B)",
+        "categoria": "Control y Cierre",
+        "tarea": "Entregar reportes de consumos, incidencias y observaciones del turno."
+      },
+      {
+        "row": 13,
+        "seccion_banner": "Capitán 2",
+        "puesto": "Capitán (A&B)",
+        "categoria": "Supervisión del Servicio",
+        "tarea": "Dirigir al equipo de meseros y ayudantes durante turnos y eventos."
+      },
+      {
+        "row": 14,
+        "seccion_banner": "Capitán 2",
+        "puesto": "Capitán (A&B)",
+        "categoria": "Supervisión del Servicio",
+        "tarea": "Validar el montaje previo de mesas, cristalería, loza, cubiertos y estaciones (coffee break, cocteles, etc.)."
+      },
+      {
+        "row": 15,
+        "seccion_banner": "Capitán 2",
+        "puesto": "Capitán (A&B)",
+        "categoria": "Supervisión del Servicio",
+        "tarea": "Verificar que la presentación de platillos y bebidas cumpla con los estándares antes de salir a servicio."
+      },
+      {
+        "row": 16,
+        "seccion_banner": "Capitán 2",
+        "puesto": "Capitán (A&B)",
+        "categoria": "Control y Cierre",
+        "tarea": "Revisar existencias de insumos básicos (bebidas, cristalería, consumibles) y reportar faltantes."
+      },
+      {
+        "row": 17,
+        "seccion_banner": "Capitán 2",
+        "puesto": "Capitán (A&B)",
+        "categoria": "Control y Cierre",
+        "tarea": "Supervisar el desmontaje, la limpieza general y la correcta ubicación del mobiliario al finalizar."
+      },
+      {
+        "row": 18,
+        "seccion_banner": "Capitán 2",
+        "puesto": "Capitán (A&B)",
+        "categoria": "Control y Cierre",
+        "tarea": "Entregar reportes de consumos, incidencias y observaciones del turno."
+      },
+      {
+        "row": 22,
+        "seccion_banner": "Capitán 3",
+        "puesto": "Capitán (A&B)",
+        "categoria": "Supervisión del Servicio",
+        "tarea": "Dirigir al equipo de meseros y ayudantes durante turnos y eventos."
+      },
+      {
+        "row": 23,
+        "seccion_banner": "Capitán 3",
+        "puesto": "Capitán (A&B)",
+        "categoria": "Supervisión del Servicio",
+        "tarea": "Validar el montaje previo de mesas, cristalería, loza, cubiertos y estaciones (coffee break, cocteles, etc.)."
+      },
+      {
+        "row": 24,
+        "seccion_banner": "Capitán 3",
+        "puesto": "Capitán (A&B)",
+        "categoria": "Supervisión del Servicio",
+        "tarea": "Verificar que la presentación de platillos y bebidas cumpla con los estándares antes de salir a servicio."
+      },
+      {
+        "row": 25,
+        "seccion_banner": "Capitán 3",
+        "puesto": "Capitán (A&B)",
+        "categoria": "Control y Cierre",
+        "tarea": "Revisar existencias de insumos básicos (bebidas, cristalería, consumibles) y reportar faltantes."
+      },
+      {
+        "row": 26,
+        "seccion_banner": "Capitán 3",
+        "puesto": "Capitán (A&B)",
+        "categoria": "Control y Cierre",
+        "tarea": "Supervisar el desmontaje, la limpieza general y la correcta ubicación del mobiliario al finalizar."
+      },
+      {
+        "row": 27,
+        "seccion_banner": "Capitán 3",
+        "puesto": "Capitán (A&B)",
+        "categoria": "Control y Cierre",
+        "tarea": "Entregar reportes de consumos, incidencias y observaciones del turno."
+      },
+      {
+        "row": 31,
+        "seccion_banner": "Capitán 4",
+        "puesto": "Capitán (A&B)",
+        "categoria": "Supervisión del Servicio",
+        "tarea": "Dirigir al equipo de meseros y ayudantes durante turnos y eventos."
+      },
+      {
+        "row": 32,
+        "seccion_banner": "Capitán 4",
+        "puesto": "Capitán (A&B)",
+        "categoria": "Supervisión del Servicio",
+        "tarea": "Validar el montaje previo de mesas, cristalería, loza, cubiertos y estaciones (coffee break, cocteles, etc.)."
+      },
+      {
+        "row": 33,
+        "seccion_banner": "Capitán 4",
+        "puesto": "Capitán (A&B)",
+        "categoria": "Supervisión del Servicio",
+        "tarea": "Verificar que la presentación de platillos y bebidas cumpla con los estándares antes de salir a servicio."
+      },
+      {
+        "row": 34,
+        "seccion_banner": "Capitán 4",
+        "puesto": "Capitán (A&B)",
+        "categoria": "Control y Cierre",
+        "tarea": "Revisar existencias de insumos básicos (bebidas, cristalería, consumibles) y reportar faltantes."
+      },
+      {
+        "row": 35,
+        "seccion_banner": "Capitán 4",
+        "puesto": "Capitán (A&B)",
+        "categoria": "Control y Cierre",
+        "tarea": "Supervisar el desmontaje, la limpieza general y la correcta ubicación del mobiliario al finalizar."
+      },
+      {
+        "row": 36,
+        "seccion_banner": "Capitán 4",
+        "puesto": "Capitán (A&B)",
+        "categoria": "Control y Cierre",
+        "tarea": "Entregar reportes de consumos, incidencias y observaciones del turno."
+      },
+      {
+        "row": 40,
+        "seccion_banner": "Meseros",
+        "puesto": "Meseros",
+        "categoria": "Atención y Servicio",
+        "tarea": "Atender a los clientes con amabilidad, tomar pedidos y ofrecer información sobre menús y especialidades."
+      },
+      {
+        "row": 41,
+        "seccion_banner": "Meseros",
+        "puesto": "Meseros",
+        "categoria": "Atención y Servicio",
+        "tarea": "Servir alimentos y bebidas de manera eficiente y segura."
+      },
+      {
+        "row": 42,
+        "seccion_banner": "Meseros",
+        "puesto": "Meseros",
+        "categoria": "Atención y Servicio",
+        "tarea": "Retirar platos, limpiar mesas de forma constante y mantener limpias las áreas de trabajo."
+      },
+      {
+        "row": 43,
+        "seccion_banner": "Meseros",
+        "puesto": "Meseros",
+        "categoria": "Atención y Servicio",
+        "tarea": "Apoyar en el montaje y desmontaje según las indicaciones del Capitán."
+      },
+      {
+        "row": 44,
+        "seccion_banner": "Meseros",
+        "puesto": "Meseros",
+        "categoria": "Atención y Servicio",
+        "tarea": "Generar venta a traves de recomendaciones de alimentos y bebidas."
+      },
+      {
+        "row": 48,
+        "seccion_banner": "Ayudantes (A&B) de fin de semana",
+        "puesto": "Ayudantes (A&B) de fin de semana",
+        "categoria": "Atención y Servicio",
+        "tarea": "Atender a los clientes con amabilidad, tomar pedidos y ofrecer información sobre menús y especialidades."
+      },
+      {
+        "row": 49,
+        "seccion_banner": "Ayudantes (A&B) de fin de semana",
+        "puesto": "Ayudantes (A&B) de fin de semana",
+        "categoria": "Atención y Servicio",
+        "tarea": "Servir alimentos y bebidas de manera eficiente y segura."
+      },
+      {
+        "row": 50,
+        "seccion_banner": "Ayudantes (A&B) de fin de semana",
+        "puesto": "Ayudantes (A&B) de fin de semana",
+        "categoria": "Atención y Servicio",
+        "tarea": "Retirar platos, limpiar mesas de forma constante y mantener limpias las áreas de trabajo."
+      },
+      {
+        "row": 51,
+        "seccion_banner": "Ayudantes (A&B) de fin de semana",
+        "puesto": "Ayudantes (A&B) de fin de semana",
+        "categoria": "Atención y Servicio",
+        "tarea": "Apoyar en el montaje y desmontaje según las indicaciones del Capitán."
+      }
+    ],
+    "Cocina": [
+      {
+        "row": 4,
+        "seccion_banner": "Chef",
+        "puesto": "Chef",
+        "categoria": "Producción y Calidad",
+        "tarea": "Preparar y cocinar los alimentos siguiendo estrictamente las recetas y estándares de calidad e higiene."
+      },
+      {
+        "row": 5,
+        "seccion_banner": "Chef",
+        "puesto": "Chef",
+        "categoria": "Producción y Calidad",
+        "tarea": "Mantener al día el control administrativo de pedidos, inventarios y planificación de menús."
+      },
+      {
+        "row": 6,
+        "seccion_banner": "Chef",
+        "puesto": "Chef",
+        "categoria": "Producción y Calidad",
+        "tarea": "Asegurar la organización, limpieza y desinfección constante de la cocina."
+      },
+      {
+        "row": 7,
+        "seccion_banner": "Chef",
+        "puesto": "Chef",
+        "categoria": "Producción y Calidad",
+        "tarea": "Supervisar y dirigir al personal de cocina"
+      },
+      {
+        "row": 12,
+        "seccion_banner": "Cocinero 1",
+        "puesto": "Cocinero 1",
+        "categoria": "Producción y Calidad",
+        "tarea": "Ayudar en la preparación y cocción de alimentos."
+      },
+      {
+        "row": 13,
+        "seccion_banner": "Cocinero 1",
+        "puesto": "Cocinero 1",
+        "categoria": "Producción y Calidad",
+        "tarea": "Asegurar la preparación y el servicio seguro e higiénico de los alimentos."
+      },
+      {
+        "row": 14,
+        "seccion_banner": "Cocinero 1",
+        "puesto": "Cocinero 1",
+        "categoria": "Producción y Calidad",
+        "tarea": "Limpieza y organización de estaciones"
+      },
+      {
+        "row": 20,
+        "seccion_banner": "Ayudantes de cocina",
+        "puesto": "Ayudantes",
+        "categoria": "Producción y Calidad",
+        "tarea": "Ayudar en la preparación y cocción de alimentos."
+      },
+      {
+        "row": 21,
+        "seccion_banner": "Ayudantes de cocina",
+        "puesto": "Ayudantes",
+        "categoria": "Producción y Calidad",
+        "tarea": "Asegurar la preparación y el servicio seguro e higiénico de los alimentos."
+      },
+      {
+        "row": 22,
+        "seccion_banner": "Ayudantes de cocina",
+        "puesto": "Ayudantes",
+        "categoria": "Producción y Calidad",
+        "tarea": "Limpieza y organización de estaciones"
+      },
+      {
+        "row": 27,
+        "seccion_banner": "Ayudantes de fin de semana",
+        "puesto": "Ayudantes de fin de semana",
+        "categoria": "Producción y Calidad",
+        "tarea": "Ayudar en la preparación y cocción de alimentos."
+      },
+      {
+        "row": 28,
+        "seccion_banner": "Ayudantes de fin de semana",
+        "puesto": "Ayudantes de fin de semana",
+        "categoria": "Producción y Calidad",
+        "tarea": "Asegurar la preparación y el servicio seguro e higiénico de los alimentos."
+      },
+      {
+        "row": 29,
+        "seccion_banner": "Ayudantes de fin de semana",
+        "puesto": "Ayudantes de fin de semana",
+        "categoria": "Producción y Calidad",
+        "tarea": "Limpieza y organización de estaciones"
+      }
+    ],
+    "A&B Cafeteria": [
+      {
+        "row": 4,
+        "seccion_banner": "Encargado de cafetería",
+        "puesto": "Encargado de cafetería",
+        "categoria": "Supervisión del Servicio",
+        "tarea": "Dirigir al equipo de meseros y ayudantes durante turnos y eventos."
+      },
+      {
+        "row": 5,
+        "seccion_banner": "Encargado de cafetería",
+        "puesto": "Encargado de cafetería",
+        "categoria": "Supervisión del Servicio",
+        "tarea": "Validar el montaje previo de mesas, cristalería, loza, cubiertos y estaciones (coffee break, cocteles, etc.)."
+      },
+      {
+        "row": 6,
+        "seccion_banner": "Encargado de cafetería",
+        "puesto": "Encargado de cafetería",
+        "categoria": "Supervisión del Servicio",
+        "tarea": "Verificar que la presentación de platillos y bebidas cumpla con los estándares antes de salir a servicio."
+      },
+      {
+        "row": 7,
+        "seccion_banner": "Encargado de cafetería",
+        "puesto": "Encargado de cafetería",
+        "categoria": "Control y Cierre",
+        "tarea": "Revisar existencias de insumos básicos (bebidas, cristalería, consumibles) y reportar faltantes."
+      },
+      {
+        "row": 8,
+        "seccion_banner": "Encargado de cafetería",
+        "puesto": "Encargado de cafetería",
+        "categoria": "Control y Cierre",
+        "tarea": "Supervisar el desmontaje, la limpieza general y la correcta ubicación del mobiliario al finalizar."
+      },
+      {
+        "row": 9,
+        "seccion_banner": "Encargado de cafetería",
+        "puesto": "Encargado de cafetería",
+        "categoria": "Control y Cierre",
+        "tarea": "Entregar reportes de consumos, incidencias y observaciones del turno."
+      },
+      {
+        "row": 10,
+        "seccion_banner": "Encargado de cafetería",
+        "puesto": "Encargado de cafetería",
+        "categoria": "Control y Cierre",
+        "tarea": "Supervisar la correcta operación de cafetería y La Mal Querida"
+      },
+      {
+        "row": 14,
+        "seccion_banner": "Meseros",
+        "puesto": "Meseros",
+        "categoria": "Atención y Servicio",
+        "tarea": "Atender a los clientes con amabilidad, tomar pedidos y ofrecer información sobre menús y especialidades."
+      },
+      {
+        "row": 15,
+        "seccion_banner": "Meseros",
+        "puesto": "Meseros",
+        "categoria": "Atención y Servicio",
+        "tarea": "Servir alimentos y bebidas de manera eficiente y segura."
+      },
+      {
+        "row": 16,
+        "seccion_banner": "Meseros",
+        "puesto": "Meseros",
+        "categoria": "Atención y Servicio",
+        "tarea": "Retirar platos, limpiar mesas de forma constante y mantener limpias las áreas de trabajo."
+      },
+      {
+        "row": 17,
+        "seccion_banner": "Meseros",
+        "puesto": "Meseros",
+        "categoria": "Atención y Servicio",
+        "tarea": "Apoyar en el montaje y desmontaje según las indicaciones del Capitán."
+      },
+      {
+        "row": 18,
+        "seccion_banner": "Meseros",
+        "puesto": "Meseros",
+        "categoria": "Atención y Servicio",
+        "tarea": "Generar venta a traves de recomendaciones de alimentos y bebidas."
+      },
+      {
+        "row": 22,
+        "seccion_banner": "Meserio 1",
+        "puesto": "Meseros",
+        "categoria": "Atención y Servicio",
+        "tarea": "Atender a los clientes con amabilidad, tomar pedidos y ofrecer información sobre menús y especialidades."
+      },
+      {
+        "row": 23,
+        "seccion_banner": "Meserio 1",
+        "puesto": "Meseros",
+        "categoria": "Atención y Servicio",
+        "tarea": "Servir alimentos y bebidas de manera eficiente y segura."
+      },
+      {
+        "row": 24,
+        "seccion_banner": "Meserio 1",
+        "puesto": "Meseros",
+        "categoria": "Atención y Servicio",
+        "tarea": "Retirar platos, limpiar mesas de forma constante y mantener limpias las áreas de trabajo."
+      },
+      {
+        "row": 25,
+        "seccion_banner": "Meserio 1",
+        "puesto": "Meseros",
+        "categoria": "Atención y Servicio",
+        "tarea": "Apoyar en el montaje y desmontaje según las indicaciones del Capitán."
+      },
+      {
+        "row": 26,
+        "seccion_banner": "Meserio 1",
+        "puesto": "Meseros",
+        "categoria": "Atención y Servicio",
+        "tarea": "Generar venta a traves de recomendaciones de alimentos y bebidas."
+      },
+      {
+        "row": 30,
+        "seccion_banner": "Meserio 1",
+        "puesto": "Meseros",
+        "categoria": "Atención y Servicio",
+        "tarea": "Atender a los clientes con amabilidad, tomar pedidos y ofrecer información sobre menús y especialidades."
+      },
+      {
+        "row": 31,
+        "seccion_banner": "Meserio 1",
+        "puesto": "Meseros",
+        "categoria": "Atención y Servicio",
+        "tarea": "Servir alimentos y bebidas de manera eficiente y segura."
+      },
+      {
+        "row": 32,
+        "seccion_banner": "Meserio 1",
+        "puesto": "Meseros",
+        "categoria": "Atención y Servicio",
+        "tarea": "Retirar platos, limpiar mesas de forma constante y mantener limpias las áreas de trabajo."
+      },
+      {
+        "row": 33,
+        "seccion_banner": "Meserio 1",
+        "puesto": "Meseros",
+        "categoria": "Atención y Servicio",
+        "tarea": "Apoyar en el montaje y desmontaje según las indicaciones del Capitán."
+      },
+      {
+        "row": 34,
+        "seccion_banner": "Meserio 1",
+        "puesto": "Meseros",
+        "categoria": "Atención y Servicio",
+        "tarea": "Generar venta a traves de recomendaciones de alimentos y bebidas."
+      },
+      {
+        "row": 39,
+        "seccion_banner": "Cocinero 1",
+        "puesto": "Cocinero 1",
+        "categoria": "Producción y Calidad",
+        "tarea": "Ayudar en la preparación y cocción de alimentos."
+      },
+      {
+        "row": 40,
+        "seccion_banner": "Cocinero 1",
+        "puesto": "Cocinero 1",
+        "categoria": "Producción y Calidad",
+        "tarea": "Asegurar la preparación y el servicio seguro e higiénico de los alimentos."
+      },
+      {
+        "row": 41,
+        "seccion_banner": "Cocinero 1",
+        "puesto": "Cocinero 1",
+        "categoria": "Producción y Calidad",
+        "tarea": "Limpieza y organización de estaciones"
+      },
+      {
+        "row": 46,
+        "seccion_banner": "Tortillero",
+        "puesto": "Tortillero",
+        "categoria": "Producción y Calidad",
+        "tarea": "Ayudar en la preparación y cocción de alimentos."
+      },
+      {
+        "row": 47,
+        "seccion_banner": "Tortillero",
+        "puesto": "Tortillero",
+        "categoria": "Producción y Calidad",
+        "tarea": "Asegurar la preparación y el servicio seguro e higiénico de los alimentos."
+      },
+      {
+        "row": 48,
+        "seccion_banner": "Tortillero",
+        "puesto": "Tortillero",
+        "categoria": "Producción y Calidad",
+        "tarea": "Limpieza y organización de estaciones"
+      }
+    ],
+    "Panadero": [
+      {
+        "row": 4,
+        "seccion_banner": "Panadero",
+        "puesto": "Panadero",
+        "categoria": "Preparación de insumos",
+        "tarea": "Revisar las recetas y la producción del día para medir, pesar y alistar todos los ingredientes necesarios (harinas, levaduras, azúcares, etc.) manteniendo el control de mermas e inventarios."
+      },
+      {
+        "row": 5,
+        "seccion_banner": "Panadero",
+        "puesto": "Panadero",
+        "categoria": "Preparación de insumos",
+        "tarea": "Ejecutar los procesos de mezclado, amasado, fermentación y moldeado de los diferentes tipos de panes, bollería o productos de repostería según los estándares de calidad del establecimiento."
+      },
+      {
+        "row": 6,
+        "seccion_banner": "Panadero",
+        "puesto": "Panadero",
+        "categoria": "Horneado y calidad",
+        "tarea": "Mantener las mesas de trabajo, charolas, maquinaria y utensilios limpios, ordenados y listos durante toda la producción."
+      },
+      {
+        "row": 7,
+        "seccion_banner": "Panadero",
+        "puesto": "Panadero",
+        "categoria": "Control y Cierre",
+        "tarea": "Revisar existencias de insumos básicos (bebidas, cristalería, consumibles) y reportar faltantes."
+      },
+      {
+        "row": 8,
+        "seccion_banner": "Panadero",
+        "puesto": "Panadero",
+        "categoria": "Higiene y seguridad alimentaria",
+        "tarea": "Asegurar que los alimentos, materias primas y equipos se manipulen y almacenen bajo estrictas normas de limpieza, higiene y seguridad en la cocina."
+      },
+      {
+        "row": 9,
+        "seccion_banner": "Panadero",
+        "puesto": "Panadero",
+        "categoria": "Control y Cierre",
+        "tarea": "Informar al chef o al área de administración sobre las existencias de materia prima, necesidades de abastecimiento y registrar la producción final del turno."
+      },
+      {
+        "row": 13,
+        "seccion_banner": "Auxiliar de panadería",
+        "puesto": "Auxiliar de panadería",
+        "categoria": "Preparación de insumos",
+        "tarea": "Respaldar al panadero midiendo, pesando y alistando los ingredientes necesarios (harinas, líquidos, complementos) según las indicaciones y recetas del día."
+      },
+      {
+        "row": 14,
+        "seccion_banner": "Auxiliar de panadería",
+        "puesto": "Auxiliar de panadería",
+        "categoria": "Preparación de insumos",
+        "tarea": "Ayudar en las labores de boleado, corte, pesado de porciones, moldeado y colocación de masas en charolas conforme a las instrucciones del panadero."
+      },
+      {
+        "row": 15,
+        "seccion_banner": "Auxiliar de panadería",
+        "puesto": "Auxiliar de panadería",
+        "categoria": "Higiene y seguridad",
+        "tarea": "Asegurar que los alimentos y la materia prima se manipulen y almacenen bajo estrictas normas de higiene, limpieza y seguridad en la cocina."
+      },
+      {
+        "row": 16,
+        "seccion_banner": "Auxiliar de panadería",
+        "puesto": "Auxiliar de panadería",
+        "categoria": "Horneado y calidad",
+        "tarea": "Ayudar a introducir y retirar charolas de los hornos bajo supervisión, así como trasladar productos hacia las áreas de leudado o exhibición."
+      },
+      {
+        "row": 17,
+        "seccion_banner": "Auxiliar de panadería",
+        "puesto": "Auxiliar de panadería",
+        "categoria": "Cierre de turno y reporte de incidencias",
+        "tarea": "Realizar la limpieza profunda de pisos, mesas y equipos al finalizar, guardando sobrantes correctamente y reportando cualquier faltante o falla al panadero."
+      }
+    ],
+    "Loza": [
+      {
+        "row": 4,
+        "seccion_banner": "Encargado de Loza",
+        "puesto": "Encargado de Loza",
+        "categoria": "Atención y Servicio",
+        "tarea": "Atender a los clientes con amabilidad, tomar pedidos y ofrecer información sobre menús y especialidades."
+      },
+      {
+        "row": 5,
+        "seccion_banner": "Encargado de Loza",
+        "puesto": "Encargado de Loza",
+        "categoria": "Atención y Servicio",
+        "tarea": "Servir alimentos y bebidas de manera eficiente y segura."
+      },
+      {
+        "row": 6,
+        "seccion_banner": "Encargado de Loza",
+        "puesto": "Encargado de Loza",
+        "categoria": "Atención y Servicio",
+        "tarea": "Retirar platos, limpiar mesas de forma constante y mantener limpias las áreas de trabajo."
+      },
+      {
+        "row": 7,
+        "seccion_banner": "Encargado de Loza",
+        "puesto": "Encargado de Loza",
+        "categoria": "Atención y Servicio",
+        "tarea": "Apoyar en el montaje y desmontaje según las indicaciones del Capitán."
+      }
+    ],
+    "AMA DE LLAVESLIMPIEZA": [
+      {
+        "row": 4,
+        "seccion_banner": "Mucama",
+        "puesto": "Ama de Llaves / Mucamas",
+        "categoria": "Limpieza de Habitaciones",
+        "tarea": "Limpiar y organizar las habitaciones de acuerdo con los estándares de calidad del establecimiento."
+      },
+      {
+        "row": 5,
+        "seccion_banner": "Mucama",
+        "puesto": "Ama de Llaves / Mucamas",
+        "categoria": "Limpieza de Habitaciones",
+        "tarea": "Cambiar la ropa de cama y las toallas"
+      },
+      {
+        "row": 6,
+        "seccion_banner": "Mucama",
+        "puesto": "Ama de Llaves / Mucamas",
+        "categoria": "Limpieza de Habitaciones",
+        "tarea": "Aseo profundo de baños y abastecimiento de productos de higiene."
+      },
+      {
+        "row": 7,
+        "seccion_banner": "Mucama",
+        "puesto": "Ama de Llaves / Mucamas",
+        "categoria": "Limpieza de Habitaciones",
+        "tarea": "Retirar residuos, vaciar papeleras y dejar las habitaciones listas para la llegada de nuevos huéspedes."
+      },
+      {
+        "row": 8,
+        "seccion_banner": "Mucama",
+        "puesto": "Ama de Llaves / Mucamas",
+        "categoria": "Limpieza de Habitaciones",
+        "tarea": "Limpieza de áreas comunes como recepción, pasillos, casa club, área de spa y área de alberca"
+      }
+    ],
+    "MANTENIMIENTO": [
+      {
+        "row": 5,
+        "seccion_banner": "Encargado A",
+        "puesto": "Mantenimiento",
+        "categoria": "Inspección y Reparación",
+        "tarea": "Inventario de  activos y equipos"
+      },
+      {
+        "row": 6,
+        "seccion_banner": "Encargado A",
+        "puesto": "Mantenimiento",
+        "categoria": "Inspección y Reparación",
+        "tarea": "Realizar inspecciones y evaluaciones de los activos y equipos para identificar necesidades de mantenimiento"
+      },
+      {
+        "row": 7,
+        "seccion_banner": "Encargado A",
+        "puesto": "Mantenimiento",
+        "categoria": "Inspección y Reparación",
+        "tarea": "Cumplir rigurosamente con las normativas y regulaciones de seguridad."
+      },
+      {
+        "row": 8,
+        "seccion_banner": "Encargado A",
+        "puesto": "Mantenimiento",
+        "categoria": "Inspección y Reparación",
+        "tarea": "Coordinar con otros departamentos la disponibilidad de equipos y espacios."
+      },
+      {
+        "row": 14,
+        "seccion_banner": "Encargado B",
+        "puesto": "Mantenimiento",
+        "categoria": "Inspección y Reparación",
+        "tarea": "Inventario de  activos y equipos"
+      },
+      {
+        "row": 15,
+        "seccion_banner": "Encargado B",
+        "puesto": "Mantenimiento",
+        "categoria": "Inspección y Reparación",
+        "tarea": "Realizar inspecciones y evaluaciones de los activos y equipos para identificar necesidades de mantenimiento"
+      },
+      {
+        "row": 16,
+        "seccion_banner": "Encargado B",
+        "puesto": "Mantenimiento",
+        "categoria": "Inspección y Reparación",
+        "tarea": "Cumplir rigurosamente con las normativas y regulaciones de seguridad."
+      },
+      {
+        "row": 17,
+        "seccion_banner": "Encargado B",
+        "puesto": "Encargado B",
+        "categoria": "General",
+        "tarea": "Coordinar con otros departamentos la disponibilidad de equipos y espacios."
+      },
+      {
+        "row": 20,
+        "seccion_banner": "Auxiliares Mantenimiento",
+        "puesto": "Mantenimiento",
+        "categoria": "Inspección y Reparación",
+        "tarea": "Realizar inspecciones periódicas a los equipos e instalaciones para identificar necesidades de mantenimiento preventivo y correctivo."
+      },
+      {
+        "row": 21,
+        "seccion_banner": "Auxiliares Mantenimiento",
+        "puesto": "Mantenimiento",
+        "categoria": "Inspección y Reparación",
+        "tarea": "Asegurar el buen funcionamiento, seguridad y eficiencia de los activos del hotel."
+      },
+      {
+        "row": 22,
+        "seccion_banner": "Auxiliares Mantenimiento",
+        "puesto": "Mantenimiento",
+        "categoria": "Inspección y Reparación",
+        "tarea": "Coordinar con otros departamentos la disponibilidad de equipos y espacios."
+      },
+      {
+        "row": 23,
+        "seccion_banner": "Auxiliares Mantenimiento",
+        "puesto": "Mantenimiento",
+        "categoria": "Inspección y Reparación",
+        "tarea": "Cumplir rigurosamente con las normativas y regulaciones de seguridad."
+      },
+      {
+        "row": 29,
+        "seccion_banner": "Jefe de Jardineria",
+        "puesto": "Jardinero",
+        "categoria": "Cuidado de Áreas Verdes",
+        "tarea": "Realizar tareas de jardinería esenciales: podar, regar, fertilizar y controlar plagas en plantas y flores."
+      },
+      {
+        "row": 30,
+        "seccion_banner": "Jefe de Jardineria",
+        "puesto": "Jardinero",
+        "categoria": "Cuidado de Áreas Verdes",
+        "tarea": "Mantener la limpieza, el orden y la seguridad en los caminos y espacios verdes para el libre tránsito de los visitantes."
+      },
+      {
+        "row": 35,
+        "seccion_banner": "Jardinero",
+        "puesto": "Jardinero",
+        "categoria": "Cuidado de Áreas Verdes",
+        "tarea": "Realizar tareas de jardinería esenciales: podar, regar, fertilizar y controlar plagas en plantas y flores."
+      },
+      {
+        "row": 36,
+        "seccion_banner": "Jardinero",
+        "puesto": "Jardinero",
+        "categoria": "Cuidado de Áreas Verdes",
+        "tarea": "Mantener la limpieza, el orden y la seguridad en los caminos y espacios verdes para el libre tránsito de los visitantes."
+      }
+    ],
+    "Origen Centro Holistico": [
+      {
+        "row": 4,
+        "seccion_banner": "Encargado de spa",
+        "puesto": "Encargado de spa",
+        "categoria": "Seguridad e higiene",
+        "tarea": "Supervisar el cumplimiento estricto de los protocolos de higiene, normativas de salud, seguridad y protección civil."
+      },
+      {
+        "row": 5,
+        "seccion_banner": "Encargado de spa",
+        "puesto": "Encargado de spa",
+        "categoria": "Administración y control",
+        "tarea": "Revisar los reportes de ingresos diarios generados por hospedaje, tratamientos y experiencias holísticas."
+      },
+      {
+        "row": 6,
+        "seccion_banner": "Encargado de spa",
+        "puesto": "Encargado de spa",
+        "categoria": "Administración y control",
+        "tarea": "Dirigir y coordinar al equipo de terapeutas, facilitadores y guías de ceremonias asignados al turno."
+      },
+      {
+        "row": 7,
+        "seccion_banner": "Encargado de spa",
+        "puesto": "Encargado de spa",
+        "categoria": "Control de agenda",
+        "tarea": ": Revisar la agenda diaria de recepción, check-ins, check-outs y reservas de terapia"
+      },
+      {
+        "row": 8,
+        "seccion_banner": "Encargado de spa",
+        "puesto": "Encargado de spa",
+        "categoria": "Supervisión de instalaciones",
+        "tarea": "Verificar que las cabinas, áreas de spa y zonas comunes se encuentren en condiciones óptimas, limpias y armonizadas."
+      },
+      {
+        "row": 9,
+        "seccion_banner": "Encargado de spa",
+        "puesto": "Encargado de spa",
+        "categoria": "Venta",
+        "tarea": "Coordinar promociones, paquetes especiales (retiros, días de spa) y apoyar al área comercial en la detección, prospección y  atención de nuevos clientes."
+      }
+    ]
+  },
+  "Frontera 49 Roma Norte": {
+    "Gerente": [
+      {
+        "row": 4,
+        "seccion_banner": "Gerente",
+        "puesto": "Gerencia General",
+        "categoria": "Supervisión Operativa",
+        "tarea": "Revisar diariamente las condiciones del inmueble (salones, jardines, baños, exposiciones y áreas históricas)."
+      },
+      {
+        "row": 5,
+        "seccion_banner": "Gerente",
+        "puesto": "Gerencia General",
+        "categoria": "Supervisión Operativa",
+        "tarea": "Supervisar todas las áreas operativas (recepción, A&B, limpieza, áreas comunes, jardines, mantenimiento y administración)."
+      },
+      {
+        "row": 6,
+        "seccion_banner": "Gerente",
+        "puesto": "Gerencia General",
+        "categoria": "Gestión y Control",
+        "tarea": "Monitorear inventarios, insumos, consumos y reporte de gastos."
+      },
+      {
+        "row": 7,
+        "seccion_banner": "Gerente",
+        "puesto": "Gerencia General",
+        "categoria": "Gestión y Control",
+        "tarea": "Aprobar compras menores y validar necesidades del inmueble."
+      },
+      {
+        "row": 8,
+        "seccion_banner": "Gerente",
+        "puesto": "Gerencia General",
+        "categoria": "Gestión y Control",
+        "tarea": "Revisar bitácoras operativas, de mantenimiento y de eventos."
+      },
+      {
+        "row": 9,
+        "seccion_banner": "Gerente",
+        "puesto": "Gerencia General",
+        "categoria": "Personal y Comunicación",
+        "tarea": "Supervisar puntualidad, presentación, actitud y desempeño del personal."
+      },
+      {
+        "row": 10,
+        "seccion_banner": "Gerente",
+        "puesto": "Gerencia General",
+        "categoria": "Personal y Comunicación",
+        "tarea": "Realizar juntas operativas semanales y asegurar el cumplimiento de acuerdos."
+      },
+      {
+        "row": 11,
+        "seccion_banner": "Gerente",
+        "puesto": "Gerencia General",
+        "categoria": "Personal y Comunicación",
+        "tarea": "Validar que los montajes, tiempos y servicios de eventos cumplan con lo cotizado."
+      },
+      {
+        "row": 12,
+        "seccion_banner": "Gerente",
+        "puesto": "Gerencia General",
+        "categoria": "Experiencia del Visitante",
+        "tarea": "Asegurar una experiencia cálida, ordenada y alineada a la esencia cultural."
+      },
+      {
+        "row": 13,
+        "seccion_banner": "Gerente",
+        "puesto": "Gerencia General",
+        "categoria": "Experiencia del Visitante",
+        "tarea": "Supervisar la atención a eventos, recorridos, producciones y visitantes generales."
+      },
+      {
+        "row": 14,
+        "seccion_banner": "Gerente",
+        "puesto": "Gerencia General",
+        "categoria": "Administración y Control",
+        "tarea": "Supervisar bitácoras operativas, de mantenimiento y de eventos"
+      }
+    ],
+    "Administración": [
+      {
+        "row": 4,
+        "seccion_banner": "Recepcionista",
+        "puesto": "Recepcionista A",
+        "categoria": "Atención a Huéspedes",
+        "tarea": "Dar seguimiento a  reservas que arriban durante el día"
+      },
+      {
+        "row": 5,
+        "seccion_banner": "Recepcionista",
+        "puesto": "Recepcionista A",
+        "categoria": "Atención a Huéspedes",
+        "tarea": "Verificar las reservas recibidas asegurando que la información este correcta y actualisada"
+      },
+      {
+        "row": 6,
+        "seccion_banner": "Recepcionista",
+        "puesto": "Recepcionista A",
+        "categoria": "Atención a Huéspedes",
+        "tarea": "Seguimiento diario de las reservaciones con status de no show"
+      },
+      {
+        "row": 7,
+        "seccion_banner": "Recepcionista",
+        "puesto": "Recepcionista A",
+        "categoria": "Atención a Huéspedes",
+        "tarea": "Recibir, registrar y asignar habitaciones a los huéspedes."
+      },
+      {
+        "row": 8,
+        "seccion_banner": "Recepcionista",
+        "puesto": "Recepcionista A",
+        "categoria": "Atención a Huéspedes",
+        "tarea": "Proporcionar información sobre los servicios, facilidades, precios y disponibilidad del hotel."
+      },
+      {
+        "row": 9,
+        "seccion_banner": "Recepcionista",
+        "puesto": "Recepcionista A",
+        "categoria": "Atención a Huéspedes",
+        "tarea": "Realizar el proceso de check-out y procesar pagos."
+      },
+      {
+        "row": 11,
+        "seccion_banner": "Recepcionista",
+        "puesto": "Recepcionista A",
+        "categoria": "Gestión Administrativa",
+        "tarea": "Gestionar, confirmar y actualizar las reservas de habitaciones (cambios y cancelaciones)."
+      },
+      {
+        "row": 12,
+        "seccion_banner": "Recepcionista",
+        "puesto": "Recepcionista A",
+        "categoria": "Gestión Administrativa",
+        "tarea": "Procesar pagos, gestionar facturas y mantener registros organizados."
+      },
+      {
+        "row": 13,
+        "seccion_banner": "Recepcionista",
+        "puesto": "Recepcionista A",
+        "categoria": "Gestión Administrativa",
+        "tarea": "Generar venta de experiencias"
+      }
+    ],
+    "A&B": [
+      {
+        "row": 4,
+        "seccion_banner": "Capitán",
+        "puesto": "Capitán (A&B)",
+        "categoria": "Supervisión del Servicio",
+        "tarea": "Dirigir al equipo de meseros y ayudantes durante turnos y eventos."
+      },
+      {
+        "row": 5,
+        "seccion_banner": "Capitán",
+        "puesto": "Capitán (A&B)",
+        "categoria": "Supervisión del Servicio",
+        "tarea": "Validar el montaje previo de mesas, cristalería, loza, cubiertos y estaciones (coffee break, cocteles, etc.)."
+      },
+      {
+        "row": 6,
+        "seccion_banner": "Capitán",
+        "puesto": "Capitán (A&B)",
+        "categoria": "Supervisión del Servicio",
+        "tarea": "Verificar que la presentación de platillos y bebidas cumpla con los estándares antes de salir a servicio."
+      },
+      {
+        "row": 7,
+        "seccion_banner": "Capitán",
+        "puesto": "Capitán (A&B)",
+        "categoria": "Control y Cierre",
+        "tarea": "Revisar existencias de insumos básicos (bebidas, cristalería, consumibles) y reportar faltantes."
+      },
+      {
+        "row": 8,
+        "seccion_banner": "Capitán",
+        "puesto": "Capitán (A&B)",
+        "categoria": "Control y Cierre",
+        "tarea": "Supervisar el desmontaje, la limpieza general y la correcta ubicación del mobiliario al finalizar."
+      },
+      {
+        "row": 9,
+        "seccion_banner": "Capitán",
+        "puesto": "Capitán (A&B)",
+        "categoria": "Control y Cierre",
+        "tarea": "Entregar reportes de consumos, incidencias y observaciones del turno."
+      },
+      {
+        "row": 13,
+        "seccion_banner": "Mesero A",
+        "puesto": "Mesero A",
+        "categoria": "Atención y Servicio",
+        "tarea": "Atender a los clientes con amabilidad, tomar pedidos y ofrecer información sobre menús y especialidades."
+      },
+      {
+        "row": 14,
+        "seccion_banner": "Mesero A",
+        "puesto": "Mesero A",
+        "categoria": "Atención y Servicio",
+        "tarea": "Servir alimentos y bebidas de manera eficiente y segura."
+      },
+      {
+        "row": 15,
+        "seccion_banner": "Mesero A",
+        "puesto": "Mesero A",
+        "categoria": "Atención y Servicio",
+        "tarea": "Retirar platos, limpiar mesas de forma constante y mantener limpias las áreas de trabajo."
+      },
+      {
+        "row": 16,
+        "seccion_banner": "Mesero A",
+        "puesto": "Mesero A",
+        "categoria": "Atención y Servicio",
+        "tarea": "Apoyar en el montaje y desmontaje según las indicaciones del gerente."
+      },
+      {
+        "row": 17,
+        "seccion_banner": "Mesero A",
+        "puesto": "Mesero A",
+        "categoria": "Atención y Servicio",
+        "tarea": "Generar venta a traves de recomendaciones de alimentos y bebidas."
+      },
+      {
+        "row": 21,
+        "seccion_banner": "Mesero B",
+        "puesto": "Mesero B",
+        "categoria": "Atención y Servicio",
+        "tarea": "Atender a los clientes con amabilidad, tomar pedidos y ofrecer información sobre menús y especialidades."
+      },
+      {
+        "row": 22,
+        "seccion_banner": "Mesero B",
+        "puesto": "Mesero B",
+        "categoria": "Atención y Servicio",
+        "tarea": "Servir alimentos y bebidas de manera eficiente y segura."
+      },
+      {
+        "row": 23,
+        "seccion_banner": "Mesero B",
+        "puesto": "Mesero B",
+        "categoria": "Atención y Servicio",
+        "tarea": "Retirar platos, limpiar mesas de forma constante y mantener limpias las áreas de trabajo."
+      },
+      {
+        "row": 24,
+        "seccion_banner": "Mesero B",
+        "puesto": "Mesero B",
+        "categoria": "Atención y Servicio",
+        "tarea": "Apoyar en el montaje y desmontaje según las indicaciones del gerente."
+      },
+      {
+        "row": 25,
+        "seccion_banner": "Mesero B",
+        "puesto": "Mesero B",
+        "categoria": "Atención y Servicio",
+        "tarea": "Generar venta a traves de recomendaciones de alimentos y bebidas."
+      }
+    ],
+    "Cocina": [
+      {
+        "row": 4,
+        "seccion_banner": "Capitán",
+        "puesto": "Chef",
+        "categoria": "Producción y Calidad",
+        "tarea": "Preparar y cocinar los alimentos siguiendo estrictamente las recetas y estándares de calidad e higiene."
+      },
+      {
+        "row": 5,
+        "seccion_banner": "Capitán",
+        "puesto": "Chef",
+        "categoria": "Producción y Calidad",
+        "tarea": "Mantener al día el control administrativo de pedidos, inventarios y planificación de menús."
+      },
+      {
+        "row": 6,
+        "seccion_banner": "Capitán",
+        "puesto": "Chef",
+        "categoria": "Producción y Calidad",
+        "tarea": "Asegurar la organización, limpieza y desinfección constante de la cocina."
+      },
+      {
+        "row": 7,
+        "seccion_banner": "Capitán",
+        "puesto": "Chef",
+        "categoria": "Producción y Calidad",
+        "tarea": "Supervisar y dirigir al personal de cocina"
+      },
+      {
+        "row": 14,
+        "seccion_banner": "Ayudante de cocina",
+        "puesto": "Ayudante",
+        "categoria": "Producción y Calidad",
+        "tarea": "Ayudar en la preparación y cocción de alimentos."
+      },
+      {
+        "row": 15,
+        "seccion_banner": "Ayudante de cocina",
+        "puesto": "Ayudante",
+        "categoria": "Producción y Calidad",
+        "tarea": "Asegurar la preparación y el servicio seguro e higiénico de los alimentos."
+      },
+      {
+        "row": 16,
+        "seccion_banner": "Ayudante de cocina",
+        "puesto": "Ayudante",
+        "categoria": "Producción y Calidad",
+        "tarea": "Limpieza y organización de estaciones"
+      }
+    ],
+    "LIMPIEZA": [
+      {
+        "row": 4,
+        "seccion_banner": "Limpieza",
+        "puesto": "Limpieza",
+        "categoria": "Limpieza de Habitaciones",
+        "tarea": "Limpiar y organizar las habitaciones de acuerdo con los estándares de calidad del establecimiento."
+      },
+      {
+        "row": 5,
+        "seccion_banner": "Limpieza",
+        "puesto": "Limpieza",
+        "categoria": "Limpieza de Habitaciones",
+        "tarea": "Cambiar la ropa de cama y las toallas"
+      },
+      {
+        "row": 6,
+        "seccion_banner": "Limpieza",
+        "puesto": "Limpieza",
+        "categoria": "Limpieza de Habitaciones",
+        "tarea": "Aseo profundo de baños y abastecimiento de productos de higiene."
+      },
+      {
+        "row": 7,
+        "seccion_banner": "Limpieza",
+        "puesto": "Limpieza",
+        "categoria": "Limpieza de Habitaciones",
+        "tarea": "Retirar residuos, vaciar papeleras y dejar las habitaciones listas para la llegada de nuevos huéspedes."
+      },
+      {
+        "row": 8,
+        "seccion_banner": "Limpieza",
+        "puesto": "Limpieza",
+        "categoria": "Limpieza de Habitaciones",
+        "tarea": "Limpieza de áreas comunes como recepción, pasillos, casa club, área de spa y área de alberca"
+      },
+      {
+        "row": 9,
+        "seccion_banner": "Limpieza",
+        "puesto": "Limpieza",
+        "categoria": "Limpieza del hotel",
+        "tarea": "Limpieza profunda y diaria de coworking, vestíbulos, recepción, cafetería, baños entre otros."
+      },
+      {
+        "row": 10,
+        "seccion_banner": "Limpieza",
+        "puesto": "Limpieza",
+        "categoria": "Limpieza del hotel",
+        "tarea": "Barrer, trapear, desempolvar todas las áreas comunes"
+      },
+      {
+        "row": 11,
+        "seccion_banner": "Limpieza",
+        "puesto": "Limpieza",
+        "categoria": "Limpieza del hotel",
+        "tarea": "Mantener los sanitarios limpios, desinfectados y reabastecido"
+      },
+      {
+        "row": 12,
+        "seccion_banner": "Limpieza",
+        "puesto": "Limpieza",
+        "categoria": "Limpieza Durante Eventos",
+        "tarea": "Asegurarse que el espacio este completamente limpio antes del inicio del evento"
+      },
+      {
+        "row": 13,
+        "seccion_banner": "Limpieza",
+        "puesto": "Limpieza",
+        "categoria": "Limpieza Durante Eventos",
+        "tarea": "Monitorear constante del estado de los espacios durante el evento."
+      },
+      {
+        "row": 14,
+        "seccion_banner": "Limpieza",
+        "puesto": "Limpieza",
+        "categoria": "Limpieza Durante Eventos",
+        "tarea": "Recoger vasos, servilletas, residuos"
+      }
+    ]
+  }
+}

@@ -1,0 +1,6170 @@
+{
+  "_Checklist_Actividades_Puestos_OHB_Ajusco.xlsx": {
+    "Gerente": [
+      {
+        "row_idx": 1,
+        "data": [
+          "Orgánico Hotel Boutique Ajusco- Checklist de Actividades por Puesto",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "row_idx": 3,
+        "data": [
+          "Estatus (Listos / Pendientes)",
+          "Puesto",
+          "Área / Categoría de Actividad",
+          "Actividad / Tarea",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "row_idx": 4,
+        "data": [
+          "[ ]",
+          "Gerencia General",
+          "Supervisión Operativa",
+          "Revisar diariamente las condiciones del inmueble (salones, jardines, baños, exposiciones y áreas históricas).",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "row_idx": 5,
+        "data": [
+          "[ ]",
+          "Gerencia General",
+          "Supervisión Operativa",
+          "Supervisar todas las áreas operativas (recepción, A&B, limpieza, áreas comunes, jardines, mantenimiento y administración).",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "row_idx": 6,
+        "data": [
+          "[ ]",
+          "Gerencia General",
+          "Gestión y Control",
+          "Monitorear inventarios, insumos, consumos y reporte de gastos.",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "row_idx": 7,
+        "data": [
+          "[ ]",
+          "Gerencia General",
+          "Gestión y Control",
+          "Aprobar compras menores y validar necesidades del inmueble.",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "row_idx": 8,
+        "data": [
+          "[ ]",
+          "Gerencia General",
+          "Gestión y Control",
+          "Revisar bitácoras operativas, de mantenimiento y de eventos.",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "row_idx": 9,
+        "data": [
+          "[ ]",
+          "Gerencia General",
+          "Personal y Comunicación",
+          "Supervisar puntualidad, presentación, actitud y desempeño del personal.",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "row_idx": 10,
+        "data": [
+          "[ ]",
+          "Gerencia General",
+          "Personal y Comunicación",
+          "Realizar juntas operativas semanales y asegurar el cumplimiento de acuerdos.",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "row_idx": 11,
+        "data": [
+          "[ ]",
+          "Gerencia General",
+          "Personal y Comunicación",
+          "Validar que los montajes, tiempos y servicios de eventos cumplan con lo cotizado.",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "row_idx": 12,
+        "data": [
+          "[ ]",
+          "Gerencia General",
+          "Experiencia del Visitante",
+          "Asegurar una experiencia cálida, ordenada y alineada a la esencia cultural.",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "row_idx": 13,
+        "data": [
+          "[ ]",
+          "Gerencia General",
+          "Experiencia del Visitante",
+          "Supervisar la atención a eventos, recorridos, producciones y visitantes generales.",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "row_idx": 14,
+        "data": [
+          "[ ]",
+          "Gerencia General",
+          "Administración y Control",
+          "Supervisar bitácoras operativas, de mantenimiento y de eventos",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ]
+      }
+    ],
+    "Administración": [
+      {
+        "row_idx": 1,
+        "data": [
+          "Orgánico Hotel Boutique Ajusco- Checklist de Actividades por Puesto",
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "row_idx": 2,
+        "data": [
+          "Recepcionista",
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "row_idx": 3,
+        "data": [
+          "Estatus (Listos / Pendientes)",
+          "Puesto",
+          "Área / Categoría de Actividad",
+          "Actividad / Tarea"
+        ]
+      },
+      {
+        "row_idx": 4,
+        "data": [
+          "[ ]",
+          "Recepcionista A",
+          "Atención a Huéspedes",
+          "Dar seguimiento a  reservas que arriban durante el día"
+        ]
+      },
+      {
+        "row_idx": 5,
+        "data": [
+          "[ ]",
+          "Recepcionista A",
+          "Atención a Huéspedes",
+          "Verificar las reservas recibidas asegurando que la información este correcta y actualisada"
+        ]
+      },
+      {
+        "row_idx": 6,
+        "data": [
+          "[ ]",
+          "Recepcionista A",
+          "Atención a Huéspedes",
+          "Seguimiento diario de las reservaciones con status de no show"
+        ]
+      },
+      {
+        "row_idx": 7,
+        "data": [
+          "[ ]",
+          "Recepcionista A",
+          "Atención a Huéspedes",
+          "Recibir, registrar y asignar habitaciones a los huéspedes."
+        ]
+      },
+      {
+        "row_idx": 8,
+        "data": [
+          "[ ]",
+          "Recepcionista A",
+          "Atención a Huéspedes",
+          "Proporcionar información sobre los servicios, facilidades, precios y disponibilidad del hotel."
+        ]
+      },
+      {
+        "row_idx": 9,
+        "data": [
+          "[ ]",
+          "Recepcionista A",
+          "Atención a Huéspedes",
+          "Realizar el proceso de check-out y procesar pagos."
+        ]
+      },
+      {
+        "row_idx": 10,
+        "data": [
+          "[ ]",
+          "Recepcionista A",
+          "Atención a Huéspedes",
+          "Resolver problemas, quejas y ofrecer recomendaciones de actividades en el área."
+        ]
+      },
+      {
+        "row_idx": 11,
+        "data": [
+          "[ ]",
+          "Recepcionista A",
+          "Gestión Administrativa",
+          "Gestionar, confirmar y actualizar las reservas de habitaciones (cambios y cancelaciones)."
+        ]
+      },
+      {
+        "row_idx": 12,
+        "data": [
+          "[ ]",
+          "Recepcionista A",
+          "Gestión Administrativa",
+          "Procesar pagos, gestionar facturas y mantener registros organizados."
+        ]
+      },
+      {
+        "row_idx": 13,
+        "data": [
+          "[ ]",
+          "Recepcionista A",
+          "Gestión Administrativa",
+          "Generar venta de experiencias"
+        ]
+      }
+    ],
+    "A&B": [
+      {
+        "row_idx": 1,
+        "data": [
+          "Orgánico Hotel Boutique Ajusco- Checklist de Actividades por Puesto",
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "row_idx": 2,
+        "data": [
+          "Mesero A",
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "row_idx": 3,
+        "data": [
+          "Estatus (Listos / Pendientes)",
+          "Puesto",
+          "Área / Categoría de Actividad",
+          "Actividad / Tarea"
+        ]
+      },
+      {
+        "row_idx": 4,
+        "data": [
+          "[ ]",
+          "Mesero A",
+          "Atención y Servicio",
+          "Atender a los clientes con amabilidad, tomar pedidos y ofrecer información sobre menús y especialidades."
+        ]
+      },
+      {
+        "row_idx": 5,
+        "data": [
+          "[ ]",
+          "Mesero A",
+          "Atención y Servicio",
+          "Servir alimentos y bebidas de manera eficiente y segura."
+        ]
+      },
+      {
+        "row_idx": 6,
+        "data": [
+          "[ ]",
+          "Mesero A",
+          "Atención y Servicio",
+          "Retirar platos, limpiar mesas de forma constante y mantener limpias las áreas de trabajo."
+        ]
+      },
+      {
+        "row_idx": 7,
+        "data": [
+          "[ ]",
+          "Mesero A",
+          "Atención y Servicio",
+          "Apoyar en el montaje y desmontaje según las indicaciones del gerente."
+        ]
+      },
+      {
+        "row_idx": 8,
+        "data": [
+          "[ ]",
+          "Mesero A",
+          "Atención y Servicio",
+          "Generar venta a traves de recomendaciones de alimentos y bebidas."
+        ]
+      },
+      {
+        "row_idx": 10,
+        "data": [
+          "Mesero B",
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "row_idx": 11,
+        "data": [
+          "Estatus (Listos / Pendientes)",
+          "Puesto",
+          "Área / Categoría de Actividad",
+          "Actividad / Tarea"
+        ]
+      },
+      {
+        "row_idx": 12,
+        "data": [
+          "[ ]",
+          "Mesero B",
+          "Atención y Servicio",
+          "Atender a los clientes con amabilidad, tomar pedidos y ofrecer información sobre menús y especialidades."
+        ]
+      },
+      {
+        "row_idx": 13,
+        "data": [
+          "[ ]",
+          "Mesero B",
+          "Atención y Servicio",
+          "Servir alimentos y bebidas de manera eficiente y segura."
+        ]
+      },
+      {
+        "row_idx": 14,
+        "data": [
+          "[ ]",
+          "Mesero B",
+          "Atención y Servicio",
+          "Retirar platos, limpiar mesas de forma constante y mantener limpias las áreas de trabajo."
+        ]
+      },
+      {
+        "row_idx": 15,
+        "data": [
+          "[ ]",
+          "Mesero B",
+          "Atención y Servicio",
+          "Apoyar en el montaje y desmontaje según las indicaciones del gerente."
+        ]
+      },
+      {
+        "row_idx": 16,
+        "data": [
+          "[ ]",
+          "Mesero B",
+          "Atención y Servicio",
+          "Generar venta a traves de recomendaciones de alimentos y bebidas."
+        ]
+      }
+    ],
+    "Cocina": [
+      {
+        "row_idx": 1,
+        "data": [
+          "Orgánico Hotel Boutique Ajusco- Checklist de Actividades por Puesto",
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "row_idx": 2,
+        "data": [
+          "Chef",
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "row_idx": 3,
+        "data": [
+          "Estatus (Listos / Pendientes)",
+          "Puesto",
+          "Área / Categoría de Actividad",
+          "Actividad / Tarea"
+        ]
+      },
+      {
+        "row_idx": 4,
+        "data": [
+          "[ ]",
+          "Chef",
+          "Producción y Calidad",
+          "Preparar y cocinar los alimentos siguiendo estrictamente las recetas y estándares de calidad e higiene."
+        ]
+      },
+      {
+        "row_idx": 5,
+        "data": [
+          "[ ]",
+          "Chef",
+          "Producción y Calidad",
+          "Mantener al día el control administrativo de pedidos, inventarios y planificación de menús."
+        ]
+      },
+      {
+        "row_idx": 6,
+        "data": [
+          "[ ]",
+          "Chef",
+          "Producción y Calidad",
+          "Asegurar la organización, limpieza y desinfección constante de la cocina."
+        ]
+      },
+      {
+        "row_idx": 7,
+        "data": [
+          "[ ]",
+          "Chef",
+          "Producción y Calidad",
+          "Supervisar y dirigir al personal de cocina"
+        ]
+      },
+      {
+        "row_idx": 11,
+        "data": [
+          "Ayudantes de cocina",
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "row_idx": 12,
+        "data": [
+          "Estatus (Listos / Pendientes)",
+          "Puesto",
+          "Área / Categoría de Actividad",
+          "Actividad / Tarea"
+        ]
+      },
+      {
+        "row_idx": 13,
+        "data": [
+          "[ ]",
+          "Ayudantes",
+          "Producción y Calidad",
+          "Respaldar actividades indicadas por el chef en tiempo y forma"
+        ]
+      },
+      {
+        "row_idx": 14,
+        "data": [
+          "[ ]",
+          "Ayudantes",
+          "Producción y Calidad",
+          "Ayudar en la preparación y cocción de alimentos."
+        ]
+      },
+      {
+        "row_idx": 15,
+        "data": [
+          "[ ]",
+          "Ayudantes",
+          "Producción y Calidad",
+          "Asegurar la preparación y el servicio seguro e higiénico de los alimentos."
+        ]
+      },
+      {
+        "row_idx": 16,
+        "data": [
+          "[ ]",
+          "Ayudantes",
+          "Producción y Calidad",
+          "Limpieza y organización de estaciones"
+        ]
+      }
+    ],
+    "Bar": [
+      {
+        "row_idx": 1,
+        "data": [
+          "Orgánico Hotel Boutique Ajusco- Checklist de Actividades por Puesto",
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "row_idx": 2,
+        "data": [
+          "Encargado de bar",
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "row_idx": 3,
+        "data": [
+          "Estatus (Listos / Pendientes)",
+          "Puesto",
+          "Área / Categoría de Actividad",
+          "Actividad / Tarea"
+        ]
+      },
+      {
+        "row_idx": 4,
+        "data": [
+          "[ ]",
+          "Encargado de bar",
+          "Producción y Calidad",
+          "Preparar y cocinar los alimentos siguiendo estrictamente las recetas y estándares de calidad e higiene."
+        ]
+      },
+      {
+        "row_idx": 5,
+        "data": [
+          "[ ]",
+          "Encargado de bar",
+          "Producción y Calidad",
+          "Mantener al día el control administrativo de pedidos, inventarios y planificación de menús."
+        ]
+      },
+      {
+        "row_idx": 6,
+        "data": [
+          "[ ]",
+          "Encargado de bar",
+          "Producción y Calidad",
+          "Asegurar la organización, limpieza y desinfección constante de la cocina."
+        ]
+      },
+      {
+        "row_idx": 7,
+        "data": [
+          "[ ]",
+          "Encargado de bar",
+          "Atención y Servicio",
+          "Atender a los clientes con amabilidad, tomar pedidos y ofrecer información sobre menús y especialidades."
+        ]
+      },
+      {
+        "row_idx": 8,
+        "data": [
+          "[ ]",
+          "Encargado de bar",
+          "Atención y Servicio",
+          "Servir alimentos y bebidas de manera eficiente y segura."
+        ]
+      },
+      {
+        "row_idx": 9,
+        "data": [
+          "[ ]",
+          "Encargado de bar",
+          "Atención y Servicio",
+          "Retirar platos, limpiar mesas de forma constante y mantener limpias las áreas de trabajo."
+        ]
+      },
+      {
+        "row_idx": 10,
+        "data": [
+          "[ ]",
+          "Encargado de bar",
+          "Atención y Servicio",
+          "Apoyar en el montaje y desmontaje según las indicaciones del gerente."
+        ]
+      },
+      {
+        "row_idx": 11,
+        "data": [
+          "[ ]",
+          "Encargado de bar",
+          "Atención y Servicio",
+          "Generar venta a traves de recomendaciones de alimentos y bebidas."
+        ]
+      }
+    ],
+    "AMA DE LLAVESLIMPIEZA": [
+      {
+        "row_idx": 1,
+        "data": [
+          "Orgánico Hotel Boutique Ajusco- Checklist de Actividades por Puesto",
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "row_idx": 2,
+        "data": [
+          "Mucama",
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "row_idx": 3,
+        "data": [
+          "Estatus (Listos / Pendientes)",
+          "Puesto",
+          "Área / Categoría de Actividad",
+          "Actividad / Tarea"
+        ]
+      },
+      {
+        "row_idx": 4,
+        "data": [
+          "[ ]",
+          "Ama de Llaves / Mucamas",
+          "Limpieza de Habitaciones",
+          "Limpiar y organizar las habitaciones de acuerdo con los estándares de calidad del establecimiento."
+        ]
+      },
+      {
+        "row_idx": 5,
+        "data": [
+          "[ ]",
+          "Ama de Llaves / Mucamas",
+          "Limpieza de Habitaciones",
+          "Cambiar la ropa de cama y las toallas"
+        ]
+      },
+      {
+        "row_idx": 6,
+        "data": [
+          "[ ]",
+          "Ama de Llaves / Mucamas",
+          "Limpieza de Habitaciones",
+          "Aseo profundo de baños y abastecimiento de productos de higiene."
+        ]
+      },
+      {
+        "row_idx": 7,
+        "data": [
+          "[ ]",
+          "Ama de Llaves / Mucamas",
+          "Limpieza de Habitaciones",
+          "Retirar residuos, vaciar papeleras y dejar las habitaciones listas para la llegada de nuevos huéspedes."
+        ]
+      },
+      {
+        "row_idx": 8,
+        "data": [
+          "[ ]",
+          "Ama de Llaves / Mucamas",
+          "Limpieza de Habitaciones",
+          "Limpieza de áreas comunes como recepción, pasillos, casa club, área de spa y área de alberca"
+        ]
+      }
+    ],
+    "MANTENIMIENTO": [
+      {
+        "row_idx": 1,
+        "data": [
+          "Orgánico Hotel Boutique Ajusco- Checklist de Actividades por Puesto",
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "row_idx": 2,
+        "data": [
+          "Jefe de mantenimiento",
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "row_idx": 3,
+        "data": [
+          "Estatus (Listos / Pendientes)",
+          "Puesto",
+          "Área / Categoría de Actividad",
+          "Actividad / Tarea"
+        ]
+      },
+      {
+        "row_idx": 4,
+        "data": [
+          "[ ]",
+          "Mantenimiento",
+          "Inspección y Reparación",
+          "Supervisar y coordinar las actividades de mantenimiento preventivo"
+        ]
+      },
+      {
+        "row_idx": 5,
+        "data": [
+          "[ ]",
+          "Mantenimiento",
+          "Inspección y Reparación",
+          "Inventario de  activos y equipos"
+        ]
+      },
+      {
+        "row_idx": 6,
+        "data": [
+          "[ ]",
+          "Mantenimiento",
+          "Inspección y Reparación",
+          "Realizar inspecciones y evaluaciones de los activos y equipos para identificar necesidades de mantenimiento"
+        ]
+      },
+      {
+        "row_idx": 7,
+        "data": [
+          "[ ]",
+          "Mantenimiento",
+          "Inspección y Reparación",
+          "Cumplir rigurosamente con las normativas y regulaciones de seguridad."
+        ]
+      },
+      {
+        "row_idx": 8,
+        "data": [
+          "[ ]",
+          "Mantenimiento",
+          "Inspección y Reparación",
+          "Coordinar con otros departamentos la disponibilidad de equipos y espacios."
+        ]
+      },
+      {
+        "row_idx": 11,
+        "data": [
+          "Mantenimiento",
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "row_idx": 12,
+        "data": [
+          "Estatus (Listos / Pendientes)",
+          "Puesto",
+          "Área / Categoría de Actividad",
+          "Actividad / Tarea"
+        ]
+      },
+      {
+        "row_idx": 13,
+        "data": [
+          "[ ]",
+          "Mantenimiento",
+          "Inspección y Reparación",
+          "Realizar inspecciones periódicas a los equipos e instalaciones para identificar necesidades de mantenimiento preventivo y correctivo."
+        ]
+      },
+      {
+        "row_idx": 14,
+        "data": [
+          "[ ]",
+          "Mantenimiento",
+          "Inspección y Reparación",
+          "Asegurar el buen funcionamiento, seguridad y eficiencia de los activos del hotel."
+        ]
+      },
+      {
+        "row_idx": 15,
+        "data": [
+          "[ ]",
+          "Mantenimiento",
+          "Inspección y Reparación",
+          "Coordinar con otros departamentos la disponibilidad de equipos y espacios."
+        ]
+      },
+      {
+        "row_idx": 16,
+        "data": [
+          "[ ]",
+          "Mantenimiento",
+          "Inspección y Reparación",
+          "Cumplir rigurosamente con las normativas y regulaciones de seguridad."
+        ]
+      },
+      {
+        "row_idx": 18,
+        "data": [
+          "Mantenimiento",
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "row_idx": 19,
+        "data": [
+          "Estatus (Listos / Pendientes)",
+          "Puesto",
+          "Área / Categoría de Actividad",
+          "Actividad / Tarea"
+        ]
+      },
+      {
+        "row_idx": 20,
+        "data": [
+          "[ ]",
+          "Mantenimiento",
+          "Inspección y Reparación",
+          "Realizar inspecciones periódicas a los equipos e instalaciones para identificar necesidades de mantenimiento preventivo y correctivo."
+        ]
+      },
+      {
+        "row_idx": 21,
+        "data": [
+          "[ ]",
+          "Mantenimiento",
+          "Inspección y Reparación",
+          "Asegurar el buen funcionamiento, seguridad y eficiencia de los activos del hotel."
+        ]
+      },
+      {
+        "row_idx": 22,
+        "data": [
+          "[ ]",
+          "Mantenimiento",
+          "Inspección y Reparación",
+          "Coordinar con otros departamentos la disponibilidad de equipos y espacios."
+        ]
+      },
+      {
+        "row_idx": 23,
+        "data": [
+          "[ ]",
+          "Mantenimiento",
+          "Inspección y Reparación",
+          "Cumplir rigurosamente con las normativas y regulaciones de seguridad."
+        ]
+      },
+      {
+        "row_idx": 25,
+        "data": [
+          "Mantenimiento",
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "row_idx": 26,
+        "data": [
+          "Estatus (Listos / Pendientes)",
+          "Puesto",
+          "Área / Categoría de Actividad",
+          "Actividad / Tarea"
+        ]
+      },
+      {
+        "row_idx": 27,
+        "data": [
+          "[ ]",
+          "Mantenimiento",
+          "Inspección y Reparación",
+          "Realizar inspecciones periódicas a los equipos e instalaciones para identificar necesidades de mantenimiento preventivo y correctivo."
+        ]
+      },
+      {
+        "row_idx": 28,
+        "data": [
+          "[ ]",
+          "Mantenimiento",
+          "Inspección y Reparación",
+          "Asegurar el buen funcionamiento, seguridad y eficiencia de los activos del hotel."
+        ]
+      },
+      {
+        "row_idx": 29,
+        "data": [
+          "[ ]",
+          "Mantenimiento",
+          "Inspección y Reparación",
+          "Coordinar con otros departamentos la disponibilidad de equipos y espacios."
+        ]
+      },
+      {
+        "row_idx": 30,
+        "data": [
+          "[ ]",
+          "Mantenimiento",
+          "Inspección y Reparación",
+          "Cumplir rigurosamente con las normativas y regulaciones de seguridad."
+        ]
+      },
+      {
+        "row_idx": 33,
+        "data": [
+          "Jefe de Jardineria",
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "row_idx": 34,
+        "data": [
+          "Estatus (Listos / Pendientes)",
+          "Puesto",
+          "Área / Categoría de Actividad",
+          "Actividad / Tarea"
+        ]
+      },
+      {
+        "row_idx": 35,
+        "data": [
+          "[ ]",
+          "Jardinero",
+          "Cuidado de Áreas Verdes",
+          "Realizar tareas de jardinería esenciales: podar, regar, fertilizar y controlar plagas en plantas y flores."
+        ]
+      },
+      {
+        "row_idx": 36,
+        "data": [
+          "[ ]",
+          "Jardinero",
+          "Cuidado de Áreas Verdes",
+          "Mantener la limpieza, el orden y la seguridad en los caminos y espacios verdes para el libre tránsito de los visitantes."
+        ]
+      },
+      {
+        "row_idx": 39,
+        "data": [
+          "Jardinero",
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "row_idx": 40,
+        "data": [
+          "Estatus (Listos / Pendientes)",
+          "Puesto",
+          "Área / Categoría de Actividad",
+          "Actividad / Tarea"
+        ]
+      },
+      {
+        "row_idx": 41,
+        "data": [
+          "[ ]",
+          "Jardinero",
+          "Cuidado de Áreas Verdes",
+          "Realizar tareas de jardinería esenciales: podar, regar, fertilizar y controlar plagas en plantas y flores."
+        ]
+      },
+      {
+        "row_idx": 42,
+        "data": [
+          "[ ]",
+          "Jardinero",
+          "Cuidado de Áreas Verdes",
+          "Mantener la limpieza, el orden y la seguridad en los caminos y espacios verdes para el libre tránsito de los visitantes."
+        ]
+      }
+    ],
+    "Origen Centro Holistico": [
+      {
+        "row_idx": 1,
+        "data": [
+          "Orgánico Hotel Boutique Ajusco- Checklist de Actividades por Puesto",
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "row_idx": 2,
+        "data": [
+          "Encargado de spa",
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "row_idx": 3,
+        "data": [
+          "Estatus (Listos / Pendientes)",
+          "Puesto",
+          "Área / Categoría de Actividad",
+          "Actividad / Tarea"
+        ]
+      },
+      {
+        "row_idx": 4,
+        "data": [
+          "[ ]",
+          "Encargado de spa",
+          "Seguridad e higiene",
+          "Supervisar el cumplimiento estricto de los protocolos de higiene, normativas de salud, seguridad y protección civil."
+        ]
+      },
+      {
+        "row_idx": 5,
+        "data": [
+          "[ ]",
+          "Encargado de spa",
+          "Administración y control",
+          "Revisar los reportes de ingresos diarios generados por hospedaje, tratamientos y experiencias holísticas."
+        ]
+      },
+      {
+        "row_idx": 6,
+        "data": [
+          "[ ]",
+          "Encargado de spa",
+          "Administración y control",
+          "Dirigir y coordinar al equipo de terapeutas, facilitadores y guías de ceremonias asignados al turno."
+        ]
+      },
+      {
+        "row_idx": 7,
+        "data": [
+          "[ ]",
+          "Encargado de spa",
+          "Control de agenda",
+          ": Revisar la agenda diaria de recepción, check-ins, check-outs y reservas de terapia"
+        ]
+      },
+      {
+        "row_idx": 8,
+        "data": [
+          "[ ]",
+          "Encargado de spa",
+          "Supervisión de instalaciones",
+          "Verificar que las cabinas, áreas de spa y zonas comunes se encuentren en condiciones óptimas, limpias y armonizadas."
+        ]
+      },
+      {
+        "row_idx": 9,
+        "data": [
+          "[ ]",
+          "Encargado de spa",
+          "Venta",
+          "Coordinar promociones, paquetes especiales (retiros, días de spa) y apoyar al área comercial en la detección, prospección y  atención de nuevos clientes."
+        ]
+      },
+      {
+        "row_idx": 11,
+        "data": [
+          "TERAPEUTAS INTERNAS",
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "row_idx": 12,
+        "data": [
+          "Estatus (Listos / Pendientes)",
+          "Puesto",
+          "Área / Categoría de Actividad",
+          "Actividad / Tarea"
+        ]
+      },
+      {
+        "row_idx": 13,
+        "data": [
+          "[ ]",
+          "Encargado de spa",
+          "Seguridad e higiene",
+          "Mantener una higiene personal impecable y desinfectar camillas, utensilios y materiales de inmediato tras cada servicio."
+        ]
+      },
+      {
+        "row_idx": 14,
+        "data": [
+          "[ ]",
+          "Encargado de spa",
+          "Administración y control",
+          "Revisar los reportes de ingresos diarios generados por hospedaje, tratamientos y experiencias holísticas."
+        ]
+      },
+      {
+        "row_idx": 15,
+        "data": [
+          "[ ]",
+          "Encargado de spa",
+          "Atención al cliente y operación",
+          "Realizar los tratamientos y masajes conforme a los protocolos establecidos del centro."
+        ]
+      },
+      {
+        "row_idx": 16,
+        "data": [
+          "[ ]",
+          "Encargado de spa",
+          "Control de insumos",
+          "Verificar la disponibilidad constante de suministros esenciales en cabina (aceites, velas, toallas, instrumentos)."
+        ]
+      },
+      {
+        "row_idx": 17,
+        "data": [
+          "[ ]",
+          "Encargado de spa",
+          "Registro de bitacora",
+          "Registrar puntualmente cada servicio en la bitácora oficial y reportar incidencias o necesidades de material a la gerencia."
+        ]
+      },
+      {
+        "row_idx": 18,
+        "data": [
+          "[ ]",
+          "Encargado de spa",
+          "Venta",
+          "Apoyar al área comercial en la detección, prospección y  atención de nuevos clientes."
+        ]
+      },
+      {
+        "row_idx": 19,
+        "data": [
+          "[ ]",
+          "Encargado de spa",
+          "Venta",
+          "Ofrecer recomendaciones personalizadas posteriores al tratamiento (ejercicios de respiración, infusiones) y orientar sobre otras experiencias del centro"
+        ]
+      }
+    ]
+  },
+  "Checklist_Actividades_Puestos_OHB_Valle.xlsx": {
+    "Gerente": [
+      {
+        "row_idx": 1,
+        "data": [
+          "Orgánico Hotel Boutique Ajusco - Checklist de Actividades por Puesto",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "row_idx": 3,
+        "data": [
+          "Estatus (Listos / Pendientes)",
+          "Puesto",
+          "Área / Categoría de Actividad",
+          "Actividad / Tarea",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "row_idx": 4,
+        "data": [
+          "[ ]",
+          "Gerencia General",
+          "Supervisión Operativa",
+          "Revisar diariamente las condiciones del inmueble (salones, jardines, baños, exposiciones y áreas históricas).",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "row_idx": 5,
+        "data": [
+          "[ ]",
+          "Gerencia General",
+          "Supervisión Operativa",
+          "Supervisar todas las áreas operativas (recepción, A&B, limpieza, áreas comunes, jardines, mantenimiento y administración).",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "row_idx": 6,
+        "data": [
+          "[ ]",
+          "Gerencia General",
+          "Gestión y Control",
+          "Monitorear inventarios, insumos, consumos y reporte de gastos.",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "row_idx": 7,
+        "data": [
+          "[ ]",
+          "Gerencia General",
+          "Gestión y Control",
+          "Aprobar compras menores y validar necesidades del inmueble.",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "row_idx": 8,
+        "data": [
+          "[ ]",
+          "Gerencia General",
+          "Gestión y Control",
+          "Revisar bitácoras operativas, de mantenimiento y de eventos.",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "row_idx": 9,
+        "data": [
+          "[ ]",
+          "Gerencia General",
+          "Personal y Comunicación",
+          "Supervisar puntualidad, presentación, actitud y desempeño del personal.",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "row_idx": 10,
+        "data": [
+          "[ ]",
+          "Gerencia General",
+          "Personal y Comunicación",
+          "Realizar juntas operativas semanales y asegurar el cumplimiento de acuerdos.",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "row_idx": 11,
+        "data": [
+          "[ ]",
+          "Gerencia General",
+          "Personal y Comunicación",
+          "Validar que los montajes, tiempos y servicios de eventos cumplan con lo cotizado.",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "row_idx": 12,
+        "data": [
+          "[ ]",
+          "Gerencia General",
+          "Experiencia del Visitante",
+          "Asegurar una experiencia cálida, ordenada y alineada a la esencia cultural.",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "row_idx": 13,
+        "data": [
+          "[ ]",
+          "Gerencia General",
+          "Experiencia del Visitante",
+          "Supervisar la atención a eventos, recorridos, producciones y visitantes generales.",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "row_idx": 14,
+        "data": [
+          "[ ]",
+          "Gerencia General",
+          "Administración y Control",
+          "Supervisar bitácoras operativas, de mantenimiento y de eventos",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ]
+      }
+    ],
+    "Administración": [
+      {
+        "row_idx": 1,
+        "data": [
+          "Orgánico Hotel Boutique Ajusco - Checklist de Actividades por Puesto",
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "row_idx": 2,
+        "data": [
+          "Recepcionista",
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "row_idx": 3,
+        "data": [
+          "Estatus (Listos / Pendientes)",
+          "Puesto",
+          "Área / Categoría de Actividad",
+          "Actividad / Tarea"
+        ]
+      },
+      {
+        "row_idx": 4,
+        "data": [
+          "[ ]",
+          "Recepcionista A",
+          "Atención a Huéspedes",
+          "Dar seguimiento a  reservas que arriban durante el día"
+        ]
+      },
+      {
+        "row_idx": 5,
+        "data": [
+          "[ ]",
+          "Recepcionista A",
+          "Atención a Huéspedes",
+          "Verificar las reservas recibidas asegurando que la información este correcta y actualisada"
+        ]
+      },
+      {
+        "row_idx": 6,
+        "data": [
+          "[ ]",
+          "Recepcionista A",
+          "Atención a Huéspedes",
+          "Seguimiento diario de las reservaciones con status de no show"
+        ]
+      },
+      {
+        "row_idx": 7,
+        "data": [
+          "[ ]",
+          "Recepcionista A",
+          "Atención a Huéspedes",
+          "Recibir, registrar y asignar habitaciones a los huéspedes."
+        ]
+      },
+      {
+        "row_idx": 8,
+        "data": [
+          "[ ]",
+          "Recepcionista A",
+          "Atención a Huéspedes",
+          "Proporcionar información sobre los servicios, facilidades, precios y disponibilidad del hotel."
+        ]
+      },
+      {
+        "row_idx": 9,
+        "data": [
+          "[ ]",
+          "Recepcionista A",
+          "Atención a Huéspedes",
+          "Realizar el proceso de check-out y procesar pagos."
+        ]
+      },
+      {
+        "row_idx": 10,
+        "data": [
+          "[ ]",
+          "Recepcionista A",
+          "Atención a Huéspedes",
+          "Resolver problemas, quejas y ofrecer recomendaciones de actividades en el área."
+        ]
+      },
+      {
+        "row_idx": 11,
+        "data": [
+          "[ ]",
+          "Recepcionista A",
+          "Gestión Administrativa",
+          "Gestionar, confirmar y actualizar las reservas de habitaciones (cambios y cancelaciones)."
+        ]
+      },
+      {
+        "row_idx": 12,
+        "data": [
+          "[ ]",
+          "Recepcionista A",
+          "Gestión Administrativa",
+          "Procesar pagos, gestionar facturas y mantener registros organizados."
+        ]
+      },
+      {
+        "row_idx": 13,
+        "data": [
+          "[ ]",
+          "Recepcionista A",
+          "Gestión Administrativa",
+          "Generar venta de experiencias"
+        ]
+      }
+    ],
+    "A&B": [
+      {
+        "row_idx": 1,
+        "data": [
+          "Orgánico Hotel Boutique Valle - Checklist de Actividades por Puesto",
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "row_idx": 2,
+        "data": [
+          "Mesero A",
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "row_idx": 3,
+        "data": [
+          "Estatus (Listos / Pendientes)",
+          "Puesto",
+          "Área / Categoría de Actividad",
+          "Actividad / Tarea"
+        ]
+      },
+      {
+        "row_idx": 4,
+        "data": [
+          "[ ]",
+          "Mesero A",
+          "Atención y Servicio",
+          "Atender a los clientes con amabilidad, tomar pedidos y ofrecer información sobre menús y especialidades."
+        ]
+      },
+      {
+        "row_idx": 5,
+        "data": [
+          "[ ]",
+          "Mesero A",
+          "Atención y Servicio",
+          "Servir alimentos y bebidas de manera eficiente y segura."
+        ]
+      },
+      {
+        "row_idx": 6,
+        "data": [
+          "[ ]",
+          "Mesero A",
+          "Atención y Servicio",
+          "Retirar platos, limpiar mesas de forma constante y mantener limpias las áreas de trabajo."
+        ]
+      },
+      {
+        "row_idx": 7,
+        "data": [
+          "[ ]",
+          "Mesero A",
+          "Atención y Servicio",
+          "Apoyar en el montaje y desmontaje según las indicaciones del gerente."
+        ]
+      },
+      {
+        "row_idx": 8,
+        "data": [
+          "[ ]",
+          "Mesero A",
+          "Atención y Servicio",
+          "Generar venta a traves de recomendaciones de alimentos y bebidas."
+        ]
+      },
+      {
+        "row_idx": 11,
+        "data": [
+          "Estatus (Listos / Pendientes)",
+          "Puesto",
+          "Área / Categoría de Actividad",
+          "Actividad / Tarea"
+        ]
+      },
+      {
+        "row_idx": 12,
+        "data": [
+          "[ ]",
+          "Mesero B",
+          "Atención y Servicio",
+          "Atender a los clientes con amabilidad, tomar pedidos y ofrecer información sobre menús y especialidades."
+        ]
+      },
+      {
+        "row_idx": 13,
+        "data": [
+          "[ ]",
+          "Mesero B",
+          "Atención y Servicio",
+          "Servir alimentos y bebidas de manera eficiente y segura."
+        ]
+      },
+      {
+        "row_idx": 14,
+        "data": [
+          "[ ]",
+          "Mesero B",
+          "Atención y Servicio",
+          "Retirar platos, limpiar mesas de forma constante y mantener limpias las áreas de trabajo."
+        ]
+      },
+      {
+        "row_idx": 15,
+        "data": [
+          "[ ]",
+          "Mesero B",
+          "Atención y Servicio",
+          "Apoyar en el montaje y desmontaje según las indicaciones del gerente."
+        ]
+      },
+      {
+        "row_idx": 16,
+        "data": [
+          "[ ]",
+          "Mesero B",
+          "Atención y Servicio",
+          "Generar venta a traves de recomendaciones de alimentos y bebidas."
+        ]
+      },
+      {
+        "row_idx": 18,
+        "data": [
+          "Mesero C",
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "row_idx": 19,
+        "data": [
+          "Estatus (Listos / Pendientes)",
+          "Puesto",
+          "Área / Categoría de Actividad",
+          "Actividad / Tarea"
+        ]
+      },
+      {
+        "row_idx": 20,
+        "data": [
+          "[ ]",
+          "Mesero C",
+          "Atención y Servicio",
+          "Atender a los clientes con amabilidad, tomar pedidos y ofrecer información sobre menús y especialidades."
+        ]
+      },
+      {
+        "row_idx": 21,
+        "data": [
+          "[ ]",
+          "Mesero C",
+          "Atención y Servicio",
+          "Servir alimentos y bebidas de manera eficiente y segura."
+        ]
+      },
+      {
+        "row_idx": 22,
+        "data": [
+          "[ ]",
+          "Mesero C",
+          "Atención y Servicio",
+          "Retirar platos, limpiar mesas de forma constante y mantener limpias las áreas de trabajo."
+        ]
+      },
+      {
+        "row_idx": 23,
+        "data": [
+          "[ ]",
+          "Mesero C",
+          "Atención y Servicio",
+          "Apoyar en el montaje y desmontaje según las indicaciones del gerente."
+        ]
+      },
+      {
+        "row_idx": 24,
+        "data": [
+          "[ ]",
+          "Mesero C",
+          "Atención y Servicio",
+          "Generar venta a traves de recomendaciones de alimentos y bebidas."
+        ]
+      }
+    ],
+    "Cocina": [
+      {
+        "row_idx": 1,
+        "data": [
+          "Orgánico Hotel Boutique Valle - Checklist de Actividades por Puesto",
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "row_idx": 2,
+        "data": [
+          "Chef",
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "row_idx": 3,
+        "data": [
+          "Estatus (Listos / Pendientes)",
+          "Puesto",
+          "Área / Categoría de Actividad",
+          "Actividad / Tarea"
+        ]
+      },
+      {
+        "row_idx": 4,
+        "data": [
+          "[ ]",
+          "Chef",
+          "Producción y Calidad",
+          "Preparar y cocinar los alimentos siguiendo estrictamente las recetas y estándares de calidad e higiene."
+        ]
+      },
+      {
+        "row_idx": 5,
+        "data": [
+          "[ ]",
+          "Chef",
+          "Producción y Calidad",
+          "Mantener al día el control administrativo de pedidos, inventarios y planificación de menús."
+        ]
+      },
+      {
+        "row_idx": 6,
+        "data": [
+          "[ ]",
+          "Chef",
+          "Producción y Calidad",
+          "Asegurar la organización, limpieza y desinfección constante de la cocina."
+        ]
+      },
+      {
+        "row_idx": 7,
+        "data": [
+          "[ ]",
+          "Chef",
+          "Producción y Calidad",
+          "Supervisar y dirigir al personal de cocina"
+        ]
+      },
+      {
+        "row_idx": 11,
+        "data": [
+          "Segunda de Cocina",
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "row_idx": 12,
+        "data": [
+          "Estatus (Listos / Pendientes)",
+          "Puesto",
+          "Área / Categoría de Actividad",
+          "Actividad / Tarea"
+        ]
+      },
+      {
+        "row_idx": 13,
+        "data": [
+          "[ ]",
+          "Segunda de Cocina",
+          "Producción y Calidad",
+          "Respaldar actividades indicadas por el chef en tiempo y forma"
+        ]
+      },
+      {
+        "row_idx": 14,
+        "data": [
+          "[ ]",
+          "Segunda de Cocina",
+          "Producción y Calidad",
+          "Ayudar en la preparación y cocción de alimentos."
+        ]
+      },
+      {
+        "row_idx": 15,
+        "data": [
+          "[ ]",
+          "Segunda de Cocina",
+          "Producción y Calidad",
+          "Asegurar la preparación y el servicio seguro e higiénico de los alimentos."
+        ]
+      },
+      {
+        "row_idx": 16,
+        "data": [
+          "[ ]",
+          "Segunda de Cocina",
+          "Producción y Calidad",
+          "Limpieza y organización de estaciones"
+        ]
+      },
+      {
+        "row_idx": 18,
+        "data": [
+          "Ayudantes",
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "row_idx": 19,
+        "data": [
+          "Estatus (Listos / Pendientes)",
+          "Puesto",
+          "Área / Categoría de Actividad",
+          "Actividad / Tarea"
+        ]
+      },
+      {
+        "row_idx": 20,
+        "data": [
+          "[ ]",
+          "Ayudantes",
+          "Producción y Calidad",
+          "Respaldar actividades indicadas por el chef en tiempo y forma"
+        ]
+      },
+      {
+        "row_idx": 21,
+        "data": [
+          "[ ]",
+          "Ayudantes",
+          "Producción y Calidad",
+          "Ayudar en la preparación y cocción de alimentos."
+        ]
+      },
+      {
+        "row_idx": 22,
+        "data": [
+          "[ ]",
+          "Ayudantes",
+          "Producción y Calidad",
+          "Asegurar la preparación y el servicio seguro e higiénico de los alimentos."
+        ]
+      },
+      {
+        "row_idx": 23,
+        "data": [
+          "[ ]",
+          "Ayudantes",
+          "Producción y Calidad",
+          "Limpieza y organización de estaciones"
+        ]
+      },
+      {
+        "row_idx": 24,
+        "data": [
+          "[ ]",
+          "Ayudantes",
+          "Producción y Calidad",
+          "Limpieza y organización de loza"
+        ]
+      }
+    ],
+    "AMA DE LLAVESLIMPIEZA": [
+      {
+        "row_idx": 1,
+        "data": [
+          "Orgánico Hotel Boutique Ajusco - Checklist de Actividades por Puesto",
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "row_idx": 2,
+        "data": [
+          "Mucama",
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "row_idx": 3,
+        "data": [
+          "Estatus (Listos / Pendientes)",
+          "Puesto",
+          "Área / Categoría de Actividad",
+          "Actividad / Tarea"
+        ]
+      },
+      {
+        "row_idx": 4,
+        "data": [
+          "[ ]",
+          "Ama de Llaves / Mucamas",
+          "Limpieza de Habitaciones",
+          "Limpiar y organizar las habitaciones de acuerdo con los estándares de calidad del establecimiento."
+        ]
+      },
+      {
+        "row_idx": 5,
+        "data": [
+          "[ ]",
+          "Ama de Llaves / Mucamas",
+          "Limpieza de Habitaciones",
+          "Cambiar la ropa de cama y las toallas"
+        ]
+      },
+      {
+        "row_idx": 6,
+        "data": [
+          "[ ]",
+          "Ama de Llaves / Mucamas",
+          "Limpieza de Habitaciones",
+          "Aseo profundo de baños y abastecimiento de productos de higiene."
+        ]
+      },
+      {
+        "row_idx": 7,
+        "data": [
+          "[ ]",
+          "Ama de Llaves / Mucamas",
+          "Limpieza de Habitaciones",
+          "Retirar residuos, vaciar papeleras y dejar las habitaciones listas para la llegada de nuevos huéspedes."
+        ]
+      },
+      {
+        "row_idx": 8,
+        "data": [
+          "[ ]",
+          "Ama de Llaves / Mucamas",
+          "Limpieza de Habitaciones",
+          "Limpieza de áreas comunes como recepción, pasillos, casa club, área de spa y área de alberca"
+        ]
+      }
+    ],
+    "MANTENIMIENTO": [
+      {
+        "row_idx": 1,
+        "data": [
+          "Orgánico Hotel Boutique Ajusco - Checklist de Actividades por Puesto",
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "row_idx": 2,
+        "data": [
+          "Jefe de mantenimiento",
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "row_idx": 3,
+        "data": [
+          "Estatus (Listos / Pendientes)",
+          "Puesto",
+          "Área / Categoría de Actividad",
+          "Actividad / Tarea"
+        ]
+      },
+      {
+        "row_idx": 4,
+        "data": [
+          "[ ]",
+          "Mantenimiento",
+          "Inspección y Reparación",
+          "Supervisar y coordinar las actividades de mantenimiento preventivo"
+        ]
+      },
+      {
+        "row_idx": 5,
+        "data": [
+          "[ ]",
+          "Mantenimiento",
+          "Inspección y Reparación",
+          "Inventario de  activos y equipos"
+        ]
+      },
+      {
+        "row_idx": 6,
+        "data": [
+          "[ ]",
+          "Mantenimiento",
+          "Inspección y Reparación",
+          "Realizar inspecciones y evaluaciones de los activos y equipos para identificar necesidades de mantenimiento"
+        ]
+      },
+      {
+        "row_idx": 7,
+        "data": [
+          "[ ]",
+          "Mantenimiento",
+          "Inspección y Reparación",
+          "Cumplir rigurosamente con las normativas y regulaciones de seguridad."
+        ]
+      },
+      {
+        "row_idx": 8,
+        "data": [
+          "[ ]",
+          "Mantenimiento",
+          "Inspección y Reparación",
+          "Coordinar con otros departamentos la disponibilidad de equipos y espacios."
+        ]
+      },
+      {
+        "row_idx": 11,
+        "data": [
+          "Mantenimiento",
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "row_idx": 12,
+        "data": [
+          "Estatus (Listos / Pendientes)",
+          "Puesto",
+          "Área / Categoría de Actividad",
+          "Actividad / Tarea"
+        ]
+      },
+      {
+        "row_idx": 13,
+        "data": [
+          "[ ]",
+          "Mantenimiento",
+          "Inspección y Reparación",
+          "Realizar inspecciones periódicas a los equipos e instalaciones para identificar necesidades de mantenimiento preventivo y correctivo."
+        ]
+      },
+      {
+        "row_idx": 14,
+        "data": [
+          "[ ]",
+          "Mantenimiento",
+          "Inspección y Reparación",
+          "Asegurar el buen funcionamiento, seguridad y eficiencia de los activos del hotel."
+        ]
+      },
+      {
+        "row_idx": 15,
+        "data": [
+          "[ ]",
+          "Mantenimiento",
+          "Inspección y Reparación",
+          "Coordinar con otros departamentos la disponibilidad de equipos y espacios."
+        ]
+      },
+      {
+        "row_idx": 16,
+        "data": [
+          "[ ]",
+          "Mantenimiento",
+          "Inspección y Reparación",
+          "Cumplir rigurosamente con las normativas y regulaciones de seguridad."
+        ]
+      },
+      {
+        "row_idx": 21,
+        "data": [
+          "Jardinero",
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "row_idx": 22,
+        "data": [
+          "Estatus (Listos / Pendientes)",
+          "Puesto",
+          "Área / Categoría de Actividad",
+          "Actividad / Tarea"
+        ]
+      },
+      {
+        "row_idx": 23,
+        "data": [
+          "[ ]",
+          "Jardinero",
+          "Cuidado de Áreas Verdes",
+          "Realizar tareas de jardinería esenciales: podar, regar, fertilizar y controlar plagas en plantas y flores."
+        ]
+      },
+      {
+        "row_idx": 24,
+        "data": [
+          "[ ]",
+          "Jardinero",
+          "Cuidado de Áreas Verdes",
+          "Mantener la limpieza, el orden y la seguridad en los caminos y espacios verdes para el libre tránsito de los visitantes."
+        ]
+      }
+    ]
+  },
+  "Checklist_Actividades_Puestos_OHB_Tepoztlan.xlsx": {
+    "Gerente": [
+      {
+        "row_idx": 1,
+        "data": [
+          "Orgánico Hotel Boutique Tepoztlán - Checklist de Actividades por Puesto",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "row_idx": 3,
+        "data": [
+          "Estatus (Listos / Pendientes)",
+          "Puesto",
+          "Área / Categoría de Actividad",
+          "Actividad / Tarea",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "row_idx": 4,
+        "data": [
+          "[ ]",
+          "Gerencia General",
+          "Supervisión Operativa",
+          "Revisar diariamente las condiciones del inmueble (salones, jardines, baños, exposiciones y áreas históricas).",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "row_idx": 5,
+        "data": [
+          "[ ]",
+          "Gerencia General",
+          "Supervisión Operativa",
+          "Supervisar todas las áreas operativas (recepción, A&B, limpieza, áreas comunes, jardines, mantenimiento y administración).",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "row_idx": 6,
+        "data": [
+          "[ ]",
+          "Gerencia General",
+          "Gestión y Control",
+          "Monitorear inventarios, insumos, consumos y reporte de gastos.",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "row_idx": 7,
+        "data": [
+          "[ ]",
+          "Gerencia General",
+          "Gestión y Control",
+          "Aprobar compras menores y validar necesidades del inmueble.",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "row_idx": 8,
+        "data": [
+          "[ ]",
+          "Gerencia General",
+          "Gestión y Control",
+          "Revisar bitácoras operativas, de mantenimiento y de eventos.",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "row_idx": 9,
+        "data": [
+          "[ ]",
+          "Gerencia General",
+          "Personal y Comunicación",
+          "Supervisar puntualidad, presentación, actitud y desempeño del personal.",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "row_idx": 10,
+        "data": [
+          "[ ]",
+          "Gerencia General",
+          "Personal y Comunicación",
+          "Realizar juntas operativas semanales y asegurar el cumplimiento de acuerdos.",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "row_idx": 11,
+        "data": [
+          "[ ]",
+          "Gerencia General",
+          "Personal y Comunicación",
+          "Validar que los montajes, tiempos y servicios de eventos cumplan con lo cotizado.",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "row_idx": 12,
+        "data": [
+          "[ ]",
+          "Gerencia General",
+          "Experiencia del Visitante",
+          "Asegurar una experiencia cálida, ordenada y alineada a la esencia cultural.",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "row_idx": 13,
+        "data": [
+          "[ ]",
+          "Gerencia General",
+          "Experiencia del Visitante",
+          "Supervisar la atención a eventos, recorridos, producciones y visitantes generales.",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "row_idx": 14,
+        "data": [
+          "[ ]",
+          "Gerencia General",
+          "Administración y Control",
+          "Supervisar bitácoras operativas, de mantenimiento y de eventos",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "row_idx": 15,
+        "data": [
+          "[ ]",
+          "Gerencia General",
+          "Administración y Control",
+          "Realizar cortes diarios, conciliaciones, comprobación de gastos y gestión de pagos, facturación y presupuestos.",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "row_idx": 16,
+        "data": [
+          "[ ]",
+          "Gerencia General",
+          "Administración y Control",
+          "Supervisar y registrar los inventarios de A&B, limpieza y mantenimiento, manteniendo actualizada la carpeta de mermas y coordinando reposiciones con gerencia para evitar desabastos",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "row_idx": 17,
+        "data": [
+          "[ ]",
+          "Gerencia General",
+          "Administración y Control",
+          "Gestionar la documentación fiscal, notas de venta, solicitudes de compra y la relación con proveedores, contratos y acuerdos institucionales.",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ]
+      }
+    ],
+    "Subgerente": [
+      {
+        "row_idx": 1,
+        "data": [
+          "Orgánico Hotel Boutique Tepoztlán - Checklist de Actividades por Puesto",
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "row_idx": 2,
+        "data": [
+          "Subgerente",
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "row_idx": 3,
+        "data": [
+          "Estatus (Listos / Pendientes)",
+          "Puesto",
+          "Área / Categoría de Actividad",
+          "Actividad / Tarea"
+        ]
+      },
+      {
+        "row_idx": 4,
+        "data": [
+          "[ ]",
+          "Subgerencia",
+          "Monitoreo de Instalaciones",
+          "Verificar la limpieza, el orden y la presentación visual de salones, jardines, cafetería, baños y pasillos antes, durante y después de la apertura."
+        ]
+      },
+      {
+        "row_idx": 5,
+        "data": [
+          "[ ]",
+          "Subgerencia",
+          "Operación y Atención",
+          "Apoyar a recepción en la atención a grupos, artistas, proveedores y visitantes."
+        ]
+      },
+      {
+        "row_idx": 6,
+        "data": [
+          "[ ]",
+          "Subgerencia",
+          "Operación y Atención",
+          "Asegurar que el personal cumpla con los protocolos de apertura, operación y cierre."
+        ]
+      },
+      {
+        "row_idx": 7,
+        "data": [
+          "[ ]",
+          "Subgerencia",
+          "Operación y Atención",
+          "Mantener actualizada la bitácora de incidencias y prioridades del día."
+        ]
+      },
+      {
+        "row_idx": 8,
+        "data": [
+          "[ ]",
+          "Subgerencia",
+          "Operación y Atención",
+          "Supervisar puntualidad, presentación, actitud y desempeño."
+        ]
+      }
+    ],
+    "A&B": [
+      {
+        "row_idx": 1,
+        "data": [
+          "Orgánico Hotel Boutique Tepoztlán - Checklist de Actividades por Puesto",
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "row_idx": 2,
+        "data": [
+          "Capitán 1",
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "row_idx": 3,
+        "data": [
+          "Estatus (Listos / Pendientes)",
+          "Puesto",
+          "Área / Categoría de Actividad",
+          "Actividad / Tarea"
+        ]
+      },
+      {
+        "row_idx": 4,
+        "data": [
+          "[ ]",
+          "Capitán (A&B)",
+          "Supervisión del Servicio",
+          "Dirigir al equipo de meseros y ayudantes durante turnos y eventos."
+        ]
+      },
+      {
+        "row_idx": 5,
+        "data": [
+          "[ ]",
+          "Capitán (A&B)",
+          "Supervisión del Servicio",
+          "Validar el montaje previo de mesas, cristalería, loza, cubiertos y estaciones (coffee break, cocteles, etc.)."
+        ]
+      },
+      {
+        "row_idx": 6,
+        "data": [
+          "[ ]",
+          "Capitán (A&B)",
+          "Supervisión del Servicio",
+          "Verificar que la presentación de platillos y bebidas cumpla con los estándares antes de salir a servicio."
+        ]
+      },
+      {
+        "row_idx": 7,
+        "data": [
+          "[ ]",
+          "Capitán (A&B)",
+          "Control y Cierre",
+          "Revisar existencias de insumos básicos (bebidas, cristalería, consumibles) y reportar faltantes."
+        ]
+      },
+      {
+        "row_idx": 8,
+        "data": [
+          "[ ]",
+          "Capitán (A&B)",
+          "Control y Cierre",
+          "Supervisar el desmontaje, la limpieza general y la correcta ubicación del mobiliario al finalizar."
+        ]
+      },
+      {
+        "row_idx": 9,
+        "data": [
+          "[ ]",
+          "Capitán (A&B)",
+          "Control y Cierre",
+          "Entregar reportes de consumos, incidencias y observaciones del turno."
+        ]
+      },
+      {
+        "row_idx": 11,
+        "data": [
+          "Mesero A",
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "row_idx": 12,
+        "data": [
+          "Estatus (Listos / Pendientes)",
+          "Puesto",
+          "Área / Categoría de Actividad",
+          "Actividad / Tarea"
+        ]
+      },
+      {
+        "row_idx": 13,
+        "data": [
+          "[ ]",
+          "Mesero A",
+          "Atención y Servicio",
+          "Atender a los clientes con amabilidad, tomar pedidos y ofrecer información sobre menús y especialidades."
+        ]
+      },
+      {
+        "row_idx": 14,
+        "data": [
+          "[ ]",
+          "Mesero A",
+          "Atención y Servicio",
+          "Servir alimentos y bebidas de manera eficiente y segura."
+        ]
+      },
+      {
+        "row_idx": 15,
+        "data": [
+          "[ ]",
+          "Mesero A",
+          "Atención y Servicio",
+          "Retirar platos, limpiar mesas de forma constante y mantener limpias las áreas de trabajo."
+        ]
+      },
+      {
+        "row_idx": 16,
+        "data": [
+          "[ ]",
+          "Mesero A",
+          "Atención y Servicio",
+          "Apoyar en el montaje y desmontaje según las indicaciones del Capitán."
+        ]
+      },
+      {
+        "row_idx": 17,
+        "data": [
+          "[ ]",
+          "Mesero A",
+          "Atención y Servicio",
+          "Generar venta a traves de recomendaciones de alimentos y bebidas."
+        ]
+      },
+      {
+        "row_idx": 19,
+        "data": [
+          "Mesero B",
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "row_idx": 20,
+        "data": [
+          "Estatus (Listos / Pendientes)",
+          "Puesto",
+          "Área / Categoría de Actividad",
+          "Actividad / Tarea"
+        ]
+      },
+      {
+        "row_idx": 21,
+        "data": [
+          "[ ]",
+          "Mesero B",
+          "Atención y Servicio",
+          "Atender a los clientes con amabilidad, tomar pedidos y ofrecer información sobre menús y especialidades."
+        ]
+      },
+      {
+        "row_idx": 22,
+        "data": [
+          "[ ]",
+          "Mesero B",
+          "Atención y Servicio",
+          "Servir alimentos y bebidas de manera eficiente y segura."
+        ]
+      },
+      {
+        "row_idx": 23,
+        "data": [
+          "[ ]",
+          "Mesero B",
+          "Atención y Servicio",
+          "Retirar platos, limpiar mesas de forma constante y mantener limpias las áreas de trabajo."
+        ]
+      },
+      {
+        "row_idx": 24,
+        "data": [
+          "[ ]",
+          "Mesero B",
+          "Atención y Servicio",
+          "Apoyar en el montaje y desmontaje según las indicaciones del Capitán."
+        ]
+      },
+      {
+        "row_idx": 25,
+        "data": [
+          "[ ]",
+          "Mesero B",
+          "Atención y Servicio",
+          "Generar venta a traves de recomendaciones de alimentos y bebidas."
+        ]
+      }
+    ],
+    "Cocina": [
+      {
+        "row_idx": 1,
+        "data": [
+          "Orgánico Hotel Boutique Tepoztlán - Checklist de Actividades por Puesto",
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "row_idx": 3,
+        "data": [
+          "Chef",
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "row_idx": 4,
+        "data": [
+          "Estatus (Listos / Pendientes)",
+          "Puesto",
+          "Área / Categoría de Actividad",
+          "Actividad / Tarea"
+        ]
+      },
+      {
+        "row_idx": 5,
+        "data": [
+          "[ ]",
+          "Chef",
+          "Producción y Calidad",
+          "Preparar y cocinar los alimentos siguiendo estrictamente las recetas y estándares de calidad e higiene."
+        ]
+      },
+      {
+        "row_idx": 6,
+        "data": [
+          "[ ]",
+          "Chef",
+          "Producción y Calidad",
+          "Mantener al día el control administrativo de pedidos, inventarios y planificación de menús."
+        ]
+      },
+      {
+        "row_idx": 7,
+        "data": [
+          "[ ]",
+          "Chef",
+          "Producción y Calidad",
+          "Asegurar la organización, limpieza y desinfección constante de la cocina."
+        ]
+      },
+      {
+        "row_idx": 8,
+        "data": [
+          "[ ]",
+          "Chef",
+          "Producción y Calidad",
+          "Supervisar y dirigir al personal de cocina"
+        ]
+      },
+      {
+        "row_idx": 10,
+        "data": [
+          "Ayudantes de cocina",
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "row_idx": 11,
+        "data": [
+          "Estatus (Listos / Pendientes)",
+          "Puesto",
+          "Área / Categoría de Actividad",
+          "Actividad / Tarea"
+        ]
+      },
+      {
+        "row_idx": 12,
+        "data": [
+          "[ ]",
+          "Ayudantes",
+          "Producción y Calidad",
+          "Respaldar actividades indicadas por el chef en tiempo y forma"
+        ]
+      },
+      {
+        "row_idx": 13,
+        "data": [
+          "[ ]",
+          "Ayudantes",
+          "Producción y Calidad",
+          "Ayudar en la preparación y cocción de alimentos."
+        ]
+      },
+      {
+        "row_idx": 14,
+        "data": [
+          "[ ]",
+          "Ayudantes",
+          "Producción y Calidad",
+          "Asegurar la preparación y el servicio seguro e higiénico de los alimentos."
+        ]
+      },
+      {
+        "row_idx": 15,
+        "data": [
+          "[ ]",
+          "Ayudantes",
+          "Producción y Calidad",
+          "Limpieza y organización de estaciones"
+        ]
+      }
+    ],
+    "AMA DE LLAVESLIMPIEZA": [
+      {
+        "row_idx": 1,
+        "data": [
+          "Orgánico Hotel Boutique Tepoztlán - Checklist de Actividades por Puesto",
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "row_idx": 2,
+        "data": [
+          "Mucama",
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "row_idx": 3,
+        "data": [
+          "Estatus (Listos / Pendientes)",
+          "Puesto",
+          "Área / Categoría de Actividad",
+          "Actividad / Tarea"
+        ]
+      },
+      {
+        "row_idx": 4,
+        "data": [
+          "[ ]",
+          "Ama de Llaves / Mucamas",
+          "Limpieza de Habitaciones",
+          "Limpiar y organizar las habitaciones de acuerdo con los estándares de calidad del establecimiento."
+        ]
+      },
+      {
+        "row_idx": 5,
+        "data": [
+          "[ ]",
+          "Ama de Llaves / Mucamas",
+          "Limpieza de Habitaciones",
+          "Cambiar la ropa de cama y las toallas"
+        ]
+      },
+      {
+        "row_idx": 6,
+        "data": [
+          "[ ]",
+          "Ama de Llaves / Mucamas",
+          "Limpieza de Habitaciones",
+          "Aseo profundo de baños y abastecimiento de productos de higiene."
+        ]
+      },
+      {
+        "row_idx": 7,
+        "data": [
+          "[ ]",
+          "Ama de Llaves / Mucamas",
+          "Limpieza de Habitaciones",
+          "Retirar residuos, vaciar papeleras y dejar las habitaciones listas para la llegada de nuevos huéspedes."
+        ]
+      },
+      {
+        "row_idx": 8,
+        "data": [
+          "[ ]",
+          "Ama de Llaves / Mucamas",
+          "Limpieza de Habitaciones",
+          "Limpieza de áreas comunes como recepción, pasillos, casa club, área de spa y área de alberca"
+        ]
+      }
+    ],
+    "MANTENIMIENTO": [
+      {
+        "row_idx": 1,
+        "data": [
+          "Orgánico Hotel Boutique Tepoztlán - Checklist de Actividades por Puesto",
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "row_idx": 2,
+        "data": [
+          "Jefe de Mantenimiento",
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "row_idx": 3,
+        "data": [
+          "Estatus (Listos / Pendientes)",
+          "Puesto",
+          "Área / Categoría de Actividad",
+          "Actividad / Tarea"
+        ]
+      },
+      {
+        "row_idx": 4,
+        "data": [
+          "[ ]",
+          "Mantenimiento",
+          "Inspección y Reparación",
+          "Supervisar y coordinar las actividades de mantenimiento preventivo"
+        ]
+      },
+      {
+        "row_idx": 5,
+        "data": [
+          "[ ]",
+          "Mantenimiento",
+          "Inspección y Reparación",
+          "Inventario de  activos y equipos"
+        ]
+      },
+      {
+        "row_idx": 6,
+        "data": [
+          "[ ]",
+          "Mantenimiento",
+          "Inspección y Reparación",
+          "Realizar inspecciones y evaluaciones de los activos y equipos para identificar necesidades de mantenimiento"
+        ]
+      },
+      {
+        "row_idx": 7,
+        "data": [
+          "[ ]",
+          "Mantenimiento",
+          "Inspección y Reparación",
+          "Cumplir rigurosamente con las normativas y regulaciones de seguridad."
+        ]
+      },
+      {
+        "row_idx": 8,
+        "data": [
+          "",
+          "",
+          "",
+          "Coordinar con otros departamentos la disponibilidad de equipos y espacios."
+        ]
+      },
+      {
+        "row_idx": 9,
+        "data": [
+          "Jardinero",
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "row_idx": 10,
+        "data": [
+          "Estatus (Listos / Pendientes)",
+          "Puesto",
+          "Área / Categoría de Actividad",
+          "Actividad / Tarea"
+        ]
+      },
+      {
+        "row_idx": 11,
+        "data": [
+          "[ ]",
+          "Jardinero",
+          "Cuidado de Áreas Verdes",
+          "Realizar tareas de jardinería esenciales: podar, regar, fertilizar y controlar plagas en plantas y flores."
+        ]
+      },
+      {
+        "row_idx": 12,
+        "data": [
+          "[ ]",
+          "Jardinero",
+          "Cuidado de Áreas Verdes",
+          "Mantener la limpieza, el orden y la seguridad en los caminos y espacios verdes para el libre tránsito de los visitantes."
+        ]
+      }
+    ],
+    "SEGURIDAD": [
+      {
+        "row_idx": 1,
+        "data": [
+          "Orgánico Hotel Boutique Tepoztlán - Checklist de Actividades por Puesto",
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "row_idx": 2,
+        "data": [
+          "VELADOR A",
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "row_idx": 3,
+        "data": [
+          "Estatus (Listos / Pendientes)",
+          "Puesto",
+          "Área / Categoría de Actividad",
+          "Actividad / Tarea"
+        ]
+      },
+      {
+        "row_idx": 4,
+        "data": [
+          "[ ]",
+          "VELADOR A",
+          "Revisión inicial y de equipos",
+          "Inspeccionar los accesos perimetrales, cerraduras y el estado de los sistemas de seguridad (radios, linternas y cámaras de vigilancia) al iniciar el turno."
+        ]
+      },
+      {
+        "row_idx": 5,
+        "data": [
+          "[ ]",
+          "VELADOR A",
+          "Control de accesos",
+          "Registrar debidamente la entrada y salida de proveedores, contratistas y visitas externas, solicitando su identificación oficial."
+        ]
+      },
+      {
+        "row_idx": 6,
+        "data": [
+          "[ ]",
+          "VELADOR A",
+          "Rondas de vigilancia periódicas",
+          "Realizar recorridos constantes por los jardines, pasillos, estacionamientos y áreas comunes para prevenir riesgos y detectar cualquier anomalía."
+        ]
+      },
+      {
+        "row_idx": 7,
+        "data": [
+          "[ ]",
+          "VELADOR A",
+          "Supervisión de salidas y resguardo",
+          "Verificar que el movimiento o salida de cualquier mobiliario, herramienta o mercancía cuente con la autorización firmada por la administración."
+        ]
+      },
+      {
+        "row_idx": 8,
+        "data": [
+          "[ ]",
+          "VELADOR A",
+          "Cierre y reporte en bitácora",
+          "Asegurar el cierre correcto de puertas y portones principales al finalizar la jornada, documentando todas las incidencias y novedades en la bitácora."
+        ]
+      },
+      {
+        "row_idx": 11,
+        "data": [
+          "VELADOR B",
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "row_idx": 12,
+        "data": [
+          "Estatus (Listos / Pendientes)",
+          "Puesto",
+          "Área / Categoría de Actividad",
+          "Actividad / Tarea"
+        ]
+      },
+      {
+        "row_idx": 13,
+        "data": [
+          "[ ]",
+          "VELADOR B",
+          "Revisión inicial y de equipos",
+          "Inspeccionar los accesos perimetrales, cerraduras y el estado de los sistemas de seguridad (radios, linternas y cámaras de vigilancia) al iniciar el turno."
+        ]
+      },
+      {
+        "row_idx": 14,
+        "data": [
+          "[ ]",
+          "VELADOR B",
+          "Control de accesos",
+          "Registrar debidamente la entrada y salida de proveedores, contratistas y visitas externas, solicitando su identificación oficial."
+        ]
+      },
+      {
+        "row_idx": 15,
+        "data": [
+          "[ ]",
+          "VELADOR B",
+          "Rondas de vigilancia periódicas",
+          "Realizar recorridos constantes por los jardines, pasillos, estacionamientos y áreas comunes para prevenir riesgos y detectar cualquier anomalía."
+        ]
+      },
+      {
+        "row_idx": 16,
+        "data": [
+          "[ ]",
+          "VELADOR B",
+          "Supervisión de salidas y resguardo",
+          "Verificar que el movimiento o salida de cualquier mobiliario, herramienta o mercancía cuente con la autorización firmada por la administración."
+        ]
+      },
+      {
+        "row_idx": 17,
+        "data": [
+          "[ ]",
+          "VELADOR B",
+          "Cierre y reporte en bitácora",
+          "Asegurar el cierre correcto de puertas y portones principales al finalizar la jornada, documentando todas las incidencias y novedades en la bitácora."
+        ]
+      }
+    ]
+  },
+  "Checklist_Actividades_Puestos_CCQS.xlsx": {
+    "Gerente": [
+      {
+        "row_idx": 1,
+        "data": [
+          "Centro Cultural Quinta Soledad - Checklist de Actividades por Puesto",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "row_idx": 3,
+        "data": [
+          "Estatus (Listos / Pendientes)",
+          "Puesto",
+          "Área / Categoría de Actividad",
+          "Actividad / Tarea",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "row_idx": 4,
+        "data": [
+          "[ ]",
+          "Gerencia General",
+          "Supervisión Operativa",
+          "Revisar diariamente las condiciones del inmueble (salones, jardines, baños, exposiciones y áreas históricas).",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "row_idx": 5,
+        "data": [
+          "[ ]",
+          "Gerencia General",
+          "Supervisión Operativa",
+          "Supervisar todas las áreas operativas (recepción, A&B, limpieza, áreas comunes, jardines, mantenimiento y administración).",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "row_idx": 6,
+        "data": [
+          "[ ]",
+          "Gerencia General",
+          "Gestión y Control",
+          "Monitorear inventarios, insumos, consumos y reporte de gastos.",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "row_idx": 7,
+        "data": [
+          "[ ]",
+          "Gerencia General",
+          "Gestión y Control",
+          "Aprobar compras menores y validar necesidades del inmueble.",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "row_idx": 8,
+        "data": [
+          "[ ]",
+          "Gerencia General",
+          "Gestión y Control",
+          "Revisar bitácoras operativas, de mantenimiento y de eventos.",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "row_idx": 9,
+        "data": [
+          "[ ]",
+          "Gerencia General",
+          "Personal y Comunicación",
+          "Supervisar puntualidad, presentación, actitud y desempeño del personal.",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "row_idx": 10,
+        "data": [
+          "[ ]",
+          "Gerencia General",
+          "Personal y Comunicación",
+          "Realizar juntas operativas semanales y asegurar el cumplimiento de acuerdos.",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "row_idx": 11,
+        "data": [
+          "[ ]",
+          "Gerencia General",
+          "Personal y Comunicación",
+          "Validar que los montajes, tiempos y servicios de eventos cumplan con lo cotizado.",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "row_idx": 12,
+        "data": [
+          "[ ]",
+          "Gerencia General",
+          "Experiencia del Visitante",
+          "Asegurar una experiencia cálida, ordenada y alineada a la esencia cultural.",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "row_idx": 13,
+        "data": [
+          "[ ]",
+          "Gerencia General",
+          "Experiencia del Visitante",
+          "Supervisar la atención a eventos, recorridos, producciones y visitantes generales.",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "row_idx": 14,
+        "data": [
+          "[ ]",
+          "Gerencia General",
+          "Administración y Control",
+          "Supervisar bitácoras operativas, de mantenimiento y de eventos",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "row_idx": 20,
+        "data": [
+          "Nota: base de actividades diarias, hay actividades que pueden ser esporadicas dependiendo la operaciòn de cada dìa",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ]
+      }
+    ],
+    "Subgerente": [
+      {
+        "row_idx": 1,
+        "data": [
+          "Centro Cultural Quinta Soledad - Checklist de Actividades por Puesto",
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "row_idx": 2,
+        "data": [
+          "Subgerente",
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "row_idx": 3,
+        "data": [
+          "Estatus (Listos / Pendientes)",
+          "Puesto",
+          "Área / Categoría de Actividad",
+          "Actividad / Tarea"
+        ]
+      },
+      {
+        "row_idx": 4,
+        "data": [
+          "[ ]",
+          "Subgerencia",
+          "Monitoreo de Instalaciones",
+          "Verificar la limpieza, el orden y la presentación visual de salones, jardines, cafetería, baños y pasillos antes, durante y después de la apertura."
+        ]
+      },
+      {
+        "row_idx": 5,
+        "data": [
+          "[ ]",
+          "Subgerencia",
+          "Operación y Atención",
+          "Apoyar a recepción en la atención a grupos, artistas, proveedores y visitantes."
+        ]
+      },
+      {
+        "row_idx": 6,
+        "data": [
+          "[ ]",
+          "Subgerencia",
+          "Operación y Atención",
+          "Asegurar que el personal cumpla con los protocolos de apertura, operación y cierre."
+        ]
+      },
+      {
+        "row_idx": 7,
+        "data": [
+          "[ ]",
+          "Subgerencia",
+          "Operación y Atención",
+          "Mantener actualizada la bitácora de incidencias y prioridades del día."
+        ]
+      },
+      {
+        "row_idx": 8,
+        "data": [
+          "[ ]",
+          "Subgerencia",
+          "Operación y Atención",
+          "Supervisar puntualidad, presentación, actitud y desempeño."
+        ]
+      },
+      {
+        "row_idx": 12,
+        "data": [
+          "Nota: base de actividades diarias, hay actividades que pueden ser esporadicas dependiendo la operaciòn de cada dìa",
+          "",
+          "",
+          ""
+        ]
+      }
+    ],
+    "Administración": [
+      {
+        "row_idx": 1,
+        "data": [
+          "Centro Cultural Quinta Soledad - Checklist de Actividades por Puesto",
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "row_idx": 2,
+        "data": [
+          "Recepcionista A",
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "row_idx": 3,
+        "data": [
+          "Estatus (Listos / Pendientes)",
+          "Puesto",
+          "Área / Categoría de Actividad",
+          "Actividad / Tarea"
+        ]
+      },
+      {
+        "row_idx": 4,
+        "data": [
+          "[ ]",
+          "Recepcionista A",
+          "Atención a Huéspedes",
+          "Dar seguimiento a  reservas que arriban durante el día"
+        ]
+      },
+      {
+        "row_idx": 5,
+        "data": [
+          "[ ]",
+          "Recepcionista A",
+          "Atención a Huéspedes",
+          "Verificar las reservas recibidas asegurando que la información este correcta y actualisada"
+        ]
+      },
+      {
+        "row_idx": 6,
+        "data": [
+          "[ ]",
+          "Recepcionista A",
+          "Atención a Huéspedes",
+          "Seguimiento diario de las reservaciones con status de no show"
+        ]
+      },
+      {
+        "row_idx": 7,
+        "data": [
+          "[ ]",
+          "Recepcionista A",
+          "Atención a Huéspedes",
+          "Recibir, registrar y asignar habitaciones a los huéspedes."
+        ]
+      },
+      {
+        "row_idx": 8,
+        "data": [
+          "[ ]",
+          "Recepcionista A",
+          "Atención a Huéspedes",
+          "Proporcionar información sobre los servicios, facilidades, precios y disponibilidad del hotel."
+        ]
+      },
+      {
+        "row_idx": 9,
+        "data": [
+          "[ ]",
+          "Recepcionista A",
+          "Atención a Huéspedes",
+          "Realizar el proceso de check-out y procesar pagos."
+        ]
+      },
+      {
+        "row_idx": 10,
+        "data": [
+          "[ ]",
+          "Recepcionista A",
+          "Atención a Huéspedes",
+          "Resolver problemas, quejas y ofrecer recomendaciones de actividades en el área."
+        ]
+      },
+      {
+        "row_idx": 11,
+        "data": [
+          "[ ]",
+          "Recepcionista A",
+          "Gestión Administrativa",
+          "Gestionar, confirmar y actualizar las reservas de habitaciones (cambios y cancelaciones)."
+        ]
+      },
+      {
+        "row_idx": 12,
+        "data": [
+          "[ ]",
+          "Recepcionista A",
+          "Gestión Administrativa",
+          "Procesar pagos, gestionar facturas y mantener registros organizados."
+        ]
+      },
+      {
+        "row_idx": 13,
+        "data": [
+          "[ ]",
+          "Recepcionista A",
+          "Gestión Administrativa",
+          "Generar venta de experiencias"
+        ]
+      },
+      {
+        "row_idx": 15,
+        "data": [
+          "Recepcionista B",
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "row_idx": 16,
+        "data": [
+          "Estatus (Listos / Pendientes)",
+          "Puesto",
+          "Área / Categoría de Actividad",
+          "Actividad / Tarea"
+        ]
+      },
+      {
+        "row_idx": 17,
+        "data": [
+          "[ ]",
+          "Recepcionista B",
+          "Atención a Huéspedes",
+          "Dar seguimiento a  reservas que arriban durante el día"
+        ]
+      },
+      {
+        "row_idx": 18,
+        "data": [
+          "[ ]",
+          "Recepcionista B",
+          "Atención a Huéspedes",
+          "Verificar las reservas recibidas asegurando que la información este correcta y actualisada"
+        ]
+      },
+      {
+        "row_idx": 19,
+        "data": [
+          "[ ]",
+          "Recepcionista B",
+          "Atención a Huéspedes",
+          "Seguimiento diario de las reservaciones con status de no show"
+        ]
+      },
+      {
+        "row_idx": 20,
+        "data": [
+          "[ ]",
+          "Recepcionista B",
+          "Atención a Huéspedes",
+          "Recibir, registrar y asignar habitaciones a los huéspedes."
+        ]
+      },
+      {
+        "row_idx": 21,
+        "data": [
+          "[ ]",
+          "Recepcionista B",
+          "Atención a Huéspedes",
+          "Proporcionar información sobre los servicios, facilidades, precios y disponibilidad del hotel."
+        ]
+      },
+      {
+        "row_idx": 22,
+        "data": [
+          "[ ]",
+          "Recepcionista B",
+          "Atención a Huéspedes",
+          "Realizar el proceso de check-out y procesar pagos."
+        ]
+      },
+      {
+        "row_idx": 23,
+        "data": [
+          "[ ]",
+          "Recepcionista B",
+          "Atención a Huéspedes",
+          "Resolver problemas, quejas y ofrecer recomendaciones de actividades en el área."
+        ]
+      },
+      {
+        "row_idx": 24,
+        "data": [
+          "[ ]",
+          "Recepcionista B",
+          "Gestión Administrativa",
+          "Gestionar, confirmar y actualizar las reservas de habitaciones (cambios y cancelaciones)."
+        ]
+      },
+      {
+        "row_idx": 25,
+        "data": [
+          "[ ]",
+          "Recepcionista B",
+          "Gestión Administrativa",
+          "Procesar pagos, gestionar facturas y mantener registros organizados."
+        ]
+      },
+      {
+        "row_idx": 26,
+        "data": [
+          "[ ]",
+          "Recepcionista B",
+          "Gestión Administrativa",
+          "Generar venta de experiencias"
+        ]
+      },
+      {
+        "row_idx": 28,
+        "data": [
+          "Nota: base de actividades diarias, hay actividades que pueden ser esporadicas dependiendo la operaciòn de cada dìa",
+          "",
+          "",
+          ""
+        ]
+      }
+    ],
+    "A&B Capitular": [
+      {
+        "row_idx": 1,
+        "data": [
+          "Orgánico Hotel Boutique Tepoztlán - Checklist de Actividades por Puesto",
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "row_idx": 2,
+        "data": [
+          "Capitán 1",
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "row_idx": 3,
+        "data": [
+          "Estatus (Listos / Pendientes)",
+          "Puesto",
+          "Área / Categoría de Actividad",
+          "Actividad / Tarea"
+        ]
+      },
+      {
+        "row_idx": 4,
+        "data": [
+          "[ ]",
+          "Capitán (A&B)",
+          "Supervisión del Servicio",
+          "Dirigir al equipo de meseros y ayudantes durante turnos y eventos."
+        ]
+      },
+      {
+        "row_idx": 5,
+        "data": [
+          "[ ]",
+          "Capitán (A&B)",
+          "Supervisión del Servicio",
+          "Validar el montaje previo de mesas, cristalería, loza, cubiertos y estaciones (coffee break, cocteles, etc.)."
+        ]
+      },
+      {
+        "row_idx": 6,
+        "data": [
+          "[ ]",
+          "Capitán (A&B)",
+          "Supervisión del Servicio",
+          "Verificar que la presentación de platillos y bebidas cumpla con los estándares antes de salir a servicio."
+        ]
+      },
+      {
+        "row_idx": 7,
+        "data": [
+          "[ ]",
+          "Capitán (A&B)",
+          "Control y Cierre",
+          "Revisar existencias de insumos básicos (bebidas, cristalería, consumibles) y reportar faltantes."
+        ]
+      },
+      {
+        "row_idx": 8,
+        "data": [
+          "[ ]",
+          "Capitán (A&B)",
+          "Control y Cierre",
+          "Supervisar el desmontaje, la limpieza general y la correcta ubicación del mobiliario al finalizar."
+        ]
+      },
+      {
+        "row_idx": 9,
+        "data": [
+          "[ ]",
+          "Capitán (A&B)",
+          "Control y Cierre",
+          "Entregar reportes de consumos, incidencias y observaciones del turno."
+        ]
+      },
+      {
+        "row_idx": 11,
+        "data": [
+          "Capitán 2",
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "row_idx": 12,
+        "data": [
+          "Estatus (Listos / Pendientes)",
+          "Puesto",
+          "Área / Categoría de Actividad",
+          "Actividad / Tarea"
+        ]
+      },
+      {
+        "row_idx": 13,
+        "data": [
+          "[ ]",
+          "Capitán (A&B)",
+          "Supervisión del Servicio",
+          "Dirigir al equipo de meseros y ayudantes durante turnos y eventos."
+        ]
+      },
+      {
+        "row_idx": 14,
+        "data": [
+          "[ ]",
+          "Capitán (A&B)",
+          "Supervisión del Servicio",
+          "Validar el montaje previo de mesas, cristalería, loza, cubiertos y estaciones (coffee break, cocteles, etc.)."
+        ]
+      },
+      {
+        "row_idx": 15,
+        "data": [
+          "[ ]",
+          "Capitán (A&B)",
+          "Supervisión del Servicio",
+          "Verificar que la presentación de platillos y bebidas cumpla con los estándares antes de salir a servicio."
+        ]
+      },
+      {
+        "row_idx": 16,
+        "data": [
+          "[ ]",
+          "Capitán (A&B)",
+          "Control y Cierre",
+          "Revisar existencias de insumos básicos (bebidas, cristalería, consumibles) y reportar faltantes."
+        ]
+      },
+      {
+        "row_idx": 17,
+        "data": [
+          "[ ]",
+          "Capitán (A&B)",
+          "Control y Cierre",
+          "Supervisar el desmontaje, la limpieza general y la correcta ubicación del mobiliario al finalizar."
+        ]
+      },
+      {
+        "row_idx": 18,
+        "data": [
+          "[ ]",
+          "Capitán (A&B)",
+          "Control y Cierre",
+          "Entregar reportes de consumos, incidencias y observaciones del turno."
+        ]
+      },
+      {
+        "row_idx": 20,
+        "data": [
+          "Capitán 3",
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "row_idx": 21,
+        "data": [
+          "Estatus (Listos / Pendientes)",
+          "Puesto",
+          "Área / Categoría de Actividad",
+          "Actividad / Tarea"
+        ]
+      },
+      {
+        "row_idx": 22,
+        "data": [
+          "[ ]",
+          "Capitán (A&B)",
+          "Supervisión del Servicio",
+          "Dirigir al equipo de meseros y ayudantes durante turnos y eventos."
+        ]
+      },
+      {
+        "row_idx": 23,
+        "data": [
+          "[ ]",
+          "Capitán (A&B)",
+          "Supervisión del Servicio",
+          "Validar el montaje previo de mesas, cristalería, loza, cubiertos y estaciones (coffee break, cocteles, etc.)."
+        ]
+      },
+      {
+        "row_idx": 24,
+        "data": [
+          "[ ]",
+          "Capitán (A&B)",
+          "Supervisión del Servicio",
+          "Verificar que la presentación de platillos y bebidas cumpla con los estándares antes de salir a servicio."
+        ]
+      },
+      {
+        "row_idx": 25,
+        "data": [
+          "[ ]",
+          "Capitán (A&B)",
+          "Control y Cierre",
+          "Revisar existencias de insumos básicos (bebidas, cristalería, consumibles) y reportar faltantes."
+        ]
+      },
+      {
+        "row_idx": 26,
+        "data": [
+          "[ ]",
+          "Capitán (A&B)",
+          "Control y Cierre",
+          "Supervisar el desmontaje, la limpieza general y la correcta ubicación del mobiliario al finalizar."
+        ]
+      },
+      {
+        "row_idx": 27,
+        "data": [
+          "[ ]",
+          "Capitán (A&B)",
+          "Control y Cierre",
+          "Entregar reportes de consumos, incidencias y observaciones del turno."
+        ]
+      },
+      {
+        "row_idx": 29,
+        "data": [
+          "Capitán 4",
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "row_idx": 30,
+        "data": [
+          "Estatus (Listos / Pendientes)",
+          "Puesto",
+          "Área / Categoría de Actividad",
+          "Actividad / Tarea"
+        ]
+      },
+      {
+        "row_idx": 31,
+        "data": [
+          "[ ]",
+          "Capitán (A&B)",
+          "Supervisión del Servicio",
+          "Dirigir al equipo de meseros y ayudantes durante turnos y eventos."
+        ]
+      },
+      {
+        "row_idx": 32,
+        "data": [
+          "[ ]",
+          "Capitán (A&B)",
+          "Supervisión del Servicio",
+          "Validar el montaje previo de mesas, cristalería, loza, cubiertos y estaciones (coffee break, cocteles, etc.)."
+        ]
+      },
+      {
+        "row_idx": 33,
+        "data": [
+          "[ ]",
+          "Capitán (A&B)",
+          "Supervisión del Servicio",
+          "Verificar que la presentación de platillos y bebidas cumpla con los estándares antes de salir a servicio."
+        ]
+      },
+      {
+        "row_idx": 34,
+        "data": [
+          "[ ]",
+          "Capitán (A&B)",
+          "Control y Cierre",
+          "Revisar existencias de insumos básicos (bebidas, cristalería, consumibles) y reportar faltantes."
+        ]
+      },
+      {
+        "row_idx": 35,
+        "data": [
+          "[ ]",
+          "Capitán (A&B)",
+          "Control y Cierre",
+          "Supervisar el desmontaje, la limpieza general y la correcta ubicación del mobiliario al finalizar."
+        ]
+      },
+      {
+        "row_idx": 36,
+        "data": [
+          "[ ]",
+          "Capitán (A&B)",
+          "Control y Cierre",
+          "Entregar reportes de consumos, incidencias y observaciones del turno."
+        ]
+      },
+      {
+        "row_idx": 38,
+        "data": [
+          "Meseros",
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "row_idx": 39,
+        "data": [
+          "Estatus (Listos / Pendientes)",
+          "Puesto",
+          "Área / Categoría de Actividad",
+          "Actividad / Tarea"
+        ]
+      },
+      {
+        "row_idx": 40,
+        "data": [
+          "[ ]",
+          "Meseros",
+          "Atención y Servicio",
+          "Atender a los clientes con amabilidad, tomar pedidos y ofrecer información sobre menús y especialidades."
+        ]
+      },
+      {
+        "row_idx": 41,
+        "data": [
+          "[ ]",
+          "Meseros",
+          "Atención y Servicio",
+          "Servir alimentos y bebidas de manera eficiente y segura."
+        ]
+      },
+      {
+        "row_idx": 42,
+        "data": [
+          "[ ]",
+          "Meseros",
+          "Atención y Servicio",
+          "Retirar platos, limpiar mesas de forma constante y mantener limpias las áreas de trabajo."
+        ]
+      },
+      {
+        "row_idx": 43,
+        "data": [
+          "[ ]",
+          "Meseros",
+          "Atención y Servicio",
+          "Apoyar en el montaje y desmontaje según las indicaciones del Capitán."
+        ]
+      },
+      {
+        "row_idx": 44,
+        "data": [
+          "[ ]",
+          "Meseros",
+          "Atención y Servicio",
+          "Generar venta a traves de recomendaciones de alimentos y bebidas."
+        ]
+      },
+      {
+        "row_idx": 46,
+        "data": [
+          "Ayudantes (A&B) de fin de semana",
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "row_idx": 47,
+        "data": [
+          "Estatus (Listos / Pendientes)",
+          "Puesto",
+          "Área / Categoría de Actividad",
+          "Actividad / Tarea"
+        ]
+      },
+      {
+        "row_idx": 48,
+        "data": [
+          "[ ]",
+          "Ayudantes (A&B) de fin de semana",
+          "Atención y Servicio",
+          "Atender a los clientes con amabilidad, tomar pedidos y ofrecer información sobre menús y especialidades."
+        ]
+      },
+      {
+        "row_idx": 49,
+        "data": [
+          "[ ]",
+          "Ayudantes (A&B) de fin de semana",
+          "Atención y Servicio",
+          "Servir alimentos y bebidas de manera eficiente y segura."
+        ]
+      },
+      {
+        "row_idx": 50,
+        "data": [
+          "[ ]",
+          "Ayudantes (A&B) de fin de semana",
+          "Atención y Servicio",
+          "Retirar platos, limpiar mesas de forma constante y mantener limpias las áreas de trabajo."
+        ]
+      },
+      {
+        "row_idx": 51,
+        "data": [
+          "[ ]",
+          "Ayudantes (A&B) de fin de semana",
+          "Atención y Servicio",
+          "Apoyar en el montaje y desmontaje según las indicaciones del Capitán."
+        ]
+      },
+      {
+        "row_idx": 55,
+        "data": [
+          "Nota: base de actividades diarias, hay actividades que pueden ser esporadicas dependiendo la operaciòn de cada dìa",
+          "",
+          "",
+          ""
+        ]
+      }
+    ],
+    "Cocina": [
+      {
+        "row_idx": 1,
+        "data": [
+          "Centro Cultural Quinta Soledad - Checklist de Actividades por Puesto",
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "row_idx": 2,
+        "data": [
+          "Chef",
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "row_idx": 3,
+        "data": [
+          "Estatus (Listos / Pendientes)",
+          "Puesto",
+          "Área / Categoría de Actividad",
+          "Actividad / Tarea"
+        ]
+      },
+      {
+        "row_idx": 4,
+        "data": [
+          "[ ]",
+          "Chef",
+          "Producción y Calidad",
+          "Preparar y cocinar los alimentos siguiendo estrictamente las recetas y estándares de calidad e higiene."
+        ]
+      },
+      {
+        "row_idx": 5,
+        "data": [
+          "[ ]",
+          "Chef",
+          "Producción y Calidad",
+          "Mantener al día el control administrativo de pedidos, inventarios y planificación de menús."
+        ]
+      },
+      {
+        "row_idx": 6,
+        "data": [
+          "[ ]",
+          "Chef",
+          "Producción y Calidad",
+          "Asegurar la organización, limpieza y desinfección constante de la cocina."
+        ]
+      },
+      {
+        "row_idx": 7,
+        "data": [
+          "[ ]",
+          "Chef",
+          "Producción y Calidad",
+          "Supervisar y dirigir al personal de cocina"
+        ]
+      },
+      {
+        "row_idx": 9,
+        "data": [
+          "Cocinero 1",
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "row_idx": 10,
+        "data": [
+          "Estatus (Listos / Pendientes)",
+          "Puesto",
+          "Área / Categoría de Actividad",
+          "Actividad / Tarea"
+        ]
+      },
+      {
+        "row_idx": 11,
+        "data": [
+          "[ ]",
+          "Cocinero 1",
+          "Producción y Calidad",
+          "Respaldar actividades indicadas por el chef en tiempo y forma"
+        ]
+      },
+      {
+        "row_idx": 12,
+        "data": [
+          "[ ]",
+          "Cocinero 1",
+          "Producción y Calidad",
+          "Ayudar en la preparación y cocción de alimentos."
+        ]
+      },
+      {
+        "row_idx": 13,
+        "data": [
+          "[ ]",
+          "Cocinero 1",
+          "Producción y Calidad",
+          "Asegurar la preparación y el servicio seguro e higiénico de los alimentos."
+        ]
+      },
+      {
+        "row_idx": 14,
+        "data": [
+          "[ ]",
+          "Cocinero 1",
+          "Producción y Calidad",
+          "Limpieza y organización de estaciones"
+        ]
+      },
+      {
+        "row_idx": 17,
+        "data": [
+          "Ayudantes de cocina",
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "row_idx": 18,
+        "data": [
+          "Estatus (Listos / Pendientes)",
+          "Puesto",
+          "Área / Categoría de Actividad",
+          "Actividad / Tarea"
+        ]
+      },
+      {
+        "row_idx": 19,
+        "data": [
+          "[ ]",
+          "Ayudantes",
+          "Producción y Calidad",
+          "Respaldar actividades indicadas por el chef en tiempo y forma"
+        ]
+      },
+      {
+        "row_idx": 20,
+        "data": [
+          "[ ]",
+          "Ayudantes",
+          "Producción y Calidad",
+          "Ayudar en la preparación y cocción de alimentos."
+        ]
+      },
+      {
+        "row_idx": 21,
+        "data": [
+          "[ ]",
+          "Ayudantes",
+          "Producción y Calidad",
+          "Asegurar la preparación y el servicio seguro e higiénico de los alimentos."
+        ]
+      },
+      {
+        "row_idx": 22,
+        "data": [
+          "[ ]",
+          "Ayudantes",
+          "Producción y Calidad",
+          "Limpieza y organización de estaciones"
+        ]
+      },
+      {
+        "row_idx": 24,
+        "data": [
+          "Ayudantes de fin de semana",
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "row_idx": 25,
+        "data": [
+          "Estatus (Listos / Pendientes)",
+          "Puesto",
+          "Área / Categoría de Actividad",
+          "Actividad / Tarea"
+        ]
+      },
+      {
+        "row_idx": 26,
+        "data": [
+          "[ ]",
+          "Ayudantes de fin de semana",
+          "Producción y Calidad",
+          "Respaldar actividades indicadas por el chef en tiempo y forma"
+        ]
+      },
+      {
+        "row_idx": 27,
+        "data": [
+          "[ ]",
+          "Ayudantes de fin de semana",
+          "Producción y Calidad",
+          "Ayudar en la preparación y cocción de alimentos."
+        ]
+      },
+      {
+        "row_idx": 28,
+        "data": [
+          "[ ]",
+          "Ayudantes de fin de semana",
+          "Producción y Calidad",
+          "Asegurar la preparación y el servicio seguro e higiénico de los alimentos."
+        ]
+      },
+      {
+        "row_idx": 29,
+        "data": [
+          "[ ]",
+          "Ayudantes de fin de semana",
+          "Producción y Calidad",
+          "Limpieza y organización de estaciones"
+        ]
+      },
+      {
+        "row_idx": 30,
+        "data": [
+          "Nota: base de actividades diarias, hay actividades que pueden ser esporadicas dependiendo la operaciòn de cada dìa",
+          "",
+          "",
+          ""
+        ]
+      }
+    ],
+    "A&B Cafeteria": [
+      {
+        "row_idx": 1,
+        "data": [
+          "Centro Cultural Quinta Soledad - Checklist de Actividades por Puesto",
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "row_idx": 2,
+        "data": [
+          "Encargado de cafetería",
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "row_idx": 3,
+        "data": [
+          "Estatus (Listos / Pendientes)",
+          "Puesto",
+          "Área / Categoría de Actividad",
+          "Actividad / Tarea"
+        ]
+      },
+      {
+        "row_idx": 4,
+        "data": [
+          "[ ]",
+          "Encargado de cafetería",
+          "Supervisión del Servicio",
+          "Dirigir al equipo de meseros y ayudantes durante turnos y eventos."
+        ]
+      },
+      {
+        "row_idx": 5,
+        "data": [
+          "[ ]",
+          "Encargado de cafetería",
+          "Supervisión del Servicio",
+          "Validar el montaje previo de mesas, cristalería, loza, cubiertos y estaciones (coffee break, cocteles, etc.)."
+        ]
+      },
+      {
+        "row_idx": 6,
+        "data": [
+          "[ ]",
+          "Encargado de cafetería",
+          "Supervisión del Servicio",
+          "Verificar que la presentación de platillos y bebidas cumpla con los estándares antes de salir a servicio."
+        ]
+      },
+      {
+        "row_idx": 7,
+        "data": [
+          "[ ]",
+          "Encargado de cafetería",
+          "Control y Cierre",
+          "Revisar existencias de insumos básicos (bebidas, cristalería, consumibles) y reportar faltantes."
+        ]
+      },
+      {
+        "row_idx": 8,
+        "data": [
+          "[ ]",
+          "Encargado de cafetería",
+          "Control y Cierre",
+          "Supervisar el desmontaje, la limpieza general y la correcta ubicación del mobiliario al finalizar."
+        ]
+      },
+      {
+        "row_idx": 9,
+        "data": [
+          "[ ]",
+          "Encargado de cafetería",
+          "Control y Cierre",
+          "Entregar reportes de consumos, incidencias y observaciones del turno."
+        ]
+      },
+      {
+        "row_idx": 10,
+        "data": [
+          "[ ]",
+          "Encargado de cafetería",
+          "Control y Cierre",
+          "Supervisar la correcta operación de cafetería y La Mal Querida"
+        ]
+      },
+      {
+        "row_idx": 12,
+        "data": [
+          "Meseros",
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "row_idx": 13,
+        "data": [
+          "Estatus (Listos / Pendientes)",
+          "Puesto",
+          "Área / Categoría de Actividad",
+          "Actividad / Tarea"
+        ]
+      },
+      {
+        "row_idx": 14,
+        "data": [
+          "[ ]",
+          "Meseros",
+          "Atención y Servicio",
+          "Atender a los clientes con amabilidad, tomar pedidos y ofrecer información sobre menús y especialidades."
+        ]
+      },
+      {
+        "row_idx": 15,
+        "data": [
+          "[ ]",
+          "Meseros",
+          "Atención y Servicio",
+          "Servir alimentos y bebidas de manera eficiente y segura."
+        ]
+      },
+      {
+        "row_idx": 16,
+        "data": [
+          "[ ]",
+          "Meseros",
+          "Atención y Servicio",
+          "Retirar platos, limpiar mesas de forma constante y mantener limpias las áreas de trabajo."
+        ]
+      },
+      {
+        "row_idx": 17,
+        "data": [
+          "[ ]",
+          "Meseros",
+          "Atención y Servicio",
+          "Apoyar en el montaje y desmontaje según las indicaciones del Capitán."
+        ]
+      },
+      {
+        "row_idx": 18,
+        "data": [
+          "[ ]",
+          "Meseros",
+          "Atención y Servicio",
+          "Generar venta a traves de recomendaciones de alimentos y bebidas."
+        ]
+      },
+      {
+        "row_idx": 20,
+        "data": [
+          "Meserio 1",
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "row_idx": 21,
+        "data": [
+          "Estatus (Listos / Pendientes)",
+          "Puesto",
+          "Área / Categoría de Actividad",
+          "Actividad / Tarea"
+        ]
+      },
+      {
+        "row_idx": 22,
+        "data": [
+          "[ ]",
+          "Meseros",
+          "Atención y Servicio",
+          "Atender a los clientes con amabilidad, tomar pedidos y ofrecer información sobre menús y especialidades."
+        ]
+      },
+      {
+        "row_idx": 23,
+        "data": [
+          "[ ]",
+          "Meseros",
+          "Atención y Servicio",
+          "Servir alimentos y bebidas de manera eficiente y segura."
+        ]
+      },
+      {
+        "row_idx": 24,
+        "data": [
+          "[ ]",
+          "Meseros",
+          "Atención y Servicio",
+          "Retirar platos, limpiar mesas de forma constante y mantener limpias las áreas de trabajo."
+        ]
+      },
+      {
+        "row_idx": 25,
+        "data": [
+          "[ ]",
+          "Meseros",
+          "Atención y Servicio",
+          "Apoyar en el montaje y desmontaje según las indicaciones del Capitán."
+        ]
+      },
+      {
+        "row_idx": 26,
+        "data": [
+          "[ ]",
+          "Meseros",
+          "Atención y Servicio",
+          "Generar venta a traves de recomendaciones de alimentos y bebidas."
+        ]
+      },
+      {
+        "row_idx": 28,
+        "data": [
+          "Meserio 1",
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "row_idx": 29,
+        "data": [
+          "Estatus (Listos / Pendientes)",
+          "Puesto",
+          "Área / Categoría de Actividad",
+          "Actividad / Tarea"
+        ]
+      },
+      {
+        "row_idx": 30,
+        "data": [
+          "[ ]",
+          "Meseros",
+          "Atención y Servicio",
+          "Atender a los clientes con amabilidad, tomar pedidos y ofrecer información sobre menús y especialidades."
+        ]
+      },
+      {
+        "row_idx": 31,
+        "data": [
+          "[ ]",
+          "Meseros",
+          "Atención y Servicio",
+          "Servir alimentos y bebidas de manera eficiente y segura."
+        ]
+      },
+      {
+        "row_idx": 32,
+        "data": [
+          "[ ]",
+          "Meseros",
+          "Atención y Servicio",
+          "Retirar platos, limpiar mesas de forma constante y mantener limpias las áreas de trabajo."
+        ]
+      },
+      {
+        "row_idx": 33,
+        "data": [
+          "[ ]",
+          "Meseros",
+          "Atención y Servicio",
+          "Apoyar en el montaje y desmontaje según las indicaciones del Capitán."
+        ]
+      },
+      {
+        "row_idx": 34,
+        "data": [
+          "[ ]",
+          "Meseros",
+          "Atención y Servicio",
+          "Generar venta a traves de recomendaciones de alimentos y bebidas."
+        ]
+      },
+      {
+        "row_idx": 36,
+        "data": [
+          "Cocinero 1",
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "row_idx": 37,
+        "data": [
+          "Estatus (Listos / Pendientes)",
+          "Puesto",
+          "Área / Categoría de Actividad",
+          "Actividad / Tarea"
+        ]
+      },
+      {
+        "row_idx": 38,
+        "data": [
+          "[ ]",
+          "Cocinero 1",
+          "Producción y Calidad",
+          "Respaldar actividades indicadas por el encargado de cafeteria en tiempo y forma"
+        ]
+      },
+      {
+        "row_idx": 39,
+        "data": [
+          "[ ]",
+          "Cocinero 1",
+          "Producción y Calidad",
+          "Ayudar en la preparación y cocción de alimentos."
+        ]
+      },
+      {
+        "row_idx": 40,
+        "data": [
+          "[ ]",
+          "Cocinero 1",
+          "Producción y Calidad",
+          "Asegurar la preparación y el servicio seguro e higiénico de los alimentos."
+        ]
+      },
+      {
+        "row_idx": 41,
+        "data": [
+          "[ ]",
+          "Cocinero 1",
+          "Producción y Calidad",
+          "Limpieza y organización de estaciones"
+        ]
+      },
+      {
+        "row_idx": 43,
+        "data": [
+          "Tortillero",
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "row_idx": 44,
+        "data": [
+          "Estatus (Listos / Pendientes)",
+          "Puesto",
+          "Área / Categoría de Actividad",
+          "Actividad / Tarea"
+        ]
+      },
+      {
+        "row_idx": 45,
+        "data": [
+          "[ ]",
+          "Tortillero",
+          "Producción y Calidad",
+          "Respaldar actividades indicadas por el encargado de cafeteria en tiempo y forma"
+        ]
+      },
+      {
+        "row_idx": 46,
+        "data": [
+          "[ ]",
+          "Tortillero",
+          "Producción y Calidad",
+          "Ayudar en la preparación y cocción de alimentos."
+        ]
+      },
+      {
+        "row_idx": 47,
+        "data": [
+          "[ ]",
+          "Tortillero",
+          "Producción y Calidad",
+          "Asegurar la preparación y el servicio seguro e higiénico de los alimentos."
+        ]
+      },
+      {
+        "row_idx": 48,
+        "data": [
+          "[ ]",
+          "Tortillero",
+          "Producción y Calidad",
+          "Limpieza y organización de estaciones"
+        ]
+      },
+      {
+        "row_idx": 51,
+        "data": [
+          "Nota: base de actividades diarias, hay actividades que pueden ser esporadicas dependiendo la operaciòn de cada dìa",
+          "",
+          "",
+          ""
+        ]
+      }
+    ],
+    "Panadero": [
+      {
+        "row_idx": 1,
+        "data": [
+          "Centro Cultural Quinta Soledad - Checklist de Actividades por Puesto",
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "row_idx": 2,
+        "data": [
+          "Panadero",
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "row_idx": 3,
+        "data": [
+          "Estatus (Listos / Pendientes)",
+          "Puesto",
+          "Área / Categoría de Actividad",
+          "Actividad / Tarea"
+        ]
+      },
+      {
+        "row_idx": 4,
+        "data": [
+          "[ ]",
+          "Panadero",
+          "Preparación de insumos",
+          "Revisar las recetas y la producción del día para medir, pesar y alistar todos los ingredientes necesarios (harinas, levaduras, azúcares, etc.) manteniendo el control de mermas e inventarios."
+        ]
+      },
+      {
+        "row_idx": 5,
+        "data": [
+          "[ ]",
+          "Panadero",
+          "Preparación de insumos",
+          "Ejecutar los procesos de mezclado, amasado, fermentación y moldeado de los diferentes tipos de panes, bollería o productos de repostería según los estándares de calidad del establecimiento."
+        ]
+      },
+      {
+        "row_idx": 6,
+        "data": [
+          "[ ]",
+          "Panadero",
+          "Horneado y calidad",
+          "Mantener las mesas de trabajo, charolas, maquinaria y utensilios limpios, ordenados y listos durante toda la producción."
+        ]
+      },
+      {
+        "row_idx": 7,
+        "data": [
+          "[ ]",
+          "Panadero",
+          "Control y Cierre",
+          "Revisar existencias de insumos básicos (bebidas, cristalería, consumibles) y reportar faltantes."
+        ]
+      },
+      {
+        "row_idx": 8,
+        "data": [
+          "[ ]",
+          "Panadero",
+          "Higiene y seguridad alimentaria",
+          "Asegurar que los alimentos, materias primas y equipos se manipulen y almacenen bajo estrictas normas de limpieza, higiene y seguridad en la cocina."
+        ]
+      },
+      {
+        "row_idx": 9,
+        "data": [
+          "[ ]",
+          "Panadero",
+          "Control y Cierre",
+          "Informar al chef o al área de administración sobre las existencias de materia prima, necesidades de abastecimiento y registrar la producción final del turno."
+        ]
+      },
+      {
+        "row_idx": 11,
+        "data": [
+          "Auxiliar de panadería",
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "row_idx": 12,
+        "data": [
+          "Estatus (Listos / Pendientes)",
+          "Puesto",
+          "Área / Categoría de Actividad",
+          "Actividad / Tarea"
+        ]
+      },
+      {
+        "row_idx": 13,
+        "data": [
+          "[ ]",
+          "Auxiliar de panadería",
+          "Preparación de insumos",
+          "Respaldar al panadero midiendo, pesando y alistando los ingredientes necesarios (harinas, líquidos, complementos) según las indicaciones y recetas del día."
+        ]
+      },
+      {
+        "row_idx": 14,
+        "data": [
+          "[ ]",
+          "Auxiliar de panadería",
+          "Preparación de insumos",
+          "Ayudar en las labores de boleado, corte, pesado de porciones, moldeado y colocación de masas en charolas conforme a las instrucciones del panadero."
+        ]
+      },
+      {
+        "row_idx": 15,
+        "data": [
+          "[ ]",
+          "Auxiliar de panadería",
+          "Higiene y seguridad",
+          "Asegurar que los alimentos y la materia prima se manipulen y almacenen bajo estrictas normas de higiene, limpieza y seguridad en la cocina."
+        ]
+      },
+      {
+        "row_idx": 16,
+        "data": [
+          "[ ]",
+          "Auxiliar de panadería",
+          "Horneado y calidad",
+          "Ayudar a introducir y retirar charolas de los hornos bajo supervisión, así como trasladar productos hacia las áreas de leudado o exhibición."
+        ]
+      },
+      {
+        "row_idx": 17,
+        "data": [
+          "[ ]",
+          "Auxiliar de panadería",
+          "Cierre de turno y reporte de incidencias",
+          "Realizar la limpieza profunda de pisos, mesas y equipos al finalizar, guardando sobrantes correctamente y reportando cualquier faltante o falla al panadero."
+        ]
+      },
+      {
+        "row_idx": 19,
+        "data": [
+          "Nota: base de actividades diarias, hay actividades que pueden ser esporadicas dependiendo la operaciòn de cada dìa",
+          "",
+          "",
+          ""
+        ]
+      }
+    ],
+    "Loza": [
+      {
+        "row_idx": 1,
+        "data": [
+          "Centro Cultural Quinta Soledad - Checklist de Actividades por Puesto",
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "row_idx": 2,
+        "data": [
+          "Encargado de Loza",
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "row_idx": 3,
+        "data": [
+          "Estatus (Listos / Pendientes)",
+          "Puesto",
+          "Área / Categoría de Actividad",
+          "Actividad / Tarea"
+        ]
+      },
+      {
+        "row_idx": 4,
+        "data": [
+          "[ ]",
+          "Encargado de Loza",
+          "Atención y Servicio",
+          "Atender a los clientes con amabilidad, tomar pedidos y ofrecer información sobre menús y especialidades."
+        ]
+      },
+      {
+        "row_idx": 5,
+        "data": [
+          "[ ]",
+          "Encargado de Loza",
+          "Atención y Servicio",
+          "Servir alimentos y bebidas de manera eficiente y segura."
+        ]
+      },
+      {
+        "row_idx": 6,
+        "data": [
+          "[ ]",
+          "Encargado de Loza",
+          "Atención y Servicio",
+          "Retirar platos, limpiar mesas de forma constante y mantener limpias las áreas de trabajo."
+        ]
+      },
+      {
+        "row_idx": 7,
+        "data": [
+          "[ ]",
+          "Encargado de Loza",
+          "Atención y Servicio",
+          "Apoyar en el montaje y desmontaje según las indicaciones del Capitán."
+        ]
+      },
+      {
+        "row_idx": 10,
+        "data": [
+          "Nota: base de actividades diarias, hay actividades que pueden ser esporadicas dependiendo la operaciòn de cada dìa",
+          "",
+          "",
+          ""
+        ]
+      }
+    ],
+    "AMA DE LLAVESLIMPIEZA": [
+      {
+        "row_idx": 1,
+        "data": [
+          "Centro Cultural Quinta Soledad - Checklist de Actividades por Puesto",
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "row_idx": 2,
+        "data": [
+          "Mucama",
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "row_idx": 3,
+        "data": [
+          "Estatus (Listos / Pendientes)",
+          "Puesto",
+          "Área / Categoría de Actividad",
+          "Actividad / Tarea"
+        ]
+      },
+      {
+        "row_idx": 4,
+        "data": [
+          "[ ]",
+          "Ama de Llaves / Mucamas",
+          "Limpieza de Habitaciones",
+          "Limpiar y organizar las habitaciones de acuerdo con los estándares de calidad del establecimiento."
+        ]
+      },
+      {
+        "row_idx": 5,
+        "data": [
+          "[ ]",
+          "Ama de Llaves / Mucamas",
+          "Limpieza de Habitaciones",
+          "Cambiar la ropa de cama y las toallas"
+        ]
+      },
+      {
+        "row_idx": 6,
+        "data": [
+          "[ ]",
+          "Ama de Llaves / Mucamas",
+          "Limpieza de Habitaciones",
+          "Aseo profundo de baños y abastecimiento de productos de higiene."
+        ]
+      },
+      {
+        "row_idx": 7,
+        "data": [
+          "[ ]",
+          "Ama de Llaves / Mucamas",
+          "Limpieza de Habitaciones",
+          "Retirar residuos, vaciar papeleras y dejar las habitaciones listas para la llegada de nuevos huéspedes."
+        ]
+      },
+      {
+        "row_idx": 8,
+        "data": [
+          "[ ]",
+          "Ama de Llaves / Mucamas",
+          "Limpieza de Habitaciones",
+          "Limpieza de áreas comunes como recepción, pasillos, casa club, área de spa y área de alberca"
+        ]
+      },
+      {
+        "row_idx": 11,
+        "data": [
+          "Nota: base de actividades diarias, hay actividades que pueden ser esporadicas dependiendo la operaciòn de cada dìa",
+          "",
+          "",
+          ""
+        ]
+      }
+    ],
+    "MANTENIMIENTO": [
+      {
+        "row_idx": 1,
+        "data": [
+          "Centro Cultural Quinta Soledad - Checklist de Actividades por Puesto",
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "row_idx": 2,
+        "data": [
+          "Encargado A",
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "row_idx": 3,
+        "data": [
+          "Estatus (Listos / Pendientes)",
+          "Puesto",
+          "Área / Categoría de Actividad",
+          "Actividad / Tarea"
+        ]
+      },
+      {
+        "row_idx": 4,
+        "data": [
+          "[ ]",
+          "Mantenimiento",
+          "Inspección y Reparación",
+          "Supervisar y coordinar las actividades de mantenimiento preventivo"
+        ]
+      },
+      {
+        "row_idx": 5,
+        "data": [
+          "[ ]",
+          "Mantenimiento",
+          "Inspección y Reparación",
+          "Inventario de  activos y equipos"
+        ]
+      },
+      {
+        "row_idx": 6,
+        "data": [
+          "[ ]",
+          "Mantenimiento",
+          "Inspección y Reparación",
+          "Realizar inspecciones y evaluaciones de los activos y equipos para identificar necesidades de mantenimiento"
+        ]
+      },
+      {
+        "row_idx": 7,
+        "data": [
+          "[ ]",
+          "Mantenimiento",
+          "Inspección y Reparación",
+          "Cumplir rigurosamente con las normativas y regulaciones de seguridad."
+        ]
+      },
+      {
+        "row_idx": 8,
+        "data": [
+          "[ ]",
+          "Mantenimiento",
+          "Inspección y Reparación",
+          "Coordinar con otros departamentos la disponibilidad de equipos y espacios."
+        ]
+      },
+      {
+        "row_idx": 11,
+        "data": [
+          "Encargado B",
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "row_idx": 12,
+        "data": [
+          "Estatus (Listos / Pendientes)",
+          "Puesto",
+          "Área / Categoría de Actividad",
+          "Actividad / Tarea"
+        ]
+      },
+      {
+        "row_idx": 13,
+        "data": [
+          "[ ]",
+          "Mantenimiento",
+          "Inspección y Reparación",
+          "Supervisar y coordinar las actividades de mantenimiento preventivo"
+        ]
+      },
+      {
+        "row_idx": 14,
+        "data": [
+          "[ ]",
+          "Mantenimiento",
+          "Inspección y Reparación",
+          "Inventario de  activos y equipos"
+        ]
+      },
+      {
+        "row_idx": 15,
+        "data": [
+          "[ ]",
+          "Mantenimiento",
+          "Inspección y Reparación",
+          "Realizar inspecciones y evaluaciones de los activos y equipos para identificar necesidades de mantenimiento"
+        ]
+      },
+      {
+        "row_idx": 16,
+        "data": [
+          "[ ]",
+          "Mantenimiento",
+          "Inspección y Reparación",
+          "Cumplir rigurosamente con las normativas y regulaciones de seguridad."
+        ]
+      },
+      {
+        "row_idx": 17,
+        "data": [
+          "",
+          "",
+          "",
+          "Coordinar con otros departamentos la disponibilidad de equipos y espacios."
+        ]
+      },
+      {
+        "row_idx": 18,
+        "data": [
+          "Auxiliares Mantenimiento",
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "row_idx": 19,
+        "data": [
+          "Estatus (Listos / Pendientes)",
+          "Puesto",
+          "Área / Categoría de Actividad",
+          "Actividad / Tarea"
+        ]
+      },
+      {
+        "row_idx": 20,
+        "data": [
+          "[ ]",
+          "Mantenimiento",
+          "Inspección y Reparación",
+          "Realizar inspecciones periódicas a los equipos e instalaciones para identificar necesidades de mantenimiento preventivo y correctivo."
+        ]
+      },
+      {
+        "row_idx": 21,
+        "data": [
+          "[ ]",
+          "Mantenimiento",
+          "Inspección y Reparación",
+          "Asegurar el buen funcionamiento, seguridad y eficiencia de los activos del hotel."
+        ]
+      },
+      {
+        "row_idx": 22,
+        "data": [
+          "[ ]",
+          "Mantenimiento",
+          "Inspección y Reparación",
+          "Coordinar con otros departamentos la disponibilidad de equipos y espacios."
+        ]
+      },
+      {
+        "row_idx": 23,
+        "data": [
+          "[ ]",
+          "Mantenimiento",
+          "Inspección y Reparación",
+          "Cumplir rigurosamente con las normativas y regulaciones de seguridad."
+        ]
+      },
+      {
+        "row_idx": 27,
+        "data": [
+          "Jefe de Jardineria",
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "row_idx": 28,
+        "data": [
+          "Estatus (Listos / Pendientes)",
+          "Puesto",
+          "Área / Categoría de Actividad",
+          "Actividad / Tarea"
+        ]
+      },
+      {
+        "row_idx": 29,
+        "data": [
+          "[ ]",
+          "Jardinero",
+          "Cuidado de Áreas Verdes",
+          "Realizar tareas de jardinería esenciales: podar, regar, fertilizar y controlar plagas en plantas y flores."
+        ]
+      },
+      {
+        "row_idx": 30,
+        "data": [
+          "[ ]",
+          "Jardinero",
+          "Cuidado de Áreas Verdes",
+          "Mantener la limpieza, el orden y la seguridad en los caminos y espacios verdes para el libre tránsito de los visitantes."
+        ]
+      },
+      {
+        "row_idx": 33,
+        "data": [
+          "Jardinero",
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "row_idx": 34,
+        "data": [
+          "Estatus (Listos / Pendientes)",
+          "Puesto",
+          "Área / Categoría de Actividad",
+          "Actividad / Tarea"
+        ]
+      },
+      {
+        "row_idx": 35,
+        "data": [
+          "[ ]",
+          "Jardinero",
+          "Cuidado de Áreas Verdes",
+          "Realizar tareas de jardinería esenciales: podar, regar, fertilizar y controlar plagas en plantas y flores."
+        ]
+      },
+      {
+        "row_idx": 36,
+        "data": [
+          "[ ]",
+          "Jardinero",
+          "Cuidado de Áreas Verdes",
+          "Mantener la limpieza, el orden y la seguridad en los caminos y espacios verdes para el libre tránsito de los visitantes."
+        ]
+      },
+      {
+        "row_idx": 40,
+        "data": [
+          "Nota: base de actividades diarias, hay actividades que pueden ser esporadicas dependiendo la operaciòn de cada dìa",
+          "",
+          "",
+          ""
+        ]
+      }
+    ],
+    "Origen Centro Holistico": [
+      {
+        "row_idx": 1,
+        "data": [
+          "Centro Cultural Quinta Soledad - Checklist de Actividades por Puesto",
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "row_idx": 2,
+        "data": [
+          "Encargado de spa",
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "row_idx": 3,
+        "data": [
+          "Estatus (Listos / Pendientes)",
+          "Puesto",
+          "Área / Categoría de Actividad",
+          "Actividad / Tarea"
+        ]
+      },
+      {
+        "row_idx": 4,
+        "data": [
+          "[ ]",
+          "Encargado de spa",
+          "Seguridad e higiene",
+          "Supervisar el cumplimiento estricto de los protocolos de higiene, normativas de salud, seguridad y protección civil."
+        ]
+      },
+      {
+        "row_idx": 5,
+        "data": [
+          "[ ]",
+          "Encargado de spa",
+          "Administración y control",
+          "Revisar los reportes de ingresos diarios generados por hospedaje, tratamientos y experiencias holísticas."
+        ]
+      },
+      {
+        "row_idx": 6,
+        "data": [
+          "[ ]",
+          "Encargado de spa",
+          "Administración y control",
+          "Dirigir y coordinar al equipo de terapeutas, facilitadores y guías de ceremonias asignados al turno."
+        ]
+      },
+      {
+        "row_idx": 7,
+        "data": [
+          "[ ]",
+          "Encargado de spa",
+          "Control de agenda",
+          ": Revisar la agenda diaria de recepción, check-ins, check-outs y reservas de terapia"
+        ]
+      },
+      {
+        "row_idx": 8,
+        "data": [
+          "[ ]",
+          "Encargado de spa",
+          "Supervisión de instalaciones",
+          "Verificar que las cabinas, áreas de spa y zonas comunes se encuentren en condiciones óptimas, limpias y armonizadas."
+        ]
+      },
+      {
+        "row_idx": 9,
+        "data": [
+          "[ ]",
+          "Encargado de spa",
+          "Venta",
+          "Coordinar promociones, paquetes especiales (retiros, días de spa) y apoyar al área comercial en la detección, prospección y  atención de nuevos clientes."
+        ]
+      },
+      {
+        "row_idx": 11,
+        "data": [
+          "TERAPEUTAS INTERNAS",
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "row_idx": 13,
+        "data": [
+          "Nota: base de actividades diarias, hay actividades que pueden ser esporadicas dependiendo la operaciòn de cada dìa",
+          "",
+          "",
+          ""
+        ]
+      }
+    ]
+  },
+  "Checklist_Actividades_Puestos_F49RN.xlsx": {
+    "Gerente": [
+      {
+        "row_idx": 1,
+        "data": [
+          "Frontera 49 Roma Norte - Checklist de Actividades por Puesto",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "row_idx": 3,
+        "data": [
+          "Estatus (Listos / Pendientes)",
+          "Puesto",
+          "Área / Categoría de Actividad",
+          "Actividad / Tarea",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "row_idx": 4,
+        "data": [
+          "[ ]",
+          "Gerencia General",
+          "Supervisión Operativa",
+          "Revisar diariamente las condiciones del inmueble (salones, jardines, baños, exposiciones y áreas históricas).",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "row_idx": 5,
+        "data": [
+          "[ ]",
+          "Gerencia General",
+          "Supervisión Operativa",
+          "Supervisar todas las áreas operativas (recepción, A&B, limpieza, áreas comunes, jardines, mantenimiento y administración).",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "row_idx": 6,
+        "data": [
+          "[ ]",
+          "Gerencia General",
+          "Gestión y Control",
+          "Monitorear inventarios, insumos, consumos y reporte de gastos.",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "row_idx": 7,
+        "data": [
+          "[ ]",
+          "Gerencia General",
+          "Gestión y Control",
+          "Aprobar compras menores y validar necesidades del inmueble.",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "row_idx": 8,
+        "data": [
+          "[ ]",
+          "Gerencia General",
+          "Gestión y Control",
+          "Revisar bitácoras operativas, de mantenimiento y de eventos.",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "row_idx": 9,
+        "data": [
+          "[ ]",
+          "Gerencia General",
+          "Personal y Comunicación",
+          "Supervisar puntualidad, presentación, actitud y desempeño del personal.",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "row_idx": 10,
+        "data": [
+          "[ ]",
+          "Gerencia General",
+          "Personal y Comunicación",
+          "Realizar juntas operativas semanales y asegurar el cumplimiento de acuerdos.",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "row_idx": 11,
+        "data": [
+          "[ ]",
+          "Gerencia General",
+          "Personal y Comunicación",
+          "Validar que los montajes, tiempos y servicios de eventos cumplan con lo cotizado.",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "row_idx": 12,
+        "data": [
+          "[ ]",
+          "Gerencia General",
+          "Experiencia del Visitante",
+          "Asegurar una experiencia cálida, ordenada y alineada a la esencia cultural.",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "row_idx": 13,
+        "data": [
+          "[ ]",
+          "Gerencia General",
+          "Experiencia del Visitante",
+          "Supervisar la atención a eventos, recorridos, producciones y visitantes generales.",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "row_idx": 14,
+        "data": [
+          "[ ]",
+          "Gerencia General",
+          "Administración y Control",
+          "Supervisar bitácoras operativas, de mantenimiento y de eventos",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ]
+      }
+    ],
+    "Administración": [
+      {
+        "row_idx": 1,
+        "data": [
+          "Frontera 49 Roma Norte - Checklist de Actividades por Puesto",
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "row_idx": 2,
+        "data": [
+          "Recepcionista",
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "row_idx": 3,
+        "data": [
+          "Estatus (Listos / Pendientes)",
+          "Puesto",
+          "Área / Categoría de Actividad",
+          "Actividad / Tarea"
+        ]
+      },
+      {
+        "row_idx": 4,
+        "data": [
+          "[ ]",
+          "Recepcionista A",
+          "Atención a Huéspedes",
+          "Dar seguimiento a  reservas que arriban durante el día"
+        ]
+      },
+      {
+        "row_idx": 5,
+        "data": [
+          "[ ]",
+          "Recepcionista A",
+          "Atención a Huéspedes",
+          "Verificar las reservas recibidas asegurando que la información este correcta y actualisada"
+        ]
+      },
+      {
+        "row_idx": 6,
+        "data": [
+          "[ ]",
+          "Recepcionista A",
+          "Atención a Huéspedes",
+          "Seguimiento diario de las reservaciones con status de no show"
+        ]
+      },
+      {
+        "row_idx": 7,
+        "data": [
+          "[ ]",
+          "Recepcionista A",
+          "Atención a Huéspedes",
+          "Recibir, registrar y asignar habitaciones a los huéspedes."
+        ]
+      },
+      {
+        "row_idx": 8,
+        "data": [
+          "[ ]",
+          "Recepcionista A",
+          "Atención a Huéspedes",
+          "Proporcionar información sobre los servicios, facilidades, precios y disponibilidad del hotel."
+        ]
+      },
+      {
+        "row_idx": 9,
+        "data": [
+          "[ ]",
+          "Recepcionista A",
+          "Atención a Huéspedes",
+          "Realizar el proceso de check-out y procesar pagos."
+        ]
+      },
+      {
+        "row_idx": 10,
+        "data": [
+          "[ ]",
+          "Recepcionista A",
+          "Atención a Huéspedes",
+          "Resolver problemas, quejas y ofrecer recomendaciones de actividades en el área."
+        ]
+      },
+      {
+        "row_idx": 11,
+        "data": [
+          "[ ]",
+          "Recepcionista A",
+          "Gestión Administrativa",
+          "Gestionar, confirmar y actualizar las reservas de habitaciones (cambios y cancelaciones)."
+        ]
+      },
+      {
+        "row_idx": 12,
+        "data": [
+          "[ ]",
+          "Recepcionista A",
+          "Gestión Administrativa",
+          "Procesar pagos, gestionar facturas y mantener registros organizados."
+        ]
+      },
+      {
+        "row_idx": 13,
+        "data": [
+          "[ ]",
+          "Recepcionista A",
+          "Gestión Administrativa",
+          "Generar venta de experiencias"
+        ]
+      }
+    ],
+    "A&B": [
+      {
+        "row_idx": 1,
+        "data": [
+          "Frontera 49 Roma Norte - Checklist de Actividades por Puesto",
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "row_idx": 2,
+        "data": [
+          "Capitán",
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "row_idx": 3,
+        "data": [
+          "Estatus (Listos / Pendientes)",
+          "Puesto",
+          "Área / Categoría de Actividad",
+          "Actividad / Tarea"
+        ]
+      },
+      {
+        "row_idx": 4,
+        "data": [
+          "[ ]",
+          "Capitán (A&B)",
+          "Supervisión del Servicio",
+          "Dirigir al equipo de meseros y ayudantes durante turnos y eventos."
+        ]
+      },
+      {
+        "row_idx": 5,
+        "data": [
+          "[ ]",
+          "Capitán (A&B)",
+          "Supervisión del Servicio",
+          "Validar el montaje previo de mesas, cristalería, loza, cubiertos y estaciones (coffee break, cocteles, etc.)."
+        ]
+      },
+      {
+        "row_idx": 6,
+        "data": [
+          "[ ]",
+          "Capitán (A&B)",
+          "Supervisión del Servicio",
+          "Verificar que la presentación de platillos y bebidas cumpla con los estándares antes de salir a servicio."
+        ]
+      },
+      {
+        "row_idx": 7,
+        "data": [
+          "[ ]",
+          "Capitán (A&B)",
+          "Control y Cierre",
+          "Revisar existencias de insumos básicos (bebidas, cristalería, consumibles) y reportar faltantes."
+        ]
+      },
+      {
+        "row_idx": 8,
+        "data": [
+          "[ ]",
+          "Capitán (A&B)",
+          "Control y Cierre",
+          "Supervisar el desmontaje, la limpieza general y la correcta ubicación del mobiliario al finalizar."
+        ]
+      },
+      {
+        "row_idx": 9,
+        "data": [
+          "[ ]",
+          "Capitán (A&B)",
+          "Control y Cierre",
+          "Entregar reportes de consumos, incidencias y observaciones del turno."
+        ]
+      },
+      {
+        "row_idx": 11,
+        "data": [
+          "Mesero A",
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "row_idx": 12,
+        "data": [
+          "Estatus (Listos / Pendientes)",
+          "Puesto",
+          "Área / Categoría de Actividad",
+          "Actividad / Tarea"
+        ]
+      },
+      {
+        "row_idx": 13,
+        "data": [
+          "[ ]",
+          "Mesero A",
+          "Atención y Servicio",
+          "Atender a los clientes con amabilidad, tomar pedidos y ofrecer información sobre menús y especialidades."
+        ]
+      },
+      {
+        "row_idx": 14,
+        "data": [
+          "[ ]",
+          "Mesero A",
+          "Atención y Servicio",
+          "Servir alimentos y bebidas de manera eficiente y segura."
+        ]
+      },
+      {
+        "row_idx": 15,
+        "data": [
+          "[ ]",
+          "Mesero A",
+          "Atención y Servicio",
+          "Retirar platos, limpiar mesas de forma constante y mantener limpias las áreas de trabajo."
+        ]
+      },
+      {
+        "row_idx": 16,
+        "data": [
+          "[ ]",
+          "Mesero A",
+          "Atención y Servicio",
+          "Apoyar en el montaje y desmontaje según las indicaciones del gerente."
+        ]
+      },
+      {
+        "row_idx": 17,
+        "data": [
+          "[ ]",
+          "Mesero A",
+          "Atención y Servicio",
+          "Generar venta a traves de recomendaciones de alimentos y bebidas."
+        ]
+      },
+      {
+        "row_idx": 19,
+        "data": [
+          "Mesero B",
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "row_idx": 20,
+        "data": [
+          "Estatus (Listos / Pendientes)",
+          "Puesto",
+          "Área / Categoría de Actividad",
+          "Actividad / Tarea"
+        ]
+      },
+      {
+        "row_idx": 21,
+        "data": [
+          "[ ]",
+          "Mesero B",
+          "Atención y Servicio",
+          "Atender a los clientes con amabilidad, tomar pedidos y ofrecer información sobre menús y especialidades."
+        ]
+      },
+      {
+        "row_idx": 22,
+        "data": [
+          "[ ]",
+          "Mesero B",
+          "Atención y Servicio",
+          "Servir alimentos y bebidas de manera eficiente y segura."
+        ]
+      },
+      {
+        "row_idx": 23,
+        "data": [
+          "[ ]",
+          "Mesero B",
+          "Atención y Servicio",
+          "Retirar platos, limpiar mesas de forma constante y mantener limpias las áreas de trabajo."
+        ]
+      },
+      {
+        "row_idx": 24,
+        "data": [
+          "[ ]",
+          "Mesero B",
+          "Atención y Servicio",
+          "Apoyar en el montaje y desmontaje según las indicaciones del gerente."
+        ]
+      },
+      {
+        "row_idx": 25,
+        "data": [
+          "[ ]",
+          "Mesero B",
+          "Atención y Servicio",
+          "Generar venta a traves de recomendaciones de alimentos y bebidas."
+        ]
+      }
+    ],
+    "Cocina": [
+      {
+        "row_idx": 1,
+        "data": [
+          "Frontera 49 Roma Norte - Checklist de Actividades por Puesto",
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "row_idx": 2,
+        "data": [
+          "Capitán",
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "row_idx": 3,
+        "data": [
+          "Estatus (Listos / Pendientes)",
+          "Puesto",
+          "Área / Categoría de Actividad",
+          "Actividad / Tarea"
+        ]
+      },
+      {
+        "row_idx": 4,
+        "data": [
+          "[ ]",
+          "Chef",
+          "Producción y Calidad",
+          "Preparar y cocinar los alimentos siguiendo estrictamente las recetas y estándares de calidad e higiene."
+        ]
+      },
+      {
+        "row_idx": 5,
+        "data": [
+          "[ ]",
+          "Chef",
+          "Producción y Calidad",
+          "Mantener al día el control administrativo de pedidos, inventarios y planificación de menús."
+        ]
+      },
+      {
+        "row_idx": 6,
+        "data": [
+          "[ ]",
+          "Chef",
+          "Producción y Calidad",
+          "Asegurar la organización, limpieza y desinfección constante de la cocina."
+        ]
+      },
+      {
+        "row_idx": 7,
+        "data": [
+          "[ ]",
+          "Chef",
+          "Producción y Calidad",
+          "Supervisar y dirigir al personal de cocina"
+        ]
+      },
+      {
+        "row_idx": 11,
+        "data": [
+          "Ayudante de cocina",
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "row_idx": 12,
+        "data": [
+          "Estatus (Listos / Pendientes)",
+          "Puesto",
+          "Área / Categoría de Actividad",
+          "Actividad / Tarea"
+        ]
+      },
+      {
+        "row_idx": 13,
+        "data": [
+          "[ ]",
+          "Ayudante",
+          "Producción y Calidad",
+          "Respaldar actividades indicadas por el chef en tiempo y forma"
+        ]
+      },
+      {
+        "row_idx": 14,
+        "data": [
+          "[ ]",
+          "Ayudante",
+          "Producción y Calidad",
+          "Ayudar en la preparación y cocción de alimentos."
+        ]
+      },
+      {
+        "row_idx": 15,
+        "data": [
+          "[ ]",
+          "Ayudante",
+          "Producción y Calidad",
+          "Asegurar la preparación y el servicio seguro e higiénico de los alimentos."
+        ]
+      },
+      {
+        "row_idx": 16,
+        "data": [
+          "[ ]",
+          "Ayudante",
+          "Producción y Calidad",
+          "Limpieza y organización de estaciones"
+        ]
+      }
+    ],
+    "LIMPIEZA": [
+      {
+        "row_idx": 1,
+        "data": [
+          "Frontera 49 Roma Norte - Checklist de Actividades por Puesto",
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "row_idx": 2,
+        "data": [
+          "Limpieza",
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "row_idx": 3,
+        "data": [
+          "Estatus (Listos / Pendientes)",
+          "Puesto",
+          "Área / Categoría de Actividad",
+          "Actividad / Tarea"
+        ]
+      },
+      {
+        "row_idx": 4,
+        "data": [
+          "[ ]",
+          "Limpieza",
+          "Limpieza de Habitaciones",
+          "Limpiar y organizar las habitaciones de acuerdo con los estándares de calidad del establecimiento."
+        ]
+      },
+      {
+        "row_idx": 5,
+        "data": [
+          "[ ]",
+          "Limpieza",
+          "Limpieza de Habitaciones",
+          "Cambiar la ropa de cama y las toallas"
+        ]
+      },
+      {
+        "row_idx": 6,
+        "data": [
+          "[ ]",
+          "Limpieza",
+          "Limpieza de Habitaciones",
+          "Aseo profundo de baños y abastecimiento de productos de higiene."
+        ]
+      },
+      {
+        "row_idx": 7,
+        "data": [
+          "[ ]",
+          "Limpieza",
+          "Limpieza de Habitaciones",
+          "Retirar residuos, vaciar papeleras y dejar las habitaciones listas para la llegada de nuevos huéspedes."
+        ]
+      },
+      {
+        "row_idx": 8,
+        "data": [
+          "[ ]",
+          "Limpieza",
+          "Limpieza de Habitaciones",
+          "Limpieza de áreas comunes como recepción, pasillos, casa club, área de spa y área de alberca"
+        ]
+      },
+      {
+        "row_idx": 9,
+        "data": [
+          "[ ]",
+          "Limpieza",
+          "Limpieza del hotel",
+          "Limpieza profunda y diaria de coworking, vestíbulos, recepción, cafetería, baños entre otros."
+        ]
+      },
+      {
+        "row_idx": 10,
+        "data": [
+          "[ ]",
+          "Limpieza",
+          "Limpieza del hotel",
+          "Barrer, trapear, desempolvar todas las áreas comunes"
+        ]
+      },
+      {
+        "row_idx": 11,
+        "data": [
+          "[ ]",
+          "Limpieza",
+          "Limpieza del hotel",
+          "Mantener los sanitarios limpios, desinfectados y reabastecido"
+        ]
+      },
+      {
+        "row_idx": 12,
+        "data": [
+          "[ ]",
+          "Limpieza",
+          "Limpieza Durante Eventos",
+          "Asegurarse que el espacio este completamente limpio antes del inicio del evento"
+        ]
+      },
+      {
+        "row_idx": 13,
+        "data": [
+          "[ ]",
+          "Limpieza",
+          "Limpieza Durante Eventos",
+          "Monitorear constante del estado de los espacios durante el evento."
+        ]
+      },
+      {
+        "row_idx": 14,
+        "data": [
+          "[ ]",
+          "Limpieza",
+          "Limpieza Durante Eventos",
+          "Recoger vasos, servilletas, residuos"
+        ]
+      }
+    ]
+  }
+}
