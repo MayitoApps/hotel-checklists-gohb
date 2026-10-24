@@ -2,7 +2,6 @@
 
 import { Employee, HOTELS } from '@/data/initialData';
 import { ChecklistSubmission } from './types';
-import { supabase, isSupabaseConfigured } from './supabase';
 
 const STORAGE_KEYS = {
   EMPLOYEES: 'gohb_employees_v2',
@@ -32,6 +31,21 @@ function setItem<T>(key: string, value: T): void {
 }
 
 // ==========================================
+// STATUS CHECK
+// ==========================================
+export async function checkDatabaseStatus(): Promise<{ connected: boolean; provider: string }> {
+  try {
+    const res = await fetch('/api/status', { cache: 'no-store' });
+    if (res.ok) {
+      return await res.json();
+    }
+  } catch (e) {
+    // offline or local
+  }
+  return { connected: false, provider: 'Local Storage' };
+}
+
+// ==========================================
 // EMPLOYEES
 // ==========================================
 export function getEmployees(): Employee[] {
@@ -39,29 +53,17 @@ export function getEmployees(): Employee[] {
 }
 
 export async function fetchEmployees(): Promise<Employee[]> {
-  if (isSupabaseConfigured && supabase) {
-    try {
-      const { data, error } = await supabase
-        .from('empleados')
-        .select('*')
-        .order('created_at', { ascending: false });
-
-      if (!error && data) {
-        const mapped: Employee[] = data.map(item => ({
-          id: item.id,
-          numeroEmpleado: item.numero_empleado,
-          nombre: item.nombre,
-          hotelSlug: item.hotel_slug,
-          puestoId: item.puesto_id,
-          puestoNombre: item.puesto_nombre,
-          area: item.area
-        }));
-        setItem(STORAGE_KEYS.EMPLOYEES, mapped);
-        return mapped;
+  try {
+    const res = await fetch('/api/employees', { cache: 'no-store' });
+    if (res.ok) {
+      const json = await res.json();
+      if (json.success && json.connected && Array.isArray(json.data)) {
+        setItem(STORAGE_KEYS.EMPLOYEES, json.data);
+        return json.data;
       }
-    } catch (err) {
-      console.warn('Could not fetch employees from Supabase, using local cache', err);
     }
+  } catch (err) {
+    console.warn('API /api/employees unreachable, using local cache');
   }
   return getEmployees();
 }
@@ -78,20 +80,14 @@ export async function saveEmployee(employee: Employee): Promise<Employee[]> {
   }
   setItem(STORAGE_KEYS.EMPLOYEES, updated);
 
-  if (isSupabaseConfigured && supabase) {
-    try {
-      await supabase.from('empleados').upsert({
-        id: employee.id,
-        numero_empleado: employee.numeroEmpleado,
-        nombre: employee.nombre,
-        hotel_slug: employee.hotelSlug,
-        puesto_id: employee.puestoId,
-        puesto_nombre: employee.puestoNombre,
-        area: employee.area
-      });
-    } catch (err) {
-      console.error('Error saving employee to Supabase', err);
-    }
+  try {
+    await fetch('/api/employees', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify(employee)
+    });
+  } catch (err) {
+    console.error('Error syncing employee to Vercel Postgres API:', err);
   }
 
   return updated;
@@ -101,12 +97,10 @@ export async function deleteEmployee(id: string): Promise<Employee[]> {
   const list = getEmployees().filter(e => e.id !== id);
   setItem(STORAGE_KEYS.EMPLOYEES, list);
 
-  if (isSupabaseConfigured && supabase) {
-    try {
-      await supabase.from('empleados').delete().eq('id', id);
-    } catch (err) {
-      console.error('Error deleting employee from Supabase', err);
-    }
+  try {
+    await fetch(`/api/employees?id=${id}`, { method: 'DELETE' });
+  } catch (err) {
+    console.error('Error deleting employee on Vercel Postgres API:', err);
   }
 
   return list;
@@ -115,12 +109,10 @@ export async function deleteEmployee(id: string): Promise<Employee[]> {
 export async function clearAllEmployees(): Promise<Employee[]> {
   setItem(STORAGE_KEYS.EMPLOYEES, []);
 
-  if (isSupabaseConfigured && supabase) {
-    try {
-      await supabase.from('empleados').delete().neq('id', '');
-    } catch (err) {
-      console.error('Error clearing employees in Supabase', err);
-    }
+  try {
+    await fetch('/api/employees', { method: 'DELETE' });
+  } catch (err) {
+    console.error('Error clearing employees on Vercel Postgres API:', err);
   }
 
   return [];
@@ -140,40 +132,17 @@ export function getSubmissions(): ChecklistSubmission[] {
 }
 
 export async function fetchSubmissions(): Promise<ChecklistSubmission[]> {
-  if (isSupabaseConfigured && supabase) {
-    try {
-      const { data, error } = await supabase
-        .from('registros_checklist')
-        .select('*')
-        .order('submitted_at', { ascending: false });
-
-      if (!error && data) {
-        const mapped: ChecklistSubmission[] = data.map(item => ({
-          id: item.id,
-          hotelSlug: item.hotel_slug,
-          hotelName: item.hotel_name,
-          employeeId: item.employee_id,
-          employeeNumber: item.employee_number,
-          employeeName: item.employee_name,
-          puestoId: item.puesto_id,
-          puestoNombre: item.puesto_nombre,
-          area: item.area,
-          date: item.date,
-          submittedAt: item.submitted_at,
-          totalTasks: item.total_tasks,
-          completedTasks: item.completed_tasks,
-          problemTasks: item.problem_tasks,
-          notApplicableTasks: item.not_applicable_tasks,
-          compliancePercentage: Number(item.compliance_percentage),
-          generalNotes: item.general_notes || '',
-          tasks: item.tasks || []
-        }));
-        setItem(STORAGE_KEYS.SUBMISSIONS, mapped);
-        return mapped;
+  try {
+    const res = await fetch('/api/submissions', { cache: 'no-store' });
+    if (res.ok) {
+      const json = await res.json();
+      if (json.success && json.connected && Array.isArray(json.data)) {
+        setItem(STORAGE_KEYS.SUBMISSIONS, json.data);
+        return json.data;
       }
-    } catch (err) {
-      console.warn('Could not fetch submissions from Supabase, using local cache', err);
     }
+  } catch (err) {
+    console.warn('API /api/submissions unreachable, using local cache');
   }
   return getSubmissions();
 }
@@ -183,31 +152,14 @@ export async function saveSubmission(submission: ChecklistSubmission): Promise<C
   const updated = [submission, ...list];
   setItem(STORAGE_KEYS.SUBMISSIONS, updated);
 
-  if (isSupabaseConfigured && supabase) {
-    try {
-      await supabase.from('registros_checklist').insert({
-        id: submission.id,
-        hotel_slug: submission.hotelSlug,
-        hotel_name: submission.hotelName,
-        employee_id: submission.employeeId,
-        employee_number: submission.employeeNumber,
-        employee_name: submission.employeeName,
-        puesto_id: submission.puestoId,
-        puesto_nombre: submission.puestoNombre,
-        area: submission.area,
-        date: submission.date,
-        submitted_at: submission.submittedAt,
-        total_tasks: submission.totalTasks,
-        completed_tasks: submission.completedTasks,
-        problem_tasks: submission.problemTasks,
-        not_applicable_tasks: submission.notApplicableTasks,
-        compliance_percentage: submission.compliancePercentage,
-        general_notes: submission.generalNotes || '',
-        tasks: submission.tasks
-      });
-    } catch (err) {
-      console.error('Error saving submission to Supabase', err);
-    }
+  try {
+    await fetch('/api/submissions', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify(submission)
+    });
+  } catch (err) {
+    console.error('Error syncing submission to Vercel Postgres API:', err);
   }
 
   return updated;
@@ -216,12 +168,10 @@ export async function saveSubmission(submission: ChecklistSubmission): Promise<C
 export async function clearAllSubmissions(): Promise<ChecklistSubmission[]> {
   setItem(STORAGE_KEYS.SUBMISSIONS, []);
 
-  if (isSupabaseConfigured && supabase) {
-    try {
-      await supabase.from('registros_checklist').delete().neq('id', '');
-    } catch (err) {
-      console.error('Error clearing submissions in Supabase', err);
-    }
+  try {
+    await fetch('/api/submissions', { method: 'DELETE' });
+  } catch (err) {
+    console.error('Error clearing submissions on Vercel Postgres API:', err);
   }
 
   return [];

@@ -34,9 +34,9 @@ import {
   getSubmissions, 
   fetchSubmissions,
   clearAllSubmissions, 
-  clearAllEmployees 
+  clearAllEmployees,
+  checkDatabaseStatus
 } from '@/lib/storage';
-import { supabase, isSupabaseConfigured } from '@/lib/supabase';
 import { ChecklistSubmission } from '@/lib/types';
 
 // Contraseña de administrador
@@ -51,6 +51,7 @@ export default function AdminPage() {
   const [activeTab, setActiveTab] = useState<'monitor' | 'employees' | 'tasks'>('monitor');
   const [submissions, setSubmissions] = useState<ChecklistSubmission[]>([]);
   const [employees, setEmployees] = useState<Employee[]>([]);
+  const [dbStatus, setDbStatus] = useState<{ connected: boolean; provider: string }>({ connected: false, provider: 'Local Storage' });
 
   // Filters
   const [selectedHotel, setSelectedHotel] = useState<string>('all');
@@ -86,41 +87,28 @@ export default function AdminPage() {
     }
   }, [isAuthenticated]);
 
-  // Load data when authenticated and subscribe to real-time events
+  // Load data and auto-refresh every 5 seconds for real-time monitoring across hotels
   useEffect(() => {
     if (!isAuthenticated) return;
 
+    checkDatabaseStatus().then(status => setDbStatus(status));
+
+    const loadData = () => {
+      fetchSubmissions().then(subs => setSubmissions(subs));
+      fetchEmployees().then(emps => setEmployees(emps));
+    };
+
     setSubmissions(getSubmissions());
     setEmployees(getEmployees());
+    loadData();
 
-    fetchSubmissions().then(subs => setSubmissions(subs));
-    fetchEmployees().then(emps => setEmployees(emps));
+    // Auto-polling for real-time live updates
+    const interval = setInterval(() => {
+      loadData();
+      checkDatabaseStatus().then(status => setDbStatus(status));
+    }, 5000);
 
-    // Supabase Realtime WebSocket listener
-    if (isSupabaseConfigured && supabase) {
-      const client = supabase;
-      const channel = client
-        .channel('admin_realtime_changes')
-        .on(
-          'postgres_changes',
-          { event: '*', schema: 'public', table: 'registros_checklist' },
-          () => {
-            fetchSubmissions().then(subs => setSubmissions(subs));
-          }
-        )
-        .on(
-          'postgres_changes',
-          { event: '*', schema: 'public', table: 'empleados' },
-          () => {
-            fetchEmployees().then(emps => setEmployees(emps));
-          }
-        )
-        .subscribe();
-
-      return () => {
-        client.removeChannel(channel);
-      };
-    }
+    return () => clearInterval(interval);
   }, [isAuthenticated]);
 
   // Set default puestoId when newEmpHotel changes
@@ -405,7 +393,7 @@ export default function AdminPage() {
             </Link>
             <span style={{ opacity: 0.3 }}>/</span>
             <span style={{ color: 'var(--color-gold)' }}>Supervisión</span>
-            {isSupabaseConfigured ? (
+            {dbStatus.connected ? (
               <span style={{
                 fontSize: '0.72rem',
                 background: 'rgba(34, 197, 94, 0.15)',
@@ -419,7 +407,7 @@ export default function AdminPage() {
                 gap: '0.35rem'
               }}>
                 <span style={{ width: '6px', height: '6px', borderRadius: '50%', background: '#22c55e', display: 'inline-block' }} />
-                Nube Activa
+                Base Vercel en Vivo
               </span>
             ) : (
               <span style={{
@@ -431,7 +419,7 @@ export default function AdminPage() {
                 borderRadius: 'var(--radius-full)',
                 fontWeight: 600
               }}>
-                Modo Local
+                Modo Local (Sin BD Vercel)
               </span>
             )}
           </div>
