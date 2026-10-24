@@ -26,6 +26,7 @@ import {
   ShieldAlert
 } from 'lucide-react';
 import { HOTELS, PUESTOS_BY_HOTEL, Employee } from '@/data/initialData';
+import AdminCharts from '@/components/AdminCharts';
 import { 
   getEmployees, 
   fetchEmployees,
@@ -558,6 +559,15 @@ export default function AdminPage() {
                 </div>
               ))}
             </div>
+
+            {/* Visual Charts: Tasks Status by Hotel & Group Distribution */}
+            <AdminCharts
+              submissions={submissions}
+              selectedDate={selectedDate}
+              selectedHotel={selectedHotel}
+              onSelectHotel={setSelectedHotel}
+              hotels={HOTELS}
+            />
 
             {/* Filter Bar */}
             <div className="card admin-filter-bar" style={{ padding: '1rem 1.5rem', marginBottom: '1.5rem', display: 'flex', gap: '1rem', flexWrap: 'wrap', alignItems: 'center' }}>
