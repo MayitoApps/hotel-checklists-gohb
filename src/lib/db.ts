@@ -1,10 +1,21 @@
 import { neon } from '@neondatabase/serverless';
 
-const connectionString = 
-  process.env.POSTGRES_URL || 
-  process.env.DATABASE_URL || 
-  process.env.POSTGRES_PRISMA_URL || 
-  '';
+function getConnectionString(): string {
+  if (process.env.POSTGRES_URL) return process.env.POSTGRES_URL;
+  if (process.env.STORAGE_URL) return process.env.STORAGE_URL;
+  if (process.env.DATABASE_URL) return process.env.DATABASE_URL;
+  if (process.env.POSTGRES_PRISMA_URL) return process.env.POSTGRES_PRISMA_URL;
+
+  // Dynamic fallback: pick up any Postgres connection string injected by Vercel
+  for (const [, value] of Object.entries(process.env)) {
+    if (typeof value === 'string' && (value.startsWith('postgres://') || value.startsWith('postgresql://'))) {
+      return value;
+    }
+  }
+  return '';
+}
+
+const connectionString = getConnectionString();
 
 export const isDbConfigured = Boolean(
   connectionString && 
