@@ -46,12 +46,13 @@ export async function checkDatabaseStatus(): Promise<{ connected: boolean; provi
 }
 
 // ==========================================
-// EMPLOYEES
+// EMPLOYEES (ADMINISTRATIVE & KIOSK LOOKUP)
 // ==========================================
 export function getEmployees(): Employee[] {
   return getItem<Employee[]>(STORAGE_KEYS.EMPLOYEES, []);
 }
 
+// Para panel de administración (requiere cookie de sesión admin)
 export async function fetchEmployees(): Promise<Employee[]> {
   try {
     const res = await fetch('/api/employees', { cache: 'no-store' });
@@ -66,6 +67,39 @@ export async function fetchEmployees(): Promise<Employee[]> {
     console.warn('API /api/employees unreachable, using local cache');
   }
   return getEmployees();
+}
+
+// Consulta segura y acotada por kiosco (solo busca al empleado puntual sin descargar toda la nómina)
+export async function lookupEmployee(numeroEmpleado: string, hotelSlug: string): Promise<Employee | null> {
+  const cleanNumber = numeroEmpleado.trim();
+  if (!cleanNumber || !hotelSlug) return null;
+
+  // 1. Verificar si está en caché local reciente
+  const list = getEmployees();
+  const cached = list.find(e => e.numeroEmpleado === cleanNumber && e.hotelSlug === hotelSlug);
+  if (cached) return cached;
+
+  // 2. Consultar endpoint acotado del servidor
+  try {
+    const res = await fetch(
+      `/api/employees/lookup?numero=${encodeURIComponent(cleanNumber)}&hotel=${encodeURIComponent(hotelSlug)}`,
+      { cache: 'no-store' }
+    );
+    if (res.ok) {
+      const json = await res.json();
+      if (json.success && json.found && json.data) {
+        // Cachear únicamente a este colaborador para reingresos y offline
+        const existing = getEmployees();
+        const filtered = existing.filter(e => e.id !== json.data.id && e.numeroEmpleado !== json.data.numeroEmpleado);
+        setItem(STORAGE_KEYS.EMPLOYEES, [json.data, ...filtered]);
+        return json.data;
+      }
+    }
+  } catch (err) {
+    console.warn('Error querying /api/employees/lookup:', err);
+  }
+
+  return null;
 }
 
 export async function saveEmployee(employee: Employee): Promise<Employee[]> {
@@ -110,7 +144,7 @@ export async function clearAllEmployees(): Promise<Employee[]> {
   setItem(STORAGE_KEYS.EMPLOYEES, []);
 
   try {
-    await fetch('/api/employees', { method: 'DELETE' });
+    await fetch('/api/employees?confirmAll=true', { method: 'DELETE' });
   } catch (err) {
     console.error('Error clearing employees on Vercel Postgres API:', err);
   }
@@ -131,6 +165,7 @@ export function getSubmissions(): ChecklistSubmission[] {
   return getItem<ChecklistSubmission[]>(STORAGE_KEYS.SUBMISSIONS, []);
 }
 
+// Para panel de administración (requiere cookie de sesión admin)
 export async function fetchSubmissions(): Promise<ChecklistSubmission[]> {
   try {
     const res = await fetch('/api/submissions', { cache: 'no-store' });
@@ -169,7 +204,7 @@ export async function clearAllSubmissions(): Promise<ChecklistSubmission[]> {
   setItem(STORAGE_KEYS.SUBMISSIONS, []);
 
   try {
-    await fetch('/api/submissions', { method: 'DELETE' });
+    await fetch('/api/submissions?confirmAll=true', { method: 'DELETE' });
   } catch (err) {
     console.error('Error clearing submissions on Vercel Postgres API:', err);
   }

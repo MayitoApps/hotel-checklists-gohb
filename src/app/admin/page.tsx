@@ -8,6 +8,7 @@ import {
   Users, 
   ClipboardList, 
   Calendar, 
+  CalendarRange,
   Filter, 
   Search, 
   CheckCircle2, 
@@ -40,13 +41,53 @@ import {
 } from '@/lib/storage';
 import { ChecklistSubmission } from '@/lib/types';
 
-// Contraseña de administrador
-const ADMIN_PASSWORD = '132435';
+export type DatePreset = 'today' | 'yesterday' | 'week' | 'month' | 'prev_month' | 'all' | 'custom';
+
+function toLocalIso(d: Date): string {
+  const y = d.getFullYear();
+  const m = String(d.getMonth() + 1).padStart(2, '0');
+  const day = String(d.getDate()).padStart(2, '0');
+  return `${y}-${m}-${day}`;
+}
+
+function getPresetDates(preset: DatePreset): { start: string; end: string } {
+  const now = new Date();
+  const today = toLocalIso(now);
+
+  switch (preset) {
+    case 'today':
+      return { start: today, end: today };
+    case 'yesterday': {
+      const y = new Date(now.getFullYear(), now.getMonth(), now.getDate() - 1);
+      const yStr = toLocalIso(y);
+      return { start: yStr, end: yStr };
+    }
+    case 'week': {
+      const w = new Date(now.getFullYear(), now.getMonth(), now.getDate() - 6);
+      return { start: toLocalIso(w), end: today };
+    }
+    case 'month': {
+      const mStart = new Date(now.getFullYear(), now.getMonth(), 1);
+      return { start: toLocalIso(mStart), end: today };
+    }
+    case 'prev_month': {
+      const pmStart = new Date(now.getFullYear(), now.getMonth() - 1, 1);
+      const pmEnd = new Date(now.getFullYear(), now.getMonth(), 0);
+      return { start: toLocalIso(pmStart), end: toLocalIso(pmEnd) };
+    }
+    case 'all':
+      return { start: '', end: '' };
+    case 'custom':
+    default:
+      return { start: today, end: today };
+  }
+}
 
 export default function AdminPage() {
   const [isAuthenticated, setIsAuthenticated] = useState<boolean>(false);
   const [pinInput, setPinInput] = useState<string>('');
   const [pinError, setPinError] = useState<string>('');
+  const [isLoggingIn, setIsLoggingIn] = useState<boolean>(false);
   const pinInputRef = useRef<HTMLInputElement>(null);
 
   const [activeTab, setActiveTab] = useState<'monitor' | 'employees' | 'tasks'>('monitor');
@@ -54,11 +95,39 @@ export default function AdminPage() {
   const [employees, setEmployees] = useState<Employee[]>([]);
   const [dbStatus, setDbStatus] = useState<{ connected: boolean; provider: string }>({ connected: false, provider: 'Local Storage' });
 
-  // Filters
+  // Filters: Date Range & Hotel
+  const [datePreset, setDatePreset] = useState<DatePreset>('today');
+  const [startDate, setStartDate] = useState<string>(toLocalIso(new Date()));
+  const [endDate, setEndDate] = useState<string>(toLocalIso(new Date()));
+  const [showCustomPicker, setShowCustomPicker] = useState<boolean>(false);
   const [selectedHotel, setSelectedHotel] = useState<string>('all');
-  const [selectedDate, setSelectedDate] = useState<string>(new Date().toISOString().split('T')[0]);
   const [searchQuery, setSearchQuery] = useState<string>('');
   const [selectedSubmission, setSelectedSubmission] = useState<ChecklistSubmission | null>(null);
+
+  const selectedDate = startDate === endDate ? startDate : '';
+
+  const handleSelectPreset = (preset: DatePreset) => {
+    setDatePreset(preset);
+    if (preset === 'custom') {
+      setShowCustomPicker(true);
+    } else {
+      setShowCustomPicker(false);
+      const dates = getPresetDates(preset);
+      setStartDate(dates.start);
+      setEndDate(dates.end);
+    }
+  };
+
+  const dateRangeLabel = useMemo(() => {
+    if (datePreset === 'all') return 'Todo el Historial';
+    if (datePreset === 'today') return `Hoy (${startDate})`;
+    if (datePreset === 'yesterday') return `Ayer (${startDate})`;
+    if (datePreset === 'week') return `Últimos 7 días (${startDate} al ${endDate})`;
+    if (datePreset === 'month') return `Este Mes (${startDate} al ${endDate})`;
+    if (datePreset === 'prev_month') return `Mes Anterior (${startDate} al ${endDate})`;
+    if (startDate === endDate) return startDate;
+    return `${startDate} al ${endDate}`;
+  }, [datePreset, startDate, endDate]);
 
   // New Employee Form State
   const [newEmpNum, setNewEmpNum] = useState('');
@@ -71,14 +140,16 @@ export default function AdminPage() {
   const [taskInspectorHotel, setTaskInspectorHotel] = useState(HOTELS[0].slug);
   const [taskInspectorPuestoId, setTaskInspectorPuestoId] = useState('');
 
-  // Check auth on mount
+  // Check auth session on mount via secure server endpoint
   useEffect(() => {
-    if (typeof window !== 'undefined') {
-      const auth = sessionStorage.getItem('admin_auth_gohb');
-      if (auth === 'true') {
-        setIsAuthenticated(true);
-      }
-    }
+    fetch('/api/auth/session')
+      .then(res => res.json())
+      .then(data => {
+        if (data?.authenticated) {
+          setIsAuthenticated(true);
+        }
+      })
+      .catch(() => {});
   }, []);
 
   // Focus PIN input when unauthenticated
@@ -128,35 +199,51 @@ export default function AdminPage() {
     }
   }, [taskInspectorHotel]);
 
-  // Handle PIN Submission
-  const handlePinSubmit = (e: React.FormEvent) => {
+  // Handle PIN Submission via secure server endpoint
+  const handlePinSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
     setPinError('');
 
     const entered = pinInput.trim();
-    if (entered === ADMIN_PASSWORD) {
-      setIsAuthenticated(true);
-      if (typeof window !== 'undefined') {
-        sessionStorage.setItem('admin_auth_gohb', 'true');
+    if (!entered) {
+      setPinError('Por favor ingresa tu código de acceso.');
+      return;
+    }
+
+    setIsLoggingIn(true);
+    try {
+      const res = await fetch('/api/auth/login', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ pin: entered })
+      });
+      const data = await res.json();
+      if (data.success) {
+        setIsAuthenticated(true);
+        setPinInput('');
+      } else {
+        setPinError(data.error || 'Código incorrecto. Verifica la clave de administrador.');
       }
-    } else {
-      setPinError('Código incorrecto. Verifica la clave de administrador.');
+    } catch {
+      setPinError('Error al conectar con el servidor de autenticación.');
+    } finally {
+      setIsLoggingIn(false);
     }
   };
 
-  const handleLogout = () => {
+  const handleLogout = async () => {
+    try {
+      await fetch('/api/auth/logout', { method: 'POST' });
+    } catch {}
     setIsAuthenticated(false);
     setPinInput('');
-    if (typeof window !== 'undefined') {
-      sessionStorage.removeItem('admin_auth_gohb');
-    }
   };
 
-  // Filtered Submissions
+  // Filtered Submissions by Hotel, Date Range and Search Query
   const filteredSubmissions = useMemo(() => {
     return submissions.filter(sub => {
       const matchHotel = selectedHotel === 'all' || sub.hotelSlug === selectedHotel;
-      const matchDate = !selectedDate || sub.date === selectedDate;
+      const matchDate = (!startDate || sub.date >= startDate) && (!endDate || sub.date <= endDate);
       const q = searchQuery.toLowerCase().trim();
       const matchSearch = !q || 
         sub.employeeName.toLowerCase().includes(q) || 
@@ -165,12 +252,16 @@ export default function AdminPage() {
         sub.area.toLowerCase().includes(q);
       return matchHotel && matchDate && matchSearch;
     });
-  }, [submissions, selectedHotel, selectedDate, searchQuery]);
+  }, [submissions, selectedHotel, startDate, endDate, searchQuery]);
 
-  // Hotel KPI Metrics
+  // Hotel KPI Metrics (aggregated over selected date range)
   const hotelStats = useMemo(() => {
     return HOTELS.map(hotel => {
-      const hotelSubs = submissions.filter(s => s.hotelSlug === hotel.slug && s.date === selectedDate);
+      const hotelSubs = submissions.filter(s => {
+        const matchHotel = s.hotelSlug === hotel.slug;
+        const matchDate = (!startDate || s.date >= startDate) && (!endDate || s.date <= endDate);
+        return matchHotel && matchDate;
+      });
       const totalSubs = hotelSubs.length;
       const avgCompliance = totalSubs > 0 
         ? Math.round(hotelSubs.reduce((acc, s) => acc + s.compliancePercentage, 0) / totalSubs)
@@ -184,7 +275,7 @@ export default function AdminPage() {
         problemCount
       };
     });
-  }, [submissions, selectedDate]);
+  }, [submissions, startDate, endDate]);
 
   // Handle adding employee
   const handleAddEmployee = async (e: React.FormEvent) => {
@@ -237,29 +328,39 @@ export default function AdminPage() {
     }
   };
 
-  // Export to CSV
+  // Export to CSV con sanitización contra Inyección de Fórmulas (CWE-1236)
   const handleExportCSV = () => {
     if (filteredSubmissions.length === 0) {
       alert('No hay registros en el filtro actual para exportar.');
       return;
     }
 
+    const cleanCell = (val: unknown): string => {
+      if (val === null || val === undefined) return '""';
+      let str = String(val);
+      const dangerousPrefixes = ['=', '+', '-', '@', '\t', '\r'];
+      if (dangerousPrefixes.some(p => str.startsWith(p))) {
+        str = `'${str}`;
+      }
+      return `"${str.replace(/"/g, '""')}"`;
+    };
+
     const headers = ['ID', 'Hotel', 'Fecha', 'Hora', 'Num_Empleado', 'Nombre_Empleado', 'Puesto', 'Area', 'Total_Tareas', 'Completadas', 'Problemas', 'No_Aplica', 'Cumplimiento_%', 'Notas_Generales'];
     const rows = filteredSubmissions.map(s => [
-      s.id,
-      `"${s.hotelName}"`,
-      s.date,
-      new Date(s.submittedAt).toLocaleTimeString('es-MX'),
-      s.employeeNumber,
-      `"${s.employeeName}"`,
-      `"${s.puestoNombre}"`,
-      `"${s.area}"`,
+      cleanCell(s.id),
+      cleanCell(s.hotelName),
+      cleanCell(s.date),
+      cleanCell(new Date(s.submittedAt).toLocaleTimeString('es-MX')),
+      cleanCell(s.employeeNumber),
+      cleanCell(s.employeeName),
+      cleanCell(s.puestoNombre),
+      cleanCell(s.area),
       s.totalTasks,
       s.completedTasks,
       s.problemTasks,
       s.notApplicableTasks,
-      `${s.compliancePercentage}%`,
-      `"${(s.generalNotes || '').replace(/"/g, '""')}"`
+      cleanCell(`${s.compliancePercentage}%`),
+      cleanCell(s.generalNotes || '')
     ]);
 
     const csvContent = '\uFEFF' + [headers.join(','), ...rows.map(r => r.join(','))].join('\n');
@@ -267,7 +368,7 @@ export default function AdminPage() {
     const url = URL.createObjectURL(blob);
     const link = document.createElement('a');
     link.href = url;
-    link.download = `checklists_${selectedHotel}_${selectedDate || 'todos'}.csv`;
+    link.download = `checklists_${selectedHotel}_${startDate || 'inicio'}_al_${endDate || 'actual'}.csv`;
     link.click();
   };
 
@@ -352,9 +453,9 @@ export default function AdminPage() {
               </div>
             )}
 
-            <button type="submit" className="btn-primary" style={{ padding: '0.85rem' }}>
+            <button type="submit" className="btn-primary" style={{ padding: '0.85rem' }} disabled={isLoggingIn}>
               <KeyRound size={18} />
-              <span>Entrar al Dashboard</span>
+              <span>{isLoggingIn ? 'Verificando...' : 'Entrar al Dashboard'}</span>
             </button>
           </form>
 
@@ -478,28 +579,18 @@ export default function AdminPage() {
         {/* TAB 1: DAILY MONITOR */}
         {activeTab === 'monitor' && (
           <div className="animate-fade-in">
-            {/* Header with Date and Export */}
-            <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', marginBottom: '1.5rem', flexWrap: 'wrap', gap: '1rem' }}>
+            {/* Header with Title and Global Actions */}
+            <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', marginBottom: '1.25rem', flexWrap: 'wrap', gap: '1rem' }}>
               <div>
                 <h1 style={{ fontSize: '1.75rem', fontWeight: 800, color: 'var(--text-main)', letterSpacing: '-0.02em' }}>
-                  Cumplimiento Operativo Diario
+                  Control Operativo y Cumplimiento
                 </h1>
                 <p style={{ color: 'var(--text-subtle)', fontSize: '0.9rem' }}>
-                  Supervisa en tiempo real el llenado de checklists por hotel, puesto y turno.
+                  Supervisa en tiempo real el llenado de checklists por hotel, puesto y turno en el periodo seleccionado.
                 </p>
               </div>
 
               <div className="admin-date-actions">
-                <div style={{ display: 'inline-flex', alignItems: 'center', gap: '0.5rem', background: '#ffffff', border: '1px solid var(--border-light)', borderRadius: 'var(--radius-sm)', padding: '0.4rem 0.75rem' }}>
-                  <Calendar size={16} color="var(--text-subtle)" />
-                  <input
-                    type="date"
-                    value={selectedDate}
-                    onChange={(e) => setSelectedDate(e.target.value)}
-                    style={{ border: 'none', outline: 'none', fontSize: '0.85rem', color: 'var(--text-main)' }}
-                  />
-                </div>
-
                 <button
                   type="button"
                   onClick={handleExportCSV}
@@ -507,7 +598,7 @@ export default function AdminPage() {
                   style={{ padding: '0.5rem 1rem' }}
                 >
                   <Download size={16} />
-                  <span>Exportar a Excel</span>
+                  <span>Exportar a Excel ({filteredSubmissions.length})</span>
                 </button>
 
                 {submissions.length > 0 && (
@@ -523,6 +614,125 @@ export default function AdminPage() {
                   </button>
                 )}
               </div>
+            </div>
+
+            {/* DATE RANGE PRESETS BAR (Daily, Weekly, Monthly, Historical, Custom) */}
+            <div className="card" style={{ padding: '0.95rem 1.25rem', marginBottom: '1.5rem' }}>
+              <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', flexWrap: 'wrap', gap: '0.75rem' }}>
+                {/* Presets Button Group */}
+                <div style={{ display: 'flex', alignItems: 'center', gap: '0.4rem', flexWrap: 'wrap' }}>
+                  <span style={{ fontSize: '0.8rem', fontWeight: 700, color: 'var(--text-subtle)', textTransform: 'uppercase', marginRight: '0.25rem', display: 'inline-flex', alignItems: 'center', gap: '0.35rem' }}>
+                    <CalendarRange size={15} color="var(--color-gold)" />
+                    Periodo:
+                  </span>
+                  {(
+                    [
+                      { id: 'today', label: 'Hoy' },
+                      { id: 'yesterday', label: 'Ayer' },
+                      { id: 'week', label: 'Últimos 7 días' },
+                      { id: 'month', label: 'Este Mes' },
+                      { id: 'prev_month', label: 'Mes Anterior' },
+                      { id: 'all', label: 'Histórico' },
+                      { id: 'custom', label: 'Personalizado' },
+                    ] as { id: DatePreset; label: string }[]
+                  ).map(p => {
+                    const isActive = datePreset === p.id;
+                    return (
+                      <button
+                        key={p.id}
+                        type="button"
+                        onClick={() => handleSelectPreset(p.id)}
+                        style={{
+                          padding: '0.35rem 0.85rem',
+                          borderRadius: 'var(--radius-full)',
+                          fontSize: '0.8rem',
+                          fontWeight: isActive ? 700 : 500,
+                          border: `1.5px solid ${isActive ? 'var(--color-gold)' : 'var(--border-light)'}`,
+                          background: isActive ? 'var(--color-gold)' : 'var(--bg-subtle)',
+                          color: isActive ? '#ffffff' : 'var(--text-main)',
+                          cursor: 'pointer',
+                          transition: 'all 0.15s ease'
+                        }}
+                      >
+                        {p.label}
+                      </button>
+                    );
+                  })}
+                </div>
+
+                {/* Range Indicator Badge */}
+                <div style={{
+                  fontSize: '0.8rem',
+                  fontWeight: 600,
+                  color: 'var(--text-muted)',
+                  background: 'var(--bg-subtle)',
+                  padding: '0.35rem 0.85rem',
+                  borderRadius: 'var(--radius-full)',
+                  border: '1px solid var(--border-light)',
+                  display: 'inline-flex',
+                  alignItems: 'center',
+                  gap: '0.4rem'
+                }}>
+                  <Calendar size={14} color="var(--color-gold)" />
+                  <span>{dateRangeLabel}</span>
+                  <span style={{ color: 'var(--color-brand)', fontWeight: 700 }}>
+                    • {filteredSubmissions.length} {filteredSubmissions.length === 1 ? 'checklist' : 'checklists'}
+                  </span>
+                </div>
+              </div>
+
+              {/* Expandable Custom Date Picker */}
+              {showCustomPicker && (
+                <div style={{
+                  display: 'flex',
+                  alignItems: 'center',
+                  gap: '1.25rem',
+                  marginTop: '0.85rem',
+                  paddingTop: '0.85rem',
+                  borderTop: '1px dashed var(--border-light)',
+                  flexWrap: 'wrap'
+                }}>
+                  <div style={{ display: 'inline-flex', alignItems: 'center', gap: '0.5rem' }}>
+                    <span style={{ fontSize: '0.8rem', fontWeight: 600, color: 'var(--text-subtle)' }}>Desde:</span>
+                    <input
+                      type="date"
+                      value={startDate}
+                      onChange={(e) => {
+                        setStartDate(e.target.value);
+                        setDatePreset('custom');
+                      }}
+                      style={{
+                        padding: '0.35rem 0.65rem',
+                        borderRadius: 'var(--radius-sm)',
+                        border: '1px solid var(--border-light)',
+                        fontSize: '0.85rem',
+                        color: 'var(--text-main)',
+                        background: '#ffffff'
+                      }}
+                    />
+                  </div>
+
+                  <div style={{ display: 'inline-flex', alignItems: 'center', gap: '0.5rem' }}>
+                    <span style={{ fontSize: '0.8rem', fontWeight: 600, color: 'var(--text-subtle)' }}>Hasta:</span>
+                    <input
+                      type="date"
+                      value={endDate}
+                      onChange={(e) => {
+                        setEndDate(e.target.value);
+                        setDatePreset('custom');
+                      }}
+                      style={{
+                        padding: '0.35rem 0.65rem',
+                        borderRadius: 'var(--radius-sm)',
+                        border: '1px solid var(--border-light)',
+                        fontSize: '0.85rem',
+                        color: 'var(--text-main)',
+                        background: '#ffffff'
+                      }}
+                    />
+                  </div>
+                </div>
+              )}
             </div>
 
             {/* Hotel KPI Cards */}
@@ -553,7 +763,7 @@ export default function AdminPage() {
                     </p>
                   ) : (
                     <p className="kpi-subtitle">
-                      {stat.totalSubmissions > 0 ? 'Sin incidencias reportadas' : 'Sin registros hoy'}
+                      {stat.totalSubmissions > 0 ? 'Sin incidencias reportadas' : 'Sin registros en el periodo'}
                     </p>
                   )}
                 </div>
@@ -563,7 +773,9 @@ export default function AdminPage() {
             {/* Visual Charts: Tasks Status by Hotel & Group Distribution */}
             <AdminCharts
               submissions={submissions}
-              selectedDate={selectedDate}
+              startDate={startDate}
+              endDate={endDate}
+              dateLabel={dateRangeLabel}
               selectedHotel={selectedHotel}
               onSelectHotel={setSelectedHotel}
               hotels={HOTELS}
@@ -611,7 +823,7 @@ export default function AdminPage() {
                   No se encontraron registros de checklist
                 </h3>
                 <p style={{ fontSize: '0.85rem', color: 'var(--text-subtle)' }}>
-                  Aún no se han enviado checklists con los filtros seleccionados ({selectedDate}).
+                  Aún no se han enviado checklists en el periodo seleccionado ({dateRangeLabel}).
                 </p>
               </div>
             ) : (
@@ -621,7 +833,7 @@ export default function AdminPage() {
                   <table style={{ width: '100%', borderCollapse: 'collapse', textAlign: 'left', fontSize: '0.9rem' }}>
                     <thead>
                       <tr style={{ background: 'var(--bg-subtle)', borderBottom: '1px solid var(--border-light)', color: 'var(--text-subtle)', fontWeight: 600, fontSize: '0.8rem', textTransform: 'uppercase' }}>
-                        <th style={{ padding: '0.85rem 1.25rem' }}>Hora</th>
+                        <th style={{ padding: '0.85rem 1.25rem' }}>Fecha / Hora</th>
                         <th style={{ padding: '0.85rem 1.25rem' }}>Hotel</th>
                         <th style={{ padding: '0.85rem 1.25rem' }}>Empleado</th>
                         <th style={{ padding: '0.85rem 1.25rem' }}>Puesto / Área</th>
@@ -643,8 +855,9 @@ export default function AdminPage() {
                             onMouseEnter={(e) => e.currentTarget.style.background = 'var(--bg-subtle)'}
                             onMouseLeave={(e) => e.currentTarget.style.background = 'transparent'}
                           >
-                            <td style={{ padding: '0.85rem 1.25rem', color: 'var(--text-subtle)', fontWeight: 500 }}>
-                              {timeStr}
+                            <td style={{ padding: '0.85rem 1.25rem', color: 'var(--text-main)', fontWeight: 500 }}>
+                              <div style={{ fontWeight: 600 }}>{timeStr}</div>
+                              <div style={{ fontSize: '0.75rem', color: 'var(--text-subtle)' }}>{sub.date}</div>
                             </td>
                             <td style={{ padding: '0.85rem 1.25rem', fontWeight: 600, color: 'var(--text-main)' }}>
                               {sub.hotelName}
@@ -729,7 +942,7 @@ export default function AdminPage() {
                           <span className="mobile-hotel-badge">{sub.hotelName}</span>
                           <span className="mobile-time-badge">
                             <Clock size={12} />
-                            {timeStr}
+                            {sub.date} • {timeStr}
                           </span>
                         </div>
 

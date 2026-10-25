@@ -1,6 +1,7 @@
 -- ========================================================
 -- ESQUEMA DE BASE DE DATOS EN LA NUBE (SUPABASE / POSTGRESQL)
 -- GRUPO ORGÁNICO HOTEL BOUTIQUE - SISTEMA DE CHECKLISTS DIARIOS
+-- POLÍTICAS DE SEGURIDAD EMPRESARIAL Y PROTECCIÓN DE DATOS
 -- ========================================================
 
 -- 1. TABLA DE EMPLEADOS
@@ -38,31 +39,57 @@ CREATE TABLE IF NOT EXISTS public.registros_checklist (
     created_at TIMESTAMPTZ DEFAULT NOW()
 );
 
--- 3. POLÍTICAS DE ACCESO PÚBLICO (Para terminales de kiosco y panel de supervisión)
+-- 3. POLÍTICAS DE ROW LEVEL SECURITY (RLS) PROTEGIDAS
+-- Protege datos personales de empleados y registros confidenciales del hotel
+
+-- Tabla: Empleados
 ALTER TABLE public.empleados ENABLE ROW LEVEL SECURITY;
 DROP POLICY IF EXISTS "Acceso total empleados" ON public.empleados;
-CREATE POLICY "Acceso total empleados" ON public.empleados FOR ALL USING (true) WITH CHECK (true);
+DROP POLICY IF EXISTS "Permitir solo backend o servicio" ON public.empleados;
 
+-- El acceso a la nómina de empleados queda restringido al backend (service_role)
+CREATE POLICY "Permitir solo backend o servicio" 
+ON public.empleados 
+FOR ALL 
+TO service_role 
+USING (true) 
+WITH CHECK (true);
+
+-- Tabla: Registros de Checklist
 ALTER TABLE public.registros_checklist ENABLE ROW LEVEL SECURITY;
 DROP POLICY IF EXISTS "Acceso total checklists" ON public.registros_checklist;
-CREATE POLICY "Acceso total checklists" ON public.registros_checklist FOR ALL USING (true) WITH CHECK (true);
+DROP POLICY IF EXISTS "Permitir lectura solo a servicio autenticado" ON public.registros_checklist;
+DROP POLICY IF EXISTS "Permitir insercion desde kiosco" ON public.registros_checklist;
+
+-- Kioscos pueden insertar sus checklists diarios, pero no leer historiales ajenos
+CREATE POLICY "Permitir insercion desde kiosco" 
+ON public.registros_checklist 
+FOR INSERT 
+TO anon, authenticated, service_role 
+WITH CHECK (
+    id IS NOT NULL AND 
+    hotel_slug IS NOT NULL AND 
+    employee_number IS NOT NULL AND 
+    date IS NOT NULL
+);
+
+-- Lectura, modificación y borrado reservado para administradores/backend (service_role)
+CREATE POLICY "Permitir lectura y gestion a servicio autenticado" 
+ON public.registros_checklist 
+FOR ALL 
+TO service_role 
+USING (true) 
+WITH CHECK (true);
 
 -- 4. ÍNDICES DE ALTO RENDIMIENTO
 CREATE INDEX IF NOT EXISTS idx_reg_fecha ON public.registros_checklist(date DESC);
 CREATE INDEX IF NOT EXISTS idx_reg_hotel ON public.registros_checklist(hotel_slug);
 CREATE INDEX IF NOT EXISTS idx_emp_hotel_num ON public.empleados(hotel_slug, numero_empleado);
 
--- 5. HABILITAR TIEMPO REAL (WebSockets para el Dashboard de Administrador)
+-- 5. HABILITAR TIEMPO REAL SEGURO (WebSockets)
 DO $$
 BEGIN
     ALTER PUBLICATION supabase_realtime ADD TABLE public.registros_checklist;
-EXCEPTION WHEN OTHERS THEN
-    NULL; -- Si ya está agregado, ignorar
-END $$;
-
-DO $$
-BEGIN
-    ALTER PUBLICATION supabase_realtime ADD TABLE public.empleados;
 EXCEPTION WHEN OTHERS THEN
     NULL;
 END $$;

@@ -17,7 +17,7 @@ import {
 import confetti from 'canvas-confetti';
 import { HotelConfig, PuestoTemplate, PUESTOS_BY_HOTEL } from '@/data/initialData';
 import { Employee } from '@/data/initialData';
-import { findEmployeeByNumberAndHotel, saveSubmission, getEmployees, fetchEmployees } from '@/lib/storage';
+import { lookupEmployee, saveSubmission } from '@/lib/storage';
 import { TaskStatus, ChecklistSubmission, TaskRecord } from '@/lib/types';
 
 interface HotelKioskProps {
@@ -34,18 +34,9 @@ export default function HotelKiosk({ hotel }: HotelKioskProps) {
   const [errorMessage, setErrorMessage] = useState('');
   const [countdown, setCountdown] = useState(5);
   const [isSubmitting, setIsSubmitting] = useState(false);
-  const [availableEmployees, setAvailableEmployees] = useState<Employee[]>([]);
+  const [isValidating, setIsValidating] = useState(false);
 
   const inputRef = useRef<HTMLInputElement>(null);
-
-  // Load available employees for this hotel on mount
-  useEffect(() => {
-    const all = getEmployees();
-    setAvailableEmployees(all.filter(e => e.hotelSlug === hotel.slug));
-    fetchEmployees().then(emps => {
-      setAvailableEmployees(emps.filter(e => e.hotelSlug === hotel.slug));
-    });
-  }, [hotel.slug]);
 
   // Focus employee number input automatically
   useEffect(() => {
@@ -93,7 +84,7 @@ export default function HotelKiosk({ hotel }: HotelKioskProps) {
     setErrorMessage('');
   };
 
-  const handleLookupEmployee = (e?: React.FormEvent) => {
+  const handleLookupEmployee = async (e?: React.FormEvent) => {
     if (e) e.preventDefault();
     setErrorMessage('');
 
@@ -103,34 +94,42 @@ export default function HotelKiosk({ hotel }: HotelKioskProps) {
       return;
     }
 
-    const employee = findEmployeeByNumberAndHotel(cleanNum, hotel.slug);
-    if (!employee) {
-      setErrorMessage(`El número "${cleanNum}" no está registrado en ${hotel.shortName}.`);
-      return;
+    setIsValidating(true);
+    try {
+      const employee = await lookupEmployee(cleanNum, hotel.slug);
+      if (!employee) {
+        setErrorMessage(`El número "${cleanNum}" no está registrado en ${hotel.shortName}.`);
+        setIsValidating(false);
+        return;
+      }
+
+      // Find the template for their role in this hotel
+      const hotelPuestos = PUESTOS_BY_HOTEL[hotel.slug] || [];
+      const puesto = hotelPuestos.find(p => p.id === employee.puestoId || p.nombre.toLowerCase() === employee.puestoNombre.toLowerCase()) 
+        || hotelPuestos[0];
+
+      if (!puesto) {
+        setErrorMessage(`No se encontró la plantilla de tareas para el puesto: ${employee.puestoNombre}`);
+        setIsValidating(false);
+        return;
+      }
+
+      setActiveEmployee(employee);
+      setActivePuesto(puesto);
+
+      // Initialize all tasks as completed by default
+      const initialTasks: Record<string, { status: TaskStatus; note: string }> = {};
+      puesto.tasks.forEach(t => {
+        initialTasks[t.id] = { status: 'completed', note: '' };
+      });
+      setTaskStates(initialTasks);
+
+      setStep('checklist');
+    } catch (err) {
+      setErrorMessage('Error al consultar empleado. Verifica tu conexión.');
+    } finally {
+      setIsValidating(false);
     }
-
-    // Find the template for their role in this hotel
-    const hotelPuestos = PUESTOS_BY_HOTEL[hotel.slug] || [];
-    // Match by puestoId or by name
-    const puesto = hotelPuestos.find(p => p.id === employee.puestoId || p.nombre.toLowerCase() === employee.puestoNombre.toLowerCase()) 
-      || hotelPuestos[0]; // fallback to first if none
-
-    if (!puesto) {
-      setErrorMessage(`No se encontró la plantilla de tareas para el puesto: ${employee.puestoNombre}`);
-      return;
-    }
-
-    setActiveEmployee(employee);
-    setActivePuesto(puesto);
-
-    // Initialize all tasks as completed by default or empty
-    const initialTasks: Record<string, { status: TaskStatus; note: string }> = {};
-    puesto.tasks.forEach(t => {
-      initialTasks[t.id] = { status: 'completed', note: '' };
-    });
-    setTaskStates(initialTasks);
-
-    setStep('checklist');
   };
 
   const setTaskStatus = (taskId: string, status: TaskStatus) => {
@@ -302,46 +301,17 @@ export default function HotelKiosk({ hotel }: HotelKioskProps) {
                 </div>
               )}
 
-              <button type="submit" className="btn-primary">
+              <button type="submit" className="btn-primary" disabled={isValidating}>
                 <UserCheck size={20} />
-                <span>Continuar a mi Formulario</span>
+                <span>{isValidating ? 'Consultando...' : 'Continuar a mi Formulario'}</span>
               </button>
             </form>
 
-            {/* Quick Helper for Demo / Testing */}
-            {availableEmployees.length > 0 && (
-              <div style={{ marginTop: '2rem', paddingTop: '1.25rem', borderTop: '1px dashed var(--border-light)' }}>
-                <p style={{ fontSize: '0.75rem', color: 'var(--text-subtle)', marginBottom: '0.5rem', fontWeight: 600 }}>
-                  EMPLEADOS REGISTRADOS EN ESTA PROPIEDAD:
-                </p>
-                <div style={{ display: 'flex', flexWrap: 'wrap', gap: '0.4rem', justifyContent: 'center' }}>
-                  {availableEmployees.map(emp => (
-                    <button
-                      key={emp.id}
-                      type="button"
-                      onClick={() => {
-                        setEmployeeNumInput(emp.numeroEmpleado);
-                        setErrorMessage('');
-                      }}
-                      style={{
-                        background: 'var(--bg-subtle)',
-                        border: '1px solid var(--border-light)',
-                        borderRadius: 'var(--radius-sm)',
-                        padding: '0.3rem 0.6rem',
-                        fontSize: '0.75rem',
-                        cursor: 'pointer',
-                        color: 'var(--text-main)',
-                        display: 'inline-flex',
-                        alignItems: 'center',
-                        gap: '0.3rem'
-                      }}
-                    >
-                      <strong>#{emp.numeroEmpleado}</strong> {emp.nombre.split(' ')[0]} ({emp.puestoNombre})
-                    </button>
-                  ))}
-                </div>
-              </div>
-            )}
+            <div style={{ marginTop: '2rem', paddingTop: '1.25rem', borderTop: '1px solid var(--border-light)' }}>
+              <p style={{ fontSize: '0.8rem', color: 'var(--text-subtle)', lineHeight: 1.4 }}>
+                🔒 Ingresa tu número de nómina asignado para desplegar tu checklist correspondiente al turno de hoy. Si no lo recuerdas, consúltalo con tu supervisor de turno.
+              </p>
+            </div>
           </div>
         </main>
       )}

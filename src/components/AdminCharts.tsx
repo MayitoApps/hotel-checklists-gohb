@@ -17,7 +17,10 @@ import {
 
 interface AdminChartsProps {
   submissions: ChecklistSubmission[];
-  selectedDate: string;
+  selectedDate?: string;
+  startDate?: string;
+  endDate?: string;
+  dateLabel?: string;
   selectedHotel: string;
   onSelectHotel: (slug: string) => void;
   hotels: HotelConfig[];
@@ -26,15 +29,47 @@ interface AdminChartsProps {
 export default function AdminCharts({
   submissions,
   selectedDate,
+  startDate,
+  endDate,
+  dateLabel,
   selectedHotel,
   onSelectHotel,
   hotels
 }: AdminChartsProps) {
-  // Filter submissions by currently selected date
+  // Filter submissions by currently selected date or date range
   const dateSubmissions = useMemo(() => {
-    if (!selectedDate) return submissions;
-    return submissions.filter(s => s.date === selectedDate);
-  }, [submissions, selectedDate]);
+    return submissions.filter(s => {
+      if (startDate && s.date < startDate) return false;
+      if (endDate && s.date > endDate) return false;
+      if (!startDate && !endDate && selectedDate && s.date !== selectedDate) return false;
+      return true;
+    });
+  }, [submissions, startDate, endDate, selectedDate]);
+
+  // Daily Trend calculation when multiple days are selected
+  const dailyTrend = useMemo(() => {
+    const map = new Map<string, { completed: number; problem: number; count: number }>();
+    dateSubmissions.forEach(sub => {
+      const cur = map.get(sub.date) || { completed: 0, problem: 0, count: 0 };
+      cur.completed += sub.completedTasks;
+      cur.problem += sub.problemTasks;
+      cur.count += 1;
+      map.set(sub.date, cur);
+    });
+
+    return Array.from(map.entries())
+      .map(([date, counts]) => {
+        const effective = counts.completed + counts.problem;
+        const compliance = effective > 0 ? Math.round((counts.completed / effective) * 100) : 100;
+        return {
+          date,
+          compliance,
+          submissions: counts.count,
+          problems: counts.problem
+        };
+      })
+      .sort((a, b) => a.date.localeCompare(b.date));
+  }, [dateSubmissions]);
 
   // Global Aggregate Metrics
   const globalMetrics = useMemo(() => {
@@ -173,7 +208,7 @@ export default function AdminCharts({
               Estado Visual de Tareas por Hotel
             </h2>
             <p style={{ fontSize: '0.8rem', color: 'var(--text-subtle)' }}>
-              Comparativa de avance en tiempo real entre propiedades del grupo.
+              {dateLabel ? `Periodo analizado: ${dateLabel}` : 'Comparativa de avance en tiempo real entre propiedades del grupo.'}
             </p>
           </div>
         </div>
@@ -591,6 +626,92 @@ export default function AdminCharts({
                       </span>
                     )}
                   </div>
+                </div>
+              );
+            })}
+          </div>
+        </div>
+      )}
+
+      {/* PANEL 3: DAILY TREND EVOLUTION (Rendered when multiple days are in view) */}
+      {dailyTrend.length > 1 && (
+        <div className="card" style={{ padding: '1.35rem', marginTop: '1.25rem' }}>
+          <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', marginBottom: '1.25rem', flexWrap: 'wrap', gap: '0.5rem' }}>
+            <span style={{ fontSize: '0.9rem', fontWeight: 700, color: 'var(--text-main)', display: 'inline-flex', alignItems: 'center', gap: '0.45rem' }}>
+              <TrendingUp size={16} color="var(--color-gold)" />
+              Evolución Diaria de Cumplimiento en el Periodo
+            </span>
+            <span style={{ fontSize: '0.75rem', color: 'var(--text-subtle)' }}>
+              {dailyTrend.length} días evaluados
+            </span>
+          </div>
+
+          <div style={{
+            display: 'grid',
+            gridTemplateColumns: `repeat(auto-fit, minmax(min(100%, ${dailyTrend.length > 7 ? '95px' : '120px'}), 1fr))`,
+            gap: '0.75rem',
+            alignItems: 'end'
+          }}>
+            {dailyTrend.map(d => {
+              const isHigh = d.compliance >= 90;
+              const isMed = d.compliance >= 70 && d.compliance < 90;
+              const barColor = isHigh ? 'var(--color-success)' : isMed ? 'var(--color-warning)' : '#dc2626';
+
+              // Formato corto de fecha (ej. 24 Oct)
+              const parts = d.date.split('-');
+              const shortDate = parts.length === 3 ? `${parts[2]}/${parts[1]}` : d.date;
+
+              return (
+                <div
+                  key={d.date}
+                  style={{
+                    background: 'var(--bg-subtle)',
+                    borderRadius: 'var(--radius-sm)',
+                    padding: '0.75rem 0.5rem',
+                    textAlign: 'center',
+                    border: '1px solid var(--border-light)',
+                    display: 'flex',
+                    flexDirection: 'column',
+                    alignItems: 'center',
+                    gap: '0.35rem'
+                  }}
+                >
+                  <span style={{
+                    fontSize: '0.875rem',
+                    fontWeight: 800,
+                    color: barColor
+                  }}>
+                    {d.compliance}%
+                  </span>
+
+                  {/* Vertical mini bar indicator */}
+                  <div style={{
+                    width: '100%',
+                    height: '42px',
+                    background: 'rgba(0,0,0,0.05)',
+                    borderRadius: 'var(--radius-sm)',
+                    display: 'flex',
+                    alignItems: 'flex-end',
+                    overflow: 'hidden',
+                    padding: '2px'
+                  }}>
+                    <div style={{
+                      width: '100%',
+                      height: `${Math.max(10, d.compliance)}%`,
+                      background: barColor,
+                      borderRadius: '3px',
+                      transition: 'height 0.3s ease'
+                    }} />
+                  </div>
+
+                  <span style={{ fontSize: '0.75rem', fontWeight: 600, color: 'var(--text-main)' }}>
+                    {shortDate}
+                  </span>
+
+                  <span style={{ fontSize: '0.675rem', color: 'var(--text-subtle)' }}>
+                    {d.submissions} {d.submissions === 1 ? 'chk' : 'chks'}
+                    {d.problems > 0 && ` • ⚠️${d.problems}`}
+                  </span>
                 </div>
               );
             })}
