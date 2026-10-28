@@ -288,6 +288,11 @@ export default function AdminPage() {
     const hotelPuestos = PUESTOS_BY_HOTEL[newEmpHotel] || [];
     const puesto = hotelPuestos.find(p => p.id === newEmpPuestoId) || hotelPuestos[0];
 
+    if (!puesto) {
+      setEmpFormMessage({ text: 'No hay puestos ni formularios configurados para este hotel. Primero deben cargarse los puestos.', type: 'error' });
+      return;
+    }
+
     const newEmp: Employee = {
       id: `emp_${Date.now()}`,
       numeroEmpleado: newEmpNum.trim(),
@@ -1080,11 +1085,15 @@ export default function AdminPage() {
                         background: 'var(--bg-app)'
                       }}
                     >
-                      {(PUESTOS_BY_HOTEL[newEmpHotel] || []).map(p => (
-                        <option key={p.id} value={p.id}>
-                          {p.nombre} ({p.area}) - {p.tasks.length} tareas
-                        </option>
-                      ))}
+                      {(PUESTOS_BY_HOTEL[newEmpHotel] || []).length > 0 ? (
+                        (PUESTOS_BY_HOTEL[newEmpHotel] || []).map(p => (
+                          <option key={p.id} value={p.id}>
+                            {p.nombre} ({p.area}) - {p.tasks.length} tareas
+                          </option>
+                        ))
+                      ) : (
+                        <option value="">(Sin puestos configurados aún)</option>
+                      )}
                     </select>
                   </div>
 
@@ -1165,7 +1174,13 @@ export default function AdminPage() {
                 </h3>
 
                 <div style={{ maxHeight: '450px', overflowY: 'auto' }}>
-                  {employees.map(emp => {
+                  {employees.length === 0 ? (
+                    <div style={{ padding: '2.5rem 1rem', textAlign: 'center', color: 'var(--text-subtle)' }}>
+                      <p style={{ fontWeight: 600, fontSize: '0.95rem', marginBottom: '0.25rem' }}>No hay colaboradores registrados</p>
+                      <p style={{ fontSize: '0.8rem' }}>La plantilla y numeración se encuentran en blanco a la espera de los nuevos datos.</p>
+                    </div>
+                  ) : (
+                    employees.map(emp => {
                     const hotelObj = HOTELS.find(h => h.slug === emp.hotelSlug);
                     return (
                       <div
@@ -1213,7 +1228,7 @@ export default function AdminPage() {
                         </button>
                       </div>
                     );
-                  })}
+                  }))}
                 </div>
               </div>
             </div>
@@ -1257,11 +1272,15 @@ export default function AdminPage() {
                   onChange={(e) => setTaskInspectorPuestoId(e.target.value)}
                   style={{ width: '100%', padding: '0.6rem', borderRadius: 'var(--radius-sm)', border: '1px solid var(--border-light)' }}
                 >
-                  {(PUESTOS_BY_HOTEL[taskInspectorHotel] || []).map(p => (
-                    <option key={p.id} value={p.id}>
-                      {p.nombre} ({p.area}) — {p.tasks.length} tareas
-                    </option>
-                  ))}
+                  {(PUESTOS_BY_HOTEL[taskInspectorHotel] || []).length > 0 ? (
+                    (PUESTOS_BY_HOTEL[taskInspectorHotel] || []).map(p => (
+                      <option key={p.id} value={p.id}>
+                        {p.nombre} ({p.area}) — {p.tasks.length} tareas
+                      </option>
+                    ))
+                  ) : (
+                    <option value="">(Sin puestos ni formularios registrados)</option>
+                  )}
                 </select>
               </div>
             </div>
@@ -1271,7 +1290,31 @@ export default function AdminPage() {
               const currentPuestos = PUESTOS_BY_HOTEL[taskInspectorHotel] || [];
               const selectedP = currentPuestos.find(p => p.id === taskInspectorPuestoId) || currentPuestos[0];
 
-              if (!selectedP) return null;
+              if (!selectedP) {
+                return (
+                  <div className="card" style={{ textAlign: 'center', padding: '3.5rem 1.5rem', background: '#ffffff' }}>
+                    <div style={{
+                      width: '56px',
+                      height: '56px',
+                      borderRadius: '50%',
+                      background: 'var(--bg-app)',
+                      display: 'flex',
+                      alignItems: 'center',
+                      justifyContent: 'center',
+                      margin: '0 auto 1.25rem auto',
+                      color: 'var(--text-subtle)'
+                    }}>
+                      <Building2 size={28} />
+                    </div>
+                    <h3 style={{ fontSize: '1.2rem', fontWeight: 700, marginBottom: '0.5rem', color: 'var(--text-main)' }}>
+                      No hay puestos ni formularios en este hotel
+                    </h3>
+                    <p style={{ color: 'var(--text-subtle)', fontSize: '0.9rem', maxWidth: '480px', margin: '0 auto', lineHeight: 1.5 }}>
+                      El catálogo y los checklists de este hotel han sido vaciados y se encuentran en blanco, listos para recibir la nueva estructura de puestos y tareas.
+                    </p>
+                  </div>
+                );
+              }
 
               return (
                 <div className="card">

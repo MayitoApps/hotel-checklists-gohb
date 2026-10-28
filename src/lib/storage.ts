@@ -4,8 +4,8 @@ import { Employee, HOTELS, INITIAL_EMPLOYEES } from '@/data/initialData';
 import { ChecklistSubmission } from './types';
 
 const STORAGE_KEYS = {
-  EMPLOYEES: 'gohb_employees_v5',
-  SUBMISSIONS: 'gohb_submissions_v2',
+  EMPLOYEES: 'gohb_employees_v6',
+  SUBMISSIONS: 'gohb_submissions_v3',
 };
 
 // Safe localStorage access
@@ -51,14 +51,6 @@ export async function checkDatabaseStatus(): Promise<{ connected: boolean; provi
 export function getEmployees(): Employee[] {
   const cached = getItem<Employee[]>(STORAGE_KEYS.EMPLOYEES, []);
   if (cached && cached.length > 0) {
-    // Merge any missing initial employees (e.g. newly added Quinta Soledad roster)
-    const existingKeys = new Set(cached.map(e => `${e.hotelSlug}_${e.numeroEmpleado}`));
-    const missing = INITIAL_EMPLOYEES.filter(e => !existingKeys.has(`${e.hotelSlug}_${e.numeroEmpleado}`));
-    if (missing.length > 0) {
-      const merged = [...cached, ...missing];
-      setItem(STORAGE_KEYS.EMPLOYEES, merged);
-      return merged;
-    }
     return cached;
   }
   if (INITIAL_EMPLOYEES && INITIAL_EMPLOYEES.length > 0) {

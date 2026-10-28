@@ -266,6 +266,22 @@ export default function HotelKiosk({ hotel }: HotelKioskProps) {
             <h2 className="kiosk-prompt">Control de Tareas Diarias</h2>
             <p className="kiosk-subprompt">Ingresa tu número de empleado para abrir tu formulario</p>
 
+            {(PUESTOS_BY_HOTEL[hotel.slug] || []).length === 0 && (
+              <div style={{
+                background: '#fffbeb',
+                border: '1px solid #fef3c7',
+                color: '#92400e',
+                padding: '0.65rem 0.85rem',
+                borderRadius: 'var(--radius-sm)',
+                fontSize: '0.8rem',
+                marginBottom: '1rem',
+                textAlign: 'center',
+                lineHeight: 1.4
+              }}>
+                ℹ️ <strong>Catálogo en blanco:</strong> Los checklists y puestos de este hotel han sido vaciados a la espera de la nueva información.
+              </div>
+            )}
+
             <form onSubmit={handleLookupEmployee}>
               <div className="pin-input-group">
                 <input
