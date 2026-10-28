@@ -2928,24 +2928,24 @@ export const PUESTOS_BY_HOTEL: Record<string, PuestoTemplate[]> = {
   "frontera-49": [
     {
         "id": "frontera-49_01",
-        "nombre": "Gerencia General",
+        "nombre": "Gerente general",
         "area": "Gerente",
         "hotelSlug": "frontera-49",
         "tasks": [
             {
                 "id": "frontera-49_01_t01",
                 "categoria": "Supervisión Operativa",
-                "tarea": "Revisar diariamente las condiciones del inmueble (salones, jardines, baños, exposiciones y áreas históricas)."
+                "tarea": "Revisar diariamente las condiciones del inmueble (habitaciones, coworking, cafetería, baños y áreas comunes)."
             },
             {
                 "id": "frontera-49_01_t02",
                 "categoria": "Supervisión Operativa",
-                "tarea": "Supervisar todas las áreas operativas (recepción, A&B, limpieza, áreas comunes, jardines, mantenimiento y administración)."
+                "tarea": "Supervisar todas las áreas operativas (recepción, A&B, cocina y limpieza)."
             },
             {
                 "id": "frontera-49_01_t03",
                 "categoria": "Gestión y Control",
-                "tarea": "Monitorear inventarios, insumos, consumos y reporte de gastos."
+                "tarea": "Monitorear inventarios, insumos, consumos y reporte de gastos diarios."
             },
             {
                 "id": "frontera-49_01_t04",
@@ -2955,12 +2955,12 @@ export const PUESTOS_BY_HOTEL: Record<string, PuestoTemplate[]> = {
             {
                 "id": "frontera-49_01_t05",
                 "categoria": "Gestión y Control",
-                "tarea": "Revisar bitácoras operativas, de mantenimiento y de eventos."
+                "tarea": "Revisar bitácoras operativas, de mantenimiento y de eventos en Roma Norte."
             },
             {
                 "id": "frontera-49_01_t06",
                 "categoria": "Personal y Comunicación",
-                "tarea": "Supervisar puntualidad, presentación, actitud y desempeño del personal."
+                "tarea": "Supervisar puntualidad, presentación, actitud y desempeño del personal en turno."
             },
             {
                 "id": "frontera-49_01_t07",
@@ -2974,61 +2974,61 @@ export const PUESTOS_BY_HOTEL: Record<string, PuestoTemplate[]> = {
             },
             {
                 "id": "frontera-49_01_t09",
-                "categoria": "Experiencia del Visitante",
-                "tarea": "Asegurar una experiencia cálida, ordenada y alineada a la esencia cultural."
+                "categoria": "Experiencia del Huésped",
+                "tarea": "Asegurar una experiencia cálida, ordenada y alineada a la esencia de hospitalidad boutique."
             },
             {
                 "id": "frontera-49_01_t10",
-                "categoria": "Experiencia del Visitante",
-                "tarea": "Supervisar la atención a eventos, recorridos, producciones y visitantes generales."
+                "categoria": "Experiencia del Huésped",
+                "tarea": "Supervisar la atención a huéspedes, producciones y visitantes generales."
             },
             {
                 "id": "frontera-49_01_t11",
                 "categoria": "Administración y Control",
-                "tarea": "Supervisar bitácoras operativas, de mantenimiento y de eventos"
+                "tarea": "Supervisar bitácoras operativas, de mantenimiento y de eventos."
             }
         ]
     },
     {
         "id": "frontera-49_02",
-        "nombre": "Recepcionista A",
+        "nombre": "Auxiliar de recepción",
         "area": "Administración",
         "hotelSlug": "frontera-49",
         "tasks": [
             {
                 "id": "frontera-49_02_t01",
                 "categoria": "Atención a Huéspedes",
-                "tarea": "Dar seguimiento a  reservas que arriban durante el día"
+                "tarea": "Dar seguimiento a reservas que arriban durante el día y verificar estatus en sistema."
             },
             {
                 "id": "frontera-49_02_t02",
                 "categoria": "Atención a Huéspedes",
-                "tarea": "Verificar las reservas recibidas asegurando que la información este correcta y actualisada"
+                "tarea": "Verificar las reservas recibidas asegurando que la información esté correcta y actualizada."
             },
             {
                 "id": "frontera-49_02_t03",
                 "categoria": "Atención a Huéspedes",
-                "tarea": "Seguimiento diario de las reservaciones con status de no show"
+                "tarea": "Seguimiento diario de las reservaciones con estatus de no show."
             },
             {
                 "id": "frontera-49_02_t04",
                 "categoria": "Atención a Huéspedes",
-                "tarea": "Recibir, registrar y asignar habitaciones a los huéspedes."
+                "tarea": "Recibir, registrar y asignar habitaciones a los huéspedes con bienvenida personalizada."
             },
             {
                 "id": "frontera-49_02_t05",
                 "categoria": "Atención a Huéspedes",
-                "tarea": "Proporcionar información sobre los servicios, facilidades, precios y disponibilidad del hotel."
+                "tarea": "Proporcionar información sobre los servicios, facilidades, precios y recomendaciones en Roma Norte."
             },
             {
                 "id": "frontera-49_02_t06",
                 "categoria": "Atención a Huéspedes",
-                "tarea": "Realizar el proceso de check-out y procesar pagos."
+                "tarea": "Realizar el proceso de check-out, revisión de consumos y cobros."
             },
             {
                 "id": "frontera-49_02_t07",
                 "categoria": "Atención a Huéspedes",
-                "tarea": "Resolver problemas, quejas y ofrecer recomendaciones de actividades en el área."
+                "tarea": "Resolver dudas, incidencias y ofrecer recomendaciones gastronómicas y culturales de la zona."
             },
             {
                 "id": "frontera-49_02_t08",
@@ -3038,40 +3038,40 @@ export const PUESTOS_BY_HOTEL: Record<string, PuestoTemplate[]> = {
             {
                 "id": "frontera-49_02_t09",
                 "categoria": "Gestión Administrativa",
-                "tarea": "Procesar pagos, gestionar facturas y mantener registros organizados."
+                "tarea": "Procesar pagos con tarjeta/efectivo, gestionar facturas y mantener registros organizados en caja."
             },
             {
                 "id": "frontera-49_02_t10",
                 "categoria": "Gestión Administrativa",
-                "tarea": "Generar venta de experiencias"
+                "tarea": "Generar venta de experiencias y paquetes especiales del hotel."
             }
         ]
     },
     {
         "id": "frontera-49_03",
-        "nombre": "Capitán",
+        "nombre": "Capitán Alimentos y Bebidas",
         "area": "A&B",
         "hotelSlug": "frontera-49",
         "tasks": [
             {
                 "id": "frontera-49_03_t01",
                 "categoria": "Supervisión del Servicio",
-                "tarea": "Dirigir al equipo de meseros y ayudantes durante turnos y eventos."
+                "tarea": "Dirigir y coordinar al equipo de servicio de alimentos y bebidas durante turnos y eventos."
             },
             {
                 "id": "frontera-49_03_t02",
                 "categoria": "Supervisión del Servicio",
-                "tarea": "Validar el montaje previo de mesas, cristalería, loza, cubiertos y estaciones (coffee break, cocteles, etc.)."
+                "tarea": "Validar el montaje previo de mesas, cristalería, loza, cubiertos y estaciones de café."
             },
             {
                 "id": "frontera-49_03_t03",
                 "categoria": "Supervisión del Servicio",
-                "tarea": "Verificar que la presentación de platillos y bebidas cumpla con los estándares antes de salir a servicio."
+                "tarea": "Verificar que la presentación de platillos y bebidas cumpla con los estándares antes de salir a comensales."
             },
             {
                 "id": "frontera-49_03_t04",
                 "categoria": "Control y Cierre",
-                "tarea": "Revisar existencias de insumos básicos (bebidas, cristalería, consumibles) y reportar faltantes."
+                "tarea": "Revisar existencias de insumos básicos (bebidas, café, cristalería, consumibles) y reportar faltantes."
             },
             {
                 "id": "frontera-49_03_t05",
@@ -3081,192 +3081,159 @@ export const PUESTOS_BY_HOTEL: Record<string, PuestoTemplate[]> = {
             {
                 "id": "frontera-49_03_t06",
                 "categoria": "Control y Cierre",
-                "tarea": "Entregar reportes de consumos, incidencias y observaciones del turno."
+                "tarea": "Entregar reportes de consumos, incidencias y observaciones del turno a Gerencia."
             }
         ]
     },
     {
         "id": "frontera-49_04",
-        "nombre": "Mesero A",
-        "area": "A&B",
+        "nombre": "Encargada de cocina",
+        "area": "Cocina",
         "hotelSlug": "frontera-49",
         "tasks": [
             {
                 "id": "frontera-49_04_t01",
-                "categoria": "Atención y Servicio",
-                "tarea": "Atender a los clientes con amabilidad, tomar pedidos y ofrecer información sobre menús y especialidades."
+                "categoria": "Producción y Calidad",
+                "tarea": "Preparar y cocinar los alimentos siguiendo estrictamente las recetas estándar y normas de higiene."
             },
             {
                 "id": "frontera-49_04_t02",
-                "categoria": "Atención y Servicio",
-                "tarea": "Servir alimentos y bebidas de manera eficiente y segura."
+                "categoria": "Producción y Calidad",
+                "tarea": "Mantener al día el control administrativo de pedidos, inventarios y planificación de menús."
             },
             {
                 "id": "frontera-49_04_t03",
-                "categoria": "Atención y Servicio",
-                "tarea": "Retirar platos, limpiar mesas de forma constante y mantener limpias las áreas de trabajo."
+                "categoria": "Producción y Calidad",
+                "tarea": "Asegurar la organización, limpieza profunda y desinfección constante de toda la cocina."
             },
             {
                 "id": "frontera-49_04_t04",
-                "categoria": "Atención y Servicio",
-                "tarea": "Apoyar en el montaje y desmontaje según las indicaciones del gerente."
-            },
-            {
-                "id": "frontera-49_04_t05",
-                "categoria": "Atención y Servicio",
-                "tarea": "Generar venta a traves de recomendaciones de alimentos y bebidas."
+                "categoria": "Producción y Calidad",
+                "tarea": "Supervisar y dirigir las labores del ayudante de cocina en todos los turnos."
             }
         ]
     },
     {
         "id": "frontera-49_05",
-        "nombre": "Mesero B",
-        "area": "A&B",
-        "hotelSlug": "frontera-49",
-        "tasks": [
-            {
-                "id": "frontera-49_05_t01",
-                "categoria": "Atención y Servicio",
-                "tarea": "Atender a los clientes con amabilidad, tomar pedidos y ofrecer información sobre menús y especialidades."
-            },
-            {
-                "id": "frontera-49_05_t02",
-                "categoria": "Atención y Servicio",
-                "tarea": "Servir alimentos y bebidas de manera eficiente y segura."
-            },
-            {
-                "id": "frontera-49_05_t03",
-                "categoria": "Atención y Servicio",
-                "tarea": "Retirar platos, limpiar mesas de forma constante y mantener limpias las áreas de trabajo."
-            },
-            {
-                "id": "frontera-49_05_t04",
-                "categoria": "Atención y Servicio",
-                "tarea": "Apoyar en el montaje y desmontaje según las indicaciones del gerente."
-            },
-            {
-                "id": "frontera-49_05_t05",
-                "categoria": "Atención y Servicio",
-                "tarea": "Generar venta a traves de recomendaciones de alimentos y bebidas."
-            }
-        ]
-    },
-    {
-        "id": "frontera-49_06",
         "nombre": "Ayudante de cocina",
         "area": "Cocina",
         "hotelSlug": "frontera-49",
         "tasks": [
             {
-                "id": "frontera-49_06_t01",
+                "id": "frontera-49_05_t01",
                 "categoria": "Producción y Calidad",
-                "tarea": "Respaldar actividades indicadas por el chef en tiempo y forma"
+                "tarea": "Respaldar actividades indicadas por la encargada de cocina en tiempo y forma."
+            },
+            {
+                "id": "frontera-49_05_t02",
+                "categoria": "Producción y Calidad",
+                "tarea": "Ayudar en la preparación previa (mise en place), lavado, picado y cocción de alimentos."
+            },
+            {
+                "id": "frontera-49_05_t03",
+                "categoria": "Producción y Calidad",
+                "tarea": "Asegurar la preparación y el servicio seguro e higiénico bajo estándares de salubridad."
+            },
+            {
+                "id": "frontera-49_05_t04",
+                "categoria": "Producción y Calidad",
+                "tarea": "Limpieza y desinfección continua de estaciones de trabajo, utensilios y tarjas."
+            }
+        ]
+    },
+    {
+        "id": "frontera-49_06",
+        "nombre": "Mucama y limpieza",
+        "area": "LIMPIEZA",
+        "hotelSlug": "frontera-49",
+        "tasks": [
+            {
+                "id": "frontera-49_06_t01",
+                "categoria": "Limpieza de Habitaciones",
+                "tarea": "Limpiar y organizar las habitaciones de acuerdo con los estándares de calidad del hotel."
             },
             {
                 "id": "frontera-49_06_t02",
-                "categoria": "Producción y Calidad",
-                "tarea": "Ayudar en la preparación y cocción de alimentos."
+                "categoria": "Limpieza de Habitaciones",
+                "tarea": "Cambiar la ropa de cama y las toallas colocando el set de amenidades correspondiente."
             },
             {
                 "id": "frontera-49_06_t03",
-                "categoria": "Producción y Calidad",
-                "tarea": "Asegurar la preparación y el servicio seguro e higiénico de los alimentos."
+                "categoria": "Limpieza de Habitaciones",
+                "tarea": "Aseo profundo de baños y abastecimiento oportuno de productos de higiene."
             },
             {
                 "id": "frontera-49_06_t04",
-                "categoria": "Producción y Calidad",
-                "tarea": "Limpieza y organización de estaciones"
+                "categoria": "Limpieza de Habitaciones",
+                "tarea": "Retirar residuos, vaciar papeleras y dejar las habitaciones listas para nuevas llegadas."
+            },
+            {
+                "id": "frontera-49_06_t05",
+                "categoria": "Limpieza de Habitaciones",
+                "tarea": "Limpieza y sanitización de áreas comunes, pasillos, vestíbulos y escaleras."
+            },
+            {
+                "id": "frontera-49_06_t06",
+                "categoria": "Limpieza del Hotel",
+                "tarea": "Limpieza profunda diaria de coworking, vestíbulos, recepción, cafetería y sanitarios."
+            },
+            {
+                "id": "frontera-49_06_t07",
+                "categoria": "Limpieza del Hotel",
+                "tarea": "Barrer, trapear y desempolvar todas las áreas comunes del recinto."
+            },
+            {
+                "id": "frontera-49_06_t08",
+                "categoria": "Limpieza del Hotel",
+                "tarea": "Mantener los sanitarios impecables, desinfectados y con insumos completos durante el día."
+            },
+            {
+                "id": "frontera-49_06_t09",
+                "categoria": "Limpieza Durante Eventos",
+                "tarea": "Asegurarse que el espacio esté completamente limpio antes del inicio de eventos."
+            },
+            {
+                "id": "frontera-49_06_t10",
+                "categoria": "Limpieza Durante Eventos",
+                "tarea": "Monitoreo constante del estado de las áreas durante el transcurso de eventos."
+            },
+            {
+                "id": "frontera-49_06_t11",
+                "categoria": "Limpieza Durante Eventos",
+                "tarea": "Recoger vasos, servilletas y residuos de forma continua y discreta."
             }
         ]
     },
     {
         "id": "frontera-49_07",
-        "nombre": "Limpieza",
-        "area": "LIMPIEZA",
+        "nombre": "Recepción nocturna",
+        "area": "Administración",
         "hotelSlug": "frontera-49",
         "tasks": [
             {
                 "id": "frontera-49_07_t01",
-                "categoria": "Limpieza de Habitaciones",
-                "tarea": "Limpiar y organizar las habitaciones de acuerdo con los estándares de calidad del establecimiento."
+                "categoria": "Auditoría y Cierre",
+                "tarea": "Realizar el corte diario de caja, cuadre de cobros, vouchers con tarjeta y cierre del sistema hotelero (night audit)."
             },
             {
                 "id": "frontera-49_07_t02",
-                "categoria": "Limpieza de Habitaciones",
-                "tarea": "Cambiar la ropa de cama y las toallas"
+                "categoria": "Atención Nocturna",
+                "tarea": "Atender llegadas tardías (late check-in), entrega de llaves e inducción nocturna a las instalaciones."
             },
             {
                 "id": "frontera-49_07_t03",
-                "categoria": "Limpieza de Habitaciones",
-                "tarea": "Aseo profundo de baños y abastecimiento de productos de higiene."
+                "categoria": "Seguridad y Accesos",
+                "tarea": "Verificar el cierre seguro de accesos perimetrales, canceles y apagado de luminarias no esenciales en áreas comunes."
             },
             {
                 "id": "frontera-49_07_t04",
-                "categoria": "Limpieza de Habitaciones",
-                "tarea": "Retirar residuos, vaciar papeleras y dejar las habitaciones listas para la llegada de nuevos huéspedes."
+                "categoria": "Rondines y Confort",
+                "tarea": "Realizar rondines nocturnos garantizando tranquilidad, silencio y supervisión de instalaciones para los huéspedes."
             },
             {
                 "id": "frontera-49_07_t05",
-                "categoria": "Limpieza de Habitaciones",
-                "tarea": "Limpieza de áreas comunes como recepción, pasillos, casa club, área de spa y área de alberca"
-            },
-            {
-                "id": "frontera-49_07_t06",
-                "categoria": "Limpieza del hotel",
-                "tarea": "Limpieza profunda y diaria de coworking, vestíbulos, recepción, cafetería, baños entre otros."
-            },
-            {
-                "id": "frontera-49_07_t07",
-                "categoria": "Limpieza del hotel",
-                "tarea": "Barrer, trapear, desempolvar todas las áreas comunes"
-            },
-            {
-                "id": "frontera-49_07_t08",
-                "categoria": "Limpieza del hotel",
-                "tarea": "Mantener los sanitarios limpios, desinfectados y reabastecido"
-            },
-            {
-                "id": "frontera-49_07_t09",
-                "categoria": "Limpieza Durante Eventos",
-                "tarea": "Asegurarse que el espacio este completamente limpio antes del inicio del evento"
-            },
-            {
-                "id": "frontera-49_07_t10",
-                "categoria": "Limpieza Durante Eventos",
-                "tarea": "Monitorear constante del estado de los espacios durante el evento."
-            },
-            {
-                "id": "frontera-49_07_t11",
-                "categoria": "Limpieza Durante Eventos",
-                "tarea": "Recoger vasos, servilletas, residuos"
-            }
-        ]
-    },
-    {
-        "id": "frontera-49_08",
-        "nombre": "Chef",
-        "area": "Cocina",
-        "hotelSlug": "frontera-49",
-        "tasks": [
-            {
-                "id": "frontera-49_08_t01",
-                "categoria": "Producción y Calidad",
-                "tarea": "Preparar y cocinar los alimentos siguiendo estrictamente las recetas y estándares de calidad e higiene."
-            },
-            {
-                "id": "frontera-49_08_t02",
-                "categoria": "Producción y Calidad",
-                "tarea": "Mantener al día el control administrativo de pedidos, inventarios y planificación de menús."
-            },
-            {
-                "id": "frontera-49_08_t03",
-                "categoria": "Producción y Calidad",
-                "tarea": "Asegurar la organización, limpieza y desinfección constante de la cocina."
-            },
-            {
-                "id": "frontera-49_08_t04",
-                "categoria": "Producción y Calidad",
-                "tarea": "Supervisar y dirigir al personal de cocina"
+                "categoria": "Entrega de Turno",
+                "tarea": "Elaborar la bitácora nocturna detallando novedades, incidencias y pendientes para la recepción matutina."
             }
         ]
     }
@@ -4050,6 +4017,69 @@ export const INITIAL_EMPLOYEES: Employee[] = [
     "area": "Origen Centro Holistico"
   },
   {
+    "id": "emp_f49_500",
+    "numeroEmpleado": "500",
+    "nombre": "Ricardo Rodriguez Baez",
+    "hotelSlug": "frontera-49",
+    "puestoId": "frontera-49_03",
+    "puestoNombre": "Capitán Alimentos y Bebidas",
+    "area": "A&B"
+  },
+  {
+    "id": "emp_f49_501",
+    "numeroEmpleado": "501",
+    "nombre": "Javier Alberto Martinez Peres",
+    "hotelSlug": "frontera-49",
+    "puestoId": "frontera-49_05",
+    "puestoNombre": "Ayudante de cocina",
+    "area": "Cocina"
+  },
+  {
+    "id": "emp_f49_502",
+    "numeroEmpleado": "502",
+    "nombre": "Laura Elena Torres Baez",
+    "hotelSlug": "frontera-49",
+    "puestoId": "frontera-49_04",
+    "puestoNombre": "Encargada de cocina",
+    "area": "Cocina"
+  },
+  {
+    "id": "emp_f49_503",
+    "numeroEmpleado": "503",
+    "nombre": "Dulce Janet Garcia Gutierra",
+    "hotelSlug": "frontera-49",
+    "puestoId": "frontera-49_02",
+    "puestoNombre": "Auxiliar de recepción",
+    "area": "Administración"
+  },
+  {
+    "id": "emp_f49_504",
+    "numeroEmpleado": "504",
+    "nombre": "Siubel Estrella Valdes",
+    "hotelSlug": "frontera-49",
+    "puestoId": "frontera-49_06",
+    "puestoNombre": "Mucama y limpieza",
+    "area": "LIMPIEZA"
+  },
+  {
+    "id": "emp_f49_505",
+    "numeroEmpleado": "505",
+    "nombre": "Edgar Kevin Garcia Rivera",
+    "hotelSlug": "frontera-49",
+    "puestoId": "frontera-49_07",
+    "puestoNombre": "Recepción nocturna",
+    "area": "Administración"
+  },
+  {
+    "id": "emp_f49_506",
+    "numeroEmpleado": "506",
+    "nombre": "Alberto Cortés de Paz",
+    "hotelSlug": "frontera-49",
+    "puestoId": "frontera-49_01",
+    "puestoNombre": "Gerente general",
+    "area": "Gerente"
+  },
+  {
     "id": "emp_05",
     "numeroEmpleado": "301",
     "nombre": "Laura Patricia Ríos",
@@ -4066,14 +4096,5 @@ export const INITIAL_EMPLOYEES: Employee[] = [
     "puestoId": "tepoztlan_03",
     "puestoNombre": "Capitán 1",
     "area": "A&B"
-  },
-  {
-    "id": "emp_14",
-    "numeroEmpleado": "501",
-    "nombre": "Diego Arismendi",
-    "hotelSlug": "frontera-49",
-    "puestoId": "frontera-49_02",
-    "puestoNombre": "Recepcionista A",
-    "area": "Administración"
   }
 ];

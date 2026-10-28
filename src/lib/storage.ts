@@ -4,7 +4,7 @@ import { Employee, HOTELS, INITIAL_EMPLOYEES } from '@/data/initialData';
 import { ChecklistSubmission } from './types';
 
 const STORAGE_KEYS = {
-  EMPLOYEES: 'gohb_employees_v4',
+  EMPLOYEES: 'gohb_employees_v5',
   SUBMISSIONS: 'gohb_submissions_v2',
 };
 
