@@ -2,155 +2,150 @@
   "Orgánico Hotel Boutique Ajusco": {
     "Gerencia General": {
       "area": "Gerente",
-      "puesto_col_b": "Gerencia General",
       "tasks": [
         {
           "categoria": "Supervisión Operativa",
-          "tarea": "Revisar diariamente las condiciones del inmueble (salones, jardines, baños, exposiciones y áreas históricas)."
+          "tarea": "Revisar diariamente las condiciones del inmueble (cabañas, jardines, baños, áreas comunes y restaurante)."
         },
         {
           "categoria": "Supervisión Operativa",
-          "tarea": "Supervisar todas las áreas operativas (recepción, A&B, limpieza, áreas comunes, jardines, mantenimiento y administración)."
+          "tarea": "Supervisar todas las áreas operativas (recepción, A&B, limpieza, jardines, mantenimiento y spa)."
         },
         {
           "categoria": "Gestión y Control",
-          "tarea": "Monitorear inventarios, insumos, consumos y reporte de gastos."
+          "tarea": "Monitorear inventarios, insumos, consumos y reporte de gastos diarios."
         },
         {
           "categoria": "Gestión y Control",
-          "tarea": "Aprobar compras menores y validar necesidades del inmueble."
+          "tarea": "Aprobar compras menores y validar necesidades operativas del hotel."
         },
         {
           "categoria": "Gestión y Control",
-          "tarea": "Revisar bitácoras operativas, de mantenimiento y de eventos."
+          "tarea": "Revisar bitácoras operativas, de mantenimiento y de eventos en montaña."
         },
         {
           "categoria": "Personal y Comunicación",
-          "tarea": "Supervisar puntualidad, presentación, actitud y desempeño del personal."
+          "tarea": "Supervisar puntualidad, presentación, actitud y desempeño del personal en turno."
         },
         {
           "categoria": "Personal y Comunicación",
-          "tarea": "Realizar juntas operativas semanales y asegurar el cumplimiento de acuerdos."
+          "tarea": "Realizar juntas operativas con jefaturas y asegurar cumplimiento de acuerdos."
         },
         {
           "categoria": "Personal y Comunicación",
-          "tarea": "Validar que los montajes, tiempos y servicios de eventos cumplan con lo cotizado."
+          "tarea": "Validar que los montajes, fogatas y servicios de cabañas cumplan con lo reservado."
         },
         {
-          "categoria": "Experiencia del Visitante",
-          "tarea": "Asegurar una experiencia cálida, ordenada y alineada a la esencia cultural."
+          "categoria": "Experiencia del Huésped",
+          "tarea": "Asegurar una experiencia cálida, exclusiva y de total desconexión para los huéspedes."
         },
         {
-          "categoria": "Experiencia del Visitante",
-          "tarea": "Supervisar la atención a eventos, recorridos, producciones y visitantes generales."
+          "categoria": "Experiencia del Huésped",
+          "tarea": "Supervisar la atención a cenas románticas, experiencias en bosque y visitantes."
         },
         {
           "categoria": "Administración y Control",
-          "tarea": "Supervisar bitácoras operativas, de mantenimiento y de eventos"
+          "tarea": "Supervisar bitácoras operativas, de seguridad y cortes de caja."
         }
       ]
     },
     "Recepcionista A": {
       "area": "Administración",
-      "puesto_col_b": "Recepcionista A",
       "tasks": [
         {
           "categoria": "Atención a Huéspedes",
-          "tarea": "Dar seguimiento a  reservas que arriban durante el día"
+          "tarea": "Dar seguimiento a reservas de cabañas y experiencias que arriban durante el día."
         },
         {
           "categoria": "Atención a Huéspedes",
-          "tarea": "Verificar las reservas recibidas asegurando que la información este correcta y actualisada"
+          "tarea": "Verificar las reservas recibidas asegurando que la información de los huéspedes esté correcta."
         },
         {
           "categoria": "Atención a Huéspedes",
-          "tarea": "Seguimiento diario de las reservaciones con status de no show"
+          "tarea": "Seguimiento diario de las reservaciones con status de no show."
         },
         {
           "categoria": "Atención a Huéspedes",
-          "tarea": "Recibir, registrar y asignar habitaciones a los huéspedes."
+          "tarea": "Recibir, registrar y asignar cabañas a los huéspedes con bienvenida personalizada."
         },
         {
           "categoria": "Atención a Huéspedes",
-          "tarea": "Proporcionar información sobre los servicios, facilidades, precios y disponibilidad del hotel."
+          "tarea": "Proporcionar información sobre servicios, spa Origen, restaurante Don Petro y actividades de montaña."
         },
         {
           "categoria": "Atención a Huéspedes",
-          "tarea": "Realizar el proceso de check-out y procesar pagos."
+          "tarea": "Realizar el proceso de check-out y procesar cobros y pagos."
         },
         {
           "categoria": "Atención a Huéspedes",
-          "tarea": "Resolver problemas, quejas y ofrecer recomendaciones de actividades en el área."
+          "tarea": "Resolver incidencias, atender solicitudes especiales y canalizar requerimientos a áreas correspondientes."
         },
         {
           "categoria": "Gestión Administrativa",
-          "tarea": "Gestionar, confirmar y actualizar las reservas de habitaciones (cambios y cancelaciones)."
+          "tarea": "Gestionar, confirmar y actualizar reservas en el sistema hotelero."
         },
         {
           "categoria": "Gestión Administrativa",
-          "tarea": "Procesar pagos, gestionar facturas y mantener registros organizados."
+          "tarea": "Procesar pagos, gestionar facturas y mantener registros organizados en caja."
         },
         {
           "categoria": "Gestión Administrativa",
-          "tarea": "Generar venta de experiencias"
+          "tarea": "Generar venta de experiencias holísticas, cenas y actividades ecoturísticas."
         }
       ]
     },
     "Mesero A": {
       "area": "A&B",
-      "puesto_col_b": "Mesero A",
       "tasks": [
         {
           "categoria": "Atención y Servicio",
-          "tarea": "Atender a los clientes con amabilidad, tomar pedidos y ofrecer información sobre menús y especialidades."
+          "tarea": "Atender a los comensales con amabilidad, tomar comandas y explicar especialidades de montaña y cortes."
         },
         {
           "categoria": "Atención y Servicio",
-          "tarea": "Servir alimentos y bebidas de manera eficiente y segura."
+          "tarea": "Servir alimentos y bebidas de manera eficiente, oportuna y segura."
         },
         {
           "categoria": "Atención y Servicio",
-          "tarea": "Retirar platos, limpiar mesas de forma constante y mantener limpias las áreas de trabajo."
+          "tarea": "Retirar platos, limpiar mesas de forma constante y mantener pulcras las estaciones de servicio."
         },
         {
           "categoria": "Atención y Servicio",
-          "tarea": "Apoyar en el montaje y desmontaje según las indicaciones del gerente."
+          "tarea": "Apoyar en el montaje de mesas, chimeneas y desmontaje según indicaciones de Gerencia."
         },
         {
           "categoria": "Atención y Servicio",
-          "tarea": "Generar venta a traves de recomendaciones de alimentos y bebidas."
+          "tarea": "Generar venta sugerida a través de recomendaciones de platillos, vinos y coctelería de autor."
         }
       ]
     },
     "Mesero B": {
       "area": "A&B",
-      "puesto_col_b": "Mesero B",
       "tasks": [
         {
           "categoria": "Atención y Servicio",
-          "tarea": "Atender a los clientes con amabilidad, tomar pedidos y ofrecer información sobre menús y especialidades."
+          "tarea": "Atender a los comensales con amabilidad, tomar comandas y explicar especialidades del menú."
         },
         {
           "categoria": "Atención y Servicio",
-          "tarea": "Servir alimentos y bebidas de manera eficiente y segura."
+          "tarea": "Servir alimentos y bebidas de manera eficiente y segura respetando tiempos de cocina."
         },
         {
           "categoria": "Atención y Servicio",
-          "tarea": "Retirar platos, limpiar mesas de forma constante y mantener limpias las áreas de trabajo."
+          "tarea": "Retirar loza y cristalería sucia, mantener limpias las áreas de trabajo y desinfectar mesas."
         },
         {
           "categoria": "Atención y Servicio",
-          "tarea": "Apoyar en el montaje y desmontaje según las indicaciones del gerente."
+          "tarea": "Apoyar en el montaje previo y resguardo de mantelería al término del servicio."
         },
         {
           "categoria": "Atención y Servicio",
-          "tarea": "Generar venta a traves de recomendaciones de alimentos y bebidas."
+          "tarea": "Generar venta sugerida de postres, café de especialidad y digestivos."
         }
       ]
     },
     "Chef": {
       "area": "Cocina",
-      "puesto_col_b": "Chef",
       "tasks": [
         {
           "categoria": "Producción y Calidad",
@@ -162,141 +157,136 @@
         },
         {
           "categoria": "Producción y Calidad",
-          "tarea": "Asegurar la organización, limpieza y desinfección constante de la cocina."
+          "tarea": "Asegurar la organización, limpieza profunda y desinfección constante de toda la cocina."
         },
         {
           "categoria": "Producción y Calidad",
-          "tarea": "Supervisar y dirigir al personal de cocina"
+          "tarea": "Supervisar y dirigir al personal de cocina en todos los turnos."
         }
       ]
     },
     "Ayudantes de cocina": {
       "area": "Cocina",
-      "puesto_col_b": "Ayudantes",
       "tasks": [
         {
           "categoria": "Producción y Calidad",
-          "tarea": "Respaldar actividades indicadas por el chef en tiempo y forma"
+          "tarea": "Respaldar actividades indicadas por el chef en tiempo y forma."
         },
         {
           "categoria": "Producción y Calidad",
-          "tarea": "Ayudar en la preparación y cocción de alimentos."
+          "tarea": "Ayudar en la preparación previa (mise en place), lavado, pelado y corte de ingredientes."
         },
         {
           "categoria": "Producción y Calidad",
-          "tarea": "Asegurar la preparación y el servicio seguro e higiénico de los alimentos."
+          "tarea": "Asegurar la manipulación e higiene de los alimentos bajo normativas de salubridad."
         },
         {
           "categoria": "Producción y Calidad",
-          "tarea": "Limpieza y organización de estaciones"
+          "tarea": "Limpieza y organización constante de estaciones de trabajo y utensilios."
         }
       ]
     },
     "Encargado de bar": {
       "area": "Bar",
-      "puesto_col_b": "Encargado de bar",
       "tasks": [
         {
-          "categoria": "Producción y Calidad",
-          "tarea": "Preparar y cocinar los alimentos siguiendo estrictamente las recetas y estándares de calidad e higiene."
+          "categoria": "Montaje y Preparación",
+          "tarea": "Montar y abastecer la barra: cristalería, hielo, insumos frescos, hierbas y garnituras."
         },
         {
-          "categoria": "Producción y Calidad",
-          "tarea": "Mantener al día el control administrativo de pedidos, inventarios y planificación de menús."
+          "categoria": "Control de Inventarios",
+          "tarea": "Llevar el control administrativo de botellas abiertas, destilados, vinos y mezcladores."
         },
         {
-          "categoria": "Producción y Calidad",
-          "tarea": "Asegurar la organización, limpieza y desinfección constante de la cocina."
-        },
-        {
-          "categoria": "Atención y Servicio",
-          "tarea": "Atender a los clientes con amabilidad, tomar pedidos y ofrecer información sobre menús y especialidades."
+          "categoria": "Higiene y Desinfección",
+          "tarea": "Asegurar la organización, limpieza y desinfección constante de la barra y contrabarra."
         },
         {
           "categoria": "Atención y Servicio",
-          "tarea": "Servir alimentos y bebidas de manera eficiente y segura."
+          "tarea": "Atender a los comensales con calidez, tomar pedidos y preparar coctelería con receta estándar."
         },
         {
           "categoria": "Atención y Servicio",
-          "tarea": "Retirar platos, limpiar mesas de forma constante y mantener limpias las áreas de trabajo."
+          "tarea": "Servir bebidas de manera eficiente, oportuna y segura."
         },
         {
           "categoria": "Atención y Servicio",
-          "tarea": "Apoyar en el montaje y desmontaje según las indicaciones del gerente."
+          "tarea": "Retirar cristalería usada, lavar y pulir copas constantemente."
         },
         {
           "categoria": "Atención y Servicio",
-          "tarea": "Generar venta a traves de recomendaciones de alimentos y bebidas."
+          "tarea": "Apoyar en el montaje y desmontaje de eventos especiales en terraza o salón."
+        },
+        {
+          "categoria": "Atención y Servicio",
+          "tarea": "Generar venta a través de recomendaciones de vinos, coctelería y licores artesanales."
         }
       ]
     },
     "Mucama": {
       "area": "AMA DE LLAVESLIMPIEZA",
-      "puesto_col_b": "Ama de Llaves / Mucamas",
       "tasks": [
         {
           "categoria": "Limpieza de Habitaciones",
-          "tarea": "Limpiar y organizar las habitaciones de acuerdo con los estándares de calidad del establecimiento."
+          "tarea": "Limpiar y organizar las cabañas de acuerdo con los estándares de calidad del hotel boutique."
         },
         {
           "categoria": "Limpieza de Habitaciones",
-          "tarea": "Cambiar la ropa de cama y las toallas"
+          "tarea": "Cambiar la ropa de cama y las toallas colocando el set de amenidades correspondiente."
         },
         {
           "categoria": "Limpieza de Habitaciones",
-          "tarea": "Aseo profundo de baños y abastecimiento de productos de higiene."
+          "tarea": "Aseo profundo de baños, regaderas y reposición de insumos de higiene personal."
         },
         {
           "categoria": "Limpieza de Habitaciones",
-          "tarea": "Retirar residuos, vaciar papeleras y dejar las habitaciones listas para la llegada de nuevos huéspedes."
+          "tarea": "Retirar residuos, vaciar papeleras y dejar las cabañas listas para nuevos huéspedes."
         },
         {
           "categoria": "Limpieza de Habitaciones",
-          "tarea": "Limpieza de áreas comunes como recepción, pasillos, casa club, área de spa y área de alberca"
+          "tarea": "Limpieza y acondicionamiento de chimeneas, terrazas privadas y áreas comunes."
         }
       ]
     },
     "Jefe de mantenimiento": {
       "area": "MANTENIMIENTO",
-      "puesto_col_b": "Mantenimiento",
       "tasks": [
         {
           "categoria": "Inspección y Reparación",
-          "tarea": "Supervisar y coordinar las actividades de mantenimiento preventivo"
+          "tarea": "Supervisar y coordinar las actividades de mantenimiento preventivo y correctivo en todo el hotel."
         },
         {
           "categoria": "Inspección y Reparación",
-          "tarea": "Inventario de  activos y equipos"
+          "tarea": "Inventario de activos, herramientas, calentadores, chimeneas y equipos técnicos."
         },
         {
           "categoria": "Inspección y Reparación",
-          "tarea": "Realizar inspecciones y evaluaciones de los activos y equipos para identificar necesidades de mantenimiento"
+          "tarea": "Realizar inspecciones técnicas periódicas para anticipar fallas eléctricas, de gas o hidráulicas."
         },
         {
           "categoria": "Inspección y Reparación",
-          "tarea": "Cumplir rigurosamente con las normativas y regulaciones de seguridad."
+          "tarea": "Cumplir rigurosamente con normativas de seguridad, protección civil y prevención de riesgos."
         },
         {
           "categoria": "Inspección y Reparación",
-          "tarea": "Coordinar con otros departamentos la disponibilidad de equipos y espacios."
+          "tarea": "Coordinar con Gerencia la disponibilidad de cabañas y áreas para mantenimientos mayores."
         }
       ]
     },
     "Mantenimiento": {
       "area": "MANTENIMIENTO",
-      "puesto_col_b": "Mantenimiento",
       "tasks": [
         {
           "categoria": "Inspección y Reparación",
-          "tarea": "Realizar inspecciones periódicas a los equipos e instalaciones para identificar necesidades de mantenimiento preventivo y correctivo."
+          "tarea": "Realizar inspecciones periódicas a cabañas e instalaciones identificando requerimientos de reparación."
         },
         {
           "categoria": "Inspección y Reparación",
-          "tarea": "Asegurar el buen funcionamiento, seguridad y eficiencia de los activos del hotel."
+          "tarea": "Asegurar el buen funcionamiento de calentadores, plomería, iluminación y chimeneas."
         },
         {
           "categoria": "Inspección y Reparación",
-          "tarea": "Coordinar con otros departamentos la disponibilidad de equipos y espacios."
+          "tarea": "Coordinar con otros departamentos la disponibilidad de equipos y apoyo en traslados."
         },
         {
           "categoria": "Inspección y Reparación",
@@ -306,93 +296,239 @@
     },
     "Jefe de Jardineria": {
       "area": "MANTENIMIENTO",
-      "puesto_col_b": "Jardinero",
       "tasks": [
         {
           "categoria": "Cuidado de Áreas Verdes",
-          "tarea": "Realizar tareas de jardinería esenciales: podar, regar, fertilizar y controlar plagas en plantas y flores."
+          "tarea": "Planificar y supervisar tareas de jardinería esenciales: podar, regar, fertilizar y controlar plagas en el bosque y jardines."
         },
         {
           "categoria": "Cuidado de Áreas Verdes",
-          "tarea": "Mantener la limpieza, el orden y la seguridad en los caminos y espacios verdes para el libre tránsito de los visitantes."
+          "tarea": "Mantener la limpieza, el orden y la seguridad en los senderos y espacios verdes para el libre tránsito."
         }
       ]
     },
     "Jardinero": {
       "area": "MANTENIMIENTO",
-      "puesto_col_b": "Jardinero",
       "tasks": [
         {
           "categoria": "Cuidado de Áreas Verdes",
-          "tarea": "Realizar tareas de jardinería esenciales: podar, regar, fertilizar y controlar plagas en plantas y flores."
+          "tarea": "Realizar tareas de jardinería esenciales: podar, regar, fertilizar y deshierbar jardines y áreas verdes."
         },
         {
           "categoria": "Cuidado de Áreas Verdes",
-          "tarea": "Mantener la limpieza, el orden y la seguridad en los caminos y espacios verdes para el libre tránsito de los visitantes."
+          "tarea": "Mantener la limpieza, recolección de ramas y seguridad en los senderos exteriores."
         }
       ]
     },
     "Encargado de spa": {
       "area": "Origen Centro Holistico",
-      "puesto_col_b": "Encargado de spa",
       "tasks": [
         {
           "categoria": "Seguridad e higiene",
-          "tarea": "Supervisar el cumplimiento estricto de los protocolos de higiene, normativas de salud, seguridad y protección civil."
+          "tarea": "Supervisar el cumplimiento estricto de los protocolos de higiene, salud y protección civil en el spa Origen."
         },
         {
           "categoria": "Administración y control",
-          "tarea": "Revisar los reportes de ingresos diarios generados por hospedaje, tratamientos y experiencias holísticas."
+          "tarea": "Revisar los reportes de ingresos diarios generados por terapias, masajes y experiencias holísticas."
         },
         {
           "categoria": "Administración y control",
-          "tarea": "Dirigir y coordinar al equipo de terapeutas, facilitadores y guías de ceremonias asignados al turno."
+          "tarea": "Dirigir y coordinar al equipo de terapeutas asignadas al turno."
         },
         {
           "categoria": "Control de agenda",
-          "tarea": ": Revisar la agenda diaria de recepción, check-ins, check-outs y reservas de terapia"
+          "tarea": "Revisar la agenda diaria de reservas de masajes, temazcales y rituales holísticos."
         },
         {
           "categoria": "Supervisión de instalaciones",
-          "tarea": "Verificar que las cabinas, áreas de spa y zonas comunes se encuentren en condiciones óptimas, limpias y armonizadas."
+          "tarea": "Verificar que las cabinas de spa y zonas comunes se encuentren en condiciones óptimas y armonizadas."
         },
         {
           "categoria": "Venta",
-          "tarea": "Coordinar promociones, paquetes especiales (retiros, días de spa) y apoyar al área comercial en la detección, prospección y  atención de nuevos clientes."
+          "tarea": "Coordinar paquetes especiales, venta cruzada y apoyo comercial para captación de clientes."
         }
       ]
     },
     "TERAPEUTAS INTERNAS": {
       "area": "Origen Centro Holistico",
-      "puesto_col_b": "Encargado de spa",
       "tasks": [
         {
           "categoria": "Seguridad e higiene",
-          "tarea": "Mantener una higiene personal impecable y desinfectar camillas, utensilios y materiales de inmediato tras cada servicio."
+          "tarea": "Mantener una higiene personal impecable y desinfectar camillas, piedras y utensilios tras cada servicio."
         },
         {
           "categoria": "Administración y control",
-          "tarea": "Revisar los reportes de ingresos diarios generados por hospedaje, tratamientos y experiencias holísticas."
+          "tarea": "Revisar los reportes de ingresos diarios generados por terapias y experiencias holísticas."
         },
         {
           "categoria": "Atención al cliente y operación",
-          "tarea": "Realizar los tratamientos y masajes conforme a los protocolos establecidos del centro."
+          "tarea": "Realizar los tratamientos y masajes conforme a los protocolos establecidos del centro Origen."
         },
         {
           "categoria": "Control de insumos",
-          "tarea": "Verificar la disponibilidad constante de suministros esenciales en cabina (aceites, velas, toallas, instrumentos)."
+          "tarea": "Verificar la disponibilidad constante de suministros esenciales en cabina (aceites, esencias, toallas)."
         },
         {
-          "categoria": "Registro de bitacora",
-          "tarea": "Registrar puntualmente cada servicio en la bitácora oficial y reportar incidencias o necesidades de material a la gerencia."
-        },
-        {
-          "categoria": "Venta",
-          "tarea": "Apoyar al área comercial en la detección, prospección y  atención de nuevos clientes."
+          "categoria": "Registro de bitácora",
+          "tarea": "Registrar puntualmente cada servicio en la bitácora oficial y reportar incidencias a la encargada."
         },
         {
           "categoria": "Venta",
-          "tarea": "Ofrecer recomendaciones personalizadas posteriores al tratamiento (ejercicios de respiración, infusiones) y orientar sobre otras experiencias del centro"
+          "tarea": "Apoyar al área comercial en la atención cálida y satisfacción de los clientes."
+        },
+        {
+          "categoria": "Venta",
+          "tarea": "Ofrecer recomendaciones personalizadas posteriores al tratamiento (respiración, infusiones relajantes)."
+        }
+      ]
+    },
+    "Lava Loza": {
+      "area": "Cocina",
+      "tasks": [
+        {
+          "categoria": "Lavado y Desinfección",
+          "tarea": "Lavar, desinfectar y secar loza, cristalería, plaqué y cacerolas de cocina con químicos y agua caliente."
+        },
+        {
+          "categoria": "Acomodo y Clasificación",
+          "tarea": "Clasificar y acomodar la vajilla limpia en repisas y racks asignados para el servicio."
+        },
+        {
+          "categoria": "Higiene de Estación",
+          "tarea": "Limpieza y desinfección continua de tarjas, escurridores y trampa de grasa del área de lavado."
+        },
+        {
+          "categoria": "Manejo de Residuos",
+          "tarea": "Vaciar, desinfectar y colocar bolsas nuevas en los botes de basura orgánica e inorgánica."
+        },
+        {
+          "categoria": "Control e Insumos",
+          "tarea": "Reportar loza o cristalería rota y solicitar a tiempo reposición de detergentes y desinfectantes."
+        }
+      ]
+    },
+    "Limpieza de Áreas Comunes": {
+      "area": "AMA DE LLAVESLIMPIEZA",
+      "tasks": [
+        {
+          "categoria": "Aseo y Desinfección",
+          "tarea": "Barrer, trapear y desinfectar recepción, pasillos, casa club y salones comunes del hotel."
+        },
+        {
+          "categoria": "Sanitarios Públicos",
+          "tarea": "Realizar aseo profundo y abastecer jabón, papel higiénico y toallas en sanitarios públicos."
+        },
+        {
+          "categoria": "Mobiliario y Cristales",
+          "tarea": "Limpiar ventanales, espejos, mobiliario de salas y repisas libres de polvo y ceniza."
+        },
+        {
+          "categoria": "Áreas Exteriores",
+          "tarea": "Vaciar y desinfectar ceniceros, papeleras exteriores y mantener limpias las terrazas comunes."
+        },
+        {
+          "categoria": "Reporte de Daños",
+          "tarea": "Reportar de inmediato a Mantenimiento cualquier desperfecto en luminarias, chapas o sanitarios."
+        }
+      ]
+    },
+    "Parrillero Cocina": {
+      "area": "Cocina",
+      "tasks": [
+        {
+          "categoria": "Encendido y Puesta a Punto",
+          "tarea": "Encender, calentar y regular las brasas y parrillas antes del inicio del servicio."
+        },
+        {
+          "categoria": "Mise en Place de Proteínas",
+          "tarea": "Verificar pesaje, corte, marinado y correcta rotación PEPS de carnes y proteínas en refrigeración."
+        },
+        {
+          "categoria": "Cocción y Estándares",
+          "tarea": "Cocinar cortes de carne respetando términos solicitados por comensales y tiempos de comanda."
+        },
+        {
+          "categoria": "Higiene y Temperaturas",
+          "tarea": "Asegurar que las carnes se mantengan en rangos seguros de temperatura y evitar contaminación cruzada."
+        },
+        {
+          "categoria": "Limpieza de Parrilla",
+          "tarea": "Desengrasar parrillas, limpiar campana de extracción y sanitizar la estación de trabajo al cierre."
+        }
+      ]
+    },
+    "Barra Don Petro": {
+      "area": "Bar Don Petro",
+      "tasks": [
+        {
+          "categoria": "Montaje y Preparación",
+          "tarea": "Montar y abastecer la barra Don Petro: hielo, cristalería pulida, fruta fresca y botellas."
+        },
+        {
+          "categoria": "Control de Inventarios",
+          "tarea": "Controlar el inventario de botellas abiertas, vinos, licores y mezcladores del turno."
+        },
+        {
+          "categoria": "Elaboración de Bebidas",
+          "tarea": "Preparar coctelería y bebidas respetando recetas estándar y tiempos de servicio."
+        },
+        {
+          "categoria": "Higiene y Desinfección",
+          "tarea": "Mantener limpia y desinfectada la barra, contrabarra, tarjas y refrigeradores durante el servicio."
+        },
+        {
+          "categoria": "Cierre y Arqueo",
+          "tarea": "Realizar el inventario de botellas al cierre, registrar mermas y entregar la estación impecable."
+        }
+      ]
+    },
+    "Responsable Bar Miel": {
+      "area": "Bar Miel",
+      "tasks": [
+        {
+          "categoria": "Apertura e Inspección",
+          "tarea": "Inspeccionar el salón y terraza de Bar Miel: chimeneas, mobiliario, calefactores y ambientación."
+        },
+        {
+          "categoria": "Montaje y Abastecimiento",
+          "tarea": "Montar la barra con licores de especialidad, cristalería fina e infusiones artesanales con miel."
+        },
+        {
+          "categoria": "Servicio al Huésped",
+          "tarea": "Atender a huéspedes con amabilidad y calidez, preparando coctelería de autor y bebidas calientes."
+        },
+        {
+          "categoria": "Caja e Inventario",
+          "tarea": "Llevar el control de inventario de botellas, consumos de terraza y corte de caja del bar."
+        },
+        {
+          "categoria": "Cierre y Seguridad",
+          "tarea": "Resguardar botellas de alto valor, verificar apagado seguro de chimeneas y cerrar el recinto."
+        }
+      ]
+    },
+    "Mantenimiento Origen Centro Holístico": {
+      "area": "Origen Centro Holistico",
+      "tasks": [
+        {
+          "categoria": "Hidráulica y Termas",
+          "tarea": "Inspeccionar y asegurar el funcionamiento óptimo de tinas de hidromasaje, vapor y temazcales."
+        },
+        {
+          "categoria": "Calderas y Temperatura",
+          "tarea": "Controlar la temperatura de agua en calderas, presión de bombas y suministro de leña en el spa."
+        },
+        {
+          "categoria": "Iluminación y Ambiente",
+          "tarea": "Verificar luminarias tenues, ambientación musical, difusores aromáticos y calefacción en cabinas."
+        },
+        {
+          "categoria": "Calidad de Agua",
+          "tarea": "Revisar filtros, niveles de cloro/pH y desinfección en áreas húmedas del centro holístico."
+        },
+        {
+          "categoria": "Bitácora y Refacciones",
+          "tarea": "Documentar tareas de mantenimiento preventivo y solicitar refacciones con anticipación."
         }
       ]
     }
@@ -1042,7 +1178,6 @@
   "Centro Cultural Quinta Soledad": {
     "Gerencia General": {
       "area": "Gerente",
-      "puesto_col_b": "Gerencia General",
       "tasks": [
         {
           "categoria": "Supervisión Operativa",
@@ -1078,7 +1213,7 @@
         },
         {
           "categoria": "Experiencia del Visitante",
-          "tarea": "Asegurar una experiencia cálida, ordenada y alineada a la esencia cultural."
+          "tarea": "Asegurar una experiencia cálida, ordenada y alineada a la esencia cultural del recinto."
         },
         {
           "categoria": "Experiencia del Visitante",
@@ -1086,13 +1221,12 @@
         },
         {
           "categoria": "Administración y Control",
-          "tarea": "Supervisar bitácoras operativas, de mantenimiento y de eventos"
+          "tarea": "Supervisar bitácoras operativas, de mantenimiento y de eventos."
         }
       ]
     },
     "Subgerencia": {
       "area": "Subgerente",
-      "puesto_col_b": "Subgerencia",
       "tasks": [
         {
           "categoria": "Monitoreo de Instalaciones",
@@ -1112,117 +1246,114 @@
         },
         {
           "categoria": "Operación y Atención",
-          "tarea": "Supervisar puntualidad, presentación, actitud y desempeño."
+          "tarea": "Supervisar puntualidad, presentación, actitud y desempeño del personal en turno."
         }
       ]
     },
     "Recepcionista A": {
       "area": "Administración",
-      "puesto_col_b": "Recepcionista A",
       "tasks": [
         {
-          "categoria": "Atención a Huéspedes",
-          "tarea": "Dar seguimiento a  reservas que arriban durante el día"
+          "categoria": "Atención a Huéspedes y Visitantes",
+          "tarea": "Dar seguimiento a reservas y visitas que arriban durante el día."
         },
         {
-          "categoria": "Atención a Huéspedes",
-          "tarea": "Verificar las reservas recibidas asegurando que la información este correcta y actualisada"
+          "categoria": "Atención a Huéspedes y Visitantes",
+          "tarea": "Verificar las reservas recibidas asegurando que la información esté correcta y actualizada."
         },
         {
-          "categoria": "Atención a Huéspedes",
-          "tarea": "Seguimiento diario de las reservaciones con status de no show"
+          "categoria": "Atención a Huéspedes y Visitantes",
+          "tarea": "Seguimiento diario de las reservaciones con status de no show."
         },
         {
-          "categoria": "Atención a Huéspedes",
-          "tarea": "Recibir, registrar y asignar habitaciones a los huéspedes."
+          "categoria": "Atención a Huéspedes y Visitantes",
+          "tarea": "Recibir, registrar y asignar habitaciones o accesos a los visitantes."
         },
         {
-          "categoria": "Atención a Huéspedes",
-          "tarea": "Proporcionar información sobre los servicios, facilidades, precios y disponibilidad del hotel."
+          "categoria": "Atención a Huéspedes y Visitantes",
+          "tarea": "Proporcionar información sobre los servicios, facilidades, precios y eventos del centro cultural."
         },
         {
-          "categoria": "Atención a Huéspedes",
-          "tarea": "Realizar el proceso de check-out y procesar pagos."
+          "categoria": "Atención a Huéspedes y Visitantes",
+          "tarea": "Realizar el proceso de check-out y procesar cobros y pagos."
         },
         {
-          "categoria": "Atención a Huéspedes",
-          "tarea": "Resolver problemas, quejas y ofrecer recomendaciones de actividades en el área."
-        },
-        {
-          "categoria": "Gestión Administrativa",
-          "tarea": "Gestionar, confirmar y actualizar las reservas de habitaciones (cambios y cancelaciones)."
+          "categoria": "Atención a Huéspedes y Visitantes",
+          "tarea": "Resolver problemas, atender dudas y ofrecer recomendaciones de actividades en el área."
         },
         {
           "categoria": "Gestión Administrativa",
-          "tarea": "Procesar pagos, gestionar facturas y mantener registros organizados."
+          "tarea": "Gestionar, confirmar y actualizar reservas de salones o habitaciones."
         },
         {
           "categoria": "Gestión Administrativa",
-          "tarea": "Generar venta de experiencias"
+          "tarea": "Procesar pagos, gestionar facturas y mantener registros organizados en caja."
+        },
+        {
+          "categoria": "Gestión Administrativa",
+          "tarea": "Generar venta de experiencias culturales y paquetes especiales."
         }
       ]
     },
     "Recepcionista B": {
       "area": "Administración",
-      "puesto_col_b": "Recepcionista B",
       "tasks": [
         {
-          "categoria": "Atención a Huéspedes",
-          "tarea": "Dar seguimiento a  reservas que arriban durante el día"
+          "categoria": "Atención a Huéspedes y Visitantes",
+          "tarea": "Dar seguimiento a reservas y visitas que arriban durante el turno."
         },
         {
-          "categoria": "Atención a Huéspedes",
-          "tarea": "Verificar las reservas recibidas asegurando que la información este correcta y actualisada"
+          "categoria": "Atención a Huéspedes y Visitantes",
+          "tarea": "Verificar las reservas recibidas asegurando que la información esté correcta y actualizada."
         },
         {
-          "categoria": "Atención a Huéspedes",
-          "tarea": "Seguimiento diario de las reservaciones con status de no show"
+          "categoria": "Atención a Huéspedes y Visitantes",
+          "tarea": "Seguimiento diario de las reservaciones con status de no show."
         },
         {
-          "categoria": "Atención a Huéspedes",
-          "tarea": "Recibir, registrar y asignar habitaciones a los huéspedes."
+          "categoria": "Atención a Huéspedes y Visitantes",
+          "tarea": "Recibir, registrar y asignar habitaciones o accesos a los visitantes."
         },
         {
-          "categoria": "Atención a Huéspedes",
-          "tarea": "Proporcionar información sobre los servicios, facilidades, precios y disponibilidad del hotel."
+          "categoria": "Atención a Huéspedes y Visitantes",
+          "tarea": "Proporcionar información sobre los servicios, exposiciones y disponibilidad del recinto."
         },
         {
-          "categoria": "Atención a Huéspedes",
-          "tarea": "Realizar el proceso de check-out y procesar pagos."
+          "categoria": "Atención a Huéspedes y Visitantes",
+          "tarea": "Realizar el proceso de check-out y procesar pagos en terminal."
         },
         {
-          "categoria": "Atención a Huéspedes",
-          "tarea": "Resolver problemas, quejas y ofrecer recomendaciones de actividades en el área."
-        },
-        {
-          "categoria": "Gestión Administrativa",
-          "tarea": "Gestionar, confirmar y actualizar las reservas de habitaciones (cambios y cancelaciones)."
+          "categoria": "Atención a Huéspedes y Visitantes",
+          "tarea": "Resolver problemas, solicitudes especiales y canalizar incidencias operativas."
         },
         {
           "categoria": "Gestión Administrativa",
-          "tarea": "Procesar pagos, gestionar facturas y mantener registros organizados."
+          "tarea": "Gestionar, confirmar y actualizar reservas en sistema."
         },
         {
           "categoria": "Gestión Administrativa",
-          "tarea": "Generar venta de experiencias"
+          "tarea": "Procesar pagos, arqueo de caja chica y archivo de comprobantes fiscales."
+        },
+        {
+          "categoria": "Gestión Administrativa",
+          "tarea": "Generar venta de experiencias y recorridos guiados."
         }
       ]
     },
     "Capitán 1": {
       "area": "A&B Capitular",
-      "puesto_col_b": "Capitán (A&B)",
       "tasks": [
         {
           "categoria": "Supervisión del Servicio",
-          "tarea": "Dirigir al equipo de meseros y ayudantes durante turnos y eventos."
+          "tarea": "Dirigir y coordinar al equipo de meseros y ayudantes durante el turno y eventos."
         },
         {
           "categoria": "Supervisión del Servicio",
-          "tarea": "Validar el montaje previo de mesas, cristalería, loza, cubiertos y estaciones (coffee break, cocteles, etc.)."
+          "tarea": "Validar el montaje previo de mesas, cristalería, loza, cubiertos y estaciones (coffee break, banquetes)."
         },
         {
           "categoria": "Supervisión del Servicio",
-          "tarea": "Verificar que la presentación de platillos y bebidas cumpla con los estándares antes de salir a servicio."
+          "tarea": "Verificar que la presentación de platillos y bebidas cumpla con los estándares antes de salir al comensal."
         },
         {
           "categoria": "Control y Cierre",
@@ -1234,103 +1365,99 @@
         },
         {
           "categoria": "Control y Cierre",
-          "tarea": "Entregar reportes de consumos, incidencias y observaciones del turno."
+          "tarea": "Entregar reportes de consumos, incidencias y observaciones del turno a Gerencia."
         }
       ]
     },
     "Capitán 2": {
       "area": "A&B Capitular",
-      "puesto_col_b": "Capitán (A&B)",
       "tasks": [
         {
           "categoria": "Supervisión del Servicio",
-          "tarea": "Dirigir al equipo de meseros y ayudantes durante turnos y eventos."
+          "tarea": "Dirigir y coordinar al equipo de meseros y ayudantes durante el turno y eventos."
         },
         {
           "categoria": "Supervisión del Servicio",
-          "tarea": "Validar el montaje previo de mesas, cristalería, loza, cubiertos y estaciones (coffee break, cocteles, etc.)."
+          "tarea": "Validar el montaje previo de mesas, cristalería, loza, cubiertos y estaciones."
         },
         {
           "categoria": "Supervisión del Servicio",
-          "tarea": "Verificar que la presentación de platillos y bebidas cumpla con los estándares antes de salir a servicio."
+          "tarea": "Verificar que la presentación de platillos y bebidas cumpla con los estándares antes de salir al comensal."
         },
         {
           "categoria": "Control y Cierre",
-          "tarea": "Revisar existencias de insumos básicos (bebidas, cristalería, consumibles) y reportar faltantes."
+          "tarea": "Revisar existencias de insumos básicos y reportar faltantes a almacén."
         },
         {
           "categoria": "Control y Cierre",
-          "tarea": "Supervisar el desmontaje, la limpieza general y la correcta ubicación del mobiliario al finalizar."
+          "tarea": "Supervisar el desmontaje, limpieza general y resguardo de mantelería al finalizar."
         },
         {
           "categoria": "Control y Cierre",
-          "tarea": "Entregar reportes de consumos, incidencias y observaciones del turno."
+          "tarea": "Entregar reportes de consumos, comandas e incidencias del turno."
         }
       ]
     },
     "Capitán 3": {
       "area": "A&B Capitular",
-      "puesto_col_b": "Capitán (A&B)",
       "tasks": [
         {
           "categoria": "Supervisión del Servicio",
-          "tarea": "Dirigir al equipo de meseros y ayudantes durante turnos y eventos."
+          "tarea": "Dirigir y coordinar al equipo de meseros y ayudantes durante el turno y eventos."
         },
         {
           "categoria": "Supervisión del Servicio",
-          "tarea": "Validar el montaje previo de mesas, cristalería, loza, cubiertos y estaciones (coffee break, cocteles, etc.)."
+          "tarea": "Validar el montaje previo de mesas, cristalería, loza, cubiertos y estaciones."
         },
         {
           "categoria": "Supervisión del Servicio",
-          "tarea": "Verificar que la presentación de platillos y bebidas cumpla con los estándares antes de salir a servicio."
+          "tarea": "Verificar que la presentación de platillos y bebidas cumpla con los estándares de calidad."
         },
         {
           "categoria": "Control y Cierre",
-          "tarea": "Revisar existencias de insumos básicos (bebidas, cristalería, consumibles) y reportar faltantes."
+          "tarea": "Revisar existencias de insumos básicos y reportar necesidades de abasto."
         },
         {
           "categoria": "Control y Cierre",
-          "tarea": "Supervisar el desmontaje, la limpieza general y la correcta ubicación del mobiliario al finalizar."
+          "tarea": "Supervisar el desmontaje, la limpieza y orden del salón asignado."
         },
         {
           "categoria": "Control y Cierre",
-          "tarea": "Entregar reportes de consumos, incidencias y observaciones del turno."
+          "tarea": "Entregar bitácora de servicio y reporte de comandas cerradas."
         }
       ]
     },
     "Capitán 4": {
       "area": "A&B Capitular",
-      "puesto_col_b": "Capitán (A&B)",
       "tasks": [
         {
           "categoria": "Supervisión del Servicio",
-          "tarea": "Dirigir al equipo de meseros y ayudantes durante turnos y eventos."
+          "tarea": "Dirigir y coordinar al equipo de meseros y ayudantes durante el turno y eventos."
         },
         {
           "categoria": "Supervisión del Servicio",
-          "tarea": "Validar el montaje previo de mesas, cristalería, loza, cubiertos y estaciones (coffee break, cocteles, etc.)."
+          "tarea": "Validar el montaje previo de mesas, cristalería, loza, cubiertos y estaciones."
         },
         {
           "categoria": "Supervisión del Servicio",
-          "tarea": "Verificar que la presentación de platillos y bebidas cumpla con los estándares antes de salir a servicio."
+          "tarea": "Verificar que la presentación de platillos y bebidas cumpla con los estándares de calidad."
         },
         {
           "categoria": "Control y Cierre",
-          "tarea": "Revisar existencias de insumos básicos (bebidas, cristalería, consumibles) y reportar faltantes."
+          "tarea": "Revisar existencias de insumos básicos y reportar faltantes."
         },
         {
           "categoria": "Control y Cierre",
-          "tarea": "Supervisar el desmontaje, la limpieza general y la correcta ubicación del mobiliario al finalizar."
+          "tarea": "Supervisar el desmontaje, limpieza y acomodo de mobiliario al cierre."
         },
         {
           "categoria": "Control y Cierre",
-          "tarea": "Entregar reportes de consumos, incidencias y observaciones del turno."
+          "tarea": "Entregar reportes de consumos e incidencias del turno."
         }
       ]
     },
     "Meseros": {
       "area": "A&B Capitular",
-      "puesto_col_b": "Meseros",
       "tasks": [
         {
           "categoria": "Atención y Servicio",
@@ -1338,11 +1465,11 @@
         },
         {
           "categoria": "Atención y Servicio",
-          "tarea": "Servir alimentos y bebidas de manera eficiente y segura."
+          "tarea": "Servir alimentos y bebidas de manera eficiente, oportuna y segura."
         },
         {
           "categoria": "Atención y Servicio",
-          "tarea": "Retirar platos, limpiar mesas de forma constante y mantener limpias las áreas de trabajo."
+          "tarea": "Retirar platos, limpiar mesas de forma constante y mantener pulcras las estaciones de servicio."
         },
         {
           "categoria": "Atención y Servicio",
@@ -1350,35 +1477,33 @@
         },
         {
           "categoria": "Atención y Servicio",
-          "tarea": "Generar venta a traves de recomendaciones de alimentos y bebidas."
+          "tarea": "Generar venta sugerida a través de recomendaciones de platillos, postres y bebidas."
         }
       ]
     },
     "Ayudantes (A&B) de fin de semana": {
       "area": "A&B Capitular",
-      "puesto_col_b": "Ayudantes (A&B) de fin de semana",
       "tasks": [
         {
           "categoria": "Atención y Servicio",
-          "tarea": "Atender a los clientes con amabilidad, tomar pedidos y ofrecer información sobre menús y especialidades."
+          "tarea": "Apoyar en la atención a clientes con amabilidad y disposición continua."
         },
         {
           "categoria": "Atención y Servicio",
-          "tarea": "Servir alimentos y bebidas de manera eficiente y segura."
+          "tarea": "Trasladar charolas con alimentos y bebidas de manera eficiente y segura."
         },
         {
           "categoria": "Atención y Servicio",
-          "tarea": "Retirar platos, limpiar mesas de forma constante y mantener limpias las áreas de trabajo."
+          "tarea": "Retirar platos, limpiar y desinfectar mesas constantemente manteniendo orden en el salón."
         },
         {
           "categoria": "Atención y Servicio",
-          "tarea": "Apoyar en el montaje y desmontaje según las indicaciones del Capitán."
+          "tarea": "Apoyar activamente en el montaje y desmontaje según indicaciones del Capitán."
         }
       ]
     },
     "Chef": {
       "area": "Cocina",
-      "puesto_col_b": "Chef",
       "tasks": [
         {
           "categoria": "Producción y Calidad",
@@ -1390,103 +1515,99 @@
         },
         {
           "categoria": "Producción y Calidad",
-          "tarea": "Asegurar la organización, limpieza y desinfección constante de la cocina."
+          "tarea": "Asegurar la organización, limpieza y desinfección constante de toda la cocina."
         },
         {
           "categoria": "Producción y Calidad",
-          "tarea": "Supervisar y dirigir al personal de cocina"
+          "tarea": "Supervisar, coordinar y dirigir al personal de cocina en todos los turnos."
         }
       ]
     },
     "Cocinero 1": {
       "area": "Cocina",
-      "puesto_col_b": "Cocinero 1",
       "tasks": [
         {
           "categoria": "Producción y Calidad",
-          "tarea": "Respaldar actividades indicadas por el chef en tiempo y forma"
+          "tarea": "Respaldar actividades indicadas por el chef en tiempo y forma."
         },
         {
           "categoria": "Producción y Calidad",
-          "tarea": "Ayudar en la preparación y cocción de alimentos."
+          "tarea": "Ayudar en la preparación previa (mise en place) y cocción de alimentos."
         },
         {
           "categoria": "Producción y Calidad",
-          "tarea": "Asegurar la preparación y el servicio seguro e higiénico de los alimentos."
+          "tarea": "Asegurar la preparación y el servicio seguro, higiénico y estandarizado de los platillos."
         },
         {
           "categoria": "Producción y Calidad",
-          "tarea": "Limpieza y organización de estaciones"
+          "tarea": "Limpieza y desinfección continua de estaciones y utensilios de trabajo."
         },
         {
           "categoria": "Producción y Calidad",
-          "tarea": "Respaldar actividades indicadas por el encargado de cafeteria en tiempo y forma"
+          "tarea": "Respaldar actividades de cafetería y eventos en tiempo y forma."
         }
       ]
     },
     "Ayudantes de cocina": {
       "area": "Cocina",
-      "puesto_col_b": "Ayudantes",
       "tasks": [
         {
           "categoria": "Producción y Calidad",
-          "tarea": "Respaldar actividades indicadas por el chef en tiempo y forma"
+          "tarea": "Respaldar actividades indicadas por el chef y cocineros en tiempo y forma."
         },
         {
           "categoria": "Producción y Calidad",
-          "tarea": "Ayudar en la preparación y cocción de alimentos."
+          "tarea": "Ayudar en el lavado, pelado, corte y preparación de ingredientes básicos."
         },
         {
           "categoria": "Producción y Calidad",
-          "tarea": "Asegurar la preparación y el servicio seguro e higiénico de los alimentos."
+          "tarea": "Asegurar la manipulación segura e higiénica de los alimentos bajo normas de salubridad."
         },
         {
           "categoria": "Producción y Calidad",
-          "tarea": "Limpieza y organización de estaciones"
+          "tarea": "Limpieza profunda, lavado de marmitas y organización constante de estaciones de cocina."
         }
       ]
     },
     "Ayudantes de fin de semana": {
       "area": "Cocina",
-      "puesto_col_b": "Ayudantes de fin de semana",
       "tasks": [
         {
           "categoria": "Producción y Calidad",
-          "tarea": "Respaldar actividades indicadas por el chef en tiempo y forma"
+          "tarea": "Respaldar actividades indicadas por el chef en tiempo y forma durante picos de operación."
         },
         {
           "categoria": "Producción y Calidad",
-          "tarea": "Ayudar en la preparación y cocción de alimentos."
+          "tarea": "Ayudar en la preparación, empaquetado y porcionado de alimentos."
         },
         {
           "categoria": "Producción y Calidad",
-          "tarea": "Asegurar la preparación y el servicio seguro e higiénico de los alimentos."
+          "tarea": "Asegurar la manipulación e higiene estricta de todos los alimentos."
         },
         {
           "categoria": "Producción y Calidad",
-          "tarea": "Limpieza y organización de estaciones"
+          "tarea": "Limpieza y organización de estaciones y retiro oportuno de residuos."
         }
       ]
     },
     "Encargado de cafetería": {
       "area": "A&B Cafeteria",
-      "puesto_col_b": "Encargado de cafetería",
       "tasks": [
         {
           "categoria": "Supervisión del Servicio",
-          "tarea": "Dirigir al equipo de meseros y ayudantes durante turnos y eventos."
+          "tarea": "Dirigir al equipo de cafetería y supervisar la atención rápida y cordial a comensales."
         },
         {
           "categoria": "Supervisión del Servicio",
-          "tarea": "Validar el montaje previo de mesas, cristalería, loza, cubiertos y estaciones (coffee break, cocteles, etc.)."
+          "tarea": "Validar el montaje previo de vitrinas, cafeteras, insumos y loza limpia."
         },
         {
           "categoria": "Supervisión del Servicio",
-          "tarea": "Verificar que la presentación de platillos y bebidas cumpla con los estándares antes de salir a servicio."
+          "tarea": "Verificar que la presentación de cafés, repostería y bebidas cumpla con los estándares."
         },
         {
           "categoria": "Control y Cierre",
-          "tarea": "Revisar existencias de insumos básicos (bebidas, cristalería, consumibles) y reportar faltantes."
+          "tarea": "Revisar existencias de insumos básicos (granos de café, leche, jarabes, desechables) y reportar faltantes."
         },
         {
           "categoria": "Control y Cierre",
@@ -1494,73 +1615,70 @@
         },
         {
           "categoria": "Control y Cierre",
-          "tarea": "Entregar reportes de consumos, incidencias y observaciones del turno."
+          "tarea": "Entregar reportes de consumos, corte de caja e incidencias del turno."
         },
         {
           "categoria": "Control y Cierre",
-          "tarea": "Supervisar la correcta operación de cafetería y La Mal Querida"
+          "tarea": "Supervisar la correcta operación de cafetería y La Mal Querida."
         }
       ]
     },
     "Meserio 1": {
       "area": "A&B Cafeteria",
-      "puesto_col_b": "Meseros",
       "tasks": [
         {
           "categoria": "Atención y Servicio",
-          "tarea": "Atender a los clientes con amabilidad, tomar pedidos y ofrecer información sobre menús y especialidades."
+          "tarea": "Atender a los clientes con amabilidad, tomar pedidos y ofrecer información sobre cafés y especialidades."
         },
         {
           "categoria": "Atención y Servicio",
-          "tarea": "Servir alimentos y bebidas de manera eficiente y segura."
+          "tarea": "Servir alimentos y bebidas de cafetería de manera eficiente y segura."
         },
         {
           "categoria": "Atención y Servicio",
-          "tarea": "Retirar platos, limpiar mesas de forma constante y mantener limpias las áreas de trabajo."
+          "tarea": "Retirar tazas y platos, limpiar mesas de forma constante y mantener pulcra el área de mesas."
         },
         {
           "categoria": "Atención y Servicio",
-          "tarea": "Apoyar en el montaje y desmontaje según las indicaciones del Capitán."
+          "tarea": "Apoyar en el montaje de vitrinas y limpieza de estaciones de café."
         },
         {
           "categoria": "Atención y Servicio",
-          "tarea": "Generar venta a traves de recomendaciones de alimentos y bebidas."
+          "tarea": "Generar venta a través de sugerencias de café de especialidad y postres."
         }
       ]
     },
     "Tortillero": {
       "area": "A&B Cafeteria",
-      "puesto_col_b": "Tortillero",
       "tasks": [
         {
           "categoria": "Producción y Calidad",
-          "tarea": "Respaldar actividades indicadas por el encargado de cafeteria en tiempo y forma"
+          "tarea": "Respaldar actividades indicadas por el encargado de cafetería y cocina en tiempo y forma."
         },
         {
           "categoria": "Producción y Calidad",
-          "tarea": "Ayudar en la preparación y cocción de alimentos."
+          "tarea": "Preparación de masa, prensado y cocción tradicional de tortillas a mano."
         },
         {
           "categoria": "Producción y Calidad",
-          "tarea": "Asegurar la preparación y el servicio seguro e higiénico de los alimentos."
+          "tarea": "Asegurar la preparación higiénica y temperatura adecuada para el servicio de tortillas frescas."
         },
         {
           "categoria": "Producción y Calidad",
-          "tarea": "Limpieza y organización de estaciones"
+          "tarea": "Limpieza, desinfección y mantenimiento del comal y estación de trabajo."
         }
       ]
     },
     "Panadero": {
       "area": "Panadero",
-      "puesto_col_b": "Panadero",
       "tasks": [
         {
           "categoria": "Preparación de insumos",
-          "tarea": "Revisar las recetas y la producción del día para medir, pesar y alistar todos los ingredientes necesarios (harinas, levaduras, azúcares, etc.) manteniendo el control de mermas e inventarios."
+          "tarea": "Revisar las recetas y la producción del día para medir, pesar y alistar ingredientes manteniendo control de mermas."
         },
         {
           "categoria": "Preparación de insumos",
-          "tarea": "Ejecutar los procesos de mezclado, amasado, fermentación y moldeado de los diferentes tipos de panes, bollería o productos de repostería según los estándares de calidad del establecimiento."
+          "tarea": "Ejecutar los procesos de mezclado, amasado, fermentación y moldeado según los estándares de calidad del centro cultural."
         },
         {
           "categoria": "Horneado y calidad",
@@ -1568,69 +1686,66 @@
         },
         {
           "categoria": "Control y Cierre",
-          "tarea": "Revisar existencias de insumos básicos (bebidas, cristalería, consumibles) y reportar faltantes."
+          "tarea": "Revisar existencias de insumos básicos (harinas, mantequillas, azúcares) y reportar faltantes."
         },
         {
           "categoria": "Higiene y seguridad alimentaria",
-          "tarea": "Asegurar que los alimentos, materias primas y equipos se manipulen y almacenen bajo estrictas normas de limpieza, higiene y seguridad en la cocina."
+          "tarea": "Asegurar que los alimentos, materias primas y hornos se manipulen bajo estrictas normas de higiene y seguridad."
         },
         {
           "categoria": "Control y Cierre",
-          "tarea": "Informar al chef o al área de administración sobre las existencias de materia prima, necesidades de abastecimiento y registrar la producción final del turno."
+          "tarea": "Informar al chef o al área de administración sobre existencias y registrar la producción final del turno."
         }
       ]
     },
     "Auxiliar de panadería": {
       "area": "Panadero",
-      "puesto_col_b": "Auxiliar de panadería",
       "tasks": [
         {
           "categoria": "Preparación de insumos",
-          "tarea": "Respaldar al panadero midiendo, pesando y alistando los ingredientes necesarios (harinas, líquidos, complementos) según las indicaciones y recetas del día."
+          "tarea": "Respaldar al panadero midiendo, pesando y alistando ingredientes según indicaciones del día."
         },
         {
           "categoria": "Preparación de insumos",
-          "tarea": "Ayudar en las labores de boleado, corte, pesado de porciones, moldeado y colocación de masas en charolas conforme a las instrucciones del panadero."
+          "tarea": "Ayudar en las labores de boleado, corte, pesado de porciones, moldeado y colocación de masas en charolas."
         },
         {
           "categoria": "Higiene y seguridad",
-          "tarea": "Asegurar que los alimentos y la materia prima se manipulen y almacenen bajo estrictas normas de higiene, limpieza y seguridad en la cocina."
+          "tarea": "Asegurar que las materias primas se almacenen bajo estrictas normas de higiene y limpieza en la panadería."
         },
         {
           "categoria": "Horneado y calidad",
-          "tarea": "Ayudar a introducir y retirar charolas de los hornos bajo supervisión, así como trasladar productos hacia las áreas de leudado o exhibición."
+          "tarea": "Ayudar a introducir y retirar charolas de los hornos bajo supervisión y trasladar piezas a vitrinas."
         },
         {
           "categoria": "Cierre de turno y reporte de incidencias",
-          "tarea": "Realizar la limpieza profunda de pisos, mesas y equipos al finalizar, guardando sobrantes correctamente y reportando cualquier faltante o falla al panadero."
+          "tarea": "Realizar la limpieza profunda de pisos, mesas y equipos al finalizar, reportando fallas al panadero."
         }
       ]
     },
     "Encargado de Loza": {
       "area": "Loza",
-      "puesto_col_b": "Encargado de Loza",
       "tasks": [
         {
-          "categoria": "Atención y Servicio",
-          "tarea": "Atender a los clientes con amabilidad, tomar pedidos y ofrecer información sobre menús y especialidades."
+          "categoria": "Limpieza y Desinfección",
+          "tarea": "Lavar, desinfectar y secar vajilla, cristalería, cubertería y utensilios de cocina con agua caliente y químicos adecuados."
         },
         {
-          "categoria": "Atención y Servicio",
-          "tarea": "Servir alimentos y bebidas de manera eficiente y segura."
+          "categoria": "Limpieza y Desinfección",
+          "tarea": "Clasificar y acomodar la loza limpia en sus racks y repisas correspondientes."
         },
         {
-          "categoria": "Atención y Servicio",
-          "tarea": "Retirar platos, limpiar mesas de forma constante y mantener limpias las áreas de trabajo."
+          "categoria": "Limpieza y Desinfección",
+          "tarea": "Retirar cochambre, limpiar trampas de grasa y desinfectar el área de lavado de loza."
         },
         {
-          "categoria": "Atención y Servicio",
-          "tarea": "Apoyar en el montaje y desmontaje según las indicaciones del Capitán."
+          "categoria": "Apoyo Operativo",
+          "tarea": "Apoyar en el montaje, desmontaje y traslado de loza según las indicaciones del Capitán."
         }
       ]
     },
     "Mucama": {
       "area": "AMA DE LLAVESLIMPIEZA",
-      "puesto_col_b": "Ama de Llaves / Mucamas",
       "tasks": [
         {
           "categoria": "Limpieza de Habitaciones",
@@ -1638,11 +1753,11 @@
         },
         {
           "categoria": "Limpieza de Habitaciones",
-          "tarea": "Cambiar la ropa de cama y las toallas"
+          "tarea": "Cambiar la ropa de cama y las toallas siguiendo las normas de presentación boutique."
         },
         {
           "categoria": "Limpieza de Habitaciones",
-          "tarea": "Aseo profundo de baños y abastecimiento de productos de higiene."
+          "tarea": "Aseo profundo de baños y abastecimiento de productos de higiene y amenidades."
         },
         {
           "categoria": "Limpieza de Habitaciones",
@@ -1650,51 +1765,49 @@
         },
         {
           "categoria": "Limpieza de Habitaciones",
-          "tarea": "Limpieza de áreas comunes como recepción, pasillos, casa club, área de spa y área de alberca"
+          "tarea": "Limpieza de áreas comunes como recepción, pasillos, salones, casa club y área de spa."
         }
       ]
     },
     "Encargado A": {
       "area": "MANTENIMIENTO",
-      "puesto_col_b": "Mantenimiento",
       "tasks": [
         {
           "categoria": "Inspección y Reparación",
-          "tarea": "Supervisar y coordinar las actividades de mantenimiento preventivo"
+          "tarea": "Supervisar y coordinar las actividades de mantenimiento preventivo y correctivo en salones y áreas históricas."
         },
         {
           "categoria": "Inspección y Reparación",
-          "tarea": "Inventario de  activos y equipos"
+          "tarea": "Inventario de activos, herramientas y equipos de mantenimiento."
         },
         {
           "categoria": "Inspección y Reparación",
-          "tarea": "Realizar inspecciones y evaluaciones de los activos y equipos para identificar necesidades de mantenimiento"
+          "tarea": "Realizar inspecciones y evaluaciones de activos e instalaciones para identificar necesidades de reparación."
         },
         {
           "categoria": "Inspección y Reparación",
-          "tarea": "Cumplir rigurosamente con las normativas y regulaciones de seguridad."
+          "tarea": "Cumplir rigurosamente con las normativas y regulaciones de seguridad laboral y protección civil."
         },
         {
           "categoria": "Inspección y Reparación",
-          "tarea": "Coordinar con otros departamentos la disponibilidad de equipos y espacios."
+          "tarea": "Coordinar con otros departamentos la disponibilidad de equipos y espacios para eventos."
         }
       ]
     },
     "Encargado B": {
       "area": "MANTENIMIENTO",
-      "puesto_col_b": "Mantenimiento",
       "tasks": [
         {
           "categoria": "Inspección y Reparación",
-          "tarea": "Supervisar y coordinar las actividades de mantenimiento preventivo"
+          "tarea": "Supervisar y coordinar las actividades de mantenimiento preventivo en jardines, luminarias y bombas de agua."
         },
         {
           "categoria": "Inspección y Reparación",
-          "tarea": "Inventario de  activos y equipos"
+          "tarea": "Inventario de activos, refacciones y equipos de bombeo y plomería."
         },
         {
           "categoria": "Inspección y Reparación",
-          "tarea": "Realizar inspecciones y evaluaciones de los activos y equipos para identificar necesidades de mantenimiento"
+          "tarea": "Realizar inspecciones y evaluaciones técnicas para prevenir fallas eléctricas o hidráulicas."
         },
         {
           "categoria": "Inspección y Reparación",
@@ -1708,7 +1821,6 @@
     },
     "Auxiliares Mantenimiento": {
       "area": "MANTENIMIENTO",
-      "puesto_col_b": "Mantenimiento",
       "tasks": [
         {
           "categoria": "Inspección y Reparación",
@@ -1716,53 +1828,50 @@
         },
         {
           "categoria": "Inspección y Reparación",
-          "tarea": "Asegurar el buen funcionamiento, seguridad y eficiencia de los activos del hotel."
+          "tarea": "Asegurar el buen funcionamiento, seguridad y eficiencia de los activos del hotel y centro cultural."
         },
         {
           "categoria": "Inspección y Reparación",
-          "tarea": "Coordinar con otros departamentos la disponibilidad de equipos y espacios."
+          "tarea": "Coordinar con otros departamentos la disponibilidad de equipos y apoyo en traslados."
         },
         {
           "categoria": "Inspección y Reparación",
-          "tarea": "Cumplir rigurosamente con las normativas y regulaciones de seguridad."
+          "tarea": "Cumplir rigurosamente con las normativas y regulaciones de seguridad e higiene."
         }
       ]
     },
     "Jefe de Jardineria": {
       "area": "MANTENIMIENTO",
-      "puesto_col_b": "Jardinero",
       "tasks": [
         {
           "categoria": "Cuidado de Áreas Verdes",
-          "tarea": "Realizar tareas de jardinería esenciales: podar, regar, fertilizar y controlar plagas en plantas y flores."
+          "tarea": "Planificar y supervisar tareas de jardinería esenciales: podar, regar, fertilizar y controlar plagas en jardines patrimoniales."
         },
         {
           "categoria": "Cuidado de Áreas Verdes",
-          "tarea": "Mantener la limpieza, el orden y la seguridad en los caminos y espacios verdes para el libre tránsito de los visitantes."
+          "tarea": "Mantener la limpieza, el orden y la seguridad en los caminos y espacios verdes para el libre tránsito de visitantes."
         }
       ]
     },
     "Jardinero": {
       "area": "MANTENIMIENTO",
-      "puesto_col_b": "Jardinero",
       "tasks": [
         {
           "categoria": "Cuidado de Áreas Verdes",
-          "tarea": "Realizar tareas de jardinería esenciales: podar, regar, fertilizar y controlar plagas en plantas y flores."
+          "tarea": "Realizar tareas de jardinería esenciales: podar, regar, fertilizar y deshierbar plantas, césped y flores."
         },
         {
           "categoria": "Cuidado de Áreas Verdes",
-          "tarea": "Mantener la limpieza, el orden y la seguridad en los caminos y espacios verdes para el libre tránsito de los visitantes."
+          "tarea": "Mantener la limpieza, el barrido de hojas y la seguridad en los caminos y espacios verdes para los visitantes."
         }
       ]
     },
     "Encargado de spa": {
       "area": "Origen Centro Holistico",
-      "puesto_col_b": "Encargado de spa",
       "tasks": [
         {
           "categoria": "Seguridad e higiene",
-          "tarea": "Supervisar el cumplimiento estricto de los protocolos de higiene, normativas de salud, seguridad y protección civil."
+          "tarea": "Supervisar el cumplimiento estricto de los protocolos de higiene, normativas de salud, seguridad y protección civil en el spa."
         },
         {
           "categoria": "Administración y control",
@@ -1774,7 +1883,7 @@
         },
         {
           "categoria": "Control de agenda",
-          "tarea": ": Revisar la agenda diaria de recepción, check-ins, check-outs y reservas de terapia"
+          "tarea": "Revisar la agenda diaria de recepción, check-ins, check-outs y reservas de terapia."
         },
         {
           "categoria": "Supervisión de instalaciones",
@@ -1782,7 +1891,307 @@
         },
         {
           "categoria": "Venta",
-          "tarea": "Coordinar promociones, paquetes especiales (retiros, días de spa) y apoyar al área comercial en la detección, prospección y  atención de nuevos clientes."
+          "tarea": "Coordinar promociones, paquetes especiales (retiros, días de spa) y apoyar al área comercial en la atención de nuevos clientes."
+        }
+      ]
+    },
+    "Seguridad": {
+      "area": "Seguridad y Vigilancia",
+      "tasks": [
+        {
+          "categoria": "Revisión inicial y de equipos",
+          "tarea": "Inspeccionar los accesos perimetrales, cerraduras, portones y estado de linternas, radios y cámaras de vigilancia al iniciar el turno."
+        },
+        {
+          "categoria": "Control de accesos",
+          "tarea": "Registrar debidamente la entrada y salida de proveedores, contratistas, comitivas y visitas externas, solicitando identificación oficial."
+        },
+        {
+          "categoria": "Rondas de vigilancia periódicas",
+          "tarea": "Realizar recorridos constantes por jardines, pasillos, estacionamientos y salones para prevenir riesgos y detectar anomalías."
+        },
+        {
+          "categoria": "Supervisión de salidas y resguardo",
+          "tarea": "Verificar que cualquier movimiento o salida de mobiliario, herramientas, arte o mercancía cuente con autorización firmada por Administración."
+        },
+        {
+          "categoria": "Cierre y reporte en bitácora",
+          "tarea": "Asegurar el cierre correcto de puertas y portones principales al finalizar la jornada, documentando novedades e incidencias en la bitácora."
+        }
+      ]
+    },
+    "Estacionamiento": {
+      "area": "Seguridad y Accesos",
+      "tasks": [
+        {
+          "categoria": "Apertura e Inspección",
+          "tarea": "Verificar la operatividad del portón de acceso, caseta, luminarias, extintores y señalamientos del estacionamiento."
+        },
+        {
+          "categoria": "Control y Registro Vehicular",
+          "tarea": "Controlar el ingreso y egreso de vehículos, registrando placas, hora de entrada y emitiendo el comprobante correspondiente."
+        },
+        {
+          "categoria": "Acomodo y Flujo Vial",
+          "tarea": "Coordinar la asignación ordenada de cajones de estacionamiento, asegurando el libre tránsito y áreas de evacuación."
+        },
+        {
+          "categoria": "Rondas de Inspección",
+          "tarea": "Realizar rondas periódicas de vigilancia en el área de vehículos para salvaguardar las unidades de visitantes y clientes."
+        },
+        {
+          "categoria": "Cierre y Bitácora",
+          "tarea": "Elaborar el conteo final de vehículos, registrar unidades que pernoctan y entregar la bitácora de novedades al relevo o administración."
+        }
+      ]
+    },
+    "Barman": {
+      "area": "A&B Bar",
+      "tasks": [
+        {
+          "categoria": "Montaje y Preparación",
+          "tarea": "Montar y abastecer la barra: verificar hieleras, cristalería pulida, insumos frescos, frutas y jarabes antes de abrir."
+        },
+        {
+          "categoria": "Inventario y Control",
+          "tarea": "Registrar y controlar el inventario de botellas abiertas, destilados, vinos, cervezas y mezcladores del turno."
+        },
+        {
+          "categoria": "Elaboración y Calidad",
+          "tarea": "Preparar coctelería y bebidas respetando recetas estándar, tiempos de comanda y normativas de higiene alimentaria."
+        },
+        {
+          "categoria": "Higiene y Desinfección",
+          "tarea": "Mantener pulcra la contrabarra, tarjas de lavado, mesas de apoyo y refrigeradores durante todo el servicio."
+        },
+        {
+          "categoria": "Cierre y Arqueo",
+          "tarea": "Realizar el inventario de cierre, registrar mermas de botellas, resguardar botellas de alto valor y entregar reporte de turno."
+        }
+      ]
+    },
+    "Barra": {
+      "area": "A&B Bar",
+      "tasks": [
+        {
+          "categoria": "Montaje y Preparación",
+          "tarea": "Alistar estaciones de servicio de barra: licuadoras, dispensadores de bebidas, hieleras y suministros ecológicos."
+        },
+        {
+          "categoria": "Servicio Ágil",
+          "tarea": "Preparar y servir con agilidad cafés, aguas frescas, refrescos y apoyo en coctelería según comandas."
+        },
+        {
+          "categoria": "Cristalería e Higiene",
+          "tarea": "Lavar, desinfectar y pulir constantemente vasos, copas y tazas manteniendo brillo y pulcritud."
+        },
+        {
+          "categoria": "Abastecimiento",
+          "tarea": "Resurtir hielo, cristalería limpia, frutas picadas y servilletas manteniendo la barra lista para picos de venta."
+        },
+        {
+          "categoria": "Cierre de Estación",
+          "tarea": "Limpiar a fondo superficies, desconectar equipos de apoyo, retirar residuos y dejar la barra impecable."
+        }
+      ]
+    },
+    "Hostes": {
+      "area": "A&B Atención y Servicio",
+      "tasks": [
+        {
+          "categoria": "Bienvenida y Recepción",
+          "tarea": "Recibir a visitantes y comensales en la entrada principal con saludo cordial, sonrisa y presentación impecable."
+        },
+        {
+          "categoria": "Asignación y Flujo",
+          "tarea": "Gestionar el libro de reservas, asignación equitativa de mesas por mesero y control de lista de espera en horas pico."
+        },
+        {
+          "categoria": "Presentación de Salón",
+          "tarea": "Verificar que las cartas físicas, códigos QR y mesas de exhibición estén perfectamente limpias y alineadas."
+        },
+        {
+          "categoria": "Coordinación con Capitanes",
+          "tarea": "Comunicar oportunamente a capitanes y meseros la llegada de mesas grandes, eventos o requerimientos especiales."
+        },
+        {
+          "categoria": "Despedida y Satisfacción",
+          "tarea": "Agradecer la visita a los comensales al retirarse, recabar comentarios de experiencia y reportar la afluencia total del turno."
+        }
+      ]
+    },
+    "Lavandería Hotel": {
+      "area": "Ama de Llaves",
+      "tasks": [
+        {
+          "categoria": "Recolección y Clasificación",
+          "tarea": "Recibir y clasificar ropa de cama, protectores y toallas por tipo de tejido y nivel de suciedad."
+        },
+        {
+          "categoria": "Lavado y Desinfección",
+          "tarea": "Operar lavadoras con las temperaturas y dosificación exacta de detergentes y desinfectantes biodegradables."
+        },
+        {
+          "categoria": "Secado y Planchado",
+          "tarea": "Secar, planchar y doblar sábanas, fundas y toallas cumpliendo los estándares de presentación de hotel boutique."
+        },
+        {
+          "categoria": "Ropería y Dotaciones",
+          "tarea": "Armar paquetes de blancos limpios y abastecer oportunamente los carritos y ropería para las mucamas."
+        },
+        {
+          "categoria": "Control de Inventario",
+          "tarea": "Llevar el conteo diario de blancos lavados, reportar prendas manchadas o deterioradas y solicitar reposición de químicos."
+        }
+      ]
+    },
+    "Lavandería y Loza Restaurante": {
+      "area": "Loza y Mantelería",
+      "tasks": [
+        {
+          "categoria": "Lavado de Loza y Cristalería",
+          "tarea": "Lavar, desinfectar y escurrir loza, cristalería, plaqué y utensilios de cocina con agua caliente y químicos aprobados."
+        },
+        {
+          "categoria": "Lavado de Mantelería",
+          "tarea": "Clasificar, desmanchar y lavar manteles, servilletas de tela y limpiones del restaurante y eventos."
+        },
+        {
+          "categoria": "Planchado y Doblado",
+          "tarea": "Planchar y doblar mantelería de manera uniforme, almacenándola en áreas libres de polvo y humedad."
+        },
+        {
+          "categoria": "Suministro en Salón",
+          "tarea": "Entregar a capitanes y meseros loza limpia y mantelería requerida para el montaje previo al servicio."
+        },
+        {
+          "categoria": "Higiene y Reporte",
+          "tarea": "Desinfectar la máquina lavalozas y tarjas, retirar residuos y registrar reporte de vajilla rota o mermas."
+        }
+      ]
+    },
+    "Parrilla": {
+      "area": "Cocina",
+      "tasks": [
+        {
+          "categoria": "Encendido y Puesta a Punto",
+          "tarea": "Encender, calentar y regular la temperatura de la parrilla y planchas previo a la apertura del servicio."
+        },
+        {
+          "categoria": "Mise en Place de Proteínas",
+          "tarea": "Revisar pesaje, corte, marinado y rotación PEPS de carnes, aves y guarniciones en refrigeración."
+        },
+        {
+          "categoria": "Cocción y Estándares",
+          "tarea": "Cocinar cortes respetando estrictamente los términos solicitados, tiempos de comanda y presentación culinaria."
+        },
+        {
+          "categoria": "Higiene y Control de Temperatura",
+          "tarea": "Asegurar que las proteínas se mantengan en rangos seguros de temperatura y evitar contaminación cruzada."
+        },
+        {
+          "categoria": "Limpieza Profunda de Parrilla",
+          "tarea": "Desengrasar parrillas, raspar carbón/planchas, limpiar filtros de campana y dejar la estación sanitizada."
+        }
+      ]
+    },
+    "Cocinera Malquerida": {
+      "area": "Cafetería / La Malquerida",
+      "tasks": [
+        {
+          "categoria": "Preparación de Insumos",
+          "tarea": "Alistar ingredientes, salsas frescas, guisados y masas para los antojitos tradicionales de La Malquerida."
+        },
+        {
+          "categoria": "Producción y Sazón",
+          "tarea": "Elaborar los platillos con sazón tradicional, cuidando la temperatura y presentación típica del recinto."
+        },
+        {
+          "categoria": "Servicio Oportuno",
+          "tarea": "Despachar comandas con rapidez manteniendo coordinación continua con meseros de cafetería."
+        },
+        {
+          "categoria": "Higiene y Salubridad",
+          "tarea": "Limpiar constantemente comales, tablas y utensilios manteniendo la estación pulcra ante la vista del cliente."
+        },
+        {
+          "categoria": "Cierre e Inventario",
+          "tarea": "Guardar sobrantes bajo refrigeración debidamente etiquetados y reportar insumos faltantes para el día siguiente."
+        }
+      ]
+    },
+    "Dirección General": {
+      "area": "Dirección General",
+      "tasks": [
+        {
+          "categoria": "Supervisión Estratégica",
+          "tarea": "Supervisar el estado integral del inmueble histórico, salones de exhibición, jardines y patrimonio cultural."
+        },
+        {
+          "categoria": "Evaluación Operativa",
+          "tarea": "Evaluar la calidad de servicio y operación en todos los centros de consumo (restaurante, cafetería, spa, eventos)."
+        },
+        {
+          "categoria": "Control Financiero y Compras",
+          "tarea": "Revisar los cortes de caja consolidados, compras de inversión y cumplimiento presupuestal."
+        },
+        {
+          "categoria": "Liderazgo y Gestión Humana",
+          "tarea": "Alinear al equipo directivo y jefaturas en metas de hospitalidad, clima laboral y productividad."
+        },
+        {
+          "categoria": "Relaciones Institucionales",
+          "tarea": "Supervisar convenios culturales, visitas de personalidades y relaciones con autoridades y comunidad."
+        }
+      ]
+    },
+    "Administración General": {
+      "area": "Administración",
+      "tasks": [
+        {
+          "categoria": "Caja y Finanzas",
+          "tarea": "Conciliar y revisar los cortes diarios de caja de recepción, cafetería, restaurante y spa con sus tickets y vouchers."
+        },
+        {
+          "categoria": "Proveedores y Compras",
+          "tarea": "Revisar, cotejar contra pedidos y tramitar facturas de proveedores de alimentos, bebidas y mantenimiento."
+        },
+        {
+          "categoria": "Control de Personal",
+          "tarea": "Verificar listas de asistencia, bitácoras de incidencias, retardos y permisos del personal del centro cultural."
+        },
+        {
+          "categoria": "Caja Chica y Pagos Menores",
+          "tarea": "Supervisar los fondos de caja chica, reposiciones y pagos operativos urgentes debidamente autorizados."
+        },
+        {
+          "categoria": "Reporte Administrativo",
+          "tarea": "Elaborar y enviar el reporte administrativo y de dispersión del día a la Dirección General."
+        }
+      ]
+    },
+    "Encargado Operativo": {
+      "area": "Supervisión Operativa",
+      "tasks": [
+        {
+          "categoria": "Apertura y Cobertura",
+          "tarea": "Verificar la apertura puntual de todas las áreas de servicio y la cobertura completa de turnos del personal."
+        },
+        {
+          "categoria": "Supervisión en Piso",
+          "tarea": "Supervisar de manera continua el flujo de trabajo en cocina, restaurante, cafetería y limpieza."
+        },
+        {
+          "categoria": "Control de Calidad",
+          "tarea": "Verificar la correcta presentación de los colaboradores, el uso de uniforme y la higiene en estaciones."
+        },
+        {
+          "categoria": "Insumos y Resurtido",
+          "tarea": "Detectar a tiempo necesidades de insumos prioritarios y coordinar el abasto con almacén y compras."
+        },
+        {
+          "categoria": "Cierre y Resguardo",
+          "tarea": "Inspeccionar el cierre de estaciones, apagado de luces/gas, resguardo de llaves y entrega de novedades a Gerencia."
         }
       ]
     }

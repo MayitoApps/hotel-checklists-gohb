@@ -1,6 +1,7 @@
 import { NextResponse } from 'next/server';
 import { sql, ensureTables, isDbConfigured } from '@/lib/db';
 import { isAdminAuthenticated } from '@/lib/auth';
+import { INITIAL_EMPLOYEES } from '@/data/initialData';
 
 export const dynamic = 'force-dynamic';
 
@@ -15,7 +16,12 @@ export async function GET(req: Request) {
   }
 
   if (!isDbConfigured || !sql) {
-    return NextResponse.json({ success: false, connected: false, data: [] });
+    const { searchParams } = new URL(req.url);
+    const hotelSlug = searchParams.get('hotelSlug');
+    const filtered = hotelSlug
+      ? INITIAL_EMPLOYEES.filter(e => e.hotelSlug === hotelSlug)
+      : INITIAL_EMPLOYEES;
+    return NextResponse.json({ success: true, connected: false, data: filtered });
   }
 
   try {
@@ -23,9 +29,31 @@ export async function GET(req: Request) {
     const { searchParams } = new URL(req.url);
     const hotelSlug = searchParams.get('hotelSlug');
 
-    const rows = hotelSlug
+    let rows = hotelSlug
       ? await sql`SELECT * FROM public.empleados WHERE hotel_slug = ${hotelSlug} ORDER BY created_at DESC`
       : await sql`SELECT * FROM public.empleados ORDER BY created_at DESC`;
+
+    // Si la base de datos está vacía, sembrar automáticamente la plantilla oficial de colaboradores
+    if ((!rows || rows.length === 0) && INITIAL_EMPLOYEES.length > 0) {
+      try {
+        for (const emp of INITIAL_EMPLOYEES) {
+          await sql`
+            INSERT INTO public.empleados (
+              id, numero_empleado, nombre, hotel_slug, puesto_id, puesto_nombre, area
+            ) VALUES (
+              ${emp.id}, ${emp.numeroEmpleado}, ${emp.nombre}, ${emp.hotelSlug},
+              ${emp.puestoId}, ${emp.puestoNombre}, ${emp.area}
+            )
+            ON CONFLICT (id) DO NOTHING;
+          `;
+        }
+        rows = hotelSlug
+          ? await sql`SELECT * FROM public.empleados WHERE hotel_slug = ${hotelSlug} ORDER BY created_at DESC`
+          : await sql`SELECT * FROM public.empleados ORDER BY created_at DESC`;
+      } catch (seedErr) {
+        console.warn('Auto-seed error in /api/employees:', seedErr);
+      }
+    }
 
     const mapped = rows.map((r: any) => ({
       id: r.id,

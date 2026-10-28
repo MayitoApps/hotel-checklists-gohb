@@ -1,10 +1,10 @@
 'use client';
 
-import { Employee, HOTELS } from '@/data/initialData';
+import { Employee, HOTELS, INITIAL_EMPLOYEES } from '@/data/initialData';
 import { ChecklistSubmission } from './types';
 
 const STORAGE_KEYS = {
-  EMPLOYEES: 'gohb_employees_v2',
+  EMPLOYEES: 'gohb_employees_v4',
   SUBMISSIONS: 'gohb_submissions_v2',
 };
 
@@ -49,7 +49,23 @@ export async function checkDatabaseStatus(): Promise<{ connected: boolean; provi
 // EMPLOYEES (ADMINISTRATIVE & KIOSK LOOKUP)
 // ==========================================
 export function getEmployees(): Employee[] {
-  return getItem<Employee[]>(STORAGE_KEYS.EMPLOYEES, []);
+  const cached = getItem<Employee[]>(STORAGE_KEYS.EMPLOYEES, []);
+  if (cached && cached.length > 0) {
+    // Merge any missing initial employees (e.g. newly added Quinta Soledad roster)
+    const existingKeys = new Set(cached.map(e => `${e.hotelSlug}_${e.numeroEmpleado}`));
+    const missing = INITIAL_EMPLOYEES.filter(e => !existingKeys.has(`${e.hotelSlug}_${e.numeroEmpleado}`));
+    if (missing.length > 0) {
+      const merged = [...cached, ...missing];
+      setItem(STORAGE_KEYS.EMPLOYEES, merged);
+      return merged;
+    }
+    return cached;
+  }
+  if (INITIAL_EMPLOYEES && INITIAL_EMPLOYEES.length > 0) {
+    setItem(STORAGE_KEYS.EMPLOYEES, INITIAL_EMPLOYEES);
+    return INITIAL_EMPLOYEES;
+  }
+  return [];
 }
 
 // Para panel de administración (requiere cookie de sesión admin)
@@ -58,7 +74,7 @@ export async function fetchEmployees(): Promise<Employee[]> {
     const res = await fetch('/api/employees', { cache: 'no-store' });
     if (res.ok) {
       const json = await res.json();
-      if (json.success && json.connected && Array.isArray(json.data)) {
+      if (json.success && Array.isArray(json.data) && json.data.length > 0) {
         setItem(STORAGE_KEYS.EMPLOYEES, json.data);
         return json.data;
       }
@@ -74,7 +90,7 @@ export async function lookupEmployee(numeroEmpleado: string, hotelSlug: string):
   const cleanNumber = numeroEmpleado.trim();
   if (!cleanNumber || !hotelSlug) return null;
 
-  // 1. Verificar si está en caché local reciente
+  // 1. Verificar si está en caché local reciente o en INITIAL_EMPLOYEES
   const list = getEmployees();
   const cached = list.find(e => e.numeroEmpleado === cleanNumber && e.hotelSlug === hotelSlug);
   if (cached) return cached;
@@ -97,6 +113,12 @@ export async function lookupEmployee(numeroEmpleado: string, hotelSlug: string):
     }
   } catch (err) {
     console.warn('Error querying /api/employees/lookup:', err);
+  }
+
+  // 3. Fallback directo a INITIAL_EMPLOYEES si fetch falla o está offline
+  const directFallback = INITIAL_EMPLOYEES.find(e => e.numeroEmpleado === cleanNumber && e.hotelSlug === hotelSlug);
+  if (directFallback) {
+    return directFallback;
   }
 
   return null;

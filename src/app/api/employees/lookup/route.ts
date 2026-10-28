@@ -1,5 +1,6 @@
 import { NextResponse } from 'next/server';
 import { sql, ensureTables, isDbConfigured } from '@/lib/db';
+import { INITIAL_EMPLOYEES } from '@/data/initialData';
 
 export const dynamic = 'force-dynamic';
 
@@ -25,11 +26,22 @@ export async function GET(req: Request) {
     }
 
     if (!isDbConfigured || !sql) {
+      const match = INITIAL_EMPLOYEES.find(
+        e => e.hotelSlug === hotel && e.numeroEmpleado.toLowerCase() === numero.toLowerCase()
+      );
+      if (match) {
+        return NextResponse.json({
+          success: true,
+          connected: false,
+          found: true,
+          data: match
+        });
+      }
       return NextResponse.json({ 
-        success: false, 
+        success: true, 
         connected: false, 
         found: false, 
-        message: 'Base de datos no configurada' 
+        data: null 
       });
     }
 
@@ -57,6 +69,32 @@ export async function GET(req: Request) {
           puestoNombre: r.puesto_nombre,
           area: r.area
         }
+      });
+    }
+
+    // Fallback: Si no está en Postgres, buscar en el catálogo oficial inicial y auto-sembrar
+    const match = INITIAL_EMPLOYEES.find(
+      e => e.hotelSlug === hotel && e.numeroEmpleado.toLowerCase() === numero.toLowerCase()
+    );
+    if (match) {
+      try {
+        await sql`
+          INSERT INTO public.empleados (
+            id, numero_empleado, nombre, hotel_slug, puesto_id, puesto_nombre, area
+          ) VALUES (
+            ${match.id}, ${match.numeroEmpleado}, ${match.nombre}, ${match.hotelSlug},
+            ${match.puestoId}, ${match.puestoNombre}, ${match.area}
+          )
+          ON CONFLICT (id) DO NOTHING;
+        `;
+      } catch (e) {
+        console.warn('Auto-seed employee in lookup failed:', e);
+      }
+      return NextResponse.json({
+        success: true,
+        connected: true,
+        found: true,
+        data: match
       });
     }
 
