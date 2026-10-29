@@ -29,12 +29,8 @@ export async function GET(req: Request) {
     const { searchParams } = new URL(req.url);
     const hotelSlug = searchParams.get('hotelSlug');
 
-    let rows = hotelSlug
-      ? await sql`SELECT * FROM public.empleados WHERE hotel_slug = ${hotelSlug} ORDER BY created_at DESC`
-      : await sql`SELECT * FROM public.empleados ORDER BY created_at DESC`;
-
-    // Si la base de datos está vacía, sembrar automáticamente la plantilla oficial de colaboradores
-    if ((!rows || rows.length === 0) && INITIAL_EMPLOYEES.length > 0) {
+    // Sembrar automáticamente la plantilla de colaboradores inicial si no están registrados
+    if (INITIAL_EMPLOYEES.length > 0) {
       try {
         for (const emp of INITIAL_EMPLOYEES) {
           await sql`
@@ -47,13 +43,14 @@ export async function GET(req: Request) {
             ON CONFLICT (id) DO NOTHING;
           `;
         }
-        rows = hotelSlug
-          ? await sql`SELECT * FROM public.empleados WHERE hotel_slug = ${hotelSlug} ORDER BY created_at DESC`
-          : await sql`SELECT * FROM public.empleados ORDER BY created_at DESC`;
       } catch (seedErr) {
         console.warn('Auto-seed error in /api/employees:', seedErr);
       }
     }
+
+    const rows = hotelSlug
+      ? await sql`SELECT * FROM public.empleados WHERE hotel_slug = ${hotelSlug} ORDER BY created_at DESC`
+      : await sql`SELECT * FROM public.empleados ORDER BY created_at DESC`;
 
     const mapped = rows.map((r: any) => ({
       id: r.id,
